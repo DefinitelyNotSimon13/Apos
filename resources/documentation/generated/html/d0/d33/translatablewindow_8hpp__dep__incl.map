@@ -1,0 +1,26 @@
+<map id="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp" name="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="295,5,511,80"/>
+<area shape="rect" id="Node000002" href="$d5/d65/devwindow_8hpp.html" title=" " alt="" coords="55,128,271,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="318,90,238,130,235,125,315,85"/>
+<area shape="rect" id="Node000005" href="$d0/d1d/windowhandler_8cpp.html" title=" " alt="" coords="103,373,319,448"/>
+<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="280,59,208,70,139,86,81,105,60,117,45,130,28,155,16,178,10,201,8,224,11,248,19,272,46,324,71,353,104,375,101,379,68,357,41,327,14,274,6,249,3,225,5,201,11,176,23,152,41,126,57,113,79,100,137,80,207,65,279,54"/>
+<area shape="rect" id="Node000007" href="$d2/d3e/launcherwindow_8hpp.html" title=" " alt="" coords="295,128,511,203"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="406,96,406,128,401,128,401,96"/>
+<area shape="rect" id="Node000009" href="$df/db5/settingswindow_8hpp.html" title=" " alt="" coords="535,128,751,203"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="491,85,571,125,569,130,489,90"/>
+<area shape="rect" id="Node000011" href="$d0/d45/translatablewindow_8cpp.html" title=" " alt="" coords="775,128,991,203"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="527,68,764,125,776,129,774,134,763,131,526,73"/>
+<area shape="rect" id="Node000003" href="$d1/d87/devwindow_8cpp.html" title=" " alt="" coords="55,251,271,325"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="166,219,166,250,161,250,161,219"/>
+<area shape="rect" id="Node000004" href="$da/d25/windowhandler_8hpp.html" title=" " alt="" coords="535,251,751,325"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="287,201,407,224,524,248,536,251,534,256,523,253,406,230,286,206"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="521,329,321,384,319,378,519,324"/>
+<area shape="rect" id="Node000006" href="$df/d0a/main_8cpp.html" title=" " alt="" coords="535,381,751,440"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="646,341,646,381,641,381,641,341"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="491,208,571,248,569,252,489,212"/>
+<area shape="rect" id="Node000008" href="$d5/d17/launcherwindow_8cpp.html" title=" " alt="" coords="295,251,511,325"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="406,219,406,250,401,250,401,219"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="646,219,646,250,641,250,641,219"/>
+<area shape="rect" id="Node000010" href="$db/da0/settingswindow_8cpp.html" title=" " alt="" coords="775,251,991,325"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="731,208,811,248,809,252,729,212"/>
+</map>

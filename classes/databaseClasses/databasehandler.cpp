@@ -1,11 +1,3 @@
-/**
- * @file DatabaseHandler.cpp
- * @brief Implementation file for the DatabaseHandler class.
- * @date 13.11.2023
- * @version 1.1.1
- * @author Simon Blum
- */
-
 #include "databasehandler.hpp"
 
 DatabaseHandler::DatabaseHandler()

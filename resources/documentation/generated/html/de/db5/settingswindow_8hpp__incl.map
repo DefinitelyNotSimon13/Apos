@@ -1,0 +1,26 @@
+<map id="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp" name="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="177,5,394,80"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,128,78,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,83,88,124,87,119,192,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="307,293,376,320"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,83,181,104,158,130,139,160,128,188,128,215,142,244,156,259,173,272,212,290,253,299,292,303,291,309,252,305,210,295,170,276,153,263,138,247,123,216,123,187,134,157,154,126,178,100,206,78"/>
+<area shape="rect" id="Node000004" href="$d5/dcc/objecthandler_8hpp.html" title=" " alt="" coords="168,128,403,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="288,80,288,112,283,112,283,80"/>
+<area shape="rect" id="Node000009" href="$d7/dfa/translatablewindow_8hpp.html" title=" " alt="" coords="428,128,583,155"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="370,78,464,119,462,124,368,83"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="607,128,695,155"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="395,70,592,122,591,127,393,75"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="290,154,299,195,313,244,329,279,324,281,308,246,294,196,285,155"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="153,211,248,237"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="274,157,226,202,222,198,270,153"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="533,293,587,320"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="404,153,552,174,610,187,641,201,648,212,649,223,641,247,624,270,602,287,599,283,620,266,636,244,644,223,643,214,637,205,608,192,551,179,403,158"/>
+<area shape="rect" id="Node000007" href="$de/d60/databasehandler_8hpp.html" title=" " alt="" coords="324,203,469,245"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="304,153,357,191,354,196,301,157"/>
+<area shape="rect" id="Node000008" href="$df/d46/tablehandler_8hpp.html" title=" " alt="" coords="494,203,627,245"/>
+<area shape="poly" id="edge10_Node000004_Node000008" title=" " alt="" coords="329,153,479,196,478,202,328,158"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="384,247,361,282,356,279,380,244"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="440,244,522,284,520,289,437,248"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="505,248,391,290,389,285,503,243"/>
+<area shape="poly" id="edge12_Node000008_Node000006" title=" " alt="" coords="563,246,563,277,558,277,558,246"/>
+</map>

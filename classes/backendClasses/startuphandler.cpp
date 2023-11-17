@@ -1,11 +1,3 @@
-/**
- * @file StartupHandler.cpp
- * @brief Implementation file for the StartupHandler class.
- * @date 13.11.2023
- * @version 1.1.1
- * @author Simon Blum
- */
-
 #include "startuphandler.hpp"
 
 StartupHandler::StartupHandler(QApplication *application)

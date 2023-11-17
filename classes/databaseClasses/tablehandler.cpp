@@ -1,11 +1,3 @@
-/**
- * @file TableHandler.hpp
- * @brief Header file for the TableHandler class.
- * @date 15.11.2023
- * @version 1.1.1
- * @author Simon Blum
- */
-
 #include "tablehandler.hpp"
 
 TableHandler::TableHandler()

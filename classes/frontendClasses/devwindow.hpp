@@ -1,18 +1,10 @@
-/**
- * @file DevWindow.hpp
- * @brief Header file for the DevWindow class.
- * @date 13.11.2023
- * @version 1.1.1
- * @author Simon Blum
- */
-
 #pragma once
 
 #include <QMainWindow>
 #include <QDebug>
 #include <QtSql>
 
-#include "../basicClasses/objecthandler.hpp"
+#include "../backendClasses/objecthandler.hpp"
 #include "translatablewindow.hpp"
 
 QT_BEGIN_NAMESPACE

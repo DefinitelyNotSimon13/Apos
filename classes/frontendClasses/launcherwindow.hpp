@@ -2,8 +2,7 @@
 
 #include <QMainWindow>
 
-#include "basicClasses/objecthandler.hpp"
-#include "devwindow.hpp"
+#include "../backendClasses/objecthandler.hpp"
 #include "translatablewindow.hpp"
 
 namespace Ui {

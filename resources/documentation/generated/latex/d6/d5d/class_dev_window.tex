@@ -1,0 +1,683 @@
+\doxysection{Dev\+Window Class Reference}
+\hypertarget{class_dev_window}{}\label{class_dev_window}\index{DevWindow@{DevWindow}}
+
+
+{\ttfamily \#include $<$devwindow.\+hpp$>$}
+
+
+
+Inheritance diagram for Dev\+Window\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{d8/ded/class_dev_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Dev\+Window\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/db5/class_dev_window__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_dev_window_a879985fff5798387b606f6c209322f95}{return\+To\+Launcher}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_aa64f163f03e0190606cd9692d2beec28}{open\+Settings}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dev_window_abddcb029490bd836a35a9e6ab5883931}{Dev\+Window}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr, \mbox{\hyperlink{class_object_handler}{Object\+Handler}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_dev_window_ac5cf19cbf4c881516ad7ca136d560334}{object\+Handler}}=nullptr)
+\item 
+\mbox{\hyperlink{class_dev_window_ac74e8ece4b5435b6ff306c229193a50e}{\texorpdfstring{$\sim$}{\string~}\+Dev\+Window}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9}{log\+Event}} (QString type, QString message)
+\item 
+void \mbox{\hyperlink{class_dev_window_a68e4533d69797ddebcc916d712be06ca}{log\+Event}} (QString message, QSql\+Error error)
+\item 
+void \mbox{\hyperlink{class_dev_window_a43c48e7032375d7478ec62458ee26429}{log\+Event}} (QString message)
+\item 
+void \mbox{\hyperlink{class_dev_window_a5102613ef871036ceda424c5358a998a}{retranslate\+Ui}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_translatable_window}{Translatable\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_translatable_window_a3f94cb3a176b3b566544ae8638386860}{Translatable\+Window}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_dev_window_a9bfb7fe4688b2a94807581db270502ff}{on\+\_\+btn\+Init\+DB\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595}{on\+\_\+btn\+Close\+DB\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694}{on\+\_\+btn\+Execute\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2}{on\+\_\+btn\+Select\+Table\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd}{on\+\_\+btn\+Add\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d}{on\+\_\+btn\+Update\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_a9d0153391c509600fd5220e35f5bb22f}{on\+\_\+clear\+Command\+After\+Execute\+\_\+state\+Changed}} (int arg1)
+\item 
+void \mbox{\hyperlink{class_dev_window_a696f0d9d444264cbf55228ae7724f752}{on\+\_\+clear\+Inputs\+After\+Insert\+\_\+state\+Changed}} (int arg1)
+\item 
+void \mbox{\hyperlink{class_dev_window_afed326aaf50679142fa65bea233035c6}{on\+\_\+in\+Return\+To\+Launcher\+\_\+clicked}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_a45b94a9795772df0c4975bcd950703c8}{on\+\_\+in\+Settings\+\_\+clicked}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4}{enable\+Buttons}} (bool database\+Loaded)
+\item 
+void \mbox{\hyperlink{class_dev_window_a84d41970d06c6e43d59737caeefbb5fd}{set\+Model\+Views}} (QSql\+Table\+Model \&m)
+\item 
+void \mbox{\hyperlink{class_dev_window_a89347408d6975ff5120340af8a4ac776}{set\+Model\+Views}} ()
+\item 
+void \mbox{\hyperlink{class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322}{assign\+Inputs}} ()
+\item 
+bool \mbox{\hyperlink{class_dev_window_a8604a4e251b45712f5e214c416e764e8}{check\+Checkbox}} (int arg\+CB)
+\item 
+void \mbox{\hyperlink{class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec}{init\+Database}} (\mbox{\hyperlink{class_object_handler}{Object\+Handler}} \texorpdfstring{$\ast$}{*}oH)
+\item 
+void \mbox{\hyperlink{class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f}{close\+Database}} (\mbox{\hyperlink{class_database_handler}{Database\+Handler}} \texorpdfstring{$\ast$}{*}db)
+\item 
+void \mbox{\hyperlink{class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1}{clear\+Inputs}} (bool clear\+Bool)
+\item 
+void \mbox{\hyperlink{class_dev_window_aed7de9675bba89b1ee062980dd4721dd}{clear\+Command\+Box}} (bool clear\+Bool)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Dev\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_dev_window_a86f1bc4e3cfa218990759aa5689f5288}{ui}}
+\item 
+\mbox{\hyperlink{class_object_handler}{Object\+Handler}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_dev_window_ac5cf19cbf4c881516ad7ca136d560334}{object\+Handler}}
+\item 
+QString \mbox{\hyperlink{class_dev_window_ac01a4cc4b85ea3d8a45d894e25f22fc0}{input1}}
+\item 
+QString \mbox{\hyperlink{class_dev_window_a25cc268c9237850191011c5f4859f8a6}{input2}}
+\item 
+QString \mbox{\hyperlink{class_dev_window_a0416dd13675fe5c41e2c7f46cb82e7f9}{input3}}
+\item 
+QString \mbox{\hyperlink{class_dev_window_a3492ef3406496f4a9573b057e80a7248}{input4}}
+\item 
+QString \mbox{\hyperlink{class_dev_window_a367f99ebed0ff5693dd25f36aacb04eb}{input5}}
+\item 
+bool \mbox{\hyperlink{class_dev_window_a61793fccd13553d757913f3a6fd6fb5d}{clear\+Command}} = false
+\item 
+bool \mbox{\hyperlink{class_dev_window_acb120b04f52b1033db0c0db68627ebbc}{clear\+Input}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00014}{14}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dev_window_abddcb029490bd836a35a9e6ab5883931}\label{class_dev_window_abddcb029490bd836a35a9e6ab5883931} 
+\index{DevWindow@{DevWindow}!DevWindow@{DevWindow}}
+\index{DevWindow@{DevWindow}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{DevWindow()}{DevWindow()}}
+{\footnotesize\ttfamily Dev\+Window\+::\+Dev\+Window (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent = {\ttfamily nullptr},  }\item[{\mbox{\hyperlink{class_object_handler}{Object\+Handler}} \texorpdfstring{$\ast$}{*}}]{object\+Handler = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00006}{6}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+\Hypertarget{class_dev_window_ac74e8ece4b5435b6ff306c229193a50e}\label{class_dev_window_ac74e8ece4b5435b6ff306c229193a50e} 
+\index{DevWindow@{DevWindow}!````~DevWindow@{\texorpdfstring{$\sim$}{\string~}DevWindow}}
+\index{````~DevWindow@{\texorpdfstring{$\sim$}{\string~}DevWindow}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}DevWindow()}{\string~DevWindow()}}
+{\footnotesize\ttfamily Dev\+Window\+::\texorpdfstring{$\sim$}{\string~}\+Dev\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00014}{14}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322}\label{class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322} 
+\index{DevWindow@{DevWindow}!assignInputs@{assignInputs}}
+\index{assignInputs@{assignInputs}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{assignInputs()}{assignInputs()}}
+{\footnotesize\ttfamily void Dev\+Window\+::assign\+Inputs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00062}{62}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a8604a4e251b45712f5e214c416e764e8}\label{class_dev_window_a8604a4e251b45712f5e214c416e764e8} 
+\index{DevWindow@{DevWindow}!checkCheckbox@{checkCheckbox}}
+\index{checkCheckbox@{checkCheckbox}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{checkCheckbox()}{checkCheckbox()}}
+{\footnotesize\ttfamily bool Dev\+Window\+::check\+Checkbox (\begin{DoxyParamCaption}\item[{int}]{arg\+CB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00089}{89}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_aed7de9675bba89b1ee062980dd4721dd}\label{class_dev_window_aed7de9675bba89b1ee062980dd4721dd} 
+\index{DevWindow@{DevWindow}!clearCommandBox@{clearCommandBox}}
+\index{clearCommandBox@{clearCommandBox}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{clearCommandBox()}{clearCommandBox()}}
+{\footnotesize\ttfamily void Dev\+Window\+::clear\+Command\+Box (\begin{DoxyParamCaption}\item[{bool}]{clear\+Bool }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00115}{115}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1}\label{class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1} 
+\index{DevWindow@{DevWindow}!clearInputs@{clearInputs}}
+\index{clearInputs@{clearInputs}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{clearInputs()}{clearInputs()}}
+{\footnotesize\ttfamily void Dev\+Window\+::clear\+Inputs (\begin{DoxyParamCaption}\item[{bool}]{clear\+Bool }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00103}{103}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f}\label{class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f} 
+\index{DevWindow@{DevWindow}!closeDatabase@{closeDatabase}}
+\index{closeDatabase@{closeDatabase}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{closeDatabase()}{closeDatabase()}}
+{\footnotesize\ttfamily void Dev\+Window\+::close\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_database_handler}{Database\+Handler}} \texorpdfstring{$\ast$}{*}}]{db }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00082}{82}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4}\label{class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4} 
+\index{DevWindow@{DevWindow}!enableButtons@{enableButtons}}
+\index{enableButtons@{enableButtons}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{enableButtons()}{enableButtons()}}
+{\footnotesize\ttfamily void Dev\+Window\+::enable\+Buttons (\begin{DoxyParamCaption}\item[{bool}]{database\+Loaded }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00037}{37}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec}\label{class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec} 
+\index{DevWindow@{DevWindow}!initDatabase@{initDatabase}}
+\index{initDatabase@{initDatabase}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{initDatabase()}{initDatabase()}}
+{\footnotesize\ttfamily void Dev\+Window\+::init\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_object_handler}{Object\+Handler}} \texorpdfstring{$\ast$}{*}}]{oH }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00071}{71}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a43c48e7032375d7478ec62458ee26429}\label{class_dev_window_a43c48e7032375d7478ec62458ee26429} 
+\index{DevWindow@{DevWindow}!logEvent@{logEvent}}
+\index{logEvent@{logEvent}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{logEvent()}{logEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void Dev\+Window\+::log\+Event (\begin{DoxyParamCaption}\item[{QString}]{message }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00031}{31}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+\Hypertarget{class_dev_window_a68e4533d69797ddebcc916d712be06ca}\label{class_dev_window_a68e4533d69797ddebcc916d712be06ca} 
+\index{DevWindow@{DevWindow}!logEvent@{logEvent}}
+\index{logEvent@{logEvent}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{logEvent()}{logEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void Dev\+Window\+::log\+Event (\begin{DoxyParamCaption}\item[{QString}]{message,  }\item[{QSql\+Error}]{error }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00025}{25}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+\Hypertarget{class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9}\label{class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9} 
+\index{DevWindow@{DevWindow}!logEvent@{logEvent}}
+\index{logEvent@{logEvent}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{logEvent()}{logEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void Dev\+Window\+::log\+Event (\begin{DoxyParamCaption}\item[{QString}]{type,  }\item[{QString}]{message }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00019}{19}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd}\label{class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd} 
+\index{DevWindow@{DevWindow}!on\_btnAdd\_clicked@{on\_btnAdd\_clicked}}
+\index{on\_btnAdd\_clicked@{on\_btnAdd\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_btnAdd\_clicked}{on\_btnAdd\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+btn\+Add\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00159}{159}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595}\label{class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595} 
+\index{DevWindow@{DevWindow}!on\_btnCloseDB\_clicked@{on\_btnCloseDB\_clicked}}
+\index{on\_btnCloseDB\_clicked@{on\_btnCloseDB\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_btnCloseDB\_clicked}{on\_btnCloseDB\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+btn\+Close\+DB\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00134}{134}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694}\label{class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694} 
+\index{DevWindow@{DevWindow}!on\_btnExecute\_clicked@{on\_btnExecute\_clicked}}
+\index{on\_btnExecute\_clicked@{on\_btnExecute\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_btnExecute\_clicked}{on\_btnExecute\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+btn\+Execute\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00141}{141}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a9bfb7fe4688b2a94807581db270502ff}\label{class_dev_window_a9bfb7fe4688b2a94807581db270502ff} 
+\index{DevWindow@{DevWindow}!on\_btnInitDB\_clicked@{on\_btnInitDB\_clicked}}
+\index{on\_btnInitDB\_clicked@{on\_btnInitDB\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_btnInitDB\_clicked}{on\_btnInitDB\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+btn\+Init\+DB\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00123}{123}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a9bfb7fe4688b2a94807581db270502ff_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2}\label{class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2} 
+\index{DevWindow@{DevWindow}!on\_btnSelectTable\_clicked@{on\_btnSelectTable\_clicked}}
+\index{on\_btnSelectTable\_clicked@{on\_btnSelectTable\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_btnSelectTable\_clicked}{on\_btnSelectTable\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+btn\+Select\+Table\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00152}{152}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d}\label{class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d} 
+\index{DevWindow@{DevWindow}!on\_btnUpdate\_clicked@{on\_btnUpdate\_clicked}}
+\index{on\_btnUpdate\_clicked@{on\_btnUpdate\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_btnUpdate\_clicked}{on\_btnUpdate\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+btn\+Update\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00171}{171}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a9d0153391c509600fd5220e35f5bb22f}\label{class_dev_window_a9d0153391c509600fd5220e35f5bb22f} 
+\index{DevWindow@{DevWindow}!on\_clearCommandAfterExecute\_stateChanged@{on\_clearCommandAfterExecute\_stateChanged}}
+\index{on\_clearCommandAfterExecute\_stateChanged@{on\_clearCommandAfterExecute\_stateChanged}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_clearCommandAfterExecute\_stateChanged}{on\_clearCommandAfterExecute\_stateChanged}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+clear\+Command\+After\+Execute\+\_\+state\+Changed (\begin{DoxyParamCaption}\item[{int}]{arg1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00179}{179}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a9d0153391c509600fd5220e35f5bb22f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a696f0d9d444264cbf55228ae7724f752}\label{class_dev_window_a696f0d9d444264cbf55228ae7724f752} 
+\index{DevWindow@{DevWindow}!on\_clearInputsAfterInsert\_stateChanged@{on\_clearInputsAfterInsert\_stateChanged}}
+\index{on\_clearInputsAfterInsert\_stateChanged@{on\_clearInputsAfterInsert\_stateChanged}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_clearInputsAfterInsert\_stateChanged}{on\_clearInputsAfterInsert\_stateChanged}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+clear\+Inputs\+After\+Insert\+\_\+state\+Changed (\begin{DoxyParamCaption}\item[{int}]{arg1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00185}{185}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a696f0d9d444264cbf55228ae7724f752_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_afed326aaf50679142fa65bea233035c6}\label{class_dev_window_afed326aaf50679142fa65bea233035c6} 
+\index{DevWindow@{DevWindow}!on\_inReturnToLauncher\_clicked@{on\_inReturnToLauncher\_clicked}}
+\index{on\_inReturnToLauncher\_clicked@{on\_inReturnToLauncher\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_inReturnToLauncher\_clicked}{on\_inReturnToLauncher\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+in\+Return\+To\+Launcher\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00191}{191}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_afed326aaf50679142fa65bea233035c6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a45b94a9795772df0c4975bcd950703c8}\label{class_dev_window_a45b94a9795772df0c4975bcd950703c8} 
+\index{DevWindow@{DevWindow}!on\_inSettings\_clicked@{on\_inSettings\_clicked}}
+\index{on\_inSettings\_clicked@{on\_inSettings\_clicked}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{on\_inSettings\_clicked}{on\_inSettings\_clicked}}
+{\footnotesize\ttfamily void Dev\+Window\+::on\+\_\+in\+Settings\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00201}{201}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a45b94a9795772df0c4975bcd950703c8_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_aa64f163f03e0190606cd9692d2beec28}\label{class_dev_window_aa64f163f03e0190606cd9692d2beec28} 
+\index{DevWindow@{DevWindow}!openSettings@{openSettings}}
+\index{openSettings@{openSettings}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{openSettings}{openSettings}}
+{\footnotesize\ttfamily void Dev\+Window\+::open\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_aa64f163f03e0190606cd9692d2beec28_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a5102613ef871036ceda424c5358a998a}\label{class_dev_window_a5102613ef871036ceda424c5358a998a} 
+\index{DevWindow@{DevWindow}!retranslateUi@{retranslateUi}}
+\index{retranslateUi@{retranslateUi}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{retranslateUi()}{retranslateUi()}}
+{\footnotesize\ttfamily void Dev\+Window\+::retranslate\+Ui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_translatable_window_a009edc93a44472b8eb27070b3f9258c2}{Translatable\+Window}}.
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00196}{196}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+\Hypertarget{class_dev_window_a879985fff5798387b606f6c209322f95}\label{class_dev_window_a879985fff5798387b606f6c209322f95} 
+\index{DevWindow@{DevWindow}!returnToLauncher@{returnToLauncher}}
+\index{returnToLauncher@{returnToLauncher}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{returnToLauncher}{returnToLauncher}}
+{\footnotesize\ttfamily void Dev\+Window\+::return\+To\+Launcher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a879985fff5798387b606f6c209322f95_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a89347408d6975ff5120340af8a4ac776}\label{class_dev_window_a89347408d6975ff5120340af8a4ac776} 
+\index{DevWindow@{DevWindow}!setModelViews@{setModelViews}}
+\index{setModelViews@{setModelViews}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{setModelViews()}{setModelViews()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Dev\+Window\+::set\+Model\+Views (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00055}{55}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/d5d/class_dev_window_a89347408d6975ff5120340af8a4ac776_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_dev_window_a84d41970d06c6e43d59737caeefbb5fd}\label{class_dev_window_a84d41970d06c6e43d59737caeefbb5fd} 
+\index{DevWindow@{DevWindow}!setModelViews@{setModelViews}}
+\index{setModelViews@{setModelViews}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{setModelViews()}{setModelViews()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Dev\+Window\+::set\+Model\+Views (\begin{DoxyParamCaption}\item[{QSql\+Table\+Model \&}]{m }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00048}{48}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_dev_window_a61793fccd13553d757913f3a6fd6fb5d}\label{class_dev_window_a61793fccd13553d757913f3a6fd6fb5d} 
+\index{DevWindow@{DevWindow}!clearCommand@{clearCommand}}
+\index{clearCommand@{clearCommand}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{clearCommand}{clearCommand}}
+{\footnotesize\ttfamily bool Dev\+Window\+::clear\+Command = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00098}{98}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_acb120b04f52b1033db0c0db68627ebbc}\label{class_dev_window_acb120b04f52b1033db0c0db68627ebbc} 
+\index{DevWindow@{DevWindow}!clearInput@{clearInput}}
+\index{clearInput@{clearInput}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{clearInput}{clearInput}}
+{\footnotesize\ttfamily bool Dev\+Window\+::clear\+Input = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00098}{98}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_ac01a4cc4b85ea3d8a45d894e25f22fc0}\label{class_dev_window_ac01a4cc4b85ea3d8a45d894e25f22fc0} 
+\index{DevWindow@{DevWindow}!input1@{input1}}
+\index{input1@{input1}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{input1}{input1}}
+{\footnotesize\ttfamily QString Dev\+Window\+::input1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00097}{97}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_a25cc268c9237850191011c5f4859f8a6}\label{class_dev_window_a25cc268c9237850191011c5f4859f8a6} 
+\index{DevWindow@{DevWindow}!input2@{input2}}
+\index{input2@{input2}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{input2}{input2}}
+{\footnotesize\ttfamily QString Dev\+Window\+::input2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00097}{97}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_a0416dd13675fe5c41e2c7f46cb82e7f9}\label{class_dev_window_a0416dd13675fe5c41e2c7f46cb82e7f9} 
+\index{DevWindow@{DevWindow}!input3@{input3}}
+\index{input3@{input3}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{input3}{input3}}
+{\footnotesize\ttfamily QString Dev\+Window\+::input3\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00097}{97}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_a3492ef3406496f4a9573b057e80a7248}\label{class_dev_window_a3492ef3406496f4a9573b057e80a7248} 
+\index{DevWindow@{DevWindow}!input4@{input4}}
+\index{input4@{input4}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{input4}{input4}}
+{\footnotesize\ttfamily QString Dev\+Window\+::input4\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00097}{97}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_a367f99ebed0ff5693dd25f36aacb04eb}\label{class_dev_window_a367f99ebed0ff5693dd25f36aacb04eb} 
+\index{DevWindow@{DevWindow}!input5@{input5}}
+\index{input5@{input5}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{input5}{input5}}
+{\footnotesize\ttfamily QString Dev\+Window\+::input5\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00097}{97}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_ac5cf19cbf4c881516ad7ca136d560334}\label{class_dev_window_ac5cf19cbf4c881516ad7ca136d560334} 
+\index{DevWindow@{DevWindow}!objectHandler@{objectHandler}}
+\index{objectHandler@{objectHandler}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{objectHandler}{objectHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_object_handler}{Object\+Handler}}\texorpdfstring{$\ast$}{*} Dev\+Window\+::object\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00095}{95}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_dev_window_a86f1bc4e3cfa218990759aa5689f5288}\label{class_dev_window_a86f1bc4e3cfa218990759aa5689f5288} 
+\index{DevWindow@{DevWindow}!ui@{ui}}
+\index{ui@{ui}!DevWindow@{DevWindow}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Dev\+Window\texorpdfstring{$\ast$}{*} Dev\+Window\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00094}{94}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{devwindow_8hpp}{devwindow.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{devwindow_8cpp}{devwindow.\+cpp}}\end{DoxyCompactItemize}

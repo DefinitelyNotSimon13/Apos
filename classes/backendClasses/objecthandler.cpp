@@ -1,11 +1,3 @@
-/**
- * @file ObjectHandler.cpp
- * @brief Implementation file for the ObjectHandler class.
- * @date 14.11.2023
- * @version 1.1.1
- * @author Simon Blum
- */
-
 #include "objecthandler.hpp"
 
 ObjectHandler::ObjectHandler(QApplication* newApplication, DatabaseHandler* newDBHandler, TableHandler* newTableHandler)
