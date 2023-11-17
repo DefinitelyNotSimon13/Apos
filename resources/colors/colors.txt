@@ -1,0 +1,11 @@
+Off-White - #EEF2F7
+
+Green-White - #E6EEE9
+
+Light-Green - #AFC8B2
+
+Darker-Green - #8FA678
+
+Gray-Green - #BFB3B4
+
+Off-Black - #001608
