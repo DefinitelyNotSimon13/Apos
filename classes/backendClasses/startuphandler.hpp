@@ -1,3 +1,6 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #pragma once
 
 #include <QDebug>
@@ -8,17 +11,16 @@
 #include "objecthandler.hpp"
 
 
-class StartupHandler
-{
+class StartupHandler {
 public:
 
 
-    StartupHandler(QApplication* application);
+    StartupHandler(QApplication *application);
 
     ~StartupHandler();
 
 
-    ObjectHandler* startUp();
+    ObjectHandler *startUp();
 
 
 private:
@@ -27,7 +29,6 @@ private:
     void initTranslator();
 
     void initObjectHandler();
-
 
 
     QApplication *ptrApplication; /**< The QApplication instance. */

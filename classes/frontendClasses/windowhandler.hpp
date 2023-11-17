@@ -1,4 +1,5 @@
-#pragma once
+// Copyright (c) 2023. LGPL-V3
+//
 
 #include "launcherwindow.hpp"
 #include "devwindow.hpp"
@@ -6,18 +7,21 @@
 #include "settingswindow.hpp"
 #include <QObject>
 
-class WindowHandler : public QObject
-{
+class WindowHandler : public QObject {
 public:
-    WindowHandler(ObjectHandler* newObjectHandler);
+    WindowHandler(ObjectHandler *newObjectHandler);
 
 
 public slots:
+
     void showLaunchWindow();
 
 private slots:
+
     void showDevWindow();
+
     void showSettingsWindow();
+
     void applySettings();
 
 private:

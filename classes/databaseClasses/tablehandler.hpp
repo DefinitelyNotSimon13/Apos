@@ -1,29 +1,29 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #pragma once
 
 #include <QDebug>
 #include <QtSql>
 
 
-class TableHandler
-{
+class TableHandler {
 public:
 
 
     TableHandler();
 
 
-    TableHandler(const QSqlDatabase& newActiveDatabase, const QString& tableName);
+    TableHandler(const QSqlDatabase &newActiveDatabase, const QString &tableName);
 
 
     void generateTableModel();
 
 
-    void generateTableModel(QSqlDatabase& activeDatabase, const QString &tableName);
+    void generateTableModel(QSqlDatabase &activeDatabase, const QString &tableName);
 
 
     QSqlTableModel *getTableModel() const;
-
-
 
 
     const QSqlError &getTableSQLError() const;
@@ -37,7 +37,6 @@ public:
 
     bool insertIntoTable(const QString &tableName, const QString &value1, const QString &value2,
                          const QString &value3, const QString &value4, const QString &value5);
-
 
 
     const QString &getActiveTableName() const;

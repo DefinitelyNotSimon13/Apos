@@ -1,41 +1,36 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #include "devwindow.hpp"
 #include "ui_devwindow.h"
 
 
-
 DevWindow::DevWindow(QWidget *parent, ObjectHandler *newObjectHandler)
-    : QMainWindow(parent)
-    , ui(new Ui::DevWindow)
-{
+        : QMainWindow(parent), ui(new Ui::DevWindow) {
     ui->setupUi(this);
     objectHandler = newObjectHandler;
 }
 
-DevWindow::~DevWindow()
-{
+DevWindow::~DevWindow() {
     delete ui;
 }
 
-void DevWindow::logEvent(QString type, QString message)
-{
-    ui->outLog->append("Log |  " +  type + ": " + message);
+void DevWindow::logEvent(QString type, QString message) {
+    ui->outLog->append("Log |  " + type + ": " + message);
     qDebug() << "Logged:  " + type + " - " + message;
 }
 
-void DevWindow::logEvent(QString message, QSqlError error)
-{
+void DevWindow::logEvent(QString message, QSqlError error) {
     ui->outLog->append("Log | " + message + "-" + error.text());
     qDebug() << "Logged: " + message + " - " + error.text();
 }
 
-void DevWindow::logEvent(QString message)
-{
+void DevWindow::logEvent(QString message) {
     ui->outLog->append("Log | " + message);
     qDebug() << "Logged: " + message;
 }
 
-void DevWindow::enableButtons(bool databaseLoaded)
-{
+void DevWindow::enableButtons(bool databaseLoaded) {
     ui->btnAdd->setEnabled(databaseLoaded);
     ui->btnCloseDB->setEnabled(databaseLoaded);
     ui->btnUpdate->setEnabled(databaseLoaded);
@@ -45,22 +40,19 @@ void DevWindow::enableButtons(bool databaseLoaded)
     logEvent("action", "Buttons enabled/disabled");
 }
 
-void DevWindow::setModelViews(QSqlTableModel &m)
-{
+void DevWindow::setModelViews(QSqlTableModel &m) {
     ui->outTable->setModel(&m);
     ui->outColumn->setModel(&m);
     ui->outList->setModel(&m);
 }
 
-void DevWindow::setModelViews()
-{
+void DevWindow::setModelViews() {
     ui->outTable->setModel(nullptr);
     ui->outColumn->setModel(nullptr);
     ui->outList->setModel(nullptr);
 }
 
-void DevWindow::assignInputs()
-{
+void DevWindow::assignInputs() {
     input1 = ui->inInput1->text();
     input2 = ui->inInput2->text();
     input3 = ui->inInput3->text();
@@ -68,10 +60,9 @@ void DevWindow::assignInputs()
     input5 = ui->inInput5->text();
 }
 
-void DevWindow::initDatabase(ObjectHandler *oH)
-{
-    if(!oH->initDatabaseObject()){
-        logEvent("Error initiating database",  oH->getDbHandler()->getSqlError());
+void DevWindow::initDatabase(ObjectHandler *oH) {
+    if (!oH->initDatabaseObject()) {
+        logEvent("Error initiating database", oH->getDbHandler()->getSqlError());
         return;
     }
     logEvent("action", "Database initiated");
@@ -79,30 +70,26 @@ void DevWindow::initDatabase(ObjectHandler *oH)
     logEvent("status", oH->getDbHandler()->getActiveDatabase().isOpen() ? "Database open" : "Database closed");
 }
 
-void DevWindow::closeDatabase(DatabaseHandler *db)
-{
+void DevWindow::closeDatabase(DatabaseHandler *db) {
     db->closeDatabase();
     logEvent("action", "Database closed");
-    logEvent("status", objectHandler->getDbHandler()->getActiveDatabase().isOpen() ? "Database open" : "Database closed");
+    logEvent("status",
+             objectHandler->getDbHandler()->getActiveDatabase().isOpen() ? "Database open" : "Database closed");
 }
 
-bool DevWindow::checkCheckbox(int argCB)
-{
-    if(argCB == 2){
+bool DevWindow::checkCheckbox(int argCB) {
+    if (argCB == 2) {
         return true;
-    }
-    else if (argCB == 0){
+    } else if (argCB == 0) {
         return false;
-    }
-    else {
+    } else {
         logEvent("warning", "Something went wrong!");
         return false;
     }
 }
 
-void DevWindow::clearInputs(bool clearBool)
-{
-    if(clearBool){
+void DevWindow::clearInputs(bool clearBool) {
+    if (clearBool) {
         ui->inInput1->clear();
         ui->inInput2->clear();
         ui->inInput3->clear();
@@ -112,16 +99,14 @@ void DevWindow::clearInputs(bool clearBool)
     }
 }
 
-void DevWindow::clearCommandBox(bool clearBool)
-{
-   if(clearBool){
+void DevWindow::clearCommandBox(bool clearBool) {
+    if (clearBool) {
         ui->inCommand->clear();
         logEvent("action", "tried to clear command-line");
     }
 }
 
-void DevWindow::on_btnInitDB_clicked()
-{
+void DevWindow::on_btnInitDB_clicked() {
     initDatabase(objectHandler);
     qDebug() << "Database initialized";
     objectHandler->initTableObject(objectHandler->getActiveDatabase(), "userTable");
@@ -131,35 +116,32 @@ void DevWindow::on_btnInitDB_clicked()
     enableButtons(true);
 }
 
-void DevWindow::on_btnCloseDB_clicked()
-{
+void DevWindow::on_btnCloseDB_clicked() {
     setModelViews();
     closeDatabase(objectHandler->getDbHandler());
     enableButtons(false);
 }
 
-void DevWindow::on_btnExecute_clicked()
-{
-    if(!objectHandler->getDbHandler()->executeCommand(ui->inCommand->toPlainText())){
-            logEvent("Error executing command", objectHandler->getDbHandler()->getSqlError());
+void DevWindow::on_btnExecute_clicked() {
+    if (!objectHandler->getDbHandler()->executeCommand(ui->inCommand->toPlainText())) {
+        logEvent("Error executing command", objectHandler->getDbHandler()->getSqlError());
+        clearCommandBox(clearCommand);
+        return;
+    }
     clearCommandBox(clearCommand);
-    return;
-}
-clearCommandBox(clearCommand);
-logEvent("action", "Command executed");
+    logEvent("action", "Command executed");
 }
 
-void DevWindow::on_btnSelectTable_clicked()
-{
+void DevWindow::on_btnSelectTable_clicked() {
     objectHandler->getTableHandler()->generateTableModel();
     logEvent("action", "Table selected");
     setModelViews(*objectHandler->getTableHandler()->getTableModel());
 }
 
-void DevWindow::on_btnAdd_clicked()
-{
+void DevWindow::on_btnAdd_clicked() {
     assignInputs();
-    if(!objectHandler->getTableHandler()->insertIntoTable(objectHandler->getActiveTableName(), input1, input2, input3, input4, input5)){
+    if (!objectHandler->getTableHandler()->insertIntoTable(objectHandler->getActiveTableName(), input1, input2, input3,
+                                                           input4, input5)) {
         logEvent("Insert Error", objectHandler->getTableSqlError());
         clearInputs(clearInput);
         return;
@@ -168,38 +150,32 @@ void DevWindow::on_btnAdd_clicked()
     logEvent("action", "Values inserted");
 }
 
-void DevWindow::on_btnUpdate_clicked()
-{
+void DevWindow::on_btnUpdate_clicked() {
     // Generating table model before updating the views
     objectHandler->getTableHandler()->generateTableModel();
     setModelViews(*objectHandler->getTableHandler()->getTableModel());
     logEvent("action", "Table view updated");
 }
 
-void DevWindow::on_clearCommandAfterExecute_stateChanged(int arg1)
-{
+void DevWindow::on_clearCommandAfterExecute_stateChanged(int arg1) {
     clearCommand = checkCheckbox(arg1);
-    logEvent("status","Command will clear after execute: " + QString(clearCommand ? "true" : "false"));
+    logEvent("status", "Command will clear after execute: " + QString(clearCommand ? "true" : "false"));
 }
 
-void DevWindow::on_clearInputsAfterInsert_stateChanged(int arg1)
-{
+void DevWindow::on_clearInputsAfterInsert_stateChanged(int arg1) {
     clearInput = checkCheckbox(arg1);
-    logEvent("status","Inputs will be cleared after execution: " + QString(clearInput ? "true" : "false"));
+    logEvent("status", "Inputs will be cleared after execution: " + QString(clearInput ? "true" : "false"));
 }
 
-void DevWindow::on_inReturnToLauncher_clicked()
-{
+void DevWindow::on_inReturnToLauncher_clicked() {
     emit returnToLauncher();
 }
 
-void DevWindow::retranslateUi()
-{
+void DevWindow::retranslateUi() {
     ui->retranslateUi(this);
 }
 
-void DevWindow::on_inSettings_clicked()
-{
+void DevWindow::on_inSettings_clicked() {
     emit openSettings();
 }
 
