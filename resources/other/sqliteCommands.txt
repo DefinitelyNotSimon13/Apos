@@ -1,0 +1,8 @@
+CREATE TABLE userTable(
+username VARCHAR DEFAULT username_  NOT NULL,
+name VARCHAR DEFAULT name_,
+email VARCHAR UNIQUE DEFAULT email_ NOT NULL,
+password VARCHAR DEFAULT password_,
+customId INT DEFAULT 0,
+PRIMARY KEY(username)
+);
