@@ -2,6 +2,8 @@
 
 Apos - Database Manager is a Windows application designed to manage SQLite3 databases. It allows users to open, read, and edit tables within a SQLite3 database, as well as execute custom SQLite3 commands.
 
+Apos is derived from the ancient greek work "αποθήκη" - it roughly translates to "storage" or "warehouse".
+
 ## Features
 
 - **Database Operations:**
@@ -19,7 +21,7 @@ Apos - Database Manager is a Windows application designed to manage SQLite3 data
 
 ## Installation
 
-The software is installed using a custom installer available in the [Releases](https://github.airbus.corp/Airbus/KompetenzWocheSimonBlum/releases) section.
+The software is installed using a custom installer available in the [Releases]("") section. - TBD
 
 1. Download the installer from the Releases page.
 2. Run the installer and follow the on-screen instructions.
