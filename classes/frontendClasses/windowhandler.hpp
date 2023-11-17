@@ -1,8 +1,6 @@
 // Copyright (c) 2023. LGPL-V3
 //
 
-#pragma once
-
 #include "launcherwindow.hpp"
 #include "devwindow.hpp"
 #include "../backendClasses/objecthandler.hpp"
