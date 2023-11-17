@@ -14,17 +14,16 @@
         <file>Roboto/Roboto-ThinItalic.ttf</file>
     </qresource>
     <qresource prefix="/databases">
-        <file>userDatabase.db</file>
+        <file>defaultDatabase/userDatabase.db</file>
     </qresource>
     <qresource prefix="/icon">
-        <file>iconAirbus.ico</file>
+        <file>images/APOS-ICON.ico</file>
     </qresource>
     <qresource prefix="/translations">
-        <file>Apos-DatabaseManager_en_GB.ts</file>
-        <file>Apos-DatabaseManager_de_DE.ts</file>
+        <file>translations/Apos-DatabaseManager_de_DE.ts</file>
+        <file>translations/Apos-DatabaseManager_en_GB.ts</file>
     </qresource>
     <qresource prefix="/images/logo">
-        <file>AIRBUS_BLACK.png</file>
-        <file>AIRBUS_WHITE.png</file>
+        <file>images/icons8-database-100.png</file>
     </qresource>
 </RCC>

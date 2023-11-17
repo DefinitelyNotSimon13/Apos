@@ -1,0 +1,268 @@
+\doxysection{Table\+Handler Class Reference}
+\hypertarget{class_table_handler}{}\label{class_table_handler}\index{TableHandler@{TableHandler}}
+
+
+{\ttfamily \#include $<$tablehandler.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_table_handler_a7824771057567647419de994788c1b52}{Table\+Handler}} ()
+\item 
+\mbox{\hyperlink{class_table_handler_a19c5bfce9a2b4b9ab5aef9dce308ccc3}{Table\+Handler}} (const QSql\+Database \&new\+Active\+Database, const QString \&table\+Name)
+\item 
+void \mbox{\hyperlink{class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f}{generate\+Table\+Model}} ()
+\item 
+void \mbox{\hyperlink{class_table_handler_a007af497af9c948459bacf935d45fe64}{generate\+Table\+Model}} (QSql\+Database \&active\+Database, const QString \&table\+Name)
+\item 
+QSql\+Table\+Model \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_table_handler_afabdc34d6977a085f48e9b318b58cb2d}{get\+Table\+Model}} () const
+\item 
+const QSql\+Error \& \mbox{\hyperlink{class_table_handler_a2b66f5741c9e2f9878370afb9a827db7}{get\+Table\+SQLError}} () const
+\item 
+void \mbox{\hyperlink{class_table_handler_a25c7280467931080916a3a5cc0268ddb}{set\+Table\+Name}} (const QString \&new\+Table\+Name)
+\item 
+void \mbox{\hyperlink{class_table_handler_a18ef1c8ec869a02760140e80f6029647}{set\+Active\+Database}} (QSql\+Database new\+Active\+Database)
+\item 
+bool \mbox{\hyperlink{class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b}{insert\+Into\+Table}} (const QString \&table\+Name, const QString \&value1, const QString \&value2, const QString \&value3, const QString \&value4, const QString \&value5)
+\item 
+const QString \& \mbox{\hyperlink{class_table_handler_a45e72d50638a51b19a1262b134483195}{get\+Active\+Table\+Name}} () const
+\item 
+void \mbox{\hyperlink{class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0}{set\+Active\+Table\+Name}} (const QString \&new\+Active\+Table\+Name)
+\item 
+const QSql\+Database \& \mbox{\hyperlink{class_table_handler_a61f038d4c34427b27c49db7c41da710f}{get\+Tbl\+Active\+Database}} () const
+\item 
+const QSql\+Error \& \mbox{\hyperlink{class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e}{get\+Last\+Table\+Error}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{class_table_handler_a1ee3904c534098cfa8b6a90bdeb6b483}{active\+Table\+Name}} = "{}user\+Table"{}
+\item 
+QSql\+Table\+Model \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_table_handler_a918812b884469ab371aa292cc5a2192e}{table\+Model}}
+\item 
+QSql\+Database \mbox{\hyperlink{class_table_handler_a9d8929ba06a21b26fa9c56702087d8ad}{tbl\+Active\+Database}}
+\item 
+QSql\+Error \mbox{\hyperlink{class_table_handler_a66e9978d553498a4e930bccaf09e35cd}{last\+Table\+Error}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8hpp_source_l00007}{7}} of file \mbox{\hyperlink{tablehandler_8hpp_source}{tablehandler.\+hpp}}.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_table_handler_a7824771057567647419de994788c1b52}\label{class_table_handler_a7824771057567647419de994788c1b52} 
+\index{TableHandler@{TableHandler}!TableHandler@{TableHandler}}
+\index{TableHandler@{TableHandler}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{TableHandler()}{TableHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Table\+Handler\+::\+Table\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00003}{3}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{class_table_handler_a19c5bfce9a2b4b9ab5aef9dce308ccc3}\label{class_table_handler_a19c5bfce9a2b4b9ab5aef9dce308ccc3} 
+\index{TableHandler@{TableHandler}!TableHandler@{TableHandler}}
+\index{TableHandler@{TableHandler}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{TableHandler()}{TableHandler()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Table\+Handler\+::\+Table\+Handler (\begin{DoxyParamCaption}\item[{const QSql\+Database \&}]{new\+Active\+Database,  }\item[{const QString \&}]{table\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00008}{8}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f}\label{class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f} 
+\index{TableHandler@{TableHandler}!generateTableModel@{generateTableModel}}
+\index{generateTableModel@{generateTableModel}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{generateTableModel()}{generateTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Table\+Handler\+::generate\+Table\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00017}{17}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d68/class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_table_handler_a007af497af9c948459bacf935d45fe64}\label{class_table_handler_a007af497af9c948459bacf935d45fe64} 
+\index{TableHandler@{TableHandler}!generateTableModel@{generateTableModel}}
+\index{generateTableModel@{generateTableModel}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{generateTableModel()}{generateTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Table\+Handler\+::generate\+Table\+Model (\begin{DoxyParamCaption}\item[{QSql\+Database \&}]{active\+Database,  }\item[{const QString \&}]{table\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00024}{24}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{class_table_handler_a45e72d50638a51b19a1262b134483195}\label{class_table_handler_a45e72d50638a51b19a1262b134483195} 
+\index{TableHandler@{TableHandler}!getActiveTableName@{getActiveTableName}}
+\index{getActiveTableName@{getActiveTableName}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{getActiveTableName()}{getActiveTableName()}}
+{\footnotesize\ttfamily const QString \& Table\+Handler\+::get\+Active\+Table\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00050}{50}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d68/class_table_handler_a45e72d50638a51b19a1262b134483195_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e}\label{class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e} 
+\index{TableHandler@{TableHandler}!getLastTableError@{getLastTableError}}
+\index{getLastTableError@{getLastTableError}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{getLastTableError()}{getLastTableError()}}
+{\footnotesize\ttfamily const QSql\+Error \& Table\+Handler\+::get\+Last\+Table\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00065}{65}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d68/class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_table_handler_afabdc34d6977a085f48e9b318b58cb2d}\label{class_table_handler_afabdc34d6977a085f48e9b318b58cb2d} 
+\index{TableHandler@{TableHandler}!getTableModel@{getTableModel}}
+\index{getTableModel@{getTableModel}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{getTableModel()}{getTableModel()}}
+{\footnotesize\ttfamily QSql\+Table\+Model \texorpdfstring{$\ast$}{*} Table\+Handler\+::get\+Table\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00070}{70}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d68/class_table_handler_afabdc34d6977a085f48e9b318b58cb2d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_table_handler_a2b66f5741c9e2f9878370afb9a827db7}\label{class_table_handler_a2b66f5741c9e2f9878370afb9a827db7} 
+\index{TableHandler@{TableHandler}!getTableSQLError@{getTableSQLError}}
+\index{getTableSQLError@{getTableSQLError}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{getTableSQLError()}{getTableSQLError()}}
+{\footnotesize\ttfamily const QSql\+Error \& Table\+Handler\+::get\+Table\+SQLError (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_table_handler_a61f038d4c34427b27c49db7c41da710f}\label{class_table_handler_a61f038d4c34427b27c49db7c41da710f} 
+\index{TableHandler@{TableHandler}!getTblActiveDatabase@{getTblActiveDatabase}}
+\index{getTblActiveDatabase@{getTblActiveDatabase}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{getTblActiveDatabase()}{getTblActiveDatabase()}}
+{\footnotesize\ttfamily const QSql\+Database \& Table\+Handler\+::get\+Tbl\+Active\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00060}{60}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b}\label{class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b} 
+\index{TableHandler@{TableHandler}!insertIntoTable@{insertIntoTable}}
+\index{insertIntoTable@{insertIntoTable}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{insertIntoTable()}{insertIntoTable()}}
+{\footnotesize\ttfamily bool Table\+Handler\+::insert\+Into\+Table (\begin{DoxyParamCaption}\item[{const QString \&}]{table\+Name,  }\item[{const QString \&}]{value1,  }\item[{const QString \&}]{value2,  }\item[{const QString \&}]{value3,  }\item[{const QString \&}]{value4,  }\item[{const QString \&}]{value5 }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00033}{33}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d68/class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_table_handler_a18ef1c8ec869a02760140e80f6029647}\label{class_table_handler_a18ef1c8ec869a02760140e80f6029647} 
+\index{TableHandler@{TableHandler}!setActiveDatabase@{setActiveDatabase}}
+\index{setActiveDatabase@{setActiveDatabase}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{setActiveDatabase()}{setActiveDatabase()}}
+{\footnotesize\ttfamily void Table\+Handler\+::set\+Active\+Database (\begin{DoxyParamCaption}\item[{QSql\+Database}]{new\+Active\+Database }\end{DoxyParamCaption})}
+
+\Hypertarget{class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0}\label{class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0} 
+\index{TableHandler@{TableHandler}!setActiveTableName@{setActiveTableName}}
+\index{setActiveTableName@{setActiveTableName}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{setActiveTableName()}{setActiveTableName()}}
+{\footnotesize\ttfamily void Table\+Handler\+::set\+Active\+Table\+Name (\begin{DoxyParamCaption}\item[{const QString \&}]{new\+Active\+Table\+Name }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00055}{55}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d68/class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_table_handler_a25c7280467931080916a3a5cc0268ddb}\label{class_table_handler_a25c7280467931080916a3a5cc0268ddb} 
+\index{TableHandler@{TableHandler}!setTableName@{setTableName}}
+\index{setTableName@{setTableName}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{setTableName()}{setTableName()}}
+{\footnotesize\ttfamily void Table\+Handler\+::set\+Table\+Name (\begin{DoxyParamCaption}\item[{const QString \&}]{new\+Table\+Name }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_table_handler_a1ee3904c534098cfa8b6a90bdeb6b483}\label{class_table_handler_a1ee3904c534098cfa8b6a90bdeb6b483} 
+\index{TableHandler@{TableHandler}!activeTableName@{activeTableName}}
+\index{activeTableName@{activeTableName}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{activeTableName}{activeTableName}}
+{\footnotesize\ttfamily QString Table\+Handler\+::active\+Table\+Name = "{}user\+Table"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8hpp_source_l00053}{53}} of file \mbox{\hyperlink{tablehandler_8hpp_source}{tablehandler.\+hpp}}.
+
+\Hypertarget{class_table_handler_a66e9978d553498a4e930bccaf09e35cd}\label{class_table_handler_a66e9978d553498a4e930bccaf09e35cd} 
+\index{TableHandler@{TableHandler}!lastTableError@{lastTableError}}
+\index{lastTableError@{lastTableError}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{lastTableError}{lastTableError}}
+{\footnotesize\ttfamily QSql\+Error Table\+Handler\+::last\+Table\+Error\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8hpp_source_l00059}{59}} of file \mbox{\hyperlink{tablehandler_8hpp_source}{tablehandler.\+hpp}}.
+
+\Hypertarget{class_table_handler_a918812b884469ab371aa292cc5a2192e}\label{class_table_handler_a918812b884469ab371aa292cc5a2192e} 
+\index{TableHandler@{TableHandler}!tableModel@{tableModel}}
+\index{tableModel@{tableModel}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{tableModel}{tableModel}}
+{\footnotesize\ttfamily QSql\+Table\+Model\texorpdfstring{$\ast$}{*} Table\+Handler\+::table\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8hpp_source_l00055}{55}} of file \mbox{\hyperlink{tablehandler_8hpp_source}{tablehandler.\+hpp}}.
+
+\Hypertarget{class_table_handler_a9d8929ba06a21b26fa9c56702087d8ad}\label{class_table_handler_a9d8929ba06a21b26fa9c56702087d8ad} 
+\index{TableHandler@{TableHandler}!tblActiveDatabase@{tblActiveDatabase}}
+\index{tblActiveDatabase@{tblActiveDatabase}!TableHandler@{TableHandler}}
+\doxysubsubsection{\texorpdfstring{tblActiveDatabase}{tblActiveDatabase}}
+{\footnotesize\ttfamily QSql\+Database Table\+Handler\+::tbl\+Active\+Database\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8hpp_source_l00057}{57}} of file \mbox{\hyperlink{tablehandler_8hpp_source}{tablehandler.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/database\+Classes/\mbox{\hyperlink{tablehandler_8hpp}{tablehandler.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/database\+Classes/\mbox{\hyperlink{tablehandler_8cpp}{tablehandler.\+cpp}}\end{DoxyCompactItemize}

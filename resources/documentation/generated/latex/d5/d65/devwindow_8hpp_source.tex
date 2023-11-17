@@ -1,0 +1,107 @@
+\doxysection{devwindow.\+hpp}
+\hypertarget{devwindow_8hpp_source}{}\label{devwindow_8hpp_source}\index{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp}}
+\mbox{\hyperlink{devwindow_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ <QMainWindow>}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <QDebug>}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <QtSql>}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ "{}../backendClasses/objecthandler.hpp"{}}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{translatablewindow_8hpp}{translatablewindow.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00010}00010\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00011}\mbox{\hyperlink{namespace_ui}{00011}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_dev_window}{DevWindow}};\ \}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00012}00012\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00014}\mbox{\hyperlink{class_dev_window}{00014}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_dev_window}{DevWindow}}\ :\ \textcolor{keyword}{public}\ QMainWindow,\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_translatable_window}{TranslatableWindow}}}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00015}00015\ \{}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00016}00016\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00017}00017\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00018}00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00020}00020\ \ \ \ \ \mbox{\hyperlink{class_dev_window}{DevWindow}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr},\ \mbox{\hyperlink{class_object_handler}{ObjectHandler}}\ *\mbox{\hyperlink{class_dev_window_ac5cf19cbf4c881516ad7ca136d560334}{objectHandler}}\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00023}00023\ \ \ \ \ \mbox{\hyperlink{class_dev_window_ac74e8ece4b5435b6ff306c229193a50e}{\string~DevWindow}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00024}00024\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00025}00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9}{logEvent}}(QString\ type,\ QString\ message);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00027}00027\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9}{logEvent}}(QString\ message,\ QSqlError\ error);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00030}00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9}{logEvent}}(QString\ message);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00032}00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a5102613ef871036ceda424c5358a998a}{retranslateUi}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00034}00034\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00035}00035\ signals:}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00036}\mbox{\hyperlink{class_dev_window_a879985fff5798387b606f6c209322f95}{00036}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a879985fff5798387b606f6c209322f95}{returnToLauncher}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00037}\mbox{\hyperlink{class_dev_window_aa64f163f03e0190606cd9692d2beec28}{00037}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_aa64f163f03e0190606cd9692d2beec28}{openSettings}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00039}00039\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00042}00042\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a9bfb7fe4688b2a94807581db270502ff}{on\_btnInitDB\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00045}00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595}{on\_btnCloseDB\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00046}00046\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00047}00047\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00048}00048\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694}{on\_btnExecute\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00049}00049\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00050}00050\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00051}00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2}{on\_btnSelectTable\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00052}00052\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00053}00053\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00054}00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd}{on\_btnAdd\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00056}00056\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00057}00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d}{on\_btnUpdate\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00058}00058\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00059}00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a9d0153391c509600fd5220e35f5bb22f}{on\_clearCommandAfterExecute\_stateChanged}}(\textcolor{keywordtype}{int}\ arg1);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00060}00060\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00061}00061\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00062}00062\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a696f0d9d444264cbf55228ae7724f752}{on\_clearInputsAfterInsert\_stateChanged}}(\textcolor{keywordtype}{int}\ arg1);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00063}00063\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00064}00064\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00065}00065\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00066}00066\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_afed326aaf50679142fa65bea233035c6}{on\_inReturnToLauncher\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00067}00067\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00068}00068\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a45b94a9795772df0c4975bcd950703c8}{on\_inSettings\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00069}00069\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00070}00070\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00071}00071\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00072}00072\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00073}00073\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4}{enableButtons}}(\textcolor{keywordtype}{bool}\ databaseLoaded);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00075}00075\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00076}00076\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a89347408d6975ff5120340af8a4ac776}{setModelViews}}(QSqlTableModel\ \&m);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00077}00077\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00078}00078\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a89347408d6975ff5120340af8a4ac776}{setModelViews}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00079}00079\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00080}00080\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322}{assignInputs}}();}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00081}00081\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00082}00082\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00083}00083\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_dev_window_a8604a4e251b45712f5e214c416e764e8}{checkCheckbox}}(\textcolor{keywordtype}{int}\ argCB);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00084}00084\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00085}00085\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec}{initDatabase}}(\mbox{\hyperlink{class_object_handler}{ObjectHandler}}*\ oH);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00086}00086\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00087}00087\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f}{closeDatabase}}(\mbox{\hyperlink{class_database_handler}{DatabaseHandler}}*\ db);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00088}00088\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00089}00089\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1}{clearInputs}}(\textcolor{keywordtype}{bool}\ clearBool);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00090}00090\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00091}00091\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00092}00092\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_dev_window_aed7de9675bba89b1ee062980dd4721dd}{clearCommandBox}}(\textcolor{keywordtype}{bool}\ clearBool);}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00093}00093\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00094}\mbox{\hyperlink{class_dev_window_a86f1bc4e3cfa218990759aa5689f5288}{00094}}\ \ \ \ \ Ui::DevWindow\ *\mbox{\hyperlink{class_dev_window_a86f1bc4e3cfa218990759aa5689f5288}{ui}};}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00095}\mbox{\hyperlink{class_dev_window_ac5cf19cbf4c881516ad7ca136d560334}{00095}}\ \ \ \ \ \mbox{\hyperlink{class_object_handler}{ObjectHandler}}\ *\mbox{\hyperlink{class_dev_window_ac5cf19cbf4c881516ad7ca136d560334}{objectHandler}};}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00096}00096\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00097}\mbox{\hyperlink{class_dev_window_ac01a4cc4b85ea3d8a45d894e25f22fc0}{00097}}\ \ \ \ \ QString\ \mbox{\hyperlink{class_dev_window_ac01a4cc4b85ea3d8a45d894e25f22fc0}{input1}},\ \mbox{\hyperlink{class_dev_window_a25cc268c9237850191011c5f4859f8a6}{input2}},\ \mbox{\hyperlink{class_dev_window_a0416dd13675fe5c41e2c7f46cb82e7f9}{input3}},\ \mbox{\hyperlink{class_dev_window_a3492ef3406496f4a9573b057e80a7248}{input4}},\ \mbox{\hyperlink{class_dev_window_a367f99ebed0ff5693dd25f36aacb04eb}{input5}};}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00098}\mbox{\hyperlink{class_dev_window_a61793fccd13553d757913f3a6fd6fb5d}{00098}}\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_dev_window_a61793fccd13553d757913f3a6fd6fb5d}{clearCommand}}\ =\ \textcolor{keyword}{false},\ \mbox{\hyperlink{class_dev_window_acb120b04f52b1033db0c0db68627ebbc}{clearInput}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00099}00099\ \};}
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00100}00100\ }
+\DoxyCodeLine{\Hypertarget{devwindow_8hpp_source_l00101}00101\ }
+
+\end{DoxyCode}

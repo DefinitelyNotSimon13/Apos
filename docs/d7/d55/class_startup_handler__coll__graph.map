@@ -1,0 +1,9 @@
+<map id="StartupHandler" name="StartupHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="77,187,185,213"/>
+<area shape="rect" id="Node000002" href="$df/d32/class_object_handler.html" title=" " alt="" coords="79,96,183,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,138,134,186,128,186,128,138"/>
+<area shape="rect" id="Node000003" href="$d5/da6/class_database_handler.html" title=" " alt="" coords="5,5,126,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,43,124,94,119,97,82,46"/>
+<area shape="rect" id="Node000004" href="$dd/d68/class_table_handler.html" title=" " alt="" coords="149,5,246,32"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="187,47,170,74,148,97,144,94,166,70,183,45"/>
+</map>

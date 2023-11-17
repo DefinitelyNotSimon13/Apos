@@ -1,0 +1,26 @@
+<map id="WindowHandler::WindowHandler" name="WindowHandler::WindowHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,132,215,159"/>
+<area shape="rect" id="Node000002" href="$de/d9e/class_settings_window.html#ad60370672d08fd3f5318abfbc14ecd8f" title=" " alt="" coords="268,5,481,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,129,183,86,221,62,262,42,281,34,282,39,264,46,224,67,186,91,129,134"/>
+<area shape="rect" id="Node000003" href="$d5/d61/class_window_handler.html#a52436f8ef1145f13f153e49ab8a194ed" title=" " alt="" coords="275,56,474,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,129,262,92,292,84,293,89,263,97,150,134"/>
+<area shape="rect" id="Node000006" href="$dd/d74/class_launcher_window.html#a4fd279164e186aeaf10dfada448c7efb" title=" " alt="" coords="263,107,486,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="215,133,247,130,247,135,215,138"/>
+<area shape="rect" id="Node000007" href="$dd/d74/class_launcher_window.html#a16f5a8a4cf28e14a0c98ebeb6c60d1e1" title=" " alt="" coords="272,157,477,184"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="215,153,257,157,257,162,215,158"/>
+<area shape="rect" id="Node000008" href="$d5/d61/class_window_handler.html#a8fdd3abd4b8019264d3ec25ee873759d" title=" " alt="" coords="266,208,483,235"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="150,157,263,193,293,201,292,206,262,199,149,162"/>
+<area shape="rect" id="Node000012" href="$d5/d61/class_window_handler.html#a1c119c52aff2591e273bd3b06a7b9270" title=" " alt="" coords="548,271,745,313"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="128,157,185,201,223,225,264,244,331,264,401,278,469,286,532,290,532,295,469,291,400,283,330,269,262,249,220,230,182,206,125,161"/>
+<area shape="rect" id="Node000004" href="$d5/d61/class_window_handler.html#ab585fdb0adaf982cb5f8212bf31b423e" title=" " alt="" coords="534,52,758,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="474,65,519,65,519,70,474,71"/>
+<area shape="rect" id="Node000005" href="$d5/dbe/class_translatable_window.html#a009edc93a44472b8eb27070b3f9258c2" title=" " alt="" coords="806,44,944,87"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="759,63,791,63,791,68,759,68"/>
+<area shape="rect" id="Node000009" href="$d6/d5d/class_dev_window.html#aa64f163f03e0190606cd9692d2beec28" title=" " alt="" coords="560,103,732,129"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="460,205,485,194,499,181,508,167,517,153,533,139,544,133,547,138,535,144,521,156,512,170,503,185,487,198,462,210"/>
+<area shape="rect" id="Node000010" href="$d6/d5d/class_dev_window.html#a879985fff5798387b606f6c209322f95" title=" " alt="" coords="548,153,744,180"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="444,205,561,181,562,186,445,210"/>
+<area shape="rect" id="Node000011" href="$d5/d61/class_window_handler.html#a7991c67765fc79b3049e249a7ee97434" title=" " alt="" coords="551,204,742,247"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="483,220,535,221,535,226,483,226"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="430,233,548,264,546,269,428,238"/>
+</map>

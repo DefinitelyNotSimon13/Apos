@@ -1,0 +1,13 @@
+<map id="SettingsWindow" name="SettingsWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="113,187,229,213"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,78,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,130,154,184,151,188,71,134"/>
+<area shape="rect" id="Node000003" href="$d5/dbe/class_translatable_window.html" title=" " alt="" coords="102,96,240,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,138,174,186,168,186,168,138"/>
+<area shape="rect" id="Node000004" href="$df/d32/class_object_handler.html" title=" " alt="" coords="263,96,367,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="283,134,193,188,190,184,280,129"/>
+<area shape="rect" id="Node000005" href="$d5/da6/class_database_handler.html" title=" " alt="" coords="189,5,310,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="270,43,308,94,303,97,266,46"/>
+<area shape="rect" id="Node000006" href="$dd/d68/class_table_handler.html" title=" " alt="" coords="333,5,430,32"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="371,47,354,74,332,97,328,94,350,70,367,45"/>
+</map>
