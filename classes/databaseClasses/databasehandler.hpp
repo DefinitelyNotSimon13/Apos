@@ -1,11 +1,13 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #pragma once
 
 #include <QDebug>
 #include <QtSql>
 
 
-class DatabaseHandler
-{
+class DatabaseHandler {
 public:
 
 
@@ -27,7 +29,6 @@ public:
 
 
     void setDatabasePath(const QString &newDatabasePath);
-
 
 
     void setLastSqlError(const QSqlError &newLastSqlError);

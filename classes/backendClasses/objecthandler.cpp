@@ -1,63 +1,52 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #include "objecthandler.hpp"
 
-ObjectHandler::ObjectHandler(QApplication* newApplication, DatabaseHandler* newDBHandler, TableHandler* newTableHandler)
-{
+ObjectHandler::ObjectHandler(QApplication *newApplication,
+                             DatabaseHandler *newDBHandler,
+                             TableHandler *newTableHandler) {
     application = newApplication;
     dbHandler = newDBHandler;
     tableHandler = newTableHandler;
 }
 
-bool ObjectHandler::initDatabaseObject()
-{
-    if (!dbHandler->initDatabase())
-    {
+bool ObjectHandler::initDatabaseObject() {
+    if (!dbHandler->initDatabase()) {
         return false;
     }
     return true;
 }
 
-bool ObjectHandler::initTableObject()
-{
+bool ObjectHandler::initTableObject() {
     QSqlDatabase db = getActiveDatabase();
     QString tn = getActiveTableName();
     tableHandler->generateTableModel(db, tn);
     return true;
 }
 
-bool ObjectHandler::initTableObject(QSqlDatabase inputActiveDatabase, const QString &inputTableName)
-{
+bool ObjectHandler::initTableObject(QSqlDatabase inputActiveDatabase,
+                                    const QString &inputTableName) {
     tableHandler->generateTableModel(inputActiveDatabase, inputTableName);
     return true;
 }
 
-TableHandler *ObjectHandler::getTableHandler() const
-{
-    return tableHandler;
-}
+TableHandler *ObjectHandler::getTableHandler() const { return tableHandler; }
 
-DatabaseHandler *ObjectHandler::getDbHandler() const
-{
-    return dbHandler;
-}
+DatabaseHandler *ObjectHandler::getDbHandler() const { return dbHandler; }
 
-const QString &ObjectHandler::getActiveTableName() const
-{
+const QString &ObjectHandler::getActiveTableName() const {
     return tableHandler->getActiveTableName();
 }
 
-const QSqlError& ObjectHandler::getTableSqlError() const
-{
+const QSqlError &ObjectHandler::getTableSqlError() const {
     return tableHandler->getLastTableError();
 }
 
-
-const QSqlDatabase &ObjectHandler::getActiveDatabase() const
-{
+const QSqlDatabase &ObjectHandler::getActiveDatabase() const {
     return dbHandler->getActiveDatabase();
 }
 
-void ObjectHandler::setActiveTableName(const QString &newActiveTableName)
-{
+void ObjectHandler::setActiveTableName(const QString &newActiveTableName) {
     tableHandler->setActiveTableName(newActiveTableName);
 }
-

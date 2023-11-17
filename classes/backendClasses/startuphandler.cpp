@@ -1,17 +1,17 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #include "startuphandler.hpp"
 
-StartupHandler::StartupHandler(QApplication *application)
-{
+StartupHandler::StartupHandler(QApplication *application) {
     this->ptrApplication = application;
 }
 
-StartupHandler::~StartupHandler()
-{
+StartupHandler::~StartupHandler() {
     qDebug() << "StartupHandler deleted!";
 }
 
-ObjectHandler* StartupHandler::startUp()
-{
+ObjectHandler *StartupHandler::startUp() {
 
     initObjectHandler();
     initTranslator();
@@ -19,11 +19,10 @@ ObjectHandler* StartupHandler::startUp()
 
 }
 
-void StartupHandler::initTranslator()
-{
+void StartupHandler::initTranslator() {
     QTranslator translator;
     const QStringList uiLanguages = QLocale::system().uiLanguages();
-    for (const QString &locale : uiLanguages) {
+  for (const QString &locale: uiLanguages) {
         const QString baseName = "Apos-DatabaseManager_" + QLocale(locale).name();
         if (translator.load(":/i18n/" + baseName)) {
             ptrApplication->installTranslator(&translator);
@@ -32,8 +31,7 @@ void StartupHandler::initTranslator()
     }
 }
 
-void StartupHandler::initObjectHandler()
-{
+void StartupHandler::initObjectHandler() {
     DatabaseHandler *dbHandler = new DatabaseHandler();
     TableHandler *tableHandler = new TableHandler();
     objectHandler = new ObjectHandler(ptrApplication, dbHandler, tableHandler);

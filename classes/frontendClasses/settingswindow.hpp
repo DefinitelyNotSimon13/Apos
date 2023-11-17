@@ -1,3 +1,6 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #pragma once
 
 #include <QWidget>
@@ -8,21 +11,25 @@
 
 
 namespace Ui {
-class SettingsWindow;
+    class SettingsWindow;
 }
 
-class SettingsWindow : public QWidget, public TranslatableWindow
-{
-    Q_OBJECT
+class SettingsWindow : public QWidget, public TranslatableWindow {
+Q_OBJECT
 
 public:
     explicit SettingsWindow(QWidget *parent = nullptr, ObjectHandler *objectHandler = nullptr);
+
     ~SettingsWindow();
+
     void retranslateUi();
+
 signals:
+
     void appliedSettings();
 
 private slots:
+
     void on_inClose_clicked();
 
     void on_inApply_clicked();
@@ -35,8 +42,8 @@ private:
 
     Ui::SettingsWindow *ui;
     QString language;
-    ObjectHandler* objectHandler;
-    QTranslator* translator;
+    ObjectHandler *objectHandler;
+    QTranslator *translator;
     int languageIndex, tempLanguageIndex;
     bool languageChanged;
 };

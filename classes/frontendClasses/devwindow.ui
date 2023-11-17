@@ -1449,7 +1449,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../resources/qResources.qrc">:/images/logo/AIRBUS_WHITE.png</pixmap>
+        <pixmap>:/images/logo/AIRBUS_WHITE.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1458,7 +1458,8 @@
   </widget>
  </widget>
  <resources>
-  <include location="../resources/qResources.qrc"/>
+     <include location="../../resources/qResources.qrc"/>
+     <include location="../../resources/qResources.qrc"/>
   <include location="../resources/qResources.qrc"/>
  </resources>
  <connections/>

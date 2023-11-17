@@ -1,36 +1,32 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #include "launcherwindow.hpp"
 #include "ui_launcherwindow.h"
 
-LauncherWindow::LauncherWindow(QWidget *parent, ObjectHandler* newObjectHandler) :
-    QMainWindow(parent),
-    ui(new Ui::LauncherWindow)
-{
+LauncherWindow::LauncherWindow(QWidget *parent, ObjectHandler *newObjectHandler) :
+        QMainWindow(parent),
+        ui(new Ui::LauncherWindow) {
     ui->setupUi(this);
     objectHandler = newObjectHandler;
 
 }
 
-LauncherWindow::~LauncherWindow()
-{
+LauncherWindow::~LauncherWindow() {
     delete ui;
 }
 
 
-void LauncherWindow::on_inShowDev_clicked()
-{
+void LauncherWindow::on_inShowDev_clicked() {
     emit openDevWindow();
 }
 
 
-
-
-void LauncherWindow::on_pushButton_clicked()
-{
+void LauncherWindow::on_pushButton_clicked() {
     emit openSettings();
 }
 
-void LauncherWindow::retranslateUi()
-{
+void LauncherWindow::retranslateUi() {
 
 }
 

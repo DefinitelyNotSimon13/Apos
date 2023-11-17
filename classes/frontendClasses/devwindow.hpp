@@ -1,3 +1,6 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #pragma once
 
 #include <QMainWindow>
@@ -11,9 +14,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class DevWindow; }
 QT_END_NAMESPACE
 
-class DevWindow : public QMainWindow, public TranslatableWindow
-{
-    Q_OBJECT
+class DevWindow : public QMainWindow, public TranslatableWindow {
+Q_OBJECT
 
 public:
 
@@ -33,7 +35,9 @@ public:
 
 
 signals:
+
     void returnToLauncher();
+
     void openSettings();
 
 private slots:
@@ -62,7 +66,6 @@ private slots:
     void on_clearInputsAfterInsert_stateChanged(int arg1);
 
 
-
     void on_inReturnToLauncher_clicked();
 
     void on_inSettings_clicked();
@@ -82,9 +85,9 @@ private:
 
     bool checkCheckbox(int argCB);
 
-    void initDatabase(ObjectHandler* oH);
+    void initDatabase(ObjectHandler *oH);
 
-    void closeDatabase(DatabaseHandler* db);
+    void closeDatabase(DatabaseHandler *db);
 
     void clearInputs(bool clearBool);
 

@@ -1,38 +1,33 @@
+// Copyright (c) 2023. LGPL-V3
+//
+
 #include "databasehandler.hpp"
 
-DatabaseHandler::DatabaseHandler()
-{
+DatabaseHandler::DatabaseHandler() {
 
 }
 
-bool DatabaseHandler::initDatabase()
-{
+bool DatabaseHandler::initDatabase() {
     activeDatabase = QSqlDatabase::addDatabase("QSQLITE", "connection1");
     activeDatabase.setDatabaseName(databasePath);
 
-    if (!activeDatabase.open())
-    {
+  if (!activeDatabase.open()) {
         lastSqlError = activeDatabase.lastError();
         qDebug() << lastSqlError.text();
         return false;
-    }
-    else
-    {
+  } else {
         return true;
     }
 }
 
-void DatabaseHandler::closeDatabase()
-{
+void DatabaseHandler::closeDatabase() {
     activeDatabase.close();
     activeDatabase = QSqlDatabase();
 }
 
-bool DatabaseHandler::executeCommand(QString command)
-{
+bool DatabaseHandler::executeCommand(QString command) {
     QSqlQuery query(activeDatabase);
-    if (!query.exec(command))
-    {
+  if (!query.exec(command)) {
         lastSqlError = query.lastError();
         qDebug() << lastSqlError.text();
         return false;
@@ -40,22 +35,18 @@ bool DatabaseHandler::executeCommand(QString command)
     return true;
 }
 
-const QSqlDatabase &DatabaseHandler::getActiveDatabase() const
-{
+const QSqlDatabase &DatabaseHandler::getActiveDatabase() const {
     return activeDatabase;
 }
 
-const QSqlError &DatabaseHandler::getSqlError() const
-{
+const QSqlError &DatabaseHandler::getSqlError() const {
     return lastSqlError;
 }
 
-void DatabaseHandler::setDatabasePath(const QString &newDatabasePath)
-{
-   databasePath = newDatabasePath;
+void DatabaseHandler::setDatabasePath(const QString &newDatabasePath) {
+  databasePath = newDatabasePath;
 }
 
-void DatabaseHandler::setLastSqlError(const QSqlError &newLastSqlError)
-{
+void DatabaseHandler::setLastSqlError(const QSqlError &newLastSqlError) {
     lastSqlError = newLastSqlError;
 }
