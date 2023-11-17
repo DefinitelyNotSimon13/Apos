@@ -21,7 +21,7 @@ Apos is derived from the ancient greek work "αποθήκη" - it roughly transl
 
 ## Installation
 
-The software is installed using a custom installer available in the [Releases]("") section. - TBD
+The software is installed using a custom installer available in the [Releases](https://github.com/DefinitelyNotSimon13/Apos/releases) section. 
 
 1. Download the installer from the Releases page.
 2. Run the installer and follow the on-screen instructions.
@@ -51,7 +51,7 @@ The software is installed using a custom installer available in the [Releases]("
 
 ## Documentation
 
-The full documentation for the application, including Doxygen-generated documentation, can be found [here](link-to-documentation). - TDB
+The full documentation for the application, including Doxygen-generated documentation, can be found [here]([ink-to-documentation](https://definitelynotsimon13.github.io/Apos/)). - TDB
 
 ## Contributing
 
