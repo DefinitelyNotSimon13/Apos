@@ -3,7 +3,7 @@
  * @brief Main entry point for the application.
  * @author Simon Blum
  * @date 13.11.2023
- * @version 1.0.0
+ * @version 0.1_alpha.1
  * @license LGPL-V3
  *
  * This file contains the main function, which represents the entry point for the application.
@@ -48,18 +48,31 @@
 #include <QScopedPointer> /**< Include the QScopedPointer class for memory management */
 
 // Declaration of functions------------------------------------------------------------------------------------------ //
-namespace appInitialization {
+namespace AppInitialization {
+
+    /**
+     * @brief Initialize the StartupHandler object
+     *
+     * This function initializes the StartupHandler object with the QApplication object.
+     *
+     * @param newApp Shared pointer to the QApplication object. This is used to initialize the StartupHandler object.
+     * @return Shared pointer to the initialized StartupHandler object
+     * @throws std::runtime_error if the QApplication pointer is null.
+     */
+    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication> &newApp);
+
     /**
      * @brief Initialize the ObjectHandler object
      *
      * This function initializes the StartupHandler object with the QApplication object,
      * then uses the StartupHandler object to initialize and return the ObjectHandler object.
      *
-     * @param app Pointer to the QApplication object. This is used to initialize the StartupHandler object.
+     * @param startupHandler Pointer to the StartupHandler object. This is used to initialize the ObjectHandler object.
      * @return Unique pointer to the initialized ObjectHandler object
      * @throws std::runtime_error if the QApplication pointer is null or if the ObjectHandler fails to initialize.
      */
-    QSharedPointer<ObjectHandler> initializeObjectHandler(QSharedPointer<QApplication> &app);
+    QSharedPointer<ObjectHandler> initializeObjectHandler(
+                                                    const QSharedPointer<AposBackend::StartupHandler> &startupHandler);
 
 // ------------------------------------------------------------------------------------------------------------------ //
 
@@ -95,8 +108,10 @@ int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-mi
         QSharedPointer<QApplication> application(new QApplication(argc, argv));
         qDebug() << "Application Object initialized";
 
-        QSharedPointer<ObjectHandler> objectHandler = appInitialization::initializeObjectHandler(application);
-        QSharedPointer<WindowHandler> windowHandler = appInitialization::initializeWindowHandler(objectHandler);
+        QSharedPointer<AposBackend::StartupHandler>
+                                    startupHandler = AppInitialization::initializeStartupHandler(application);
+        QSharedPointer<ObjectHandler> objectHandler = AppInitialization::initializeObjectHandler(startupHandler);
+        QSharedPointer<WindowHandler> windowHandler = AppInitialization::initializeWindowHandler(objectHandler);
 
         returnStatus = QApplication::exec(); // Update return status
     } catch (const std::exception &e) {
@@ -106,16 +121,23 @@ int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-mi
 }
 
 // ------------------------------------------------------------------------------------------------------------------ //
-namespace appInitialization {
-    QSharedPointer<ObjectHandler> initializeObjectHandler(QSharedPointer<QApplication> &app) {
-        if (app == nullptr) {
+namespace AppInitialization {
+
+
+    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication> &newApp) {
+        if (newApp == nullptr) {
             throw std::runtime_error("QApplication pointer is null");
         }
 
-        AposBackend::StartupHandler startupHandler(app.data());
+        QSharedPointer<AposBackend::StartupHandler> startupHandler(new AposBackend::StartupHandler(newApp));
         qDebug() << "StartupHandler Object initialized";
+        return startupHandler;
+    }
 
-        QSharedPointer<ObjectHandler> objectHandler(startupHandler.startUp());
+    QSharedPointer<ObjectHandler> initializeObjectHandler(
+                                                    const QSharedPointer<AposBackend::StartupHandler> &startupHandler) {
+
+        QSharedPointer<ObjectHandler> objectHandler(startupHandler->startUp());
         if (objectHandler == nullptr) {
             throw std::runtime_error("Failed to initialize ObjectHandler");
         }
@@ -123,6 +145,8 @@ namespace appInitialization {
 
         return objectHandler;
     }
+
+
 
     QSharedPointer<WindowHandler> initializeWindowHandler(const QSharedPointer<ObjectHandler> &objectHandler) {
         if (objectHandler == nullptr) {
@@ -136,4 +160,4 @@ namespace appInitialization {
         return windowHandler;
     }
 }
-// -----------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------ //
