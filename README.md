@@ -1,19 +1,23 @@
 # Apos - Database Manager
 
-Apos - Database Manager is a Windows application designed to manage SQLite3 databases. It allows users to open, read, and edit tables within a SQLite3 database, as well as execute custom SQLite3 commands.
+Developed by Simon Blum, Apos - Database Manager is a comprehensive Windows
+application designed to manage SQLite3 databases.
 
-Apos is derived from the ancient greek work "αποθήκη" - it roughly translates to "storage" or "warehouse".
+The application provides an intuitive and user-friendly interface for performing
+a variety of database operations. Whether you need to open, read, edit tables,
+or execute custom SQLite3 commands, Apos - Database Manager has got you covered.
 
-## Features
+The name "Apos" is inspired by the ancient Greek word "αποθήκη", which translates
+to "storage" or "warehouse".
 
-- **Database Operations:**
-  - Open and manage SQLite3 databases.
-  - Execute custom SQLite3 commands.
-  - Read and edit tables within the database.
+## Key Features
 
-- **User Interface:**
-  - Graphical User Interface (GUI) created using the Qt framework.
-  - Intuitive design for easy navigation.
+- **Efficient Database Operations**: Open, read, and edit tables within SQLite3
+  databases with ease.
+- **Custom SQLite3 Commands**: Execute custom SQLite3 commands for advanced
+  database operations.
+- **Intuitive User Interface**: Navigate through the application effortlessly
+  with the GUI, built using the Qt framework.
 
 ## Prerequisites
 
@@ -21,50 +25,53 @@ Apos is derived from the ancient greek work "αποθήκη" - it roughly transl
 
 ## Installation
 
-The software is installed using a custom installer available in the [Releases](https://github.com/DefinitelyNotSimon13/Apos/releases) section. 
+To install Apos - Database Manager, follow these steps:
 
-1. Download the installer from the Releases page.
-2. Run the installer and follow the on-screen instructions.
+1. Navigate to the [Releases](https://github.com/DefinitelyNotSimon13/Apos/releases) page.
+2. Download the latest installer.
+3. Run the installer and follow the on-screen instructions.
 
 ## Usage
 
-1. **Opening a Database:**
-   - Launch the application.
-   - Click on the "Open Database" button.
-   - Select the desired SQLite3 database file.
+1. **Opening a Database**: Launch the application and click on the "Open Database"
+   button to select the desired SQLite3 database file.
+2. **Executing Commands**: Enter custom SQLite3 commands in the "Command Box"
+   and click the "Execute" button.
+3. **Managing Tables**: Use the GUI to perform various table operations such as
+   "Add," "Update," and "Select Table".
 
-2. **Executing Commands:**
-   - Use the "Command Box" to enter custom SQLite3 commands.
-   - Click the "Execute" button to execute the command.
+## Project Structure
 
-3. **Managing Tables:**
-   - Use the GUI to read and edit tables within the opened database.
-   - Buttons like "Add," "Update," and "Select Table" facilitate table operations.
+The project is organized into several directories:
 
-## File Structure
-
-   - `/source`: Contains the source code for Apos - Database Manager.
-   - `/basicClasses`: Basic classes used by the application.
-   - `/databaseClasses`: Database-related classes.
-   - `/tableClasses`: Classes related to table operations.
-   - `/resources`: Includes any additional resources used by the application.
+- `/source`: Contains the main entry point for the application (`main.cpp`).
+- `/classes/backendClasses`: Contains classes related to the backend logic of
+  the application, such as `StartupHandler` and `ObjectHandler`.
+- `/classes/frontendClasses`: Contains classes related to the frontend logic of
+  the application, such as `WindowHandler` and various window classes.
+- `/classes/databaseClasses`: Contains classes related to database operations,
+  such as `DatabaseHandler` and `TableHandler`.
+- `/resources`: Stores additional resources used by the application, such as
+  translation files and the application logo.
+- `/docs`: Contains the Doxygen-generated documentation for the project.
 
 ## Documentation
 
-The full documentation for the application, including Doxygen-generated documentation, can be found [here]([ink-to-documentation](https://definitelynotsimon13.github.io/Apos/)). - TDB
+Comprehensive documentation for Apos - Database Manager is available on the
+[GitHub Pages website](https://definitelynotsimon13.github.io/Apos/) and in
+the `/docs` directory of this repository.
 
 ## Contributing
 
-If you would like to contribute to the project, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md). - TBD
+As a solo developer, I welcome contributions to the project! Please refer to
+the [Contribution Guidelines](CONTRIBUTING.md) for details.
 
 ## License
 
-This project is licensed under the [LGPL-3.0 License](LICENSE.md).
+Apos - Database Manager is licensed under the [LGPL-3.0 License](LICENSE.md).
 
 ## Acknowledgments
 
-- Special thanks to the Qt framework community.
+- A big thank you to the Qt framework community for their invaluable resources
+  and support.
 - [Any other acknowledgments or credits]
-
----
-
