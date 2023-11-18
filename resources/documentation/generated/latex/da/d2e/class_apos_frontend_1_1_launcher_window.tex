@@ -1,0 +1,90 @@
+\doxysection{Apos\+Frontend\+::Launcher\+Window Class Reference}
+\hypertarget{class_apos_frontend_1_1_launcher_window}{}\label{class_apos_frontend_1_1_launcher_window}\index{AposFrontend::LauncherWindow@{AposFrontend::LauncherWindow}}
+
+
+Provides the user interface for the launcher window.  
+
+
+
+
+{\ttfamily \#include $<$launcherwindow.\+hpp$>$}
+
+
+
+Inheritance diagram for Apos\+Frontend\+::Launcher\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{da/d16/class_apos_frontend_1_1_launcher_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Apos\+Frontend\+::Launcher\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{db/dbd/class_apos_frontend_1_1_launcher_window__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___signal-_funtions_ga0d06592356794582b3ad43292227af7a}{open\+Dev\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Signal for opening the developer window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___signal-_funtions_ga75e939cb47b5e6af99153b128c7bd5d6}{open\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Signal for opening the settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga5800462baf6f3c3834f506ad8575d4ad}{Launcher\+Window}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr, QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ new\+Object\+Handler=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_frontend_1_1_launcher_window}{Launcher\+Window} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga8d5add87f5aaf8acee42ca1030998430}{\texorpdfstring{$\sim$}{\string~}\+Launcher\+Window}} () override
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_apos_frontend_1_1_launcher_window}{Launcher\+Window} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_ga52c5c44ca23ae60a1ac1fc1d902e94f5}{retranslate\+Ui}} () override
+\begin{DoxyCompactList}\small\item\em Retranslates the user interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_apos_frontend_1_1_translatable_window}{Apos\+Frontend\+::\+Translatable\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga47ca01f45ced3c93739e8216f39f1aa2}{Translatable\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___slot-_functions_ga4684f63ebb3e4edddc912ba372222ee1}{on\+\_\+in\+Show\+Dev\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Show\+Dev\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga7a52cc1168adc3df616915e4ec59e112}{on\+\_\+push\+Button\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Push\+Button\textquotesingle{} button click event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Launcher\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___variables_ga544df2a5bbbaa401c15b23df3a234a89}{ui}}
+\begin{DoxyCompactList}\small\item\em Pointer to the user interface of the \doxylink{class_apos_frontend_1_1_launcher_window}{Launcher\+Window} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga1d13ebfc73580f8a79a71b07428bb0eb}{object\+Handler}} = nullptr
+\begin{DoxyCompactList}\small\item\em Shared pointer to the Object\+Handler object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides the user interface for the launcher window. 
+
+The \doxylink{class_apos_frontend_1_1_launcher_window}{Launcher\+Window} class provides the functionality for opening the developer window and settings. It interacts with the QMain\+Window and \doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} classes and uses the Object\+Handler class to manage the application\textquotesingle{}s objects.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler} 
+
+\doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} 
+
+QMain\+Window 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{launcherwindow_8hpp_source_l00045}{45}} of file \mbox{\hyperlink{launcherwindow_8hpp_source}{launcherwindow.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{launcherwindow_8hpp}{launcherwindow.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{launcherwindow_8cpp}{launcherwindow.\+cpp}}\end{DoxyCompactItemize}

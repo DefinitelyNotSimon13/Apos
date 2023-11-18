@@ -1,418 +1,426 @@
 \begin{theindex}
 
   \item {\texorpdfstring{$\sim$}{\string~}DevWindow}
-    \subitem {DevWindow}, \hyperpage{17}
+    \subitem {Constructors and Desctructors}, \hyperpage{20}
   \item {\texorpdfstring{$\sim$}{\string~}LauncherWindow}
-    \subitem {LauncherWindow}, \hyperpage{30}
+    \subitem {Constructors and Desctructors}, \hyperpage{20}
   \item {\texorpdfstring{$\sim$}{\string~}SettingsWindow}
-    \subitem {SettingsWindow}, \hyperpage{39}
-  \item {\texorpdfstring{$\sim$}{\string~}StartupHandler}
-    \subitem {StartupHandler}, \hyperpage{42}
+    \subitem {Constructors and Desctructors}, \hyperpage{20}
+  \item {\texorpdfstring{$\sim$}{\string~}TableHandler}
+    \subitem {Constructors and Desctructors}, \hyperpage{21}
 
   \indexspace
 
-  \item {ptrActiveDatabase}
-    \subitem {DatabaseHandler}, \hyperpage{15}
+  \item {activeDatabase}
+    \subitem {Variables}, \hyperpage{50}
   \item {activeTableName}
-    \subitem {TableHandler}, \hyperpage{48}
-  \item {Apos -\/ Database Manager}, \hyperpage{1}
-  \item {application}
-    \subitem {ObjectHandler}, \hyperpage{37}
+    \subitem {Variables}, \hyperpage{50}
+  \item {Apos -\/ Database Manager}, \hyperpage{3}
+  \item {AposBackend}, \hyperpage{57}
+  \item {AposBackend::ObjectHandler}, \hyperpage{61}
+    \subitem {getActiveDatabase}, \hyperpage{62}
+    \subitem {getActiveTableName}, \hyperpage{62}
+    \subitem {getPtrApplication}, \hyperpage{63}
+    \subitem {getPtrDbHandler}, \hyperpage{63}
+    \subitem {getPtrTableHandler}, \hyperpage{63}
+    \subitem {getTableSqlError}, \hyperpage{63}
+    \subitem {setActiveTableName}, \hyperpage{64}
+  \item {AposBackend::StartupHandler}, \hyperpage{64}
+  \item {AposDatabase}, \hyperpage{57}
+  \item {AposDatabase::DatabaseHandler}, \hyperpage{65}
+    \subitem {getActiveDatabase}, \hyperpage{67}
+    \subitem {getSqlError}, \hyperpage{67}
+  \item {AposDatabase::TableHandler}, \hyperpage{67}
+    \subitem {getActiveTableName}, \hyperpage{69}
+    \subitem {getLastTableError}, \hyperpage{69}
+    \subitem {getTableModel}, \hyperpage{69}
+    \subitem {setActiveTableName}, \hyperpage{69}
+  \item {AposFrontend}, \hyperpage{57}
+  \item {AposFrontend::DevWindow}, \hyperpage{70}
+    \subitem {clearInput}, \hyperpage{74}
+    \subitem {input2}, \hyperpage{74}
+    \subitem {input3}, \hyperpage{74}
+    \subitem {input4}, \hyperpage{74}
+    \subitem {input5}, \hyperpage{74}
+    \subitem {logEvent}, \hyperpage{73}
+  \item {AposFrontend::LauncherWindow}, \hyperpage{75}
+  \item {AposFrontend::SettingsWindow}, \hyperpage{77}
+  \item {AposFrontend::TranslatableWindow}, \hyperpage{79}
+  \item {AposFrontend::WindowHandler}, \hyperpage{80}
+  \item {AppInitialization}, \hyperpage{58}
+    \subitem {initializeObjectHandler}, \hyperpage{58}
+    \subitem {initializeStartupHandler}, \hyperpage{59}
+    \subitem {initializeWindowHandler}, \hyperpage{59}
   \item {appliedSettings}
-    \subitem {SettingsWindow}, \hyperpage{39}
+    \subitem {Signal Functions}, \hyperpage{31}
   \item {applySettings}
-    \subitem {WindowHandler}, \hyperpage{50}
+    \subitem {UI Functions}, \hyperpage{47}
   \item {assignInputs}
-    \subitem {DevWindow}, \hyperpage{18}
+    \subitem {UI Functions}, \hyperpage{41}
 
   \indexspace
 
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp}, 
-		\hyperpage{55}
+		\hyperpage{83, 84}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp}, 
-		\hyperpage{56, 57}
+		\hyperpage{85}, \hyperpage{87}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp}, 
-		\hyperpage{58}
+		\hyperpage{88, 89}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp}, 
-		\hyperpage{59, 60}
+		\hyperpage{90}, \hyperpage{92}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp}, 
-		\hyperpage{61}
+		\hyperpage{93, 94}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp}, 
-		\hyperpage{62, 63}
+		\hyperpage{95}, \hyperpage{97}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp}, 
-		\hyperpage{64}
+		\hyperpage{97}, \hyperpage{99}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp}, 
-		\hyperpage{65, 66}
+		\hyperpage{100}, \hyperpage{102}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp}, 
-		\hyperpage{67}
+		\hyperpage{103, 104}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp}, 
-		\hyperpage{70, 71}
+		\hyperpage{107}, \hyperpage{109}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp}, 
-		\hyperpage{72}
+		\hyperpage{110}, \hyperpage{112}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp}, 
-		\hyperpage{73, 74}
+		\hyperpage{112}, \hyperpage{115}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp}, 
-		\hyperpage{75}
+		\hyperpage{115}, \hyperpage{117}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp}, 
-		\hyperpage{76, 77}
+		\hyperpage{118}, \hyperpage{120}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp}, 
-		\hyperpage{78}
+		\hyperpage{121, 122}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp}, 
-		\hyperpage{79}
+		\hyperpage{122, 123}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp}, 
-		\hyperpage{79, 80}
+		\hyperpage{123}, \hyperpage{125}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp}, 
-		\hyperpage{81, 82}
+		\hyperpage{125}, \hyperpage{127}
+  \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/CONTRIBUTING.md}, 
+		\hyperpage{128}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/README.md}, 
-		\hyperpage{82}
+		\hyperpage{128}
   \item {C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp}, 
-		\hyperpage{82, 83}
+		\hyperpage{128}, \hyperpage{130}
   \item {changeLanguages}
-    \subitem {WindowHandler}, \hyperpage{51}
+    \subitem {UI Functions}, \hyperpage{41}
   \item {checkCheckbox}
-    \subitem {DevWindow}, \hyperpage{18}
+    \subitem {UI Functions}, \hyperpage{42}
   \item {clearCommand}
-    \subitem {DevWindow}, \hyperpage{28}
+    \subitem {Variables}, \hyperpage{51}
   \item {clearCommandBox}
-    \subitem {DevWindow}, \hyperpage{18}
+    \subitem {UI Functions}, \hyperpage{43}
   \item {clearInput}
-    \subitem {DevWindow}, \hyperpage{28}
+    \subitem {AposFrontend::DevWindow}, \hyperpage{74}
   \item {clearInputs}
-    \subitem {DevWindow}, \hyperpage{19}
+    \subitem {UI Functions}, \hyperpage{44}
   \item {closeDatabase}
-    \subitem {DatabaseHandler}, \hyperpage{13}
-    \subitem {DevWindow}, \hyperpage{19}
+    \subitem {Database Functions}, \hyperpage{22}
+  \item {Constructors and Desctructors}, \hyperpage{15}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DevWindow}, 
+		\hyperpage{20}
+    \subitem {\texorpdfstring{$\sim$}{\string~}LauncherWindow}, 
+		\hyperpage{20}
+    \subitem {\texorpdfstring{$\sim$}{\string~}SettingsWindow}, 
+		\hyperpage{20}
+    \subitem {\texorpdfstring{$\sim$}{\string~}TableHandler}, 
+		\hyperpage{21}
+    \subitem {DatabaseHandler}, \hyperpage{16}
+    \subitem {DevWindow}, \hyperpage{16}
+    \subitem {LauncherWindow}, \hyperpage{16}
+    \subitem {ObjectHandler}, \hyperpage{18}
+    \subitem {SettingsWindow}, \hyperpage{18}
+    \subitem {StartupHandler}, \hyperpage{18}
+    \subitem {TableHandler}, \hyperpage{19}
+    \subitem {TranslatableWindow}, \hyperpage{19}
+    \subitem {WindowHandler}, \hyperpage{19}
+  \item {Contributing to Apos -\/ Database Manager}, \hyperpage{1}
 
   \indexspace
 
-  \item {DatabaseHandler}, \hyperpage{13}
-    \subitem {ptrActiveDatabase}, \hyperpage{15}
-    \subitem {closeDatabase}, \hyperpage{13}
-    \subitem {DatabaseHandler}, \hyperpage{13}
-    \subitem {databasePath}, \hyperpage{15}
-    \subitem {executeCommand}, \hyperpage{14}
-    \subitem {getActiveDatabase}, \hyperpage{14}
-    \subitem {getSqlError}, \hyperpage{14}
-    \subitem {initDatabase}, \hyperpage{15}
-    \subitem {lastSqlError}, \hyperpage{15}
-    \subitem {setDatabasePath}, \hyperpage{15}
-    \subitem {setLastSqlError}, \hyperpage{15}
+  \item {Database Functions}, \hyperpage{21}
+    \subitem {closeDatabase}, \hyperpage{22}
+    \subitem {executeCommand}, \hyperpage{23}
+    \subitem {generateTableModel}, \hyperpage{23}
+    \subitem {initDatabase}, \hyperpage{24}
+    \subitem {insertIntoTable}, \hyperpage{24}
+    \subitem {setModelViews}, \hyperpage{25}
+  \item {DatabaseHandler}
+    \subitem {Constructors and Desctructors}, \hyperpage{16}
   \item {databasePath}
-    \subitem {DatabaseHandler}, \hyperpage{15}
-  \item {dbHandler}
-    \subitem {ObjectHandler}, \hyperpage{37}
-  \item {DevWindow}, \hyperpage{16}
-    \subitem {\texorpdfstring{$\sim$}{\string~}DevWindow}, 
-		\hyperpage{17}
-    \subitem {assignInputs}, \hyperpage{18}
-    \subitem {checkCheckbox}, \hyperpage{18}
-    \subitem {clearCommand}, \hyperpage{28}
-    \subitem {clearCommandBox}, \hyperpage{18}
-    \subitem {clearInput}, \hyperpage{28}
-    \subitem {clearInputs}, \hyperpage{19}
-    \subitem {closeDatabase}, \hyperpage{19}
-    \subitem {DevWindow}, \hyperpage{17}
-    \subitem {enableButtons}, \hyperpage{20}
-    \subitem {initDatabase}, \hyperpage{21}
-    \subitem {input1}, \hyperpage{28}
-    \subitem {input2}, \hyperpage{28}
-    \subitem {input3}, \hyperpage{28}
-    \subitem {input4}, \hyperpage{28}
-    \subitem {input5}, \hyperpage{29}
-    \subitem {logEvent}, \hyperpage{21, 22}
-    \subitem {objectHandler}, \hyperpage{29}
-    \subitem {on\_btnAdd\_clicked}, \hyperpage{22}
-    \subitem {on\_btnCloseDB\_clicked}, \hyperpage{23}
-    \subitem {on\_btnExecute\_clicked}, \hyperpage{23}
-    \subitem {on\_btnInitDB\_clicked}, \hyperpage{24}
-    \subitem {on\_btnSelectTable\_clicked}, \hyperpage{24}
-    \subitem {on\_btnUpdate\_clicked}, \hyperpage{25}
-    \subitem {on\_clearCommandAfterExecute\_stateChanged}, 
-		\hyperpage{25}
-    \subitem {on\_clearInputsAfterInsert\_stateChanged}, \hyperpage{26}
-    \subitem {on\_inReturnToLauncher\_clicked}, \hyperpage{26}
-    \subitem {on\_inSettings\_clicked}, \hyperpage{26}
-    \subitem {openSettings}, \hyperpage{27}
-    \subitem {retranslateUi}, \hyperpage{27}
-    \subitem {returnToLauncher}, \hyperpage{27}
-    \subitem {setModelViews}, \hyperpage{27, 28}
-    \subitem {ui}, \hyperpage{29}
-  \item {devWindow}
-    \subitem {WindowHandler}, \hyperpage{53}
+    \subitem {Variables}, \hyperpage{51}
+  \item {DevWindow}
+    \subitem {Constructors and Desctructors}, \hyperpage{16}
 
   \indexspace
 
   \item {enableButtons}
-    \subitem {DevWindow}, \hyperpage{20}
+    \subitem {UI Functions}, \hyperpage{45}
   \item {executeCommand}
-    \subitem {DatabaseHandler}, \hyperpage{14}
+    \subitem {Database Functions}, \hyperpage{23}
 
   \indexspace
 
   \item {generateTableModel}
-    \subitem {TableHandler}, \hyperpage{45}
+    \subitem {Database Functions}, \hyperpage{23}
   \item {getActiveDatabase}
-    \subitem {DatabaseHandler}, \hyperpage{14}
-    \subitem {ObjectHandler}, \hyperpage{33}
+    \subitem {AposBackend::ObjectHandler}, \hyperpage{62}
+    \subitem {AposDatabase::DatabaseHandler}, \hyperpage{67}
   \item {getActiveTableName}
-    \subitem {ObjectHandler}, \hyperpage{34}
-    \subitem {TableHandler}, \hyperpage{46}
-  \item {getDbHandler}
-    \subitem {ObjectHandler}, \hyperpage{34}
+    \subitem {AposBackend::ObjectHandler}, \hyperpage{62}
+    \subitem {AposDatabase::TableHandler}, \hyperpage{69}
   \item {getLastTableError}
-    \subitem {TableHandler}, \hyperpage{46}
+    \subitem {AposDatabase::TableHandler}, \hyperpage{69}
+  \item {getPtrApplication}
+    \subitem {AposBackend::ObjectHandler}, \hyperpage{63}
+  \item {getPtrDbHandler}
+    \subitem {AposBackend::ObjectHandler}, \hyperpage{63}
+  \item {getPtrTableHandler}
+    \subitem {AposBackend::ObjectHandler}, \hyperpage{63}
   \item {getSqlError}
-    \subitem {DatabaseHandler}, \hyperpage{14}
-  \item {getTableHandler}
-    \subitem {ObjectHandler}, \hyperpage{35}
+    \subitem {AposDatabase::DatabaseHandler}, \hyperpage{67}
   \item {getTableModel}
-    \subitem {TableHandler}, \hyperpage{46}
-  \item {getTableSQLError}
-    \subitem {TableHandler}, \hyperpage{47}
+    \subitem {AposDatabase::TableHandler}, \hyperpage{69}
   \item {getTableSqlError}
-    \subitem {ObjectHandler}, \hyperpage{35}
-  \item {getTblActiveDatabase}
-    \subitem {TableHandler}, \hyperpage{47}
+    \subitem {AposBackend::ObjectHandler}, \hyperpage{63}
 
   \indexspace
 
   \item {initDatabase}
-    \subitem {DatabaseHandler}, \hyperpage{15}
-    \subitem {DevWindow}, \hyperpage{21}
+    \subitem {Database Functions}, \hyperpage{24}
+    \subitem {Initialization}, \hyperpage{27}
   \item {initDatabaseObject}
-    \subitem {ObjectHandler}, \hyperpage{36}
+    \subitem {Initialization}, \hyperpage{27}
+  \item {Initialization}, \hyperpage{26}
+    \subitem {initDatabase}, \hyperpage{27}
+    \subitem {initDatabaseObject}, \hyperpage{27}
+    \subitem {initObjectHandler}, \hyperpage{27}
+    \subitem {initTableObject}, \hyperpage{27}
+    \subitem {initTranslator}, \hyperpage{28}
+    \subitem {installTranslator}, \hyperpage{28, 29}
+    \subitem {startUp}, \hyperpage{29}
+  \item {initializeObjectHandler}
+    \subitem {AppInitialization}, \hyperpage{58}
+  \item {initializeStartupHandler}
+    \subitem {AppInitialization}, \hyperpage{59}
+  \item {initializeWindowHandler}
+    \subitem {AppInitialization}, \hyperpage{59}
   \item {initObjectHandler}
-    \subitem {StartupHandler}, \hyperpage{43}
+    \subitem {Initialization}, \hyperpage{27}
   \item {initTableObject}
-    \subitem {ObjectHandler}, \hyperpage{36, 37}
+    \subitem {Initialization}, \hyperpage{27}
   \item {initTranslator}
-    \subitem {StartupHandler}, \hyperpage{43}
+    \subitem {Initialization}, \hyperpage{28}
   \item {input1}
-    \subitem {DevWindow}, \hyperpage{28}
+    \subitem {Variables}, \hyperpage{51}
   \item {input2}
-    \subitem {DevWindow}, \hyperpage{28}
+    \subitem {AposFrontend::DevWindow}, \hyperpage{74}
   \item {input3}
-    \subitem {DevWindow}, \hyperpage{28}
+    \subitem {AposFrontend::DevWindow}, \hyperpage{74}
   \item {input4}
-    \subitem {DevWindow}, \hyperpage{28}
+    \subitem {AposFrontend::DevWindow}, \hyperpage{74}
   \item {input5}
-    \subitem {DevWindow}, \hyperpage{29}
+    \subitem {AposFrontend::DevWindow}, \hyperpage{74}
   \item {insertIntoTable}
-    \subitem {TableHandler}, \hyperpage{47}
+    \subitem {Database Functions}, \hyperpage{24}
   \item {installTranslator}
-    \subitem {SettingsWindow}, \hyperpage{40}
+    \subitem {Initialization}, \hyperpage{28, 29}
 
   \indexspace
 
-  \item {language}
-    \subitem {SettingsWindow}, \hyperpage{41}
   \item {languageChanged}
-    \subitem {SettingsWindow}, \hyperpage{41}
+    \subitem {Variables}, \hyperpage{51}
   \item {languageIndex}
-    \subitem {SettingsWindow}, \hyperpage{41}
+    \subitem {Variables}, \hyperpage{51}
   \item {lastSqlError}
-    \subitem {DatabaseHandler}, \hyperpage{15}
+    \subitem {Variables}, \hyperpage{52}
   \item {lastTableError}
-    \subitem {TableHandler}, \hyperpage{48}
-  \item {LauncherWindow}, \hyperpage{29}
-    \subitem {\texorpdfstring{$\sim$}{\string~}LauncherWindow}, 
-		\hyperpage{30}
-    \subitem {LauncherWindow}, \hyperpage{30}
-    \subitem {objectHandler}, \hyperpage{32}
-    \subitem {on\_inShowDev\_clicked}, \hyperpage{31}
-    \subitem {on\_pushButton\_clicked}, \hyperpage{31}
-    \subitem {openDevWindow}, \hyperpage{31}
-    \subitem {openSettings}, \hyperpage{31}
-    \subitem {retranslateUi}, \hyperpage{32}
-    \subitem {ui}, \hyperpage{32}
-  \item {launcherWindow}
-    \subitem {WindowHandler}, \hyperpage{53}
+    \subitem {Variables}, \hyperpage{52}
+  \item {LauncherWindow}
+    \subitem {Constructors and Desctructors}, \hyperpage{16}
+  \item {Log Functions}, \hyperpage{30}
+    \subitem {logEvent}, \hyperpage{30}
   \item {logEvent}
-    \subitem {DevWindow}, \hyperpage{21, 22}
+    \subitem {AposFrontend::DevWindow}, \hyperpage{73}
+    \subitem {Log Functions}, \hyperpage{30}
 
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{83}
+    \subitem {main.cpp}, \hyperpage{130}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{83}
+    \subitem {main}, \hyperpage{130}
 
   \indexspace
 
-  \item {ObjectHandler}, \hyperpage{32}
-    \subitem {application}, \hyperpage{37}
-    \subitem {dbHandler}, \hyperpage{37}
-    \subitem {getActiveDatabase}, \hyperpage{33}
-    \subitem {getActiveTableName}, \hyperpage{34}
-    \subitem {getDbHandler}, \hyperpage{34}
-    \subitem {getTableHandler}, \hyperpage{35}
-    \subitem {getTableSqlError}, \hyperpage{35}
-    \subitem {initDatabaseObject}, \hyperpage{36}
-    \subitem {initTableObject}, \hyperpage{36, 37}
-    \subitem {ObjectHandler}, \hyperpage{33}
-    \subitem {setActiveTableName}, \hyperpage{37}
-    \subitem {tableHandler}, \hyperpage{38}
+  \item {ObjectHandler}
+    \subitem {Constructors and Desctructors}, \hyperpage{18}
   \item {objectHandler}
-    \subitem {DevWindow}, \hyperpage{29}
-    \subitem {LauncherWindow}, \hyperpage{32}
-    \subitem {SettingsWindow}, \hyperpage{41}
-    \subitem {StartupHandler}, \hyperpage{44}
-    \subitem {WindowHandler}, \hyperpage{53}
+    \subitem {Variables}, \hyperpage{52}
   \item {on\_btnAdd\_clicked}
-    \subitem {DevWindow}, \hyperpage{22}
+    \subitem {Slot Functions}, \hyperpage{34}
   \item {on\_btnCloseDB\_clicked}
-    \subitem {DevWindow}, \hyperpage{23}
+    \subitem {Slot Functions}, \hyperpage{34}
   \item {on\_btnExecute\_clicked}
-    \subitem {DevWindow}, \hyperpage{23}
+    \subitem {Slot Functions}, \hyperpage{34}
   \item {on\_btnInitDB\_clicked}
-    \subitem {DevWindow}, \hyperpage{24}
+    \subitem {Slot Functions}, \hyperpage{35}
   \item {on\_btnSelectTable\_clicked}
-    \subitem {DevWindow}, \hyperpage{24}
+    \subitem {Slot Functions}, \hyperpage{35}
   \item {on\_btnUpdate\_clicked}
-    \subitem {DevWindow}, \hyperpage{25}
+    \subitem {Slot Functions}, \hyperpage{36}
   \item {on\_clearCommandAfterExecute\_stateChanged}
-    \subitem {DevWindow}, \hyperpage{25}
+    \subitem {Slot Functions}, \hyperpage{36}
   \item {on\_clearInputsAfterInsert\_stateChanged}
-    \subitem {DevWindow}, \hyperpage{26}
+    \subitem {Slot Functions}, \hyperpage{37}
   \item {on\_inApply\_clicked}
-    \subitem {SettingsWindow}, \hyperpage{40}
+    \subitem {Slot Functions}, \hyperpage{37}
   \item {on\_inClose\_clicked}
-    \subitem {SettingsWindow}, \hyperpage{40}
+    \subitem {Slot Functions}, \hyperpage{38}
   \item {on\_inLanguage\_currentIndexChanged}
-    \subitem {SettingsWindow}, \hyperpage{40}
+    \subitem {Slot Functions}, \hyperpage{38}
   \item {on\_inReturnToLauncher\_clicked}
-    \subitem {DevWindow}, \hyperpage{26}
+    \subitem {Slot Functions}, \hyperpage{38}
   \item {on\_inSettings\_clicked}
-    \subitem {DevWindow}, \hyperpage{26}
+    \subitem {Slot Functions}, \hyperpage{39}
   \item {on\_inShowDev\_clicked}
-    \subitem {LauncherWindow}, \hyperpage{31}
+    \subitem {Slot Functions}, \hyperpage{39}
   \item {on\_pushButton\_clicked}
-    \subitem {LauncherWindow}, \hyperpage{31}
+    \subitem {Slot Functions}, \hyperpage{39}
   \item {openDevWindow}
-    \subitem {LauncherWindow}, \hyperpage{31}
+    \subitem {Signal Functions}, \hyperpage{31}
   \item {openSettings}
-    \subitem {DevWindow}, \hyperpage{27}
-    \subitem {LauncherWindow}, \hyperpage{31}
+    \subitem {Signal Functions}, \hyperpage{32}
 
   \indexspace
 
+  \item {ptrActiveDatabase}
+    \subitem {Variables}, \hyperpage{52}
   \item {ptrApplication}
-    \subitem {StartupHandler}, \hyperpage{44}
+    \subitem {Variables}, \hyperpage{52, 53}
+  \item {ptrDbHandler}
+    \subitem {Variables}, \hyperpage{53}
+  \item {ptrDevWindow}
+    \subitem {Variables}, \hyperpage{53}
+  \item {ptrLauncherWindow}
+    \subitem {Variables}, \hyperpage{53}
+  \item {ptrObjectHandler}
+    \subitem {Variables}, \hyperpage{54}
+  \item {ptrSettingsWindow}
+    \subitem {Variables}, \hyperpage{54}
+  \item {ptrTableHandler}
+    \subitem {Variables}, \hyperpage{55}
+  \item {ptrTableModel}
+    \subitem {Variables}, \hyperpage{55}
+  \item {ptrTranslator}
+    \subitem {Variables}, \hyperpage{55}
 
   \indexspace
 
   \item {retranslateUi}
-    \subitem {DevWindow}, \hyperpage{27}
-    \subitem {LauncherWindow}, \hyperpage{32}
-    \subitem {SettingsWindow}, \hyperpage{41}
-    \subitem {TranslatableWindow}, \hyperpage{49}
+    \subitem {UI Functions}, \hyperpage{46}
   \item {returnToLauncher}
-    \subitem {DevWindow}, \hyperpage{27}
+    \subitem {Signal Functions}, \hyperpage{32}
 
   \indexspace
 
-  \item {setActiveDatabase}
-    \subitem {TableHandler}, \hyperpage{47}
   \item {setActiveTableName}
-    \subitem {ObjectHandler}, \hyperpage{37}
-    \subitem {TableHandler}, \hyperpage{47}
-  \item {setDatabasePath}
-    \subitem {DatabaseHandler}, \hyperpage{15}
-  \item {setLastSqlError}
-    \subitem {DatabaseHandler}, \hyperpage{15}
+    \subitem {AposBackend::ObjectHandler}, \hyperpage{64}
+    \subitem {AposDatabase::TableHandler}, \hyperpage{69}
   \item {setModelViews}
-    \subitem {DevWindow}, \hyperpage{27, 28}
-  \item {setTableName}
-    \subitem {TableHandler}, \hyperpage{47}
-  \item {SettingsWindow}, \hyperpage{38}
-    \subitem {\texorpdfstring{$\sim$}{\string~}SettingsWindow}, 
-		\hyperpage{39}
-    \subitem {appliedSettings}, \hyperpage{39}
-    \subitem {installTranslator}, \hyperpage{40}
-    \subitem {language}, \hyperpage{41}
-    \subitem {languageChanged}, \hyperpage{41}
-    \subitem {languageIndex}, \hyperpage{41}
-    \subitem {objectHandler}, \hyperpage{41}
-    \subitem {on\_inApply\_clicked}, \hyperpage{40}
-    \subitem {on\_inClose\_clicked}, \hyperpage{40}
-    \subitem {on\_inLanguage\_currentIndexChanged}, \hyperpage{40}
-    \subitem {retranslateUi}, \hyperpage{41}
-    \subitem {SettingsWindow}, \hyperpage{39}
-    \subitem {tempLanguageIndex}, \hyperpage{41}
-    \subitem {translator}, \hyperpage{41}
-    \subitem {ui}, \hyperpage{41}
-  \item {settingsWindow}
-    \subitem {WindowHandler}, \hyperpage{53}
+    \subitem {Database Functions}, \hyperpage{25}
+  \item {SettingsWindow}
+    \subitem {Constructors and Desctructors}, \hyperpage{18}
   \item {showDevWindow}
-    \subitem {WindowHandler}, \hyperpage{51}
+    \subitem {UI Functions}, \hyperpage{47}
   \item {showLaunchWindow}
-    \subitem {WindowHandler}, \hyperpage{52}
+    \subitem {UI Functions}, \hyperpage{46}
   \item {showSettingsWindow}
-    \subitem {WindowHandler}, \hyperpage{52}
+    \subitem {UI Functions}, \hyperpage{48}
+  \item {Signal Functions}, \hyperpage{31}
+    \subitem {appliedSettings}, \hyperpage{31}
+    \subitem {openDevWindow}, \hyperpage{31}
+    \subitem {openSettings}, \hyperpage{32}
+    \subitem {returnToLauncher}, \hyperpage{32}
+  \item {Slot Functions}, \hyperpage{33}
+    \subitem {on\_btnAdd\_clicked}, \hyperpage{34}
+    \subitem {on\_btnCloseDB\_clicked}, \hyperpage{34}
+    \subitem {on\_btnExecute\_clicked}, \hyperpage{34}
+    \subitem {on\_btnInitDB\_clicked}, \hyperpage{35}
+    \subitem {on\_btnSelectTable\_clicked}, \hyperpage{35}
+    \subitem {on\_btnUpdate\_clicked}, \hyperpage{36}
+    \subitem {on\_clearCommandAfterExecute\_stateChanged}, 
+		\hyperpage{36}
+    \subitem {on\_clearInputsAfterInsert\_stateChanged}, \hyperpage{37}
+    \subitem {on\_inApply\_clicked}, \hyperpage{37}
+    \subitem {on\_inClose\_clicked}, \hyperpage{38}
+    \subitem {on\_inLanguage\_currentIndexChanged}, \hyperpage{38}
+    \subitem {on\_inReturnToLauncher\_clicked}, \hyperpage{38}
+    \subitem {on\_inSettings\_clicked}, \hyperpage{39}
+    \subitem {on\_inShowDev\_clicked}, \hyperpage{39}
+    \subitem {on\_pushButton\_clicked}, \hyperpage{39}
   \item {startUp}
-    \subitem {StartupHandler}, \hyperpage{43}
-  \item {StartupHandler}, \hyperpage{41}
-    \subitem {\texorpdfstring{$\sim$}{\string~}StartupHandler}, 
-		\hyperpage{42}
-    \subitem {initObjectHandler}, \hyperpage{43}
-    \subitem {initTranslator}, \hyperpage{43}
-    \subitem {objectHandler}, \hyperpage{44}
-    \subitem {ptrApplication}, \hyperpage{44}
-    \subitem {startUp}, \hyperpage{43}
-    \subitem {StartupHandler}, \hyperpage{42}
+    \subitem {Initialization}, \hyperpage{29}
+  \item {StartupHandler}
+    \subitem {Constructors and Desctructors}, \hyperpage{18}
 
   \indexspace
 
-  \item {TableHandler}, \hyperpage{44}
-    \subitem {activeTableName}, \hyperpage{48}
-    \subitem {generateTableModel}, \hyperpage{45}
-    \subitem {getActiveTableName}, \hyperpage{46}
-    \subitem {getLastTableError}, \hyperpage{46}
-    \subitem {getTableModel}, \hyperpage{46}
-    \subitem {getTableSQLError}, \hyperpage{47}
-    \subitem {getTblActiveDatabase}, \hyperpage{47}
-    \subitem {insertIntoTable}, \hyperpage{47}
-    \subitem {lastTableError}, \hyperpage{48}
-    \subitem {setActiveDatabase}, \hyperpage{47}
-    \subitem {setActiveTableName}, \hyperpage{47}
-    \subitem {setTableName}, \hyperpage{47}
-    \subitem {TableHandler}, \hyperpage{45}
-    \subitem {tableModel}, \hyperpage{48}
-    \subitem {tblActiveDatabase}, \hyperpage{48}
-  \item {tableHandler}
-    \subitem {ObjectHandler}, \hyperpage{38}
-  \item {tableModel}
-    \subitem {TableHandler}, \hyperpage{48}
-  \item {tblActiveDatabase}
-    \subitem {TableHandler}, \hyperpage{48}
+  \item {TableHandler}
+    \subitem {Constructors and Desctructors}, \hyperpage{19}
   \item {tempLanguageIndex}
-    \subitem {SettingsWindow}, \hyperpage{41}
-  \item {TranslatableWindow}, \hyperpage{48}
-    \subitem {retranslateUi}, \hyperpage{49}
-    \subitem {TranslatableWindow}, \hyperpage{48}
-  \item {translator}
-    \subitem {SettingsWindow}, \hyperpage{41}
+    \subitem {Variables}, \hyperpage{55}
+  \item {TranslatableWindow}
+    \subitem {Constructors and Desctructors}, \hyperpage{19}
 
   \indexspace
 
-  \item {Ui}, \hyperpage{11}
+  \item {Ui}, \hyperpage{60}
   \item {ui}
-    \subitem {DevWindow}, \hyperpage{29}
-    \subitem {LauncherWindow}, \hyperpage{32}
-    \subitem {SettingsWindow}, \hyperpage{41}
+    \subitem {Variables}, \hyperpage{55, 56}
+  \item {UI Functions}, \hyperpage{40}
+    \subitem {applySettings}, \hyperpage{47}
+    \subitem {assignInputs}, \hyperpage{41}
+    \subitem {changeLanguages}, \hyperpage{41}
+    \subitem {checkCheckbox}, \hyperpage{42}
+    \subitem {clearCommandBox}, \hyperpage{43}
+    \subitem {clearInputs}, \hyperpage{44}
+    \subitem {enableButtons}, \hyperpage{45}
+    \subitem {retranslateUi}, \hyperpage{46}
+    \subitem {showDevWindow}, \hyperpage{47}
+    \subitem {showLaunchWindow}, \hyperpage{46}
+    \subitem {showSettingsWindow}, \hyperpage{48}
+  \item {Utility Functions}, \hyperpage{49}
 
   \indexspace
 
-  \item {WindowHandler}, \hyperpage{49}
-    \subitem {applySettings}, \hyperpage{50}
-    \subitem {changeLanguages}, \hyperpage{51}
-    \subitem {devWindow}, \hyperpage{53}
-    \subitem {launcherWindow}, \hyperpage{53}
-    \subitem {objectHandler}, \hyperpage{53}
-    \subitem {settingsWindow}, \hyperpage{53}
-    \subitem {showDevWindow}, \hyperpage{51}
-    \subitem {showLaunchWindow}, \hyperpage{52}
-    \subitem {showSettingsWindow}, \hyperpage{52}
-    \subitem {WindowHandler}, \hyperpage{50}
+  \item {Variables}, \hyperpage{49}
+    \subitem {activeDatabase}, \hyperpage{50}
+    \subitem {activeTableName}, \hyperpage{50}
+    \subitem {clearCommand}, \hyperpage{51}
+    \subitem {databasePath}, \hyperpage{51}
+    \subitem {input1}, \hyperpage{51}
+    \subitem {languageChanged}, \hyperpage{51}
+    \subitem {languageIndex}, \hyperpage{51}
+    \subitem {lastSqlError}, \hyperpage{52}
+    \subitem {lastTableError}, \hyperpage{52}
+    \subitem {objectHandler}, \hyperpage{52}
+    \subitem {ptrActiveDatabase}, \hyperpage{52}
+    \subitem {ptrApplication}, \hyperpage{52, 53}
+    \subitem {ptrDbHandler}, \hyperpage{53}
+    \subitem {ptrDevWindow}, \hyperpage{53}
+    \subitem {ptrLauncherWindow}, \hyperpage{53}
+    \subitem {ptrObjectHandler}, \hyperpage{54}
+    \subitem {ptrSettingsWindow}, \hyperpage{54}
+    \subitem {ptrTableHandler}, \hyperpage{55}
+    \subitem {ptrTableModel}, \hyperpage{55}
+    \subitem {ptrTranslator}, \hyperpage{55}
+    \subitem {tempLanguageIndex}, \hyperpage{55}
+    \subitem {ui}, \hyperpage{55, 56}
+
+  \indexspace
+
+  \item {WindowHandler}
+    \subitem {Constructors and Desctructors}, \hyperpage{19}
 
 \end{theindex}

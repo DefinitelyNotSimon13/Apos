@@ -1,0 +1,55 @@
+var group___database__functions =
+[
+    [ "AposBackend::ObjectHandler", "d1/dbf/class_apos_backend_1_1_object_handler.html", [
+      [ "ObjectHandler", "d3/dbc/group___constructructors-_destructors.html#ga323a5ed5f8ed6cd37cdb838e132f025a", null ],
+      [ "getActiveDatabase", "d1/dbf/class_apos_backend_1_1_object_handler.html#aeb2f428369d3d319a4e498165d74bc63", null ],
+      [ "getActiveTableName", "d1/dbf/class_apos_backend_1_1_object_handler.html#a5b582ed58502f050c33a932d148e7c1e", null ],
+      [ "getPtrApplication", "d1/dbf/class_apos_backend_1_1_object_handler.html#a4f5b36cb39c17b71be234b7059c5cda8", null ],
+      [ "getPtrDbHandler", "d1/dbf/class_apos_backend_1_1_object_handler.html#a257fa500e50c436bb1c5f760fd721a17", null ],
+      [ "getPtrTableHandler", "d1/dbf/class_apos_backend_1_1_object_handler.html#a702f40cfa2c7466285aa9500c289bc2b", null ],
+      [ "getTableSqlError", "d1/dbf/class_apos_backend_1_1_object_handler.html#a1627dffe3fb1bff87cd8a6a8449644a7", null ],
+      [ "initDatabaseObject", "de/dc6/group___initialization.html#gac0379aadaeeeb327649a6f252da0c4e1", null ],
+      [ "initTableObject", "de/dc6/group___initialization.html#gacd26b741696339620d5d6f3d5e65e688", null ],
+      [ "setActiveTableName", "d1/dbf/class_apos_backend_1_1_object_handler.html#a01f8ae714d71caf1b6627ec3a237a547", null ],
+      [ "ptrApplication", "d0/dc5/group___variables.html#gaaf8c1776cb05952a63caad3e0d731af3", null ],
+      [ "ptrDbHandler", "d0/dc5/group___variables.html#ga445f6970d80bf4f3f401a644a752a3d0", null ],
+      [ "ptrTableHandler", "d0/dc5/group___variables.html#ga14fd424be7ad4195dcf9349466f177a2", null ]
+    ] ],
+    [ "AposDatabase::DatabaseHandler", "da/d9d/class_apos_database_1_1_database_handler.html", [
+      [ "DatabaseHandler", "d3/dbc/group___constructructors-_destructors.html#ga2c2f19cbac04915dab0f941bd4913788", null ],
+      [ "closeDatabase", "dd/d44/group___database-_functions.html#ga18f1859b7f6f67bc1b31d6970c6a9c69", null ],
+      [ "executeCommand", "dd/d44/group___database-_functions.html#gabc612f16278129a412215e341da33b74", null ],
+      [ "getActiveDatabase", "da/d9d/class_apos_database_1_1_database_handler.html#afaa3fc73971ecc726c1d1fccc3beddbb", null ],
+      [ "getSqlError", "da/d9d/class_apos_database_1_1_database_handler.html#abeede12f88dde38f42478e31fb568542", null ],
+      [ "initDatabase", "de/dc6/group___initialization.html#ga70eaf98f99b4ece646f3eb7a8240ae6a", null ],
+      [ "activeDatabase", "d0/dc5/group___variables.html#gaedca50d9f4e94cf13d28417eb0442425", null ],
+      [ "databasePath", "d0/dc5/group___variables.html#gaa0f8d18a9026c72ee3096269a6129dc2", null ],
+      [ "lastSqlError", "d0/dc5/group___variables.html#gae753dc7d317a63799ecd4ac824966be5", null ],
+      [ "ptrActiveDatabase", "d0/dc5/group___variables.html#gad4d8e4aef7054ae450238c752343c944", null ]
+    ] ],
+    [ "AposDatabase::TableHandler", "d3/d34/class_apos_database_1_1_table_handler.html", [
+      [ "TableHandler", "d3/dbc/group___constructructors-_destructors.html#gadb9b122495372417ec1f26a371491b24", null ],
+      [ "TableHandler", "d3/dbc/group___constructructors-_destructors.html#ga04e3c28e0f43ec8dc927eb9384a1494f", null ],
+      [ "~TableHandler", "d3/dbc/group___constructructors-_destructors.html#ga178cb55f38456d466ecc143d53138752", null ],
+      [ "generateTableModel", "dd/d44/group___database-_functions.html#ga74eea8f8068e895b538a5bd18c3cef4a", null ],
+      [ "generateTableModel", "dd/d44/group___database-_functions.html#ga2849d78435a250d304af1c4b69d35fa9", null ],
+      [ "getActiveTableName", "d3/d34/class_apos_database_1_1_table_handler.html#a6a46f85fb6c05071cbf1d6de1bd7c073", null ],
+      [ "getLastTableError", "d3/d34/class_apos_database_1_1_table_handler.html#af5411c2efa6e4bd3d45fdf7b816913d3", null ],
+      [ "getTableModel", "d3/d34/class_apos_database_1_1_table_handler.html#a3d104f5dc358a9243765f1fa604c01ea", null ],
+      [ "insertIntoTable", "dd/d44/group___database-_functions.html#ga2e1858b4578e4c66948b387cc9e34130", null ],
+      [ "setActiveTableName", "d3/d34/class_apos_database_1_1_table_handler.html#a266ca84a2e644708a557453b1d4abdd1", null ],
+      [ "activeTableName", "d0/dc5/group___variables.html#gab4abb0eefd7095ec5e62f080882c8a2e", null ],
+      [ "lastTableError", "d0/dc5/group___variables.html#gaa4b41ba7e2c9bcf18cee8c01a909595c", null ],
+      [ "ptrDbHandler", "d0/dc5/group___variables.html#ga1853572ec9214fee7adf41f133411ece", null ],
+      [ "ptrTableModel", "d0/dc5/group___variables.html#gab981cd2ae2530e6c1355fb9039076a49", null ]
+    ] ],
+    [ "AposDatabase::DatabaseHandler::closeDatabase", "dd/d44/group___database-_functions.html#ga18f1859b7f6f67bc1b31d6970c6a9c69", null ],
+    [ "AposFrontend::DevWindow::closeDatabase", "dd/d44/group___database-_functions.html#gaab8300a6ed941015a4c5e1d1c68335e3", null ],
+    [ "AposDatabase::DatabaseHandler::executeCommand", "dd/d44/group___database-_functions.html#gabc612f16278129a412215e341da33b74", null ],
+    [ "AposDatabase::TableHandler::generateTableModel", "dd/d44/group___database-_functions.html#ga74eea8f8068e895b538a5bd18c3cef4a", null ],
+    [ "AposDatabase::TableHandler::generateTableModel", "dd/d44/group___database-_functions.html#ga2849d78435a250d304af1c4b69d35fa9", null ],
+    [ "AposFrontend::DevWindow::initDatabase", "dd/d44/group___database-_functions.html#gaf776a9f414cca86d16ff2c25566459e0", null ],
+    [ "AposDatabase::TableHandler::insertIntoTable", "dd/d44/group___database-_functions.html#ga2e1858b4578e4c66948b387cc9e34130", null ],
+    [ "AposFrontend::DevWindow::setModelViews", "dd/d44/group___database-_functions.html#ga9f30984f5b6e7ee6061ea5107c79eb33", null ],
+    [ "AposFrontend::DevWindow::setModelViews", "dd/d44/group___database-_functions.html#gaad56289d47dd7035b355ff9ef67df42e", null ]
+];

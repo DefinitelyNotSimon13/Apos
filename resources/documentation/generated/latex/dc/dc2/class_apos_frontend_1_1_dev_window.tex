@@ -1,0 +1,234 @@
+\doxysection{Apos\+Frontend\+::Dev\+Window Class Reference}
+\hypertarget{class_apos_frontend_1_1_dev_window}{}\label{class_apos_frontend_1_1_dev_window}\index{AposFrontend::DevWindow@{AposFrontend::DevWindow}}
+
+
+Provides the user interface for the developer window.  
+
+
+
+
+{\ttfamily \#include $<$devwindow.\+hpp$>$}
+
+
+
+Inheritance diagram for Apos\+Frontend\+::Dev\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{df/dd7/class_apos_frontend_1_1_dev_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Apos\+Frontend\+::Dev\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{d6/dde/class_apos_frontend_1_1_dev_window__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___signal-_funtions_gaa16d604f0aa073808b1466132a301c5b}{return\+To\+Launcher}} ()
+\begin{DoxyCompactList}\small\item\em Signal for returning to the launcher. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___signal-_funtions_gab1ca9c597770ec6d63a8245b94fb10a9}{open\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Signal for opening the settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_gafa7c4dab5fd2d00d38e0b3f3929978e7}{Dev\+Window}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr, QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ object\+Handler=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___constructructors-_destructors_gaa5f19dc1b5a4fafb47cfe7056880f90c}{\texorpdfstring{$\sim$}{\string~}\+Dev\+Window}} () override
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f1519e9}{log\+Event}} (const QString \&type, const QString \&message)
+\begin{DoxyCompactList}\small\item\em Logs an event with a type and a message. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___log-_functions_ga19a369b56da640962dbedbb594115dc0}{log\+Event}} (const QString \&message, const QSql\+Error \&error)
+\begin{DoxyCompactList}\small\item\em Logs an event with a message and a SQL error. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___log-_functions_ga098bda87f626d80b69c06783b05bffe6}{log\+Event}} (const QString \&message)
+\begin{DoxyCompactList}\small\item\em Logs an event with a message. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_ga70639f7fa970485a852e34b136ae2520}{retranslate\+Ui}} () override
+\begin{DoxyCompactList}\small\item\em Retranslates the user interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_apos_frontend_1_1_translatable_window}{Apos\+Frontend\+::\+Translatable\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga47ca01f45ced3c93739e8216f39f1aa2}{Translatable\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___slot-_functions_ga94f1bcb3a0d4ff36c4651a7d22bbc4ff}{on\+\_\+btn\+Init\+DB\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Init\+DB\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga5dd5707ecd06a83a2f7d3c9f631583a1}{on\+\_\+btn\+Close\+DB\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Close\+DB\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga6ed3311709733e1ea20c7a35f2fad9b7}{on\+\_\+btn\+Execute\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Execute\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga4951eac56d47f5a30f113cbb58a1acdf}{on\+\_\+btn\+Select\+Table\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Select\+Table\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga392e04e22c5ae7be73b639bef06ced8a}{on\+\_\+btn\+Add\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Add\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_gac0dcf66680758b82204e93424b06ebff}{on\+\_\+btn\+Update\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Update\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga1b6d40414f86d0ccf375658eab05a297}{on\+\_\+clear\+Command\+After\+Execute\+\_\+state\+Changed}} (int arg1)
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}clear\+Command\+After\+Execute\textquotesingle{} state change event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_gac620d6fab40e2c7d07f43b8c78c94505}{on\+\_\+clear\+Inputs\+After\+Insert\+\_\+state\+Changed}} (int arg1)
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}clear\+Inputs\+After\+Insert\textquotesingle{} state change event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga7fc3608239d98ef3cd0be1cfc0128b02}{on\+\_\+in\+Return\+To\+Launcher\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Return\+To\+Launcher\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga42bcd7a5ac4909f201e9f1268ec2b64c}{on\+\_\+in\+Settings\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Settings\textquotesingle{} button click event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0}{init\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3}{close\+Database}} (const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}} $>$ \&db)
+\begin{DoxyCompactList}\small\item\em Closes the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33}{set\+Model\+Views}} ()
+\begin{DoxyCompactList}\small\item\em Sets the model views. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_gaad56289d47dd7035b355ff9ef67df42e}{set\+Model\+Views}} (const QShared\+Pointer$<$ QSql\+Table\+Model $>$ \&table\+Model)
+\begin{DoxyCompactList}\small\item\em Sets the model views with a table model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c}{enable\+Buttons}} (bool database\+Loaded)
+\begin{DoxyCompactList}\small\item\em Enables or disables the buttons. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_gaa5f72842768883e8c2e29a8a54c74fe4}{assign\+Inputs}} ()
+\begin{DoxyCompactList}\small\item\em Assigns the inputs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06}{clear\+Inputs}} (bool clear\+Bool)
+\begin{DoxyCompactList}\small\item\em Clears the inputs. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6}{check\+Checkbox}} (int arg\+Cb)
+\begin{DoxyCompactList}\small\item\em Checks a checkbox. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f}{clear\+Command\+Box}} (bool clear\+Bool)
+\begin{DoxyCompactList}\small\item\em Clears the command box. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Dev\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___variables_ga8eee819839ac265ce0b6ec24ed8c3df3}{ui}}
+\begin{DoxyCompactList}\small\item\em Pointer to the user interface of the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga0f64f5dcf44b2a060559ca76b9f92172}{ptr\+Object\+Handler}} = nullptr
+\begin{DoxyCompactList}\small\item\em Shared pointer to the Object\+Handler object. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{group___variables_ga01c08d05a53c0722cd28355b878f8214}{input1}}
+\begin{DoxyCompactList}\small\item\em String values for the inputs. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{class_apos_frontend_1_1_dev_window_a0123d7db292a07c556cc07ccc5c591e5}{input2}}
+\item 
+QString \mbox{\hyperlink{class_apos_frontend_1_1_dev_window_a830be8f1ea7f0829befe7cd27a48631d}{input3}}
+\item 
+QString \mbox{\hyperlink{class_apos_frontend_1_1_dev_window_a8910725d9df04cd5dd3b3cb96c012b77}{input4}}
+\item 
+QString \mbox{\hyperlink{class_apos_frontend_1_1_dev_window_a89f2c72e00971704bf070f8a4d9619cf}{input5}}
+\item 
+bool \mbox{\hyperlink{group___variables_ga2bdf40e1d33f0ec685f67e63848a3c2a}{clear\+Command}} = false
+\begin{DoxyCompactList}\small\item\em Boolean values for clearing the command and the inputs. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_apos_frontend_1_1_dev_window_a7879f833460606f1eda6a40b9fd1b80b}{clear\+Input}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides the user interface for the developer window. 
+
+The \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} class provides the functionality for logging events, retranslating the user interface, initializing and closing the database, setting model views, enabling buttons, assigning inputs, checking checkboxes, and clearing inputs and the command box.
+
+\begin{DoxySeeAlso}{See also}
+QMain\+Window 
+
+\doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} 
+
+\doxylink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler} 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00049}{49}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f1519e9}\label{class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f1519e9} 
+\index{AposFrontend::DevWindow@{AposFrontend::DevWindow}!logEvent@{logEvent}}
+\index{logEvent@{logEvent}!AposFrontend::DevWindow@{AposFrontend::DevWindow}}
+\doxysubsubsection{\texorpdfstring{logEvent()}{logEvent()}}
+{\footnotesize\ttfamily void Apos\+Frontend\+::\+Dev\+Window\+::log\+Event (\begin{DoxyParamCaption}\item[{const QString \&}]{type,  }\item[{const QString \&}]{message }\end{DoxyParamCaption})}
+
+
+
+Logs an event with a type and a message. 
+
+This function logs an event with a specified type and message.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & The type of the event. \\
+\hline
+{\em message} & The message of the event. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00033}{33}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/dc2/class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f1519e9_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_apos_frontend_1_1_dev_window_a7879f833460606f1eda6a40b9fd1b80b}\label{class_apos_frontend_1_1_dev_window_a7879f833460606f1eda6a40b9fd1b80b} 
+\index{AposFrontend::DevWindow@{AposFrontend::DevWindow}!clearInput@{clearInput}}
+\index{clearInput@{clearInput}!AposFrontend::DevWindow@{AposFrontend::DevWindow}}
+\doxysubsubsection{\texorpdfstring{clearInput}{clearInput}}
+{\footnotesize\ttfamily bool Apos\+Frontend\+::\+Dev\+Window\+::clear\+Input = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00355}{355}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_apos_frontend_1_1_dev_window_a0123d7db292a07c556cc07ccc5c591e5}\label{class_apos_frontend_1_1_dev_window_a0123d7db292a07c556cc07ccc5c591e5} 
+\index{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input2@{input2}}
+\index{input2@{input2}!AposFrontend::DevWindow@{AposFrontend::DevWindow}}
+\doxysubsubsection{\texorpdfstring{input2}{input2}}
+{\footnotesize\ttfamily QString Apos\+Frontend\+::\+Dev\+Window\+::input2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00346}{346}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_apos_frontend_1_1_dev_window_a830be8f1ea7f0829befe7cd27a48631d}\label{class_apos_frontend_1_1_dev_window_a830be8f1ea7f0829befe7cd27a48631d} 
+\index{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input3@{input3}}
+\index{input3@{input3}!AposFrontend::DevWindow@{AposFrontend::DevWindow}}
+\doxysubsubsection{\texorpdfstring{input3}{input3}}
+{\footnotesize\ttfamily QString Apos\+Frontend\+::\+Dev\+Window\+::input3\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00346}{346}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_apos_frontend_1_1_dev_window_a8910725d9df04cd5dd3b3cb96c012b77}\label{class_apos_frontend_1_1_dev_window_a8910725d9df04cd5dd3b3cb96c012b77} 
+\index{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input4@{input4}}
+\index{input4@{input4}!AposFrontend::DevWindow@{AposFrontend::DevWindow}}
+\doxysubsubsection{\texorpdfstring{input4}{input4}}
+{\footnotesize\ttfamily QString Apos\+Frontend\+::\+Dev\+Window\+::input4\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00346}{346}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+\Hypertarget{class_apos_frontend_1_1_dev_window_a89f2c72e00971704bf070f8a4d9619cf}\label{class_apos_frontend_1_1_dev_window_a89f2c72e00971704bf070f8a4d9619cf} 
+\index{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input5@{input5}}
+\index{input5@{input5}!AposFrontend::DevWindow@{AposFrontend::DevWindow}}
+\doxysubsubsection{\texorpdfstring{input5}{input5}}
+{\footnotesize\ttfamily QString Apos\+Frontend\+::\+Dev\+Window\+::input5\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{devwindow_8hpp_source_l00346}{346}} of file \mbox{\hyperlink{devwindow_8hpp_source}{devwindow.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{devwindow_8hpp}{devwindow.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{devwindow_8cpp}{devwindow.\+cpp}}\end{DoxyCompactItemize}

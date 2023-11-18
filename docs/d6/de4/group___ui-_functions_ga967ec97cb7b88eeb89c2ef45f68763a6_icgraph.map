@@ -1,0 +1,7 @@
+<map id="AposFrontend::DevWindow::checkCheckbox" name="AposFrontend::DevWindow::checkCheckbox">
+<area shape="rect" id="Node000001" title="Checks a checkbox." alt="" coords="266,55,443,97"/>
+<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#ga1b6d40414f86d0ccf375658eab05a297" title="Slot for the &#39;clearCommandAfterExecute&#39; state change event." alt="" coords="5,5,218,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,61,218,55,219,50,251,56"/>
+<area shape="rect" id="Node000003" href="$d8/d33/group___slot-_functions.html#gac620d6fab40e2c7d07f43b8c78c94505" title="Slot for the &#39;clearInputsAfterInsert&#39; state change event." alt="" coords="23,88,200,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,96,201,105,200,100,250,91"/>
+</map>

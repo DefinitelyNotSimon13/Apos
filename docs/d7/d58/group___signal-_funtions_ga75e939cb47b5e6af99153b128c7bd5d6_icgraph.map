@@ -1,0 +1,7 @@
+<map id="AposFrontend::LauncherWindow::openSettings" name="AposFrontend::LauncherWindow::openSettings">
+<area shape="rect" id="Node000001" title="Signal for opening the settings." alt="" coords="263,39,472,81"/>
+<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#ga7a52cc1168adc3df616915e4ec59e112" title="Slot for the &#39;PushButton&#39; button click event." alt="" coords="5,5,215,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,47,215,43,215,38,247,42"/>
+<area shape="rect" id="Node000003" href="$d3/dbc/group___constructructors-_destructors.html#ga8230aa2c25b5bb8db86c34b4b50bcd56" title="Constructor for the WindowHandler class." alt="" coords="10,72,210,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,78,211,83,210,78,247,73"/>
+</map>

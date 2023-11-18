@@ -1,0 +1,102 @@
+\doxysection{Apos\+Database\+::Database\+Handler Class Reference}
+\hypertarget{class_apos_database_1_1_database_handler}{}\label{class_apos_database_1_1_database_handler}\index{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}}
+
+
+Provides the functionality for initializing and closing the database, executing SQL commands, and getting the active database and SQL error.  
+
+
+
+
+{\ttfamily \#include $<$databasehandler.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga2c2f19cbac04915dab0f941bd4913788}{Database\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} class. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___initialization_ga70eaf98f99b4ece646f3eb7a8240ae6a}{init\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_ga18f1859b7f6f67bc1b31d6970c6a9c69}{close\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Closes the database. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___database-_functions_gabc612f16278129a412215e341da33b74}{execute\+Command}} (const QString \&command)
+\begin{DoxyCompactList}\small\item\em Executes a SQL command. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ QSql\+Database $>$ \mbox{\hyperlink{class_apos_database_1_1_database_handler_afaa3fc73971ecc726c1d1fccc3beddbb}{get\+Active\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Gets the active database. \end{DoxyCompactList}\item 
+const QSql\+Error \& \mbox{\hyperlink{class_apos_database_1_1_database_handler_abeede12f88dde38f42478e31fb568542}{get\+Sql\+Error}} () const
+\begin{DoxyCompactList}\small\item\em Gets the SQL error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QSql\+Error \mbox{\hyperlink{group___variables_gae753dc7d317a63799ecd4ac824966be5}{last\+Sql\+Error}}
+\begin{DoxyCompactList}\small\item\em The SQL error of the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} object. \end{DoxyCompactList}\item 
+QSql\+Database \mbox{\hyperlink{group___variables_gaedca50d9f4e94cf13d28417eb0442425}{active\+Database}}
+\begin{DoxyCompactList}\small\item\em The active database of the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ QSql\+Database $>$ \mbox{\hyperlink{group___variables_gad4d8e4aef7054ae450238c752343c944}{ptr\+Active\+Database}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the active database. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{group___variables_gaa0f8d18a9026c72ee3096269a6129dc2}{database\+Path}} = R"{}(C\+:\textbackslash{}\+Users\textbackslash{}\+Clean\textbackslash{}\+Documents\textbackslash{}\+Projekte\textbackslash{}\+Apos-\/Database\+Manager\textbackslash{}\+Project\textbackslash{}resources\textbackslash{}default\+Database\textbackslash{}user\+Database.\+db)"{}
+\begin{DoxyCompactList}\small\item\em The path to the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides the functionality for initializing and closing the database, executing SQL commands, and getting the active database and SQL error. 
+
+The \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} class is a part of the application\textquotesingle{}s backend logic.
+
+\begin{DoxySeeAlso}{See also}
+Qt\+Sql 
+
+QSql\+Database 
+
+QSql\+Error 
+
+QShared\+Pointer 
+
+QDebug 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{databasehandler_8hpp_source_l00040}{40}} of file \mbox{\hyperlink{databasehandler_8hpp_source}{databasehandler.\+hpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_apos_database_1_1_database_handler_afaa3fc73971ecc726c1d1fccc3beddbb}\label{class_apos_database_1_1_database_handler_afaa3fc73971ecc726c1d1fccc3beddbb} 
+\index{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}!getActiveDatabase@{getActiveDatabase}}
+\index{getActiveDatabase@{getActiveDatabase}!AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}}
+\doxysubsubsection{\texorpdfstring{getActiveDatabase()}{getActiveDatabase()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ QSql\+Database $>$ Apos\+Database\+::\+Database\+Handler\+::get\+Active\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the active database. 
+
+This function gets the active database of the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} object. \begin{DoxyReturn}{Returns}
+Shared pointer to the active QSql\+Database object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{databasehandler_8cpp_source_l00052}{52}} of file \mbox{\hyperlink{databasehandler_8cpp_source}{databasehandler.\+cpp}}.
+
+\Hypertarget{class_apos_database_1_1_database_handler_abeede12f88dde38f42478e31fb568542}\label{class_apos_database_1_1_database_handler_abeede12f88dde38f42478e31fb568542} 
+\index{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}!getSqlError@{getSqlError}}
+\index{getSqlError@{getSqlError}!AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}}
+\doxysubsubsection{\texorpdfstring{getSqlError()}{getSqlError()}}
+{\footnotesize\ttfamily const QSql\+Error \& Apos\+Database\+::\+Database\+Handler\+::get\+Sql\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the SQL error. 
+
+This function gets the SQL error of the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} object. \begin{DoxyReturn}{Returns}
+The SQL error. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{databasehandler_8cpp_source_l00056}{56}} of file \mbox{\hyperlink{databasehandler_8cpp_source}{databasehandler.\+cpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/database\+Classes/\mbox{\hyperlink{databasehandler_8hpp}{databasehandler.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/database\+Classes/\mbox{\hyperlink{databasehandler_8cpp}{databasehandler.\+cpp}}\end{DoxyCompactItemize}

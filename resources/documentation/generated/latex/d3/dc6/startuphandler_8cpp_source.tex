@@ -2,46 +2,60 @@
 \hypertarget{startuphandler_8cpp_source}{}\label{startuphandler_8cpp_source}\index{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp}}
 \mbox{\hyperlink{startuphandler_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{startuphandler_8hpp}{startuphandler.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00002}00002\ }
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00003}\mbox{\hyperlink{class_startup_handler_a56e34a52657f2fb11f88e5dcda680e58}{00003}}\ \mbox{\hyperlink{class_startup_handler_a56e34a52657f2fb11f88e5dcda680e58}{StartupHandler::StartupHandler}}(QApplication\ *application)}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00004}00004\ \{}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00005}00005\ \ \ \ \ this-\/>\mbox{\hyperlink{class_startup_handler_afec4dc6f8ed173ade84cdfc36491c690}{ptrApplication}}\ =\ application;}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00006}00006\ \}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00007}00007\ }
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00008}\mbox{\hyperlink{class_startup_handler_a58cf31ef13e44af607a1c755a946b828}{00008}}\ \mbox{\hyperlink{class_startup_handler_a58cf31ef13e44af607a1c755a946b828}{StartupHandler::\string~StartupHandler}}()}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00009}00009\ \{}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00010}00010\ \ \ \ \ qDebug()\ <<\ \textcolor{stringliteral}{"{}StartupHandler\ deleted!"{}};}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00011}00011\ \}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00012}00012\ }
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00013}\mbox{\hyperlink{class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b}{00013}}\ \mbox{\hyperlink{class_object_handler}{ObjectHandler}}*\ \mbox{\hyperlink{class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b}{StartupHandler::startUp}}()}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00014}00014\ \{}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00015}00015\ }
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00016}00016\ \ \ \ \ \mbox{\hyperlink{class_startup_handler_a45aefa30358b6ca46e4c36cd012ba6be}{initObjectHandler}}();}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00017}00017\ \ \ \ \ \mbox{\hyperlink{class_startup_handler_a57a55def03eb37544d8373663d08c053}{initTranslator}}();}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00018}00018\ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_startup_handler_aa2abd2e66693b1fe352dbd7e46aba235}{objectHandler}};}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00019}00019\ }
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00020}00020\ \}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00021}00021\ }
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00022}\mbox{\hyperlink{class_startup_handler_a57a55def03eb37544d8373663d08c053}{00022}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_startup_handler_a57a55def03eb37544d8373663d08c053}{StartupHandler::initTranslator}}()}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00023}00023\ \{}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00024}00024\ \ \ \ \ QTranslator\ translator;}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00025}00025\ \ \ \ \ \textcolor{keyword}{const}\ QStringList\ uiLanguages\ =\ QLocale::system().uiLanguages();}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00026}00026\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ QString\ \&locale\ :\ uiLanguages)\ \{}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00027}00027\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ QString\ baseName\ =\ \textcolor{stringliteral}{"{}Apos-\/DatabaseManager\_"{}}\ +\ QLocale(locale).name();}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00028}00028\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (translator.load(\textcolor{stringliteral}{"{}:/i18n/"{}}\ +\ baseName))\ \{}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_startup_handler_afec4dc6f8ed173ade84cdfc36491c690}{ptrApplication}}-\/>installTranslator(\&translator);}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00031}00031\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00032}00032\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00033}00033\ \}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00034}00034\ }
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00035}\mbox{\hyperlink{class_startup_handler_a45aefa30358b6ca46e4c36cd012ba6be}{00035}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_startup_handler_a45aefa30358b6ca46e4c36cd012ba6be}{StartupHandler::initObjectHandler}}()}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00036}00036\ \{}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00037}00037\ \ \ \ \ \mbox{\hyperlink{class_database_handler}{DatabaseHandler}}\ *dbHandler\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_database_handler}{DatabaseHandler}}();}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00038}00038\ \ \ \ \ \mbox{\hyperlink{class_table_handler}{TableHandler}}\ *tableHandler\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_table_handler}{TableHandler}}();}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00039}00039\ \ \ \ \ \mbox{\hyperlink{class_startup_handler_aa2abd2e66693b1fe352dbd7e46aba235}{objectHandler}}\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_object_handler}{ObjectHandler}}(\mbox{\hyperlink{class_startup_handler_afec4dc6f8ed173ade84cdfc36491c690}{ptrApplication}},\ dbHandler,\ tableHandler);}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00040}00040\ \}}
-\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00022}00022\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{startuphandler_8hpp}{startuphandler.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00024}00024\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_apos_backend}{AposBackend}}\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00025}00025\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00026}\mbox{\hyperlink{group___constructructors-_destructors_gad6a08030d5d271b33b44783f373e5e37}{00026}}\ \ \ \ \ \mbox{\hyperlink{group___constructructors-_destructors_gad6a08030d5d271b33b44783f373e5e37}{StartupHandler::StartupHandler}}(\textcolor{keyword}{const}\ QSharedPointer<QApplication>\ \&application)\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00027}00027\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (application\ ==\ \textcolor{keyword}{nullptr})\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}QApplication\ pointer\ is\ null"{}});}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00029}00029\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00030}00030\ \ \ \ \ \ \ \ \ this-\/>\mbox{\hyperlink{group___variables_gaed685320f54b10ffaa0f59ca2bc41642}{ptrApplication}}\ =\ application;}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00031}00031\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00032}00032\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00033}\mbox{\hyperlink{group___initialization_ga822be2ed5fb04376341c8b09702e8d61}{00033}}\ \ \ \ \ QSharedPointer<ObjectHandler>\ \mbox{\hyperlink{group___initialization_ga822be2ed5fb04376341c8b09702e8d61}{StartupHandler::startUp}}()\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00034}00034\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___initialization_gac6e06b1a893afdf477c3efa74c2f072c}{installTranslator}}();}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_ga923855497b02e9f94fa6ca621d0541a5}{ptrObjectHandler}}\ =\ \mbox{\hyperlink{group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8}{initObjectHandler}}();}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00037}00037\ \ \ \ \ \ \ \ \ \}\ \textcolor{keywordflow}{catch}\ (\textcolor{keyword}{const}\ std::exception\ \&e)\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ qDebug()\ <<\ \textcolor{stringliteral}{"{}Exception\ caught\ in\ StartupHandler::startUp:\ "{}}\ <<\ e.what();}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00039}00039\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_ga923855497b02e9f94fa6ca621d0541a5}{ptrObjectHandler}}\ =\ \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00040}00040\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00041}00041\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{group___variables_ga923855497b02e9f94fa6ca621d0541a5}{ptrObjectHandler}};}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00042}00042\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00043}00043\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00044}\mbox{\hyperlink{group___initialization_gac6e06b1a893afdf477c3efa74c2f072c}{00044}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___initialization_gac6e06b1a893afdf477c3efa74c2f072c}{StartupHandler::installTranslator}}()\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00045}00045\ \ \ \ \ \ \ \ \ QSharedPointer<QTranslator>\ translator\ =\ \mbox{\hyperlink{group___initialization_gab6fdaf5f748968ddfe136d8e6562c664}{initTranslator}}();}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00046}00046\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{group___variables_gaed685320f54b10ffaa0f59ca2bc41642}{ptrApplication}}-\/>installTranslator(translator.data()))\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ qDebug()\ <<\ \textcolor{stringliteral}{"{}Translator\ installed"{}};}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00048}00048\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00049}00049\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00050}00050\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00051}\mbox{\hyperlink{group___initialization_gab6fdaf5f748968ddfe136d8e6562c664}{00051}}\ \ \ \ \ QSharedPointer<QTranslator>\ \mbox{\hyperlink{group___initialization_gab6fdaf5f748968ddfe136d8e6562c664}{StartupHandler::initTranslator}}()\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00052}00052\ \ \ \ \ \ \ \ \ QSharedPointer<QTranslator>\ translator(\textcolor{keyword}{new}\ QTranslator());}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00053}00053\ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ QStringList\ uiLanguages\ =\ QLocale::system().uiLanguages();}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00054}00054\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ QString\ \&locale:\ uiLanguages)\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ QString\ baseName\ =\ \textcolor{stringliteral}{"{}Apos-\/DatabaseManager\_"{}}\ +\ QLocale(locale).name();}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (translator-\/>load(\textcolor{stringliteral}{"{}:/i18n/"{}}\ +\ baseName))\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00059}00059\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00060}00060\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (translator-\/>isEmpty())\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Failed\ to\ load\ translator"{}});}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00062}00062\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00063}00063\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ translator;}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00064}00064\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00065}00065\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00066}\mbox{\hyperlink{group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8}{00066}}\ \ \ \ \ QSharedPointer<ObjectHandler>\ \mbox{\hyperlink{group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8}{StartupHandler::initObjectHandler}}()\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00067}00067\ \ \ \ \ \ \ \ \ QSharedPointer<AposDatabase::DatabaseHandler>\ dbHandler(\textcolor{keyword}{new}\ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{AposDatabase::DatabaseHandler}}());}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00068}00068\ \ \ \ \ \ \ \ \ QSharedPointer<AposDatabase::TableHandler>\ tableHandler(\textcolor{keyword}{new}\ \mbox{\hyperlink{class_apos_database_1_1_table_handler}{AposDatabase::TableHandler}}(dbHandler));}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00069}00069\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (dbHandler\ ==\ \textcolor{keyword}{nullptr}\ ||\ tableHandler\ ==\ \textcolor{keyword}{nullptr})\ \{}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Failed\ to\ initialize\ DatabaseHandler\ or\ TableHandler"{}});}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00071}00071\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00072}00072\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ QSharedPointer<ObjectHandler>(\textcolor{keyword}{new}\ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{ObjectHandler}}(\mbox{\hyperlink{group___variables_gaed685320f54b10ffaa0f59ca2bc41642}{ptrApplication}},\ dbHandler,\ tableHandler));}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00073}00073\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{startuphandler_8cpp_source_l00075}00075\ \}}
 
 \end{DoxyCode}

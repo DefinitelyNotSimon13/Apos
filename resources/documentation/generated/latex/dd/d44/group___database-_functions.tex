@@ -1,0 +1,256 @@
+\doxysection{Database Functions}
+\hypertarget{group___database-_functions}{}\label{group___database-_functions}\index{Database Functions@{Database Functions}}
+
+
+Group of database functions in the application.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} class is a part of the application\textquotesingle{}s backend logic. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}}
+\begin{DoxyCompactList}\small\item\em Provides the functionality for initializing and closing the database, executing SQL commands, and getting the active database and SQL error. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler}}
+\begin{DoxyCompactList}\small\item\em Provides the functionality for generating a table model, inserting into a table, and getting the active table name, table model, and last table error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___database-_functions_ga18f1859b7f6f67bc1b31d6970c6a9c69}{Apos\+Database\+::\+Database\+Handler\+::close\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Closes the database. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___database-_functions_gabc612f16278129a412215e341da33b74}{Apos\+Database\+::\+Database\+Handler\+::execute\+Command}} (const QString \&command)
+\begin{DoxyCompactList}\small\item\em Executes a SQL command. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_ga74eea8f8068e895b538a5bd18c3cef4a}{Apos\+Database\+::\+Table\+Handler\+::generate\+Table\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Generates a table model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_ga2849d78435a250d304af1c4b69d35fa9}{Apos\+Database\+::\+Table\+Handler\+::generate\+Table\+Model}} (const QString \&table\+Name)
+\begin{DoxyCompactList}\small\item\em Generates a table model with a specified table name. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___database-_functions_ga2e1858b4578e4c66948b387cc9e34130}{Apos\+Database\+::\+Table\+Handler\+::insert\+Into\+Table}} (const QString \&table\+Name, const QString \&value1, const QString \&value2, const QString \&value3, const QString \&value4, const QString \&value5)
+\begin{DoxyCompactList}\small\item\em Inserts into a table. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0}{Apos\+Frontend\+::\+Dev\+Window\+::init\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3}{Apos\+Frontend\+::\+Dev\+Window\+::close\+Database}} (const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}} $>$ \&db)
+\begin{DoxyCompactList}\small\item\em Closes the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33}{Apos\+Frontend\+::\+Dev\+Window\+::set\+Model\+Views}} ()
+\begin{DoxyCompactList}\small\item\em Sets the model views. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_gaad56289d47dd7035b355ff9ef67df42e}{Apos\+Frontend\+::\+Dev\+Window\+::set\+Model\+Views}} (const QShared\+Pointer$<$ QSql\+Table\+Model $>$ \&table\+Model)
+\begin{DoxyCompactList}\small\item\em Sets the model views with a table model. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Group of database functions in the application. 
+
+This group contains all the functions that interact with the database. These functions are responsible for creating, reading, updating, and deleting data in the database. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group___database-_functions_ga18f1859b7f6f67bc1b31d6970c6a9c69}\label{group___database-_functions_ga18f1859b7f6f67bc1b31d6970c6a9c69} 
+\index{Database Functions@{Database Functions}!closeDatabase@{closeDatabase}}
+\index{closeDatabase@{closeDatabase}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{closeDatabase()}{closeDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Apos\+Database\+::\+Database\+Handler\+::close\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Closes the database. 
+
+This function closes the database of the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} object. 
+
+Definition at line \mbox{\hyperlink{databasehandler_8cpp_source_l00034}{34}} of file \mbox{\hyperlink{databasehandler_8cpp_source}{databasehandler.\+cpp}}.
+
+\Hypertarget{group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3}\label{group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3} 
+\index{Database Functions@{Database Functions}!closeDatabase@{closeDatabase}}
+\index{closeDatabase@{closeDatabase}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{closeDatabase()}{closeDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Apos\+Frontend\+::\+Dev\+Window\+::close\+Database (\begin{DoxyParamCaption}\item[{const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}} $>$ \&}]{db }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Closes the database. 
+
+This function closes the database of the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em db} & Shared pointer to the Database\+Handler object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00093}{93}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___database-_functions_gabc612f16278129a412215e341da33b74}\label{group___database-_functions_gabc612f16278129a412215e341da33b74} 
+\index{Database Functions@{Database Functions}!executeCommand@{executeCommand}}
+\index{executeCommand@{executeCommand}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{executeCommand()}{executeCommand()}}
+{\footnotesize\ttfamily bool Apos\+Database\+::\+Database\+Handler\+::execute\+Command (\begin{DoxyParamCaption}\item[{const QString \&}]{command }\end{DoxyParamCaption})}
+
+
+
+Executes a SQL command. 
+
+This function executes a specified SQL command. 
+\begin{DoxyParams}{Parameters}
+{\em command} & The SQL command to execute. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value indicating whether the command was executed successfully. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{databasehandler_8cpp_source_l00039}{39}} of file \mbox{\hyperlink{databasehandler_8cpp_source}{databasehandler.\+cpp}}.
+
+\Hypertarget{group___database-_functions_ga74eea8f8068e895b538a5bd18c3cef4a}\label{group___database-_functions_ga74eea8f8068e895b538a5bd18c3cef4a} 
+\index{Database Functions@{Database Functions}!generateTableModel@{generateTableModel}}
+\index{generateTableModel@{generateTableModel}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{generateTableModel()}{generateTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Apos\+Database\+::\+Table\+Handler\+::generate\+Table\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Generates a table model. 
+
+This function generates a table model for the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object. 
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00049}{49}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{group___database-_functions_ga2849d78435a250d304af1c4b69d35fa9}\label{group___database-_functions_ga2849d78435a250d304af1c4b69d35fa9} 
+\index{Database Functions@{Database Functions}!generateTableModel@{generateTableModel}}
+\index{generateTableModel@{generateTableModel}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{generateTableModel()}{generateTableModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Apos\+Database\+::\+Table\+Handler\+::generate\+Table\+Model (\begin{DoxyParamCaption}\item[{const QString \&}]{table\+Name }\end{DoxyParamCaption})}
+
+
+
+Generates a table model with a specified table name. 
+
+This function generates a table model for the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object with a specified table name. 
+\begin{DoxyParams}{Parameters}
+{\em table\+Name} & The name of the table. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00057}{57}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0}\label{group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0} 
+\index{Database Functions@{Database Functions}!initDatabase@{initDatabase}}
+\index{initDatabase@{initDatabase}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{initDatabase()}{initDatabase()}}
+{\footnotesize\ttfamily void Apos\+Frontend\+::\+Dev\+Window\+::init\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Initializes the database. 
+
+This function initializes the database of the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} object. 
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00079}{79}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___database-_functions_ga2e1858b4578e4c66948b387cc9e34130}\label{group___database-_functions_ga2e1858b4578e4c66948b387cc9e34130} 
+\index{Database Functions@{Database Functions}!insertIntoTable@{insertIntoTable}}
+\index{insertIntoTable@{insertIntoTable}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{insertIntoTable()}{insertIntoTable()}}
+{\footnotesize\ttfamily bool Apos\+Database\+::\+Table\+Handler\+::insert\+Into\+Table (\begin{DoxyParamCaption}\item[{const QString \&}]{table\+Name,  }\item[{const QString \&}]{value1,  }\item[{const QString \&}]{value2,  }\item[{const QString \&}]{value3,  }\item[{const QString \&}]{value4,  }\item[{const QString \&}]{value5 }\end{DoxyParamCaption})}
+
+
+
+Inserts into a table. 
+
+This function inserts into a table with specified values. 
+\begin{DoxyParams}{Parameters}
+{\em table\+Name} & The name of the table. \\
+\hline
+{\em value1} & The first value to insert. \\
+\hline
+{\em value2} & The second value to insert. \\
+\hline
+{\em value3} & The third value to insert. \\
+\hline
+{\em value4} & The fourth value to insert. \\
+\hline
+{\em value5} & The fifth value to insert. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value indicating whether the insertion was successful. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00067}{67}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33}\label{group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33} 
+\index{Database Functions@{Database Functions}!setModelViews@{setModelViews}}
+\index{setModelViews@{setModelViews}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{setModelViews()}{setModelViews()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Apos\+Frontend\+::\+Dev\+Window\+::set\+Model\+Views (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sets the model views. 
+
+This function sets the model views of the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} object. 
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00065}{65}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d44/group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___database-_functions_gaad56289d47dd7035b355ff9ef67df42e}\label{group___database-_functions_gaad56289d47dd7035b355ff9ef67df42e} 
+\index{Database Functions@{Database Functions}!setModelViews@{setModelViews}}
+\index{setModelViews@{setModelViews}!Database Functions@{Database Functions}}
+\doxysubsubsection{\texorpdfstring{setModelViews()}{setModelViews()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Apos\+Frontend\+::\+Dev\+Window\+::set\+Model\+Views (\begin{DoxyParamCaption}\item[{const QShared\+Pointer$<$ QSql\+Table\+Model $>$ \&}]{table\+Model }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Sets the model views with a table model. 
+
+This function sets the model views of the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} object with a specified table model.
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Model} & Shared pointer to the QSql\+Table\+Model object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{devwindow_8cpp_source_l00058}{58}} of file \mbox{\hyperlink{devwindow_8cpp_source}{devwindow.\+cpp}}.
+

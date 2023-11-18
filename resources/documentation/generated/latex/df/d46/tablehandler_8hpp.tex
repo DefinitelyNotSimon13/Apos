@@ -1,15 +1,23 @@
 \doxysection{C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/database\+Classes/tablehandler.hpp File Reference}
 \hypertarget{tablehandler_8hpp}{}\label{tablehandler_8hpp}\index{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp}}
+
+
+Header file for the Table\+Handler class.  
+
+
 {\ttfamily \#include $<$QDebug$>$}\newline
 {\ttfamily \#include $<$Qt\+Sql$>$}\newline
-Include dependency graph for tablehandler.\+hpp\+:\nopagebreak
+{\ttfamily \#include "{}databasehandler.\+hpp"{}}\newline
+Include dependency graph for tablehandler.\+hpp\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=245pt]{da/d28/tablehandler_8hpp__incl}
+\includegraphics[width=261pt]{da/d28/tablehandler_8hpp__incl}
 \end{center}
 \end{figure}
-This graph shows which files directly or indirectly include this file\+:\nopagebreak
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -19,5 +27,50 @@ This graph shows which files directly or indirectly include this file\+:\nopageb
 \doxysubsubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
-class \mbox{\hyperlink{class_table_handler}{Table\+Handler}}
+class \mbox{\hyperlink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler}}
+\begin{DoxyCompactList}\small\item\em Provides the functionality for generating a table model, inserting into a table, and getting the active table name, table model, and last table error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_apos_database}{Apos\+Database}}
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file for the Table\+Handler class. 
+
+\begin{DoxyAuthor}{Author}
+Simon Blum 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+13.\+11.\+2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1\+\_\+alpha.\+2 @license LGPL-\/\+V3 
+\end{DoxyVersion}
+This file contains the declaration of the Table\+Handler class, which is a part of the application\textquotesingle{}s backend logic. The Table\+Handler class provides the functionality for generating a table model, inserting into a table, and getting the active table name, table model, and last table error.
+
+\begin{DoxyNote}{Note}
+The application is part of a student project and is not intended for commercial use.
+\end{DoxyNote}
+\begin{DoxySeeAlso}{See also}
+Database\+Handler 
+
+QShared\+Pointer 
+
+QDebug 
+
+Qt\+Sql 
+
+QSql\+Table\+Model 
+
+QSql\+Error 
+
+QSql\+Query 
+
+QSql\+Database 
+\end{DoxySeeAlso}
+
+
+Definition in file \mbox{\hyperlink{tablehandler_8hpp_source}{tablehandler.\+hpp}}.
+

@@ -1,8 +1,0 @@
-<map id="ObjectHandler::getActiveDatabase" name="ObjectHandler::getActiveDatabase">
-<area shape="rect" id="Node000001" title=" " alt="" coords="431,35,595,77"/>
-<area shape="rect" id="Node000002" href="$df/d32/class_object_handler.html#a0db21cc39e1879a9e0c86b56973a4195" title=" " alt="" coords="224,5,383,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="415,45,383,40,384,35,416,40"/>
-<area shape="rect" id="Node000003" href="$d6/d5d/class_dev_window.html#a9bfb7fe4688b2a94807581db270502ff" title=" " alt="" coords="5,35,176,77"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="415,62,383,63,224,63,176,62,176,56,224,57,383,57,415,57"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="209,42,176,47,176,42,208,37"/>
-</map>

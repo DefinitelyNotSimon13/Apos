@@ -1,0 +1,8 @@
+<map id="AposFrontend::WindowHandler::showSettingsWindow" name="AposFrontend::WindowHandler::showSettingsWindow">
+<area shape="rect" id="Node000001" title="Shows the settings window." alt="" coords="502,35,702,77"/>
+<area shape="rect" id="Node000002" href="$d6/de4/group___ui-_functions.html#gad71663083f50868c2efb568336b50b56" title="Shows the developer window." alt="" coords="254,5,454,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,45,454,41,455,36,487,40"/>
+<area shape="rect" id="Node000003" href="$d3/dbc/group___constructructors-_destructors.html#ga8230aa2c25b5bb8db86c34b4b50bcd56" title="Constructor for the WindowHandler class." alt="" coords="5,35,206,77"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="487,62,454,63,254,63,206,62,206,56,254,57,454,57,487,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,43,206,47,206,42,238,38"/>
+</map>

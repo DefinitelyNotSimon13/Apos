@@ -1,9 +1,0 @@
-<map id="DevWindow::openSettings" name="DevWindow::openSettings">
-<area shape="rect" id="Node000001" title=" " alt="" coords="527,43,699,69"/>
-<area shape="rect" id="Node000002" href="$d6/d5d/class_dev_window.html#a45b94a9795772df0c4975bcd950703c8" title=" " alt="" coords="283,5,459,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="511,46,459,40,459,35,512,41"/>
-<area shape="rect" id="Node000003" href="$d5/d61/class_window_handler.html#a8fdd3abd4b8019264d3ec25ee873759d" title=" " alt="" coords="263,72,479,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="512,71,480,75,479,70,511,66"/>
-<area shape="rect" id="Node000004" href="$d5/d61/class_window_handler.html#adf32b0851c5df8d24cc2c74775e4b94d" title=" " alt="" coords="5,72,215,99"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="247,88,215,88,215,83,247,83"/>
-</map>

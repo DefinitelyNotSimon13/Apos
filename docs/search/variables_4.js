@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['language_0',['language',['../de/d9e/class_settings_window.html#af6d5602c753b59dba27e9a3d0537a251',1,'SettingsWindow']]],
-  ['languagechanged_1',['languageChanged',['../de/d9e/class_settings_window.html#afcf801444116a605d12774ee21f8172f',1,'SettingsWindow']]],
-  ['languageindex_2',['languageIndex',['../de/d9e/class_settings_window.html#adb743c79b147bde632fe16207dad7165',1,'SettingsWindow']]],
-  ['lastsqlerror_3',['lastSqlError',['../d5/da6/class_database_handler.html#ad00c7be31102d8679b68bdbdca725598',1,'DatabaseHandler']]],
-  ['lasttableerror_4',['lastTableError',['../dd/d68/class_table_handler.html#a66e9978d553498a4e930bccaf09e35cd',1,'TableHandler']]],
-  ['launcherwindow_5',['launcherWindow',['../d5/d61/class_window_handler.html#a90fe3fdebb31b6b3f3f7349d738655bf',1,'WindowHandler']]]
+  ['languagechanged_0',['languageChanged',['../d0/dc5/group___variables.html#gada2125c8d31880cbf7095ad30f150eec',1,'AposFrontend::SettingsWindow']]],
+  ['languageindex_1',['languageIndex',['../d0/dc5/group___variables.html#gac6822045d04241d0a05deab9d3a4e785',1,'AposFrontend::SettingsWindow']]],
+  ['lastsqlerror_2',['lastSqlError',['../d0/dc5/group___variables.html#gae753dc7d317a63799ecd4ac824966be5',1,'AposDatabase::DatabaseHandler']]],
+  ['lasttableerror_3',['lastTableError',['../d0/dc5/group___variables.html#gaa4b41ba7e2c9bcf18cee8c01a909595c',1,'AposDatabase::TableHandler']]]
 ];

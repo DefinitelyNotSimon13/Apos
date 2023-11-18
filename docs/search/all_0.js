@@ -1,11 +1,18 @@
 var searchData=
 [
-  ['acknowledgments_0',['Acknowledgments',['../d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#acknowledgments',1,'']]],
-  ['activedatabase_1',['activeDatabase',['../d5/da6/class_database_handler.html#afd48aa98827a3f5b19831e2c8e832843',1,'DatabaseHandler']]],
-  ['activetablename_2',['activeTableName',['../dd/d68/class_table_handler.html#a1ee3904c534098cfa8b6a90bdeb6b483',1,'TableHandler']]],
-  ['apos_20database_20manager_3',['Apos - Database Manager',['../d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html',1,'']]],
-  ['application_4',['application',['../df/d32/class_object_handler.html#aaa16b6737a9951de5759452d7ee69e50',1,'ObjectHandler']]],
-  ['appliedsettings_5',['appliedSettings',['../de/d9e/class_settings_window.html#ad60370672d08fd3f5318abfbc14ecd8f',1,'SettingsWindow']]],
-  ['applysettings_6',['applySettings',['../d5/d61/class_window_handler.html#a52436f8ef1145f13f153e49ab8a194ed',1,'WindowHandler']]],
-  ['assigninputs_7',['assignInputs',['../d6/d5d/class_dev_window.html#a7fcd442eb71c4bc791fb40a98bb0b322',1,'DevWindow']]]
+  ['a_20branch_0',['Fork &amp; create a branch',['../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#fork--create-a-branch',1,'']]],
+  ['a_20pr_20maintainers_20only_1',['Merging a PR (maintainers only)',['../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#merging-a-pr-maintainers-only',1,'']]],
+  ['a_20pull_20request_2',['Make a Pull Request',['../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#make-a-pull-request',1,'']]],
+  ['acknowledgments_3',['Acknowledgments',['../d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#acknowledgments',1,'']]],
+  ['activedatabase_4',['activeDatabase',['../d0/dc5/group___variables.html#gaedca50d9f4e94cf13d28417eb0442425',1,'AposDatabase::DatabaseHandler']]],
+  ['activetablename_5',['activeTableName',['../d0/dc5/group___variables.html#gab4abb0eefd7095ec5e62f080882c8a2e',1,'AposDatabase::TableHandler']]],
+  ['and_20desctructors_6',['Constructors and Desctructors',['../d3/dbc/group___constructructors-_destructors.html',1,'']]],
+  ['apos_20database_20manager_7',['apos database manager',['../d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html',1,'Apos - Database Manager'],['../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html',1,'Contributing to Apos - Database Manager']]],
+  ['aposbackend_8',['AposBackend',['../dd/d43/namespace_apos_backend.html',1,'']]],
+  ['aposdatabase_9',['AposDatabase',['../d7/dc4/namespace_apos_database.html',1,'']]],
+  ['aposfrontend_10',['AposFrontend',['../d7/d22/namespace_apos_frontend.html',1,'']]],
+  ['appinitialization_11',['AppInitialization',['../d6/de8/namespace_app_initialization.html',1,'']]],
+  ['appliedsettings_12',['appliedSettings',['../d7/d58/group___signal-_funtions.html#gaa502afe63303465922a81ff95f482b8e',1,'AposFrontend::SettingsWindow']]],
+  ['applysettings_13',['applySettings',['../d6/de4/group___ui-_functions.html#gab39e73556bb529119402e7e3cde6588e',1,'AposFrontend::WindowHandler']]],
+  ['assigninputs_14',['assignInputs',['../d6/de4/group___ui-_functions.html#gaa5f72842768883e8c2e29a8a54c74fe4',1,'AposFrontend::DevWindow']]]
 ];

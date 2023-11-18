@@ -1,18 +1,25 @@
 \doxysection{C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/backend\+Classes/objecthandler.hpp File Reference}
 \hypertarget{objecthandler_8hpp}{}\label{objecthandler_8hpp}\index{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp}}
+
+
+Header file for the Object\+Handler class.  
+
+
 {\ttfamily \#include $<$QApplication$>$}\newline
 {\ttfamily \#include $<$QDebug$>$}\newline
 {\ttfamily \#include $<$Qt\+Sql$>$}\newline
 {\ttfamily \#include "{}../database\+Classes/databasehandler.\+hpp"{}}\newline
 {\ttfamily \#include "{}../database\+Classes/tablehandler.\+hpp"{}}\newline
-Include dependency graph for objecthandler.\+hpp\+:\nopagebreak
+Include dependency graph for objecthandler.\+hpp\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{df/d23/objecthandler_8hpp__incl}
 \end{center}
 \end{figure}
-This graph shows which files directly or indirectly include this file\+:\nopagebreak
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -22,5 +29,46 @@ This graph shows which files directly or indirectly include this file\+:\nopageb
 \doxysubsubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
-class \mbox{\hyperlink{class_object_handler}{Object\+Handler}}
+class \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} class is a part of the application\textquotesingle{}s backend logic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_apos_backend}{Apos\+Backend}}
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Header file for the Object\+Handler class. 
+
+\begin{DoxyAuthor}{Author}
+Simon Blum 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+13.\+11.\+2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1\+\_\+alpha.\+2 @license LGPL-\/\+V3 
+\end{DoxyVersion}
+This file contains the declaration of the Object\+Handler class, which is a part of the application\textquotesingle{}s backend logic. The Object\+Handler class provides the functionality for initializing the database and table objects, setting the active table name, and getting the active database, table handler, database handler, active table name, and table SQL error.
+
+\begin{DoxyNote}{Note}
+The application is part of a student project and is not intended for commercial use.
+\end{DoxyNote}
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler} 
+
+\doxylink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler} 
+
+QApplication 
+
+QShared\+Pointer 
+
+QDebug 
+
+Qt\+Sql 
+\end{DoxySeeAlso}
+
+
+Definition in file \mbox{\hyperlink{objecthandler_8hpp_source}{objecthandler.\+hpp}}.
+

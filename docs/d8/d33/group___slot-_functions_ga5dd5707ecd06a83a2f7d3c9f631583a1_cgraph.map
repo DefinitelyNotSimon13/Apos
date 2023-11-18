@@ -1,0 +1,12 @@
+<map id="AposFrontend::DevWindow::on_btnCloseDB_clicked" name="AposFrontend::DevWindow::on_btnCloseDB_clicked">
+<area shape="rect" id="Node000001" title="Slot for the &#39;CloseDB&#39; button click event." alt="" coords="5,72,183,115"/>
+<area shape="rect" id="Node000002" href="$dd/d44/group___database-_functions.html#gaab8300a6ed941015a4c5e1d1c68335e3" title="Closes the database." alt="" coords="231,5,408,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,69,229,50,231,56,169,74"/>
+<area shape="rect" id="Node000004" href="$d6/de4/group___ui-_functions.html#gad74b5ca7c247820a938dbdf20f1e8f8c" title="Enables or disables the buttons." alt="" coords="231,72,408,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,91,215,91,215,96,183,96"/>
+<area shape="rect" id="Node000005" href="$dd/d44/group___database-_functions.html#ga9f30984f5b6e7ee6061ea5107c79eb33" title="Sets the model views." alt="" coords="231,139,408,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="169,113,231,131,229,136,167,118"/>
+<area shape="rect" id="Node000003" href="$dc/dc2/class_apos_frontend_1_1_dev_window.html#a6e2ecb7e3fd65aefc8ed62fc9f1519e9" title="Logs an event with a type and a message." alt="" coords="456,39,633,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,37,441,42,440,47,408,42"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="408,78,440,73,441,78,408,83"/>
+</map>

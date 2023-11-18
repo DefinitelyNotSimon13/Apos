@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['retranslateui_0',['retranslateui',['../d6/d5d/class_dev_window.html#a5102613ef871036ceda424c5358a998a',1,'DevWindow::retranslateUi()'],['../dd/d74/class_launcher_window.html#a41858b0fcfb5c7bd01ada9d9542f4606',1,'LauncherWindow::retranslateUi()'],['../de/d9e/class_settings_window.html#a2f1b242201e414e160e4430168a4169d',1,'SettingsWindow::retranslateUi()'],['../d5/dbe/class_translatable_window.html#a009edc93a44472b8eb27070b3f9258c2',1,'TranslatableWindow::retranslateUi()']]],
-  ['returntolauncher_1',['returnToLauncher',['../d6/d5d/class_dev_window.html#a879985fff5798387b606f6c209322f95',1,'DevWindow']]]
+  ['retranslateui_0',['retranslateui',['../d6/de4/group___ui-_functions.html#ga70639f7fa970485a852e34b136ae2520',1,'AposFrontend::DevWindow::retranslateUi()'],['../d6/de4/group___ui-_functions.html#ga52c5c44ca23ae60a1ac1fc1d902e94f5',1,'AposFrontend::LauncherWindow::retranslateUi()'],['../d6/de4/group___ui-_functions.html#ga8f6bb626d0572e0620040188718cf505',1,'AposFrontend::SettingsWindow::retranslateUi()'],['../d6/de4/group___ui-_functions.html#ga2190bba57416d43cf8ca3bb812e4aaf7',1,'AposFrontend::TranslatableWindow::retranslateUi()']]],
+  ['returntolauncher_1',['returnToLauncher',['../d7/d58/group___signal-_funtions.html#gaa16d604f0aa073808b1466132a301c5b',1,'AposFrontend::DevWindow']]]
 ];

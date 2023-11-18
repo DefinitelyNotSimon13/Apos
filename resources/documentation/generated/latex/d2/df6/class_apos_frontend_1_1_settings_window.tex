@@ -1,0 +1,107 @@
+\doxysection{Apos\+Frontend\+::Settings\+Window Class Reference}
+\hypertarget{class_apos_frontend_1_1_settings_window}{}\label{class_apos_frontend_1_1_settings_window}\index{AposFrontend::SettingsWindow@{AposFrontend::SettingsWindow}}
+
+
+Provides the user interface for the settings window.  
+
+
+
+
+{\ttfamily \#include $<$settingswindow.\+hpp$>$}
+
+
+
+Inheritance diagram for Apos\+Frontend\+::Settings\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{da/d36/class_apos_frontend_1_1_settings_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Apos\+Frontend\+::Settings\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{de/d59/class_apos_frontend_1_1_settings_window__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___signal-_funtions_gaa502afe63303465922a81ff95f482b8e}{applied\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Signal for applying settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga4d0c5f6c403b96a7ce7f2c31dc7864eb}{Settings\+Window}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr, QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ new\+Object\+Handler=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_frontend_1_1_settings_window}{Settings\+Window} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___constructructors-_destructors_gafea9e0230dd9187212d0c27dff30fae3}{\texorpdfstring{$\sim$}{\string~}\+Settings\+Window}} () override
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_apos_frontend_1_1_settings_window}{Settings\+Window} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_ga8f6bb626d0572e0620040188718cf505}{retranslate\+Ui}} () override
+\begin{DoxyCompactList}\small\item\em Retranslates the user interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_apos_frontend_1_1_translatable_window}{Apos\+Frontend\+::\+Translatable\+Window}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga47ca01f45ced3c93739e8216f39f1aa2}{Translatable\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___slot-_functions_gae63d418ffbe16a232f34ec3cdadcce68}{on\+\_\+in\+Close\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Close\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_gaf25a0a0d2cf2f2f20fec4ca3b4a36c88}{on\+\_\+in\+Apply\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Apply\textquotesingle{} button click event. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___slot-_functions_ga26dd51e0b757378c0003ea02844b19cf}{on\+\_\+in\+Language\+\_\+current\+Index\+Changed}} (int index)
+\begin{DoxyCompactList}\small\item\em Slot for the \textquotesingle{}Language\textquotesingle{} combo box index change event. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___initialization_ga49b8895cc4133ac81bd799854b3515b6}{install\+Translator}} ()
+\begin{DoxyCompactList}\small\item\em Installs the application\textquotesingle{}s translator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Settings\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___variables_ga19d863ea7ce74381084182295594c87f}{ui}}
+\begin{DoxyCompactList}\small\item\em Pointer to the user interface of the \doxylink{class_apos_frontend_1_1_settings_window}{Settings\+Window} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga5376866bcaa8428d67716658647bdffb}{ptr\+Object\+Handler}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the Object\+Handler object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ QTranslator $>$ \mbox{\hyperlink{group___variables_ga3a888be424dc6808e654b2b888b6b7a3}{ptr\+Translator}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the QTranslator object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___variables_gac6822045d04241d0a05deab9d3a4e785}{language\+Index}} \{\}
+\begin{DoxyCompactList}\small\item\em The index of the selected language. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___variables_ga04adda573f33e84d14fe7ff0a251e475}{temp\+Language\+Index}} \{\}
+\begin{DoxyCompactList}\small\item\em The temporary index of the selected language. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___variables_gada2125c8d31880cbf7095ad30f150eec}{language\+Changed}} \{\}
+\begin{DoxyCompactList}\small\item\em Indicates whether the language has changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides the user interface for the settings window. 
+
+The \doxylink{class_apos_frontend_1_1_settings_window}{Settings\+Window} class provides the functionality for applying settings and retranslating the user interface. It interacts with the QWidget and \doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} classes and uses the Object\+Handler class to manage the application\textquotesingle{}s objects.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler} 
+
+\doxylink{class_apos_frontend_1_1_translatable_window}{Translatable\+Window} 
+
+QWidget 
+
+QTranslator 
+
+QShared\+Pointer 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{settingswindow_8hpp_source_l00049}{49}} of file \mbox{\hyperlink{settingswindow_8hpp_source}{settingswindow.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{settingswindow_8hpp}{settingswindow.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{settingswindow_8cpp}{settingswindow.\+cpp}}\end{DoxyCompactItemize}

@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Source file for the DatabaseHandler class.">
 <polygon fill="#999999" stroke="#666666" points="164.5,-168 0,-168 0,-112 164.5,-112 164.5,-168"/>
 <text text-anchor="start" x="8" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/Users/Clean/Documents</text>
 <text text-anchor="start" x="8" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Projekte/Apos&#45;DatabaseManager</text>
@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../de/d60/databasehandler_8hpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../de/d60/databasehandler_8hpp.html" target="_top" xlink:title="Header file for the DatabaseHandler class.">
 <polygon fill="white" stroke="#666666" points="135.25,-76 29.25,-76 29.25,-56 135.25,-56 135.25,-76"/>
 <text text-anchor="middle" x="82.25" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">databasehandler.hpp</text>
 </a>

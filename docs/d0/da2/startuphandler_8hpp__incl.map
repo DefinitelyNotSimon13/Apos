@@ -1,25 +1,26 @@
 <map id="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/backendClasses/startuphandler.hpp" name="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/backendClasses/startuphandler.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="442,5,658,80"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="23,293,91,320"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="442,63,323,86,194,117,135,136,83,157,42,180,15,204,8,222,12,242,22,262,36,280,32,284,18,265,7,244,3,222,10,201,39,176,80,152,133,131,193,112,322,81,441,58"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="360,293,415,320"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="551,81,547,118,537,162,522,206,497,247,466,275,430,294,428,289,463,271,493,244,517,204,532,160,541,117,546,80"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="587,128,657,155"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="579,79,606,114,601,117,575,82"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="681,128,769,155"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="618,78,690,118,687,122,615,83"/>
-<area shape="rect" id="Node000006" href="$d5/dcc/objecthandler_8hpp.html" title=" " alt="" coords="283,128,406,155"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="473,83,386,124,384,119,471,78"/>
-<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="283,148,212,154,135,164,69,181,44,192,28,204,21,221,22,241,29,261,40,279,35,282,24,263,17,242,15,221,24,201,41,187,67,176,134,159,211,148,282,143"/>
-<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="406,153,445,171,462,184,476,201,484,224,476,247,456,272,430,290,427,285,452,268,472,244,478,224,472,204,459,188,442,175,404,158"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="366,211,462,237"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="358,153,396,197,391,201,353,157"/>
-<area shape="rect" id="Node000008" href="$de/d60/databasehandler_8hpp.html" title=" " alt="" coords="39,203,184,245"/>
-<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="309,158,187,200,185,195,307,153"/>
-<area shape="rect" id="Node000009" href="$df/d46/tablehandler_8hpp.html" title=" " alt="" coords="209,203,342,245"/>
-<area shape="poly" id="edge12_Node000006_Node000009" title=" " alt="" coords="336,157,305,193,301,189,332,153"/>
-<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="99,247,76,282,71,279,95,244"/>
-<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="183,243,346,291,344,296,182,248"/>
-<area shape="poly" id="edge13_Node000009_Node000002" title=" " alt="" coords="220,248,106,290,104,285,218,243"/>
-<area shape="poly" id="edge14_Node000009_Node000003" title=" " alt="" coords="306,244,359,282,356,286,303,248"/>
+<area shape="rect" id="Node000001" title="Header file for the StartupHandler class." alt="" coords="345,5,562,80"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="11,384,80,411"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="345,53,262,67,174,95,132,114,92,139,57,169,28,204,12,237,9,266,23,335,34,369,29,371,18,337,3,266,6,235,23,201,53,165,89,135,129,110,172,90,261,62,344,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="260,384,314,411"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="458,81,454,159,446,204,431,246,407,286,377,322,318,376,315,372,373,318,402,283,426,244,441,202,449,158,453,80"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="491,128,560,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="483,79,509,114,505,117,479,82"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="584,128,672,155"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="521,78,593,118,591,122,519,83"/>
+<area shape="rect" id="Node000006" href="$d5/dcc/objecthandler_8hpp.html" title="Header file for the ObjectHandler class." alt="" coords="196,128,319,155"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="380,83,298,123,296,118,378,78"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="196,155,109,175,72,189,50,204,39,223,32,244,27,289,31,332,39,368,34,370,26,333,22,289,27,243,34,221,46,201,70,184,107,170,195,150"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="267,154,295,212,309,252,320,293,323,315,320,337,306,371,301,369,315,335,318,315,315,294,304,253,290,214,262,156"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="321,211,416,237"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="276,153,340,199,337,203,273,157"/>
+<area shape="rect" id="Node000008" href="$de/d60/databasehandler_8hpp.html" title="Header file for the DatabaseHandler class." alt="" coords="160,293,305,336"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="258,155,240,278,235,278,253,155"/>
+<area shape="rect" id="Node000009" href="$df/d46/tablehandler_8hpp.html" title="Header file for the TableHandler class." alt="" coords="60,203,194,245"/>
+<area shape="poly" id="edge12_Node000006_Node000009" title=" " alt="" coords="239,157,175,196,172,192,236,153"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="185,339,90,380,88,375,183,334"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="248,335,272,370,268,373,244,338"/>
+<area shape="poly" id="edge13_Node000009_Node000002" title=" " alt="" coords="119,247,60,371,56,369,115,245"/>
+<area shape="poly" id="edge14_Node000009_Node000003" title=" " alt="" coords="128,245,131,290,138,313,150,334,170,353,195,368,245,386,244,391,192,373,167,358,146,338,133,315,126,291,123,246"/>
+<area shape="poly" id="edge15_Node000009_Node000008" title=" " alt="" coords="153,244,198,281,194,285,150,248"/>
 </map>

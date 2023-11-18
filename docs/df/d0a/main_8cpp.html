@@ -97,30 +97,67 @@ $(document).ready(function(){initNavTree('df/d0a/main_8cpp.html','../../'); init
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Main entry point for the application.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d89/startuphandler_8hpp_source.html">../classes/backendClasses/startuphandler.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dcc/objecthandler_8hpp_source.html">../classes/backendClasses/objecthandler.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d25/windowhandler_8hpp_source.html">../classes/frontendClasses/windowhandler.hpp</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
-<code>#include &lt;QtSql&gt;</code><br />
+<code>#include &lt;QScopedPointer&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dce/main_8cpp__incl.svg" width="1123" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe frameborder="0" height="582" scrolling="no" src="../../da/dce/main_8cpp__incl.svg" width="1228"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="../../df/d0a/main_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d6/de8/namespace_app_initialization" id="r_d6/de8/namespace_app_initialization"><td align="right" class="memItemLeft" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/namespace_app_initialization.html">AppInitialization</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a6151e2deab68f647b30a78db30b6a084" id="r_a6151e2deab68f647b30a78db30b6a084"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; <a class="el" href="../../d1/ddc/class_apos_backend_1_1_startup_handler.html">AposBackend::StartupHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/namespace_app_initialization.html#a6151e2deab68f647b30a78db30b6a084">AppInitialization::initializeStartupHandler</a> (const QSharedPointer&lt; QApplication &gt; &amp;newApp)</td></tr>
+<tr class="memdesc:a6151e2deab68f647b30a78db30b6a084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the StartupHandler object.  <br /></td></tr>
+<tr class="separator:a6151e2deab68f647b30a78db30b6a084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ace4d6b094a8873cd99a85fccd33f8" id="r_aa4ace4d6b094a8873cd99a85fccd33f8"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; <a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html">AposBackend::ObjectHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/namespace_app_initialization.html#aa4ace4d6b094a8873cd99a85fccd33f8">AppInitialization::initializeObjectHandler</a> (const QSharedPointer&lt; <a class="el" href="../../d1/ddc/class_apos_backend_1_1_startup_handler.html">AposBackend::StartupHandler</a> &gt; &amp;startupHandler)</td></tr>
+<tr class="memdesc:aa4ace4d6b094a8873cd99a85fccd33f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the ObjectHandler object.  <br /></td></tr>
+<tr class="separator:aa4ace4d6b094a8873cd99a85fccd33f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1106d2231514c4bcd3d477a20eda7e93" id="r_a1106d2231514c4bcd3d477a20eda7e93"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; <a class="el" href="../../d3/d90/class_apos_frontend_1_1_window_handler.html">AposFrontend::WindowHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/namespace_app_initialization.html#a1106d2231514c4bcd3d477a20eda7e93">AppInitialization::initializeWindowHandler</a> (const QSharedPointer&lt; <a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html">AposBackend::ObjectHandler</a> &gt; &amp;objectHandler)</td></tr>
+<tr class="memdesc:a1106d2231514c4bcd3d477a20eda7e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the WindowHandler object.  <br /></td></tr>
+<tr class="separator:a1106d2231514c4bcd3d477a20eda7e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="memdesc:a0ddf1224851353fc92bfbff6f499fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <br /></td></tr>
 <tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a id="details" name="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Main entry point for the application. </p>
+<dl class="section author"><dt>Author</dt><dd>Simon Blum </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>13.11.2023 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.1_alpha.2 @license LGPL-V3 </dd></dl>
+<p>This file contains the main function, which represents the entry point for the application. It initializes the QApplication, StartupHandler, and ObjectHandler objects. It also creates a WindowHandler object and shows the launch window.</p>
+<p>The application is built using the Qt framework and follows the object-oriented programming paradigm. The main function initializes the necessary objects and starts the application's event loop. The QApplication object encapsulates the functionality of Qts core application class for GUI-based applications. The StartupHandler, ObjectHandler, and WindowHandler classes are part of the application's backend and frontend logic.</p>
+<p>@deviation MISRA 3-1-3 The argv parameter in the main function is a pointer to an array of C-style strings. This array is not explicitly sized, which violates MISRA rule 3-1-3. However, the parameters of the main function are defined by the C++ standard, and changing them would not be compliant with the standard. This deviation is considered acceptable because the size of the argv array is managed by the runtime environment, and the array is guaranteed to be null-terminated. Therefore, the risk of out-of-bounds access is minimal.</p>
+<p>@deviation MISRA 7-3-1 The main – defined as qMain – function is part of the global namespace, which violates MISRA rule 7-3-1. However, since the qMain function acts as the main function within the Qt framework, this deviation is considered acceptable.</p>
+<dl class="section note"><dt>Note</dt><dd>The application is part of a student project and is not intended for commercial use.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>QApplication </dd>
+<dd>
+StartupHandler </dd>
+<dd>
+ObjectHandler </dd>
+<dd>
+WindowHandler </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="../../df/d0a/main_8cpp_source.html">main.cpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
 
@@ -147,11 +184,22 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d0a/main_8cpp_source.html#l00010">10</a> of file <a class="el" href="../../df/d0a/main_8cpp_source.html">main.cpp</a>.</p>
+<p>Main function. </p>
+<p>This is the main function, which is the entry point for the application. It initializes the QApplication, ObjectHandler, and WindowHandler objects, and starts the application's event loop.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">argc</td><td>Argument count </td></tr>
+    <tr><td class="paramname">argv</td><td>Argument vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int Application exit status </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../df/d0a/main_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../df/d0a/main_8cpp_source.html">main.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="538" height="171"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe frameborder="0" height="187" scrolling="no" src="../../df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="267"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -162,7 +210,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="../../df/d0a/main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generated on Fri Nov 17 2023 18:52:29 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sun Nov 19 2023 00:42:33 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img alt="doxygen" class="footer" height="31" src="../../doxygen.svg" width="104"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

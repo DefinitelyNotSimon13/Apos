@@ -2,66 +2,46 @@
 \hypertarget{databasehandler_8cpp_source}{}\label{databasehandler_8cpp_source}\index{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp}}
 \mbox{\hyperlink{databasehandler_8cpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{databasehandler_8hpp}{databasehandler.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00002}00002\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00003}\mbox{\hyperlink{class_database_handler_ac27357d3431faf4fd6810483a24a43fd}{00003}}\ \mbox{\hyperlink{class_database_handler_ac27357d3431faf4fd6810483a24a43fd}{DatabaseHandler::DatabaseHandler}}()}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00004}00004\ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00005}00005\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00006}00006\ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00007}00007\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00008}\mbox{\hyperlink{class_database_handler_af74b7a8f9a87051cd493a11ed87a3bf5}{00008}}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_database_handler_af74b7a8f9a87051cd493a11ed87a3bf5}{DatabaseHandler::initDatabase}}()}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00009}00009\ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00010}00010\ \ \ \ \ \mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}}\ =\ QSqlDatabase::addDatabase(\textcolor{stringliteral}{"{}QSQLITE"{}},\ \textcolor{stringliteral}{"{}connection1"{}});}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00011}00011\ \ \ \ \ \mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}}.setDatabaseName(\mbox{\hyperlink{class_database_handler_a5ae42833c8f8993769549e14866a6ca0}{databasePath}});}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00012}00012\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00013}00013\ \ \ \ \ \textcolor{keywordflow}{if}\ (!\mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}}.open())}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00014}00014\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00015}00015\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_database_handler_ad00c7be31102d8679b68bdbdca725598}{lastSqlError}}\ =\ \mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}}.lastError();}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00016}00016\ \ \ \ \ \ \ \ \ qDebug()\ <<\ \mbox{\hyperlink{class_database_handler_ad00c7be31102d8679b68bdbdca725598}{lastSqlError}}.text();}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00017}00017\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00018}00018\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00019}00019\ \ \ \ \ \textcolor{keywordflow}{else}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00020}00020\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00021}00021\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00022}00022\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00023}00023\ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00024}00024\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00025}\mbox{\hyperlink{class_database_handler_a98664b5a869a4afac56daebe3e731712}{00025}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_database_handler_a98664b5a869a4afac56daebe3e731712}{DatabaseHandler::closeDatabase}}()}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00026}00026\ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00027}00027\ \ \ \ \ \mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}}.close();}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00028}00028\ \ \ \ \ \mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}}\ =\ QSqlDatabase();}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00029}00029\ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00030}00030\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00031}\mbox{\hyperlink{class_database_handler_abc2283097707a94f4e5b867c1cade0b5}{00031}}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_database_handler_abc2283097707a94f4e5b867c1cade0b5}{DatabaseHandler::executeCommand}}(QString\ command)}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00032}00032\ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00033}00033\ \ \ \ \ QSqlQuery\ query(\mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}});}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00034}00034\ \ \ \ \ \textcolor{keywordflow}{if}\ (!query.exec(command))}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00035}00035\ \ \ \ \ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00036}00036\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_database_handler_ad00c7be31102d8679b68bdbdca725598}{lastSqlError}}\ =\ query.lastError();}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00037}00037\ \ \ \ \ \ \ \ \ qDebug()\ <<\ \mbox{\hyperlink{class_database_handler_ad00c7be31102d8679b68bdbdca725598}{lastSqlError}}.text();}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00038}00038\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00039}00039\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00040}00040\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00041}00041\ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00042}00042\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00043}\mbox{\hyperlink{class_database_handler_a30ba97d90e6c706d53db0616138dde3e}{00043}}\ \textcolor{keyword}{const}\ QSqlDatabase\ \&\mbox{\hyperlink{class_database_handler_a30ba97d90e6c706d53db0616138dde3e}{DatabaseHandler::getActiveDatabase}}()\textcolor{keyword}{\ const}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00044}00044\ \textcolor{keyword}{}\{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00045}00045\ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_database_handler_afd48aa98827a3f5b19831e2c8e832843}{ptrActiveDatabase}};}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00046}00046\ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00047}00047\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00048}\mbox{\hyperlink{class_database_handler_aa8e009a40e0d5f3af64ffb03738cfedf}{00048}}\ \textcolor{keyword}{const}\ QSqlError\ \&\mbox{\hyperlink{class_database_handler_aa8e009a40e0d5f3af64ffb03738cfedf}{DatabaseHandler::getSqlError}}()\textcolor{keyword}{\ const}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00049}00049\ \textcolor{keyword}{}\{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00050}00050\ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_database_handler_ad00c7be31102d8679b68bdbdca725598}{lastSqlError}};}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00051}00051\ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00052}00052\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00053}\mbox{\hyperlink{class_database_handler_a93cda7f938be627c83bdddbaa0613c5f}{00053}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_database_handler_a93cda7f938be627c83bdddbaa0613c5f}{DatabaseHandler::setDatabasePath}}(\textcolor{keyword}{const}\ QString\ \&newDatabasePath)}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00054}00054\ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00055}00055\ \ \ \ \mbox{\hyperlink{class_database_handler_a5ae42833c8f8993769549e14866a6ca0}{databasePath}}\ =\ newDatabasePath;}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00056}00056\ \}}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00057}00057\ }
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00058}\mbox{\hyperlink{class_database_handler_aacc3803cd12470c467fbdf19de98daca}{00058}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_database_handler_aacc3803cd12470c467fbdf19de98daca}{DatabaseHandler::setLastSqlError}}(\textcolor{keyword}{const}\ QSqlError\ \&newLastSqlError)}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00059}00059\ \{}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00060}00060\ \ \ \ \ \mbox{\hyperlink{class_database_handler_ad00c7be31102d8679b68bdbdca725598}{lastSqlError}}\ =\ newLastSqlError;}
-\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00061}00061\ \}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00020}00020\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{databasehandler_8hpp}{databasehandler.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00022}\mbox{\hyperlink{namespace_apos_database}{00022}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_apos_database}{AposDatabase}}\ \{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00023}00023\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00024}00024\ \ \ \ \ \mbox{\hyperlink{group___constructructors-_destructors_ga2c2f19cbac04915dab0f941bd4913788}{DatabaseHandler::DatabaseHandler}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00025}00025\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00026}\mbox{\hyperlink{group___initialization_ga70eaf98f99b4ece646f3eb7a8240ae6a}{00026}}\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group___initialization_ga70eaf98f99b4ece646f3eb7a8240ae6a}{DatabaseHandler::initDatabase}}()\ \{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00028}00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gaedca50d9f4e94cf13d28417eb0442425}{activeDatabase}}\ =\ QSqlDatabase::addDatabase(\textcolor{stringliteral}{"{}QSQLITE"{}},\ \textcolor{stringliteral}{"{}db1"{}});}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00029}00029\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gaedca50d9f4e94cf13d28417eb0442425}{activeDatabase}}.setDatabaseName(\mbox{\hyperlink{group___variables_gaa0f8d18a9026c72ee3096269a6129dc2}{databasePath}});}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00030}00030\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gad4d8e4aef7054ae450238c752343c944}{ptrActiveDatabase}}\ =\ QSharedPointer<QSqlDatabase>(\&\mbox{\hyperlink{group___variables_gaedca50d9f4e94cf13d28417eb0442425}{activeDatabase}});}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00031}00031\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{group___variables_gaedca50d9f4e94cf13d28417eb0442425}{activeDatabase}}.open();}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00032}00032\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00033}00033\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00034}\mbox{\hyperlink{group___database-_functions_ga18f1859b7f6f67bc1b31d6970c6a9c69}{00034}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___database-_functions_ga18f1859b7f6f67bc1b31d6970c6a9c69}{DatabaseHandler::closeDatabase}}()\ \{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00035}00035\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gaedca50d9f4e94cf13d28417eb0442425}{activeDatabase}}.close();}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00036}00036\ \ \ \ \ \ \ \ \ QSqlDatabase::removeDatabase(\textcolor{stringliteral}{"{}db1"{}});}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00037}00037\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00038}00038\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00039}\mbox{\hyperlink{group___database-_functions_gabc612f16278129a412215e341da33b74}{00039}}\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{group___database-_functions_gabc612f16278129a412215e341da33b74}{DatabaseHandler::executeCommand}}(\textcolor{keyword}{const}\ QString\ \&command)\ \{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00040}00040\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ queryExecuted\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00041}00041\ \ \ \ \ \ \ \ \ QSqlQuery\ query(\mbox{\hyperlink{group___variables_gaedca50d9f4e94cf13d28417eb0442425}{activeDatabase}});}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00042}00042\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!query.exec(command))\ \{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gae753dc7d317a63799ecd4ac824966be5}{lastSqlError}}\ =\ query.lastError();}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ qDebug()\ <<\ \mbox{\hyperlink{group___variables_gae753dc7d317a63799ecd4ac824966be5}{lastSqlError}}.text();}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ queryExecuted\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00046}00046\ \ \ \ \ \ \ \ \ \}\ \textcolor{keywordflow}{else}\ \{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ queryExecuted\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00048}00048\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00049}00049\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ queryExecuted;}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00050}00050\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00051}00051\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00052}\mbox{\hyperlink{class_apos_database_1_1_database_handler_afaa3fc73971ecc726c1d1fccc3beddbb}{00052}}\ \ \ \ \ QSharedPointer<QSqlDatabase>\ \mbox{\hyperlink{class_apos_database_1_1_database_handler_afaa3fc73971ecc726c1d1fccc3beddbb}{DatabaseHandler::getActiveDatabase}}()\ \{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00053}00053\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{group___variables_gad4d8e4aef7054ae450238c752343c944}{ptrActiveDatabase}};}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00054}00054\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00055}00055\ \ \ \ \ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00056}\mbox{\hyperlink{class_apos_database_1_1_database_handler_abeede12f88dde38f42478e31fb568542}{00056}}\ \ \ \ \ \textcolor{keyword}{const}\ QSqlError\ \&\mbox{\hyperlink{class_apos_database_1_1_database_handler_abeede12f88dde38f42478e31fb568542}{DatabaseHandler::getSqlError}}()\textcolor{keyword}{\ const\ }\{}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00057}00057\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{group___variables_gae753dc7d317a63799ecd4ac824966be5}{lastSqlError}};}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00058}00058\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{databasehandler_8cpp_source_l00059}00059\ \}}
 
 \end{DoxyCode}

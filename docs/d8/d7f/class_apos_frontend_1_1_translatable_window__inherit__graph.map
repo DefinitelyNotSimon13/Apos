@@ -1,0 +1,9 @@
+<map id="AposFrontend::TranslatableWindow" name="AposFrontend::TranslatableWindow">
+<area shape="rect" id="Node000001" title="An abstract base class that provides a function for retranslating the user interface." alt="" coords="221,5,402,48"/>
+<area shape="rect" id="Node000002" href="$dc/dc2/class_apos_frontend_1_1_dev_window.html" title="Provides the user interface for the developer window." alt="" coords="5,96,183,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,56,129,98,127,93,240,51"/>
+<area shape="rect" id="Node000003" href="$da/d2e/class_apos_frontend_1_1_launcher_window.html" title="Provides the user interface for the launcher window." alt="" coords="207,96,416,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="314,64,314,95,309,95,309,64"/>
+<area shape="rect" id="Node000004" href="$d2/df6/class_apos_frontend_1_1_settings_window.html" title="Provides the user interface for the settings window." alt="" coords="440,96,644,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="386,51,506,93,505,98,384,56"/>
+</map>

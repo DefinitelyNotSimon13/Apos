@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['initdatabase_0',['initdatabase',['../d5/da6/class_database_handler.html#af74b7a8f9a87051cd493a11ed87a3bf5',1,'DatabaseHandler::initDatabase()'],['../d6/d5d/class_dev_window.html#a2aa91ebfb3fac512e407c89b9ffff1ec',1,'DevWindow::initDatabase()']]],
-  ['initdatabaseobject_1',['initDatabaseObject',['../df/d32/class_object_handler.html#a92adb8ba08335d950b4f59a1f83dc3d6',1,'ObjectHandler']]],
-  ['initobjecthandler_2',['initObjectHandler',['../df/d1b/class_startup_handler.html#a45aefa30358b6ca46e4c36cd012ba6be',1,'StartupHandler']]],
-  ['inittableobject_3',['inittableobject',['../df/d32/class_object_handler.html#a0db21cc39e1879a9e0c86b56973a4195',1,'ObjectHandler::initTableObject()'],['../df/d32/class_object_handler.html#a730600ee7de2764e336ab5dd5b98f1bc',1,'ObjectHandler::initTableObject(QSqlDatabase inputActiveDatabase, const QString &amp;inputTableName)']]],
-  ['inittranslator_4',['initTranslator',['../df/d1b/class_startup_handler.html#a57a55def03eb37544d8373663d08c053',1,'StartupHandler']]],
-  ['insertintotable_5',['insertIntoTable',['../dd/d68/class_table_handler.html#a84d3c0faa14ffee6aabf3c52b679560b',1,'TableHandler']]],
-  ['installtranslator_6',['installTranslator',['../de/d9e/class_settings_window.html#afa9884fc05c97f706b453c1b51167e11',1,'SettingsWindow']]]
+  ['initdatabase_0',['initdatabase',['../de/dc6/group___initialization.html#ga70eaf98f99b4ece646f3eb7a8240ae6a',1,'AposDatabase::DatabaseHandler::initDatabase()'],['../dd/d44/group___database-_functions.html#gaf776a9f414cca86d16ff2c25566459e0',1,'AposFrontend::DevWindow::initDatabase()']]],
+  ['initdatabaseobject_1',['initDatabaseObject',['../de/dc6/group___initialization.html#gac0379aadaeeeb327649a6f252da0c4e1',1,'AposBackend::ObjectHandler']]],
+  ['initializeobjecthandler_2',['initializeObjectHandler',['../d6/de8/namespace_app_initialization.html#aa4ace4d6b094a8873cd99a85fccd33f8',1,'AppInitialization']]],
+  ['initializestartuphandler_3',['initializeStartupHandler',['../d6/de8/namespace_app_initialization.html#a6151e2deab68f647b30a78db30b6a084',1,'AppInitialization']]],
+  ['initializewindowhandler_4',['initializeWindowHandler',['../d6/de8/namespace_app_initialization.html#a1106d2231514c4bcd3d477a20eda7e93',1,'AppInitialization']]],
+  ['initobjecthandler_5',['initObjectHandler',['../de/dc6/group___initialization.html#gaeaab7554c87adccfd8bd5aab2297c8a8',1,'AposBackend::StartupHandler']]],
+  ['inittableobject_6',['initTableObject',['../de/dc6/group___initialization.html#gacd26b741696339620d5d6f3d5e65e688',1,'AposBackend::ObjectHandler']]],
+  ['inittranslator_7',['initTranslator',['../de/dc6/group___initialization.html#gab6fdaf5f748968ddfe136d8e6562c664',1,'AposBackend::StartupHandler']]],
+  ['insertintotable_8',['insertIntoTable',['../dd/d44/group___database-_functions.html#ga2e1858b4578e4c66948b387cc9e34130',1,'AposDatabase::TableHandler']]],
+  ['installtranslator_9',['installtranslator',['../de/dc6/group___initialization.html#gac6e06b1a893afdf477c3efa74c2f072c',1,'AposBackend::StartupHandler::installTranslator()'],['../de/dc6/group___initialization.html#ga49b8895cc4133ac81bd799854b3515b6',1,'AposFrontend::SettingsWindow::installTranslator()']]]
 ];

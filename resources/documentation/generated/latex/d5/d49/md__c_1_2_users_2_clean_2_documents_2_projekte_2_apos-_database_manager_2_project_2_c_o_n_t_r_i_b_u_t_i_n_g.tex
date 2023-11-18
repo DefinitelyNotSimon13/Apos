@@ -1,0 +1,80 @@
+\chapter{Contributing to Apos -\/ Database Manager}
+\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g}{}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g}\index{Contributing to Apos -\/ Database Manager@{Contributing to Apos -\/ Database Manager}}
+\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_contributing-to-apos---database-manager}%
+\Hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_contributing-to-apos---database-manager}%
+ Thank you for considering contributing to Apos – Database Manager. It is people like you that make Apos—\+Database Manager such a great tool.\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_where-do-i-go-from-here}{}\doxysection{\texorpdfstring{Where do I go from here?}{Where do I go from here?}}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_where-do-i-go-from-here}
+If you\textquotesingle{}ve noticed a bug or have a feature request, make one! It is generally best if you get confirmation of your bug or approval for your feature request this way before starting to code.\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_fork--create-a-branch}{}\doxysection{\texorpdfstring{Fork \& create a branch}{Fork \& create a branch}}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_fork--create-a-branch}
+If this is something you think you can fix, then fork and create a branch with a descriptive name. A good branch name would be (where issue \#325 is the ticket you\textquotesingle{}re working on)\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git\ checkout\ -\/b\ 325-\/add-\/japanese-\/translations}
+
+\end{DoxyCode}
+\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_get-the-test-suite-running}{}\doxysection{\texorpdfstring{Get the test suite running}{Get the test suite running}}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_get-the-test-suite-running}
+Make sure you\textquotesingle{}re using the latest version of Node.\+js and npm. Install the project\textquotesingle{}s dependencies\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{npm\ install}
+
+\end{DoxyCode}
+
+
+Run the test suite to ensure everything is working correctly\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{npm\ test}
+
+\end{DoxyCode}
+\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_implement-your-fix-or-feature}{}\doxysection{\texorpdfstring{Implement your fix or feature}{Implement your fix or feature}}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_implement-your-fix-or-feature}
+At this point, you\textquotesingle{}re ready to make your changes! Feel free to ask for help; everyone is a beginner at first.\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_make-a-pull-request}{}\doxysection{\texorpdfstring{Make a Pull Request}{Make a Pull Request}}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_make-a-pull-request}
+At this point, you should switch back to your main branch and make sure it is up to date with the latest code from the main repository\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git\ remote\ add\ upstream\ git@github.com:DefinitelyNotSimon13/Apos.git}
+\DoxyCodeLine{git\ checkout\ main}
+\DoxyCodeLine{git\ pull\ upstream\ main}
+
+\end{DoxyCode}
+
+
+Then update your feature branch from your local copy of main, and push it!
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git\ checkout\ 325-\/add-\/japanese-\/translations}
+\DoxyCodeLine{git\ rebase\ main}
+\DoxyCodeLine{git\ push\ -\/-\/set-\/upstream\ origin\ 325-\/add-\/japanese-\/translations}
+
+\end{DoxyCode}
+
+
+Go to the Apos – Database Manager repository and create a new Pull Request. Fill out the form and wait for the approval!\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_keeping-your-pull-request-updated}{}\doxysection{\texorpdfstring{Keeping your Pull Request updated}{Keeping your Pull Request updated}}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_keeping-your-pull-request-updated}
+If a maintainer asks you to “rebase” your PR, they\textquotesingle{}re saying that a lot of code has changed, and that you need to update your branch, so it\textquotesingle{}s easier to merge.
+
+To learn more about rebasing in Git, there are a lot of \href{https://git-scm.com/book/en/v2/Git-Branching-Rebasing}{\texttt{ good}} \href{https://www.atlassian.com/git/tutorials/merging-vs-rebasing}{\texttt{ resources}} but here\textquotesingle{}s the suggested workflow\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git\ checkout\ 325-\/add-\/japanese-\/translations}
+\DoxyCodeLine{git\ pull\ -\/-\/rebase\ upstream\ main}
+\DoxyCodeLine{git\ push\ -\/-\/force-\/with-\/lease\ 325-\/add-\/japanese-\/translations}
+
+\end{DoxyCode}
+\hypertarget{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_merging-a-pr-maintainers-only}{}\doxysection{\texorpdfstring{Merging a PR (maintainers only)}{Merging a PR (maintainers only)}}\label{md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g_merging-a-pr-maintainers-only}
+A PR can only be merged into main by a maintainer if\+:
+
+
+\begin{DoxyItemize}
+\item It is passing CI.
+\item It has been approved by at least two maintainers. If it was a maintainer who opened the PR, only one extra approval is needed.
+\item It has no requested changes.
+\item It is up to date with the current main.
+\end{DoxyItemize}
+
+Any maintainer is allowed to merge a PR if these conditions are met.
+
+This {\ttfamily \doxylink{_c_o_n_t_r_i_b_u_t_i_n_g_8md}{CONTRIBUTING.\+md}} file provides a guide for contributors on how to create a branch, run the test suite, implement a fix or feature, make a pull request, and keep a pull request updated. It also provides instructions for maintainers on how to merge a pull request. 

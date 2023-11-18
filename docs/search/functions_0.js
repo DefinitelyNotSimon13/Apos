@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['appliedsettings_0',['appliedSettings',['../de/d9e/class_settings_window.html#ad60370672d08fd3f5318abfbc14ecd8f',1,'SettingsWindow']]],
-  ['applysettings_1',['applySettings',['../d5/d61/class_window_handler.html#a52436f8ef1145f13f153e49ab8a194ed',1,'WindowHandler']]],
-  ['assigninputs_2',['assignInputs',['../d6/d5d/class_dev_window.html#a7fcd442eb71c4bc791fb40a98bb0b322',1,'DevWindow']]]
+  ['appliedsettings_0',['appliedSettings',['../d7/d58/group___signal-_funtions.html#gaa502afe63303465922a81ff95f482b8e',1,'AposFrontend::SettingsWindow']]],
+  ['applysettings_1',['applySettings',['../d6/de4/group___ui-_functions.html#gab39e73556bb529119402e7e3cde6588e',1,'AposFrontend::WindowHandler']]],
+  ['assigninputs_2',['assignInputs',['../d6/de4/group___ui-_functions.html#gaa5f72842768883e8c2e29a8a54c74fe4',1,'AposFrontend::DevWindow']]]
 ];

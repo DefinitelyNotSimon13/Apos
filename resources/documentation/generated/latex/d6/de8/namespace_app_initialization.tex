@@ -1,0 +1,128 @@
+\doxysection{App\+Initialization Namespace Reference}
+\hypertarget{namespace_app_initialization}{}\label{namespace_app_initialization}\index{AppInitialization@{AppInitialization}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_startup_handler}{Apos\+Backend\+::\+Startup\+Handler}} $>$ \mbox{\hyperlink{namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084}{initialize\+Startup\+Handler}} (const QShared\+Pointer$<$ QApplication $>$ \&new\+App)
+\begin{DoxyCompactList}\small\item\em Initialize the Startup\+Handler object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \mbox{\hyperlink{namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8}{initialize\+Object\+Handler}} (const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_startup_handler}{Apos\+Backend\+::\+Startup\+Handler}} $>$ \&startup\+Handler)
+\begin{DoxyCompactList}\small\item\em Initialize the Object\+Handler object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_frontend_1_1_window_handler}{Apos\+Frontend\+::\+Window\+Handler}} $>$ \mbox{\hyperlink{namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93}{initialize\+Window\+Handler}} (const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \&object\+Handler)
+\begin{DoxyCompactList}\small\item\em Initialize the Window\+Handler object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\texorpdfstring{$<$}{<} Include the Startup\+Handler class \texorpdfstring{$<$}{<} Include the Window\+Handler class \texorpdfstring{$<$}{<} Include the QApplication class \texorpdfstring{$<$}{<} Include the QDebug class for debugging \texorpdfstring{$<$}{<} Include the QScoped\+Pointer class for memory management 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8}\label{namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8} 
+\index{AppInitialization@{AppInitialization}!initializeObjectHandler@{initializeObjectHandler}}
+\index{initializeObjectHandler@{initializeObjectHandler}!AppInitialization@{AppInitialization}}
+\doxysubsubsection{\texorpdfstring{initializeObjectHandler()}{initializeObjectHandler()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ App\+Initialization\+::initialize\+Object\+Handler (\begin{DoxyParamCaption}\item[{const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_startup_handler}{Apos\+Backend\+::\+Startup\+Handler}} $>$ \&}]{startup\+Handler }\end{DoxyParamCaption})}
+
+
+
+Initialize the Object\+Handler object. 
+
+This function initializes the Startup\+Handler object with the QApplication object, then uses the Startup\+Handler object to initialize and return the Object\+Handler object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em startup\+Handler} & Pointer to the Startup\+Handler object. This is used to initialize the Object\+Handler object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Unique pointer to the initialized Object\+Handler object 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & if the QApplication pointer is null or if the Object\+Handler fails to initialize. \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00131}{131}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{d6/de8/namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084}\label{namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084} 
+\index{AppInitialization@{AppInitialization}!initializeStartupHandler@{initializeStartupHandler}}
+\index{initializeStartupHandler@{initializeStartupHandler}!AppInitialization@{AppInitialization}}
+\doxysubsubsection{\texorpdfstring{initializeStartupHandler()}{initializeStartupHandler()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_startup_handler}{Apos\+Backend\+::\+Startup\+Handler}} $>$ App\+Initialization\+::initialize\+Startup\+Handler (\begin{DoxyParamCaption}\item[{const QShared\+Pointer$<$ QApplication $>$ \&}]{new\+App }\end{DoxyParamCaption})}
+
+
+
+Initialize the Startup\+Handler object. 
+
+This function initializes the Startup\+Handler object with the QApplication object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+App} & Shared pointer to the QApplication object. This is used to initialize the Startup\+Handler object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Shared pointer to the initialized Startup\+Handler object 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & if the QApplication pointer is null. \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00120}{120}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{d6/de8/namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93}\label{namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93} 
+\index{AppInitialization@{AppInitialization}!initializeWindowHandler@{initializeWindowHandler}}
+\index{initializeWindowHandler@{initializeWindowHandler}!AppInitialization@{AppInitialization}}
+\doxysubsubsection{\texorpdfstring{initializeWindowHandler()}{initializeWindowHandler()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_frontend_1_1_window_handler}{Apos\+Frontend\+::\+Window\+Handler}} $>$ App\+Initialization\+::initialize\+Window\+Handler (\begin{DoxyParamCaption}\item[{const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \&}]{object\+Handler }\end{DoxyParamCaption})}
+
+
+
+Initialize the Window\+Handler object. 
+
+This function initializes the Window\+Handler object with the Object\+Handler object and shows the launch window.
+
+
+\begin{DoxyParams}{Parameters}
+{\em object\+Handler} & Unique pointer to the Object\+Handler object. This is used to initialize the Window\+Handler object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Unique pointer to the initialized Window\+Handler object 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & if the Object\+Handler pointer is null, or if the Window\+Handler object fails to initialize. \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00143}{143}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{d6/de8/namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93_icgraph}
+\end{center}
+\end{figure}

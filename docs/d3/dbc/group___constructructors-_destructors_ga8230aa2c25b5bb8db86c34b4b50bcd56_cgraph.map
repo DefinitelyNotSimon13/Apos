@@ -1,0 +1,26 @@
+<map id="AposFrontend::WindowHandler::WindowHandler" name="AposFrontend::WindowHandler::WindowHandler">
+<area shape="rect" id="Node000001" title="Constructor for the WindowHandler class." alt="" coords="5,172,206,215"/>
+<area shape="rect" id="Node000002" href="$d7/d58/group___signal-_funtions.html#gaa502afe63303465922a81ff95f482b8e" title="Signal for applying settings." alt="" coords="256,5,461,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,170,177,114,213,84,252,58,262,53,265,57,255,62,217,88,181,118,127,174"/>
+<area shape="rect" id="Node000003" href="$d6/de4/group___ui-_functions.html#gab39e73556bb529119402e7e3cde6588e" title="Applies settings." alt="" coords="258,72,459,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,169,253,124,270,118,272,123,255,129,152,174"/>
+<area shape="rect" id="Node000006" href="$d7/d58/group___signal-_funtions.html#ga0d06592356794582b3ad43292227af7a" title="Signal for opening the developer window." alt="" coords="254,139,463,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="206,177,238,173,239,178,206,183"/>
+<area shape="rect" id="Node000007" href="$d7/d58/group___signal-_funtions.html#ga75e939cb47b5e6af99153b128c7bd5d6" title="Signal for opening the settings." alt="" coords="254,205,463,248"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="206,204,239,208,238,213,206,209"/>
+<area shape="rect" id="Node000008" href="$d6/de4/group___ui-_functions.html#gad71663083f50868c2efb568336b50b56" title="Shows the developer window." alt="" coords="258,272,459,315"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="152,213,255,258,272,264,270,269,253,262,150,218"/>
+<area shape="rect" id="Node000012" href="$d6/de4/group___ui-_functions.html#ga6ab1754f0158c37aabeac6fa84d31f28" title="Shows the settings window." alt="" coords="511,339,711,381"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="125,213,178,271,214,301,255,324,314,345,376,357,438,363,495,365,495,370,438,369,375,362,313,350,253,329,211,305,174,275,121,217"/>
+<area shape="rect" id="Node000004" href="$d6/de4/group___ui-_functions.html#gad12be8738b363edf8803ec140c14989c" title="Changes languages." alt="" coords="511,72,711,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,91,495,91,495,96,459,96"/>
+<area shape="rect" id="Node000005" href="$d6/de4/group___ui-_functions.html#ga2190bba57416d43cf8ca3bb812e4aaf7" title="Retranslates the user interface." alt="" coords="759,72,940,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="712,91,743,91,743,96,712,96"/>
+<area shape="rect" id="Node000009" href="$d7/d58/group___signal-_funtions.html#gab1ca9c597770ec6d63a8245b94fb10a9" title="Signal for opening the settings." alt="" coords="523,139,700,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="442,269,461,258,477,242,485,226,493,208,509,191,515,187,518,192,513,195,497,211,489,228,481,245,465,262,445,274"/>
+<area shape="rect" id="Node000010" href="$d7/d58/group___signal-_funtions.html#gaa16d604f0aa073808b1466132a301c5b" title="Signal for returning to the launcher." alt="" coords="523,205,700,248"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="441,269,512,250,514,255,443,274"/>
+<area shape="rect" id="Node000011" href="$d6/de4/group___ui-_functions.html#ga0ccce4c871b37eb96d2d3df478855277" title="Shows the launcher window." alt="" coords="511,272,711,315"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="459,291,495,291,495,296,459,296"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="443,313,514,332,512,337,441,318"/>
+</map>

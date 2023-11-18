@@ -1,0 +1,38 @@
+<map id="AposFrontend::DevWindow::logEvent" name="AposFrontend::DevWindow::logEvent">
+<area shape="rect" id="Node000001" title="Logs an event with a type and a message." alt="" coords="498,356,675,399"/>
+<area shape="rect" id="Node000002" href="$d6/de4/group___ui-_functions.html#ga967ec97cb7b88eeb89c2ef45f68763a6" title="Checks a checkbox." alt="" coords="269,63,447,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="572,342,554,294,528,237,493,178,448,126,422,108,425,104,452,122,497,175,533,234,559,292,577,340"/>
+<area shape="rect" id="Node000003" href="$d8/d33/group___slot-_functions.html#ga1b6d40414f86d0ccf375658eab05a297" title="Slot for the &#39;clearCommandAfterExecute&#39; state change event." alt="" coords="5,5,218,64"/>
+<area shape="poly" id="edge20_Node000001_Node000003" title=" " alt="" coords="580,341,569,275,547,195,530,155,508,116,481,82,448,53,423,38,395,26,336,13,275,10,218,15,218,10,275,5,336,8,397,21,425,33,452,49,485,78,513,113,535,153,552,194,575,274,585,340"/>
+<area shape="rect" id="Node000004" href="$d8/d33/group___slot-_functions.html#gac620d6fab40e2c7d07f43b8c78c94505" title="Slot for the &#39;clearInputsAfterInsert&#39; state change event." alt="" coords="23,96,200,155"/>
+<area shape="poly" id="edge21_Node000001_Node000004" title=" " alt="" coords="571,342,553,301,527,253,492,207,471,187,449,170,420,155,389,142,324,127,259,120,201,120,201,114,260,115,325,121,391,137,422,150,451,166,475,183,496,204,531,250,558,298,576,340"/>
+<area shape="rect" id="Node000005" href="$d6/de4/group___ui-_functions.html#gaea26af22c4b1427ec8aa9b9fb81aa30f" title="Clears the command box." alt="" coords="269,180,447,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="557,346,509,294,448,244,416,226,419,221,452,239,512,290,560,342"/>
+<area shape="rect" id="Node000006" href="$d8/d33/group___slot-_functions.html#ga6ed3311709733e1ea20c7a35f2fad9b7" title="Slot for the &#39;Execute&#39; button click event." alt="" coords="23,200,200,243"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="547,348,502,316,449,288,386,266,321,250,200,231,201,225,322,244,387,261,451,283,504,311,550,344"/>
+<area shape="rect" id="Node000007" href="$d6/de4/group___ui-_functions.html#ga03c2171905116230d3f05e1cdebb9b06" title="Clears the inputs." alt="" coords="269,297,447,340"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="486,354,443,343,444,338,487,349"/>
+<area shape="rect" id="Node000008" href="$d8/d33/group___slot-_functions.html#ga392e04e22c5ae7be73b639bef06ced8a" title="Slot for the &#39;Add&#39; button click event." alt="" coords="23,327,200,369"/>
+<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="482,374,200,356,201,351,482,368"/>
+<area shape="rect" id="Node000009" href="$dd/d44/group___database-_functions.html#gaab8300a6ed941015a4c5e1d1c68335e3" title="Closes the database." alt="" coords="269,415,447,457"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="487,406,444,417,443,411,486,400"/>
+<area shape="rect" id="Node000011" href="$d6/de4/group___ui-_functions.html#gad74b5ca7c247820a938dbdf20f1e8f8c" title="Enables or disables the buttons." alt="" coords="269,481,447,524"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="547,410,502,442,451,472,426,483,424,478,449,467,499,437,544,406"/>
+<area shape="rect" id="Node000012" href="$d8/d33/group___slot-_functions.html#ga94f1bcb3a0d4ff36c4651a7d22bbc4ff" title="Slot for the &#39;InitDB&#39; button click event." alt="" coords="23,540,200,583"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="569,413,549,445,522,480,490,512,451,538,389,562,323,574,259,577,200,575,201,570,259,572,323,568,388,556,449,534,486,508,518,476,545,442,565,410"/>
+<area shape="rect" id="Node000013" href="$dd/d44/group___database-_functions.html#gaf776a9f414cca86d16ff2c25566459e0" title="Initializes the database." alt="" coords="269,599,447,641"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="572,414,525,497,491,542,452,582,423,600,420,596,448,578,487,539,520,494,567,412"/>
+<area shape="rect" id="Node000014" href="$d8/d33/group___slot-_functions.html#ga4951eac56d47f5a30f113cbb58a1acdf" title="Slot for the &#39;SelectTable&#39; button click event." alt="" coords="266,665,450,708"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="579,414,563,467,538,532,501,598,478,628,452,655,435,667,432,663,448,651,474,625,496,595,533,529,558,465,574,413"/>
+<area shape="rect" id="Node000015" href="$d8/d33/group___slot-_functions.html#gac0dcf66680758b82204e93424b06ebff" title="Slot for the &#39;Update&#39; button click event." alt="" coords="269,732,447,775"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="583,415,571,480,547,562,530,605,508,647,483,687,452,722,437,734,433,729,448,718,478,683,504,644,525,603,542,560,566,478,578,414"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="253,66,218,59,219,53,254,61"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,104,201,113,200,108,253,99"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="254,212,201,217,200,211,253,207"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="254,334,201,340,200,335,253,328"/>
+<area shape="rect" id="Node000010" href="$d8/d33/group___slot-_functions.html#ga5dd5707ecd06a83a2f7d3c9f631583a1" title="Slot for the &#39;CloseDB&#39; button click event." alt="" coords="23,444,200,487"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="254,451,201,457,200,452,253,446"/>
+<area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="253,490,200,481,201,476,254,484"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="254,530,201,543,200,538,253,525"/>
+<area shape="poly" id="edge14_Node000013_Node000012" title=" " alt="" coords="253,598,200,585,201,580,254,593"/>
+</map>
