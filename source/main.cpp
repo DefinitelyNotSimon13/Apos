@@ -1,6 +1,3 @@
-// Copyright (c) 2023. LGPL-V3
-//
-
 /**
  * @file main.cpp
  * @brief Main entry point for the application.
@@ -48,7 +45,7 @@
 // System includes -------------------------------------------------------------------------------------------------- //
 #include <QApplication> /**< Include the QApplication class */
 #include <QDebug> /**< Include the QDebug class for debugging */
-#include <memory> /**< Include the memory header for smart pointers */
+#include <QScopedPointer> /**< Include the QScopedPointer class for memory management */
 
 // Declaration of functions------------------------------------------------------------------------------------------ //
 namespace appInitialization {
@@ -62,7 +59,7 @@ namespace appInitialization {
      * @return Unique pointer to the initialized ObjectHandler object
      * @throws std::runtime_error if the QApplication pointer is null or if the ObjectHandler fails to initialize.
      */
-    std::unique_ptr<ObjectHandler> initializeObjectHandler(QApplication *app);
+    QSharedPointer<ObjectHandler> initializeObjectHandler(QSharedPointer<QApplication> &app);
 
 // ------------------------------------------------------------------------------------------------------------------ //
 
@@ -77,7 +74,7 @@ namespace appInitialization {
      * @throws std::runtime_error if the ObjectHandler pointer is null, or if
      *                            the WindowHandler object fails to initialize.
      */
-    std::unique_ptr<WindowHandler> initializeWindowHandler(ObjectHandler *objectHandler);
+    QSharedPointer<WindowHandler> initializeWindowHandler(const QSharedPointer<ObjectHandler> &objectHandler);
 }
 
 // Implementation of functions -------------------------------------------------------------------------------------- //
@@ -95,11 +92,11 @@ namespace appInitialization {
 int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-misra-cpp2008-7-3-1)
     int returnStatus = -1; // Initialize return status to -1 (error state)
     try {
-        std::unique_ptr<QApplication> application = std::make_unique<QApplication>(argc, argv);
+        QSharedPointer<QApplication> application(new QApplication(argc, argv));
         qDebug() << "Application Object initialized";
 
-        std::unique_ptr<ObjectHandler> objectHandler = appInitialization::initializeObjectHandler(application.get());
-        std::unique_ptr<WindowHandler> windowHandler = appInitialization::initializeWindowHandler(objectHandler.get());
+        QSharedPointer<ObjectHandler> objectHandler = appInitialization::initializeObjectHandler(application);
+        QSharedPointer<WindowHandler> windowHandler = appInitialization::initializeWindowHandler(objectHandler);
 
         returnStatus = QApplication::exec(); // Update return status
     } catch (const std::exception &e) {
@@ -110,15 +107,15 @@ int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-mi
 
 // ------------------------------------------------------------------------------------------------------------------ //
 namespace appInitialization {
-    std::unique_ptr<ObjectHandler> initializeObjectHandler(QApplication *app) {
+    QSharedPointer<ObjectHandler> initializeObjectHandler(QSharedPointer<QApplication> &app) {
         if (app == nullptr) {
             throw std::runtime_error("QApplication pointer is null");
         }
 
-        StartupHandler startupHandler(app);
+        StartupHandler startupHandler(app.data());
         qDebug() << "StartupHandler Object initialized";
 
-        std::unique_ptr<ObjectHandler> objectHandler(startupHandler.startUp());
+        QSharedPointer<ObjectHandler> objectHandler(startupHandler.startUp());
         if (objectHandler == nullptr) {
             throw std::runtime_error("Failed to initialize ObjectHandler");
         }
@@ -127,15 +124,12 @@ namespace appInitialization {
         return objectHandler;
     }
 
-    std::unique_ptr<WindowHandler> initializeWindowHandler(ObjectHandler *objectHandler) {
+    QSharedPointer<WindowHandler> initializeWindowHandler(const QSharedPointer<ObjectHandler> &objectHandler) {
         if (objectHandler == nullptr) {
             throw std::runtime_error("ObjectHandler pointer is null");
         }
 
-        std::unique_ptr<WindowHandler> windowHandler(new WindowHandler(objectHandler));
-        if (windowHandler == nullptr) {
-            throw std::runtime_error("Failed to initialize WindowHandler");
-        }
+        QSharedPointer<WindowHandler> windowHandler(new WindowHandler(objectHandler.data()));
         windowHandler->showLaunchWindow();
         qDebug() << "After DevWindow Show";
 
