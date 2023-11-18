@@ -112,7 +112,7 @@ namespace appInitialization {
             throw std::runtime_error("QApplication pointer is null");
         }
 
-        StartupHandler startupHandler(app.data());
+        AposBackend::StartupHandler startupHandler(app.data());
         qDebug() << "StartupHandler Object initialized";
 
         QSharedPointer<ObjectHandler> objectHandler(startupHandler.startUp());
