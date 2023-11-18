@@ -25,11 +25,11 @@
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00021}00021\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a918812b884469ab371aa292cc5a2192e}{tableModel}}-\/>select();}
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00022}00022\ \}}
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00023}00023\ }
-\DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00024}\mbox{\hyperlink{class_table_handler_a007af497af9c948459bacf935d45fe64}{00024}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f}{TableHandler::generateTableModel}}(QSqlDatabase\&\ activeDatabase,\ \textcolor{keyword}{const}\ QString\ \&tableName)}
+\DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00024}\mbox{\hyperlink{class_table_handler_a007af497af9c948459bacf935d45fe64}{00024}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f}{TableHandler::generateTableModel}}(QSqlDatabase\&\ ptrActiveDatabase,\ \textcolor{keyword}{const}\ QString\ \&tableName)}
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00025}00025\ \{}
-\DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00026}00026\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a9d8929ba06a21b26fa9c56702087d8ad}{tblActiveDatabase}}\ =\ activeDatabase;}
+\DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00026}00026\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a9d8929ba06a21b26fa9c56702087d8ad}{tblActiveDatabase}}\ =\ ptrActiveDatabase;}
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00027}00027\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a1ee3904c534098cfa8b6a90bdeb6b483}{activeTableName}}\ =\ tableName;}
-\DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00028}00028\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a918812b884469ab371aa292cc5a2192e}{tableModel}}\ =\ \textcolor{keyword}{new}\ QSqlTableModel(\textcolor{keyword}{nullptr},\ activeDatabase);}
+\DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00028}00028\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a918812b884469ab371aa292cc5a2192e}{tableModel}}\ =\ \textcolor{keyword}{new}\ QSqlTableModel(\textcolor{keyword}{nullptr},\ ptrActiveDatabase);}
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00029}00029\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a918812b884469ab371aa292cc5a2192e}{tableModel}}-\/>setTable(tableName);}
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00030}00030\ \ \ \ \ \mbox{\hyperlink{class_table_handler_a918812b884469ab371aa292cc5a2192e}{tableModel}}-\/>select();}
 \DoxyCodeLine{\Hypertarget{tablehandler_8cpp_source_l00031}00031\ \}}

@@ -17,8 +17,8 @@
 \indexentry{setDatabasePath@{setDatabasePath}!DatabaseHandler@{DatabaseHandler}|hyperpage}{15}
 \indexentry{DatabaseHandler@{DatabaseHandler}!setLastSqlError@{setLastSqlError}|hyperpage}{15}
 \indexentry{setLastSqlError@{setLastSqlError}!DatabaseHandler@{DatabaseHandler}|hyperpage}{15}
-\indexentry{DatabaseHandler@{DatabaseHandler}!activeDatabase@{activeDatabase}|hyperpage}{15}
-\indexentry{activeDatabase@{activeDatabase}!DatabaseHandler@{DatabaseHandler}|hyperpage}{15}
+\indexentry{DatabaseHandler@{DatabaseHandler}!ptrActiveDatabase@{ptrActiveDatabase}|hyperpage}{15}
+\indexentry{ptrActiveDatabase@{ptrActiveDatabase}!DatabaseHandler@{DatabaseHandler}|hyperpage}{15}
 \indexentry{DatabaseHandler@{DatabaseHandler}!databasePath@{databasePath}|hyperpage}{15}
 \indexentry{databasePath@{databasePath}!DatabaseHandler@{DatabaseHandler}|hyperpage}{15}
 \indexentry{DatabaseHandler@{DatabaseHandler}!lastSqlError@{lastSqlError}|hyperpage}{15}

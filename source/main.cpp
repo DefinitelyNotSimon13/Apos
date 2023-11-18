@@ -1,10 +1,10 @@
 /**
  * @file main.cpp
- * @brief Main entry point for the application.
  * @author Simon Blum
  * @date 13.11.2023
- * @version 0.1_alpha.1
+ * @version 0.1_alpha.2
  * @license LGPL-V3
+ * @brief Main entry point for the application.
  *
  * This file contains the main function, which represents the entry point for the application.
  * It initializes the QApplication, StartupHandler, and ObjectHandler objects.
@@ -30,26 +30,21 @@
  * since the qMain function acts as the main function within the Qt framework, this deviation is considered acceptable.
  *
  * @note The application is part of a student project and is not intended for commercial use.
- * Therefore, the LGPL-V3 licence is used instead of the commercial Qt licence.
  *
  * @see QApplication
  * @see StartupHandler
  * @see ObjectHandler
  * @see WindowHandler
  */
-
 // Local includes --------------------------------------------------------------------------------------------------- //
 #include "../classes/backendClasses/startuphandler.hpp" /**< Include the StartupHandler class */
 #include "../classes/frontendClasses/windowhandler.hpp" /**< Include the WindowHandler class */
-
 // System includes -------------------------------------------------------------------------------------------------- //
 #include <QApplication> /**< Include the QApplication class */
 #include <QDebug> /**< Include the QDebug class for debugging */
 #include <QScopedPointer> /**< Include the QScopedPointer class for memory management */
-
 // Declaration of functions------------------------------------------------------------------------------------------ //
 namespace AppInitialization {
-
     /**
      * @brief Initialize the StartupHandler object
      *
@@ -59,7 +54,7 @@ namespace AppInitialization {
      * @return Shared pointer to the initialized StartupHandler object
      * @throws std::runtime_error if the QApplication pointer is null.
      */
-    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication> &newApp);
+    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication>& newApp);
 
     /**
      * @brief Initialize the ObjectHandler object
@@ -71,11 +66,9 @@ namespace AppInitialization {
      * @return Unique pointer to the initialized ObjectHandler object
      * @throws std::runtime_error if the QApplication pointer is null or if the ObjectHandler fails to initialize.
      */
-    QSharedPointer<ObjectHandler> initializeObjectHandler(
-                                                    const QSharedPointer<AposBackend::StartupHandler> &startupHandler);
-
+    QSharedPointer<AposBackend::ObjectHandler> initializeObjectHandler(
+            const QSharedPointer<AposBackend::StartupHandler>& startupHandler);
 // ------------------------------------------------------------------------------------------------------------------ //
-
     /**
      * @brief Initialize the WindowHandler object
      *
@@ -87,9 +80,9 @@ namespace AppInitialization {
      * @throws std::runtime_error if the ObjectHandler pointer is null, or if
      *                            the WindowHandler object fails to initialize.
      */
-    QSharedPointer<WindowHandler> initializeWindowHandler(const QSharedPointer<ObjectHandler> &objectHandler);
+    QSharedPointer<AposFrontend::WindowHandler>
+    initializeWindowHandler(const QSharedPointer<AposBackend::ObjectHandler>& objectHandler);
 }
-
 // Implementation of functions -------------------------------------------------------------------------------------- //
 /**
  * @brief Main function
@@ -109,9 +102,11 @@ int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-mi
         qDebug() << "Application Object initialized";
 
         QSharedPointer<AposBackend::StartupHandler>
-                                    startupHandler = AppInitialization::initializeStartupHandler(application);
-        QSharedPointer<ObjectHandler> objectHandler = AppInitialization::initializeObjectHandler(startupHandler);
-        QSharedPointer<WindowHandler> windowHandler = AppInitialization::initializeWindowHandler(objectHandler);
+                startupHandler = AppInitialization::initializeStartupHandler(application);
+        QSharedPointer<AposBackend::ObjectHandler>
+                objectHandler = AppInitialization::initializeObjectHandler(startupHandler);
+        QSharedPointer<AposFrontend::WindowHandler> windowHandler = AppInitialization::initializeWindowHandler(
+                objectHandler);
 
         returnStatus = QApplication::exec(); // Update return status
     } catch (const std::exception &e) {
@@ -119,12 +114,10 @@ int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-mi
     }
     return returnStatus; // Single point of exit
 }
-
 // ------------------------------------------------------------------------------------------------------------------ //
 namespace AppInitialization {
-
-
-    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication> &newApp) {
+    //----------------------------------------------------------------------------------------------------------------//
+    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication>& newApp) {
         if (newApp == nullptr) {
             throw std::runtime_error("QApplication pointer is null");
         }
@@ -133,11 +126,11 @@ namespace AppInitialization {
         qDebug() << "StartupHandler Object initialized";
         return startupHandler;
     }
+    //----------------------------------------------------------------------------------------------------------------//
+    QSharedPointer<AposBackend::ObjectHandler>
+    initializeObjectHandler(const QSharedPointer<AposBackend::StartupHandler>& startupHandler) {
 
-    QSharedPointer<ObjectHandler> initializeObjectHandler(
-                                                    const QSharedPointer<AposBackend::StartupHandler> &startupHandler) {
-
-        QSharedPointer<ObjectHandler> objectHandler(startupHandler->startUp());
+        QSharedPointer<AposBackend::ObjectHandler> objectHandler(startupHandler->startUp());
         if (objectHandler == nullptr) {
             throw std::runtime_error("Failed to initialize ObjectHandler");
         }
@@ -145,19 +138,99 @@ namespace AppInitialization {
 
         return objectHandler;
     }
-
-
-
-    QSharedPointer<WindowHandler> initializeWindowHandler(const QSharedPointer<ObjectHandler> &objectHandler) {
+    //----------------------------------------------------------------------------------------------------------------//
+    QSharedPointer<AposFrontend::WindowHandler>
+    initializeWindowHandler(const QSharedPointer<AposBackend::ObjectHandler>& objectHandler) {
         if (objectHandler == nullptr) {
             throw std::runtime_error("ObjectHandler pointer is null");
         }
 
-        QSharedPointer<WindowHandler> windowHandler(new WindowHandler(objectHandler.data()));
+        QSharedPointer<AposFrontend::WindowHandler> windowHandler(new AposFrontend::WindowHandler(objectHandler));
         windowHandler->showLaunchWindow();
         qDebug() << "After DevWindow Show";
 
         return windowHandler;
     }
 }
-// ------------------------------------------------------------------------------------------------------------------ //
+// End of file main.cpp --------------------------------------------------------------------------------------------- //
+// Doxygen-Groups --------------------------------------------------------------------------------------------------- //
+
+/**
+ * @defgroup Constructructors-Destructors Constructors and Desctructors
+ * @brief Group of constructors and destructors in the application.
+ *
+ * @details
+ * This group contains all the constructors and destructors used in the application.
+ * These functions are responsible for initializing and cleaning up objects.
+ */
+
+/**
+ * @defgroup Initialization Initialization
+ * @brief Group of initialization functions in the application.
+ *
+ * @details
+ * This group contains all the functions that are responsible for initializing various components of the application,
+ * such as the QApplication, StartupHandler, ObjectHandler, and WindowHandler objects.
+ */
+
+/**
+ * @defgroup Slot-Functions Slot Functions
+ * @brief Group of slot functions in the application.
+ *
+ * @details
+ * This group contains all the slot functions in the application.
+ * These functions are used to handle signals emitted by other objects.
+ */
+
+/**
+* @defgroup Signal-Funtions Signal Functions
+* @brief Group of signal functions in the application.
+*
+* @details
+* This group contains all the signal functions in the application.
+* These functions are used to emit signals that can be handled by slot functions.
+*/
+
+/**
+ * @defgroup Ui-Functions UI Functions
+ * @brief Group of UI functions in the application.
+ *
+ * @details
+ * This group contains all the functions that are responsible for handling the user interface of the application.
+ */
+
+/**
+ * @defgroup Database-Functions Database Functions
+ * @brief Group of database functions in the application.
+ *
+ * @details
+ * This group contains all the functions that interact with the database.
+ * These functions are responsible for creating, reading, updating, and deleting data in the database.
+ */
+
+/**
+ * @defgroup Log-Functions Log Functions
+ * @brief Group of log functions in the application.
+ *
+ * @details
+ * This group contains all the functions that are responsible for logging information.
+ * These functions are used to log information for debugging and tracking purposes.
+ */
+
+/**
+ * @defgroup Utility-Functions Utility Functions
+ * @brief Group of utility functions in the application.
+ *
+ * @details
+ * This group contains all the utility functions in the application.
+ * These functions provide various utility services such as string manipulation, data conversion, etc.
+ */
+
+/**
+ * @defgroup Variables Variables
+ * @brief Group of variables in the application.
+ *
+ * @details
+ * This group contains all the variables used in the application.
+ * These variables are used to store data and pass it between functions.
+ */

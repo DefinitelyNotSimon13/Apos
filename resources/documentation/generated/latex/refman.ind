@@ -11,7 +11,7 @@
 
   \indexspace
 
-  \item {activeDatabase}
+  \item {ptrActiveDatabase}
     \subitem {DatabaseHandler}, \hyperpage{15}
   \item {activeTableName}
     \subitem {TableHandler}, \hyperpage{48}
@@ -86,7 +86,7 @@
   \indexspace
 
   \item {DatabaseHandler}, \hyperpage{13}
-    \subitem {activeDatabase}, \hyperpage{15}
+    \subitem {ptrActiveDatabase}, \hyperpage{15}
     \subitem {closeDatabase}, \hyperpage{13}
     \subitem {DatabaseHandler}, \hyperpage{13}
     \subitem {databasePath}, \hyperpage{15}
