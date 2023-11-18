@@ -1,0 +1,11 @@
+<map id="AposFrontend::DevWindow::setModelViews" name="AposFrontend::DevWindow::setModelViews">
+<area shape="rect" id="Node000001" title="Sets the model views." alt="" coords="238,105,415,148"/>
+<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#ga5dd5707ecd06a83a2f7d3c9f631583a1" title="Slot for the &#39;CloseDB&#39; button click event." alt="" coords="9,5,186,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,100,189,62,160,51,162,46,191,58,271,96"/>
+<area shape="rect" id="Node000003" href="$d8/d33/group___slot-_functions.html#ga94f1bcb3a0d4ff36c4651a7d22bbc4ff" title="Slot for the &#39;InitDB&#39; button click event." alt="" coords="9,72,186,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,114,186,109,187,104,223,109"/>
+<area shape="rect" id="Node000004" href="$d8/d33/group___slot-_functions.html#ga4951eac56d47f5a30f113cbb58a1acdf" title="Slot for the &#39;SelectTable&#39; button click event." alt="" coords="5,139,190,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,144,191,149,190,144,222,139"/>
+<area shape="rect" id="Node000005" href="$d8/d33/group___slot-_functions.html#gac0dcf66680758b82204e93424b06ebff" title="Slot for the &#39;Update&#39; button click event." alt="" coords="9,205,186,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="271,158,191,196,162,207,160,202,189,191,269,153"/>
+</map>

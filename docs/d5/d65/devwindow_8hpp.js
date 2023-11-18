@@ -1,4 +1,4 @@
 var devwindow_8hpp =
 [
-    [ "DevWindow", "d6/d5d/class_dev_window.html", "d6/d5d/class_dev_window" ]
+    [ "AposFrontend::DevWindow", "dc/dc2/class_apos_frontend_1_1_dev_window.html", "dc/dc2/class_apos_frontend_1_1_dev_window" ]
 ];

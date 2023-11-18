@@ -1,0 +1,7 @@
+<map id="AposFrontend::SettingsWindow::appliedSettings" name="AposFrontend::SettingsWindow::appliedSettings">
+<area shape="rect" id="Node000001" title="Signal for applying settings." alt="" coords="258,39,462,81"/>
+<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#gaf25a0a0d2cf2f2f20fec4ca3b4a36c88" title="Slot for the &#39;Apply&#39; button click event." alt="" coords="5,5,210,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,47,210,43,211,38,243,42"/>
+<area shape="rect" id="Node000003" href="$d3/dbc/group___constructructors-_destructors.html#ga8230aa2c25b5bb8db86c34b4b50bcd56" title="Constructor for the WindowHandler class." alt="" coords="7,72,208,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,78,208,83,208,77,242,73"/>
+</map>

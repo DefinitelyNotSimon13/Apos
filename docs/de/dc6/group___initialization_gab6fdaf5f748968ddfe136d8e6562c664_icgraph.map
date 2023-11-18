@@ -1,0 +1,7 @@
+<map id="AposBackend::StartupHandler::initTranslator" name="AposBackend::StartupHandler::initTranslator">
+<area shape="rect" id="Node000001" title="Initializes the application&#39;s translator." alt="" coords="494,5,690,48"/>
+<area shape="rect" id="Node000002" href="$de/dc6/group___initialization.html#gac6e06b1a893afdf477c3efa74c2f072c" title="Installs the application&#39;s translator." alt="" coords="250,5,446,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,29,447,29,447,24,479,24"/>
+<area shape="rect" id="Node000003" href="$de/dc6/group___initialization.html#ga822be2ed5fb04376341c8b09702e8d61" title="Initializes the application&#39;s translator and ObjectHandler." alt="" coords="5,5,202,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,29,202,29,202,24,234,24"/>
+</map>

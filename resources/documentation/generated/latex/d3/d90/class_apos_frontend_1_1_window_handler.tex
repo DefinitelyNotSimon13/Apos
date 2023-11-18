@@ -1,0 +1,93 @@
+\doxysection{Apos\+Frontend\+::Window\+Handler Class Reference}
+\hypertarget{class_apos_frontend_1_1_window_handler}{}\label{class_apos_frontend_1_1_window_handler}\index{AposFrontend::WindowHandler@{AposFrontend::WindowHandler}}
+
+
+Provides the functionality for managing the application\textquotesingle{}s windows.  
+
+
+
+
+{\ttfamily \#include $<$windowhandler.\+hpp$>$}
+
+
+
+Inheritance diagram for Apos\+Frontend\+::Window\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{db/d3a/class_apos_frontend_1_1_window_handler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Apos\+Frontend\+::Window\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{db/d5a/class_apos_frontend_1_1_window_handler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga8230aa2c25b5bb8db86c34b4b50bcd56}{Window\+Handler}} (QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ new\+Object\+Handler)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_frontend_1_1_window_handler}{Window\+Handler} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_ga0ccce4c871b37eb96d2d3df478855277}{show\+Launch\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Shows the launcher window. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___ui-_functions_gad71663083f50868c2efb568336b50b56}{show\+Dev\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Shows the developer window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28}{show\+Settings\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Shows the settings window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___ui-_functions_gab39e73556bb529119402e7e3cde6588e}{apply\+Settings}} ()
+\begin{DoxyCompactList}\small\item\em Applies settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___ui-_functions_gad12be8738b363edf8803ec140c14989c}{change\+Languages}} ()
+\begin{DoxyCompactList}\small\item\em Changes languages. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_frontend_1_1_launcher_window}{Launcher\+Window}} $>$ \mbox{\hyperlink{group___variables_ga8fcbe1532f6be71c11b4a9b3b4fd00ed}{ptr\+Launcher\+Window}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the \doxylink{class_apos_frontend_1_1_launcher_window}{Launcher\+Window} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_frontend_1_1_dev_window}{Dev\+Window}} $>$ \mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptr\+Dev\+Window}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the \doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_frontend_1_1_settings_window}{Settings\+Window}} $>$ \mbox{\hyperlink{group___variables_gafa8d02d5ff5c347de84d90f356f69bb7}{ptr\+Settings\+Window}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the \doxylink{class_apos_frontend_1_1_settings_window}{Settings\+Window} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptr\+Object\+Handler}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the Object\+Handler object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides the functionality for managing the application\textquotesingle{}s windows. 
+
+The \doxylink{class_apos_frontend_1_1_window_handler}{Window\+Handler} class is a part of the application\textquotesingle{}s frontend logic. It provides the functionality for showing the launcher window, developer window, and settings window. It also applies settings and changes languages.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler} 
+
+\doxylink{class_apos_frontend_1_1_launcher_window}{Launcher\+Window} 
+
+\doxylink{class_apos_frontend_1_1_dev_window}{Dev\+Window} 
+
+\doxylink{class_apos_frontend_1_1_settings_window}{Settings\+Window} 
+
+QShared\+Pointer 
+
+QObject 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{windowhandler_8hpp_source_l00048}{48}} of file \mbox{\hyperlink{windowhandler_8hpp_source}{windowhandler.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{windowhandler_8hpp}{windowhandler.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/frontend\+Classes/\mbox{\hyperlink{windowhandler_8cpp}{windowhandler.\+cpp}}\end{DoxyCompactItemize}

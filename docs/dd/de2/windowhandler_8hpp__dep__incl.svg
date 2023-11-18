@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Header file for the WindowHandler class.">
 <polygon fill="#999999" stroke="#666666" points="252.25,-148 90,-148 90,-92 252.25,-92 252.25,-148"/>
 <text text-anchor="start" x="98" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/Users/Clean/Documents</text>
 <text text-anchor="start" x="98" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Projekte/Apos&#45;DatabaseManager</text>
@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../d0/d1d/windowhandler_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../d0/d1d/windowhandler_8cpp.html" target="_top" xlink:title="Source file for the WindowHandler class.">
 <polygon fill="white" stroke="#666666" points="162.25,-56 0,-56 0,0 162.25,0 162.25,-56"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/Users/Clean/Documents</text>
 <text text-anchor="start" x="8" y="-30.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Projekte/Apos&#45;DatabaseManager</text>
@@ -44,7 +44,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../df/d0a/main_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../df/d0a/main_8cpp.html" target="_top" xlink:title="Main entry point for the application.">
 <polygon fill="white" stroke="#666666" points="342.25,-50 180,-50 180,-6 342.25,-6 342.25,-50"/>
 <text text-anchor="start" x="188" y="-36.5" font-family="Helvetica,sans-Serif" font-size="10.00">C:/Users/Clean/Documents</text>
 <text text-anchor="start" x="188" y="-24.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Projekte/Apos&#45;DatabaseManager</text>

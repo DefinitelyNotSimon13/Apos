@@ -2,38 +2,42 @@
 \hypertarget{launcherwindow_8hpp_source}{}\label{launcherwindow_8hpp_source}\index{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp}}
 \mbox{\hyperlink{launcherwindow_8hpp}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#pragma\ once}}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00002}00002\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ <QMainWindow>}}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00004}00004\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}../backendClasses/objecthandler.hpp"{}}}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{translatablewindow_8hpp}{translatablewindow.hpp}}"{}}}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00007}00007\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00008}00008\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00009}00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_launcher_window}{LauncherWindow}};}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00010}00010\ \}}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00011}00011\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00012}\mbox{\hyperlink{class_launcher_window}{00012}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_launcher_window}{LauncherWindow}}\ :\ \textcolor{keyword}{public}\ QMainWindow,\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_translatable_window}{TranslatableWindow}}}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00013}00013\ \{}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00014}00014\ \ \ \ \ Q\_OBJECT}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00015}00015\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00016}00016\ \textcolor{keyword}{public}:}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00017}00017\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{class_launcher_window}{LauncherWindow}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr},\ \mbox{\hyperlink{class_object_handler}{ObjectHandler}}*\ newObjectHandler\ =\ \textcolor{keyword}{nullptr});}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00018}00018\ \ \ \ \ \mbox{\hyperlink{class_launcher_window_ab95206aadded10851dff031320245b9c}{\string~LauncherWindow}}();}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00019}00019\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00020}\mbox{\hyperlink{class_launcher_window_af3b8a8bc1c565f38774ed1f63d1139a4}{00020}}\ \ \ \ \ Ui::LauncherWindow\ *\mbox{\hyperlink{class_launcher_window_af3b8a8bc1c565f38774ed1f63d1139a4}{ui}};}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00021}00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_launcher_window_a41858b0fcfb5c7bd01ada9d9542f4606}{retranslateUi}}();}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00022}00022\ signals:}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00023}\mbox{\hyperlink{class_launcher_window_a4fd279164e186aeaf10dfada448c7efb}{00023}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_launcher_window_a4fd279164e186aeaf10dfada448c7efb}{openDevWindow}}();}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00024}\mbox{\hyperlink{class_launcher_window_a16f5a8a4cf28e14a0c98ebeb6c60d1e1}{00024}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_launcher_window_a16f5a8a4cf28e14a0c98ebeb6c60d1e1}{openSettings}}();}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00025}00025\ \textcolor{keyword}{private}\ slots:}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00026}00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_launcher_window_ae42dca7038ff6eed7d35701fdd858e42}{on\_inShowDev\_clicked}}();}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00027}00027\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_launcher_window_a843ea8d2cb731d1f73d17dafb72055f8}{on\_pushButton\_clicked}}();}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00028}00028\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00029}00029\ \textcolor{keyword}{private}:}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00030}00030\ }
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00031}\mbox{\hyperlink{class_launcher_window_ab89810d74163ff683a0ccc3ec7d530bf}{00031}}\ \ \ \ \ \mbox{\hyperlink{class_object_handler}{ObjectHandler}}*\ \mbox{\hyperlink{class_launcher_window_ab89810d74163ff683a0ccc3ec7d530bf}{objectHandler}};}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00032}00032\ \};}
-\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00019}00019\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00020}00020\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00021}00021\ \textcolor{preprocessor}{\#include\ <QMainWindow>}}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00023}00023\ \textcolor{preprocessor}{\#include\ "{}../backendClasses/objecthandler.hpp"{}}}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00024}00024\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{translatablewindow_8hpp}{translatablewindow.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00026}00026\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00027}00027\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00028}00028\ \ \ \ \ \textcolor{keyword}{class\ }LauncherWindow;}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00029}00029\ \}}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00030}00030\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00031}00031\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_apos_frontend}{AposFrontend}}\ \{}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00045}\mbox{\hyperlink{class_apos_frontend_1_1_launcher_window}{00045}}\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_apos_frontend_1_1_launcher_window}{LauncherWindow}}\ :\ \textcolor{keyword}{public}\ QMainWindow,\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_apos_frontend_1_1_translatable_window}{TranslatableWindow}}\ \{}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00046}00046\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00047}00047\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00055}00055\ \ \ \ \ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{class_apos_frontend_1_1_launcher_window}{LauncherWindow}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QSharedPointer<AposBackend::ObjectHandler>\ newObjectHandler\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00057}00057\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00063}00063\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___constructructors-_destructors_ga8d5add87f5aaf8acee42ca1030998430}{\string~LauncherWindow}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00064}00064\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00070}00070\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___ui-_functions_ga52c5c44ca23ae60a1ac1fc1d902e94f5}{retranslateUi}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00071}00071\ \ \ \ \ signals:}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00077}\mbox{\hyperlink{group___signal-_funtions_ga0d06592356794582b3ad43292227af7a}{00077}}\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___signal-_funtions_ga0d06592356794582b3ad43292227af7a}{openDevWindow}}();}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00078}00078\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00084}\mbox{\hyperlink{group___signal-_funtions_ga75e939cb47b5e6af99153b128c7bd5d6}{00084}}\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___signal-_funtions_ga75e939cb47b5e6af99153b128c7bd5d6}{openSettings}}();}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00085}00085\ \ \ \ \ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00091}00091\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___slot-_functions_ga4684f63ebb3e4edddc912ba372222ee1}{on\_inShowDev\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00092}00092\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00098}00098\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___slot-_functions_ga7a52cc1168adc3df616915e4ec59e112}{on\_pushButton\_clicked}}();}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00099}00099\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00105}\mbox{\hyperlink{group___variables_ga544df2a5bbbaa401c15b23df3a234a89}{00105}}\ \ \ \ \ \ \ \ \ Ui::LauncherWindow\ *\mbox{\hyperlink{group___variables_ga544df2a5bbbaa401c15b23df3a234a89}{ui}};}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00106}00106\ }
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00112}\mbox{\hyperlink{group___variables_ga1d13ebfc73580f8a79a71b07428bb0eb}{00112}}\ \ \ \ \ \ \ \ \ QSharedPointer<AposBackend::ObjectHandler>\ \mbox{\hyperlink{group___variables_ga1d13ebfc73580f8a79a71b07428bb0eb}{objectHandler}}\ =\ \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00113}00113\ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{launcherwindow_8hpp_source_l00114}00114\ \}}
 
 \end{DoxyCode}

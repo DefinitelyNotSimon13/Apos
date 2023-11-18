@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windowhandler_0',['WindowHandler',['../d5/d61/class_window_handler.html#adf32b0851c5df8d24cc2c74775e4b94d',1,'WindowHandler']]]
+  ['windowhandler_0',['WindowHandler',['../d3/dbc/group___constructructors-_destructors.html#ga8230aa2c25b5bb8db86c34b4b50bcd56',1,'AposFrontend::WindowHandler']]]
 ];

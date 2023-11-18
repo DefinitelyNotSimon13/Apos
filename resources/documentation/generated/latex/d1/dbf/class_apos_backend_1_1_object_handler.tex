@@ -1,0 +1,197 @@
+\doxysection{Apos\+Backend\+::Object\+Handler Class Reference}
+\hypertarget{class_apos_backend_1_1_object_handler}{}\label{class_apos_backend_1_1_object_handler}\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+
+
+The \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} class is a part of the application\textquotesingle{}s backend logic.  
+
+
+
+
+{\ttfamily \#include $<$objecthandler.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga323a5ed5f8ed6cd37cdb838e132f025a}{Object\+Handler}} (QShared\+Pointer$<$ QApplication $>$ new\+Application, QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}} $>$ new\+Db\+Handler, QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler}} $>$ new\+Table\+Handler)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} class. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___initialization_gac0379aadaeeeb327649a6f252da0c4e1}{init\+Database\+Object}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the database object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___initialization_gacd26b741696339620d5d6f3d5e65e688}{init\+Table\+Object}} (const QString \&input\+Table\+Name)
+\begin{DoxyCompactList}\small\item\em Initializes the table object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_apos_backend_1_1_object_handler_a01f8ae714d71caf1b6627ec3a237a547}{set\+Active\+Table\+Name}} (const QString \&new\+Active\+Table\+Name)
+\begin{DoxyCompactList}\small\item\em Sets the active table name. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ QSql\+Database $>$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler_aeb2f428369d3d319a4e498165d74bc63}{get\+Active\+Database}} () const
+\begin{DoxyCompactList}\small\item\em Gets the active database. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler}} $>$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler_a702f40cfa2c7466285aa9500c289bc2b}{get\+Ptr\+Table\+Handler}} () const
+\begin{DoxyCompactList}\small\item\em Gets the table handler. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}} $>$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler_a257fa500e50c436bb1c5f760fd721a17}{get\+Ptr\+Db\+Handler}} () const
+\begin{DoxyCompactList}\small\item\em Gets the database handler. \end{DoxyCompactList}\item 
+const QString \& \mbox{\hyperlink{class_apos_backend_1_1_object_handler_a5b582ed58502f050c33a932d148e7c1e}{get\+Active\+Table\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the active table name. \end{DoxyCompactList}\item 
+const QSql\+Error \& \mbox{\hyperlink{class_apos_backend_1_1_object_handler_a1627dffe3fb1bff87cd8a6a8449644a7}{get\+Table\+Sql\+Error}} () const
+\begin{DoxyCompactList}\small\item\em Gets the table SQL error. \end{DoxyCompactList}\item 
+const QShared\+Pointer$<$ QApplication $>$ \& \mbox{\hyperlink{class_apos_backend_1_1_object_handler_a4f5b36cb39c17b71be234b7059c5cda8}{get\+Ptr\+Application}} () const
+\begin{DoxyCompactList}\small\item\em Gets the QApplication object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QShared\+Pointer$<$ QApplication $>$ \mbox{\hyperlink{group___variables_gaaf8c1776cb05952a63caad3e0d731af3}{ptr\+Application}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the QApplication object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga445f6970d80bf4f3f401a644a752a3d0}{ptr\+Db\+Handler}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the Database\+Handler object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga14fd424be7ad4195dcf9349466f177a2}{ptr\+Table\+Handler}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the Table\+Handler object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} class is a part of the application\textquotesingle{}s backend logic. 
+
+Provides the functionality for initializing the database and table objects, setting the active table name, and getting the active database, table handler, database handler, active table name, and table SQL error.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler} 
+
+\doxylink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler} 
+
+QApplication 
+
+QShared\+Pointer 
+
+QDebug 
+
+Qt\+Sql 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8hpp_source_l00048}{48}} of file \mbox{\hyperlink{objecthandler_8hpp_source}{objecthandler.\+hpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_apos_backend_1_1_object_handler_aeb2f428369d3d319a4e498165d74bc63}\label{class_apos_backend_1_1_object_handler_aeb2f428369d3d319a4e498165d74bc63} 
+\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getActiveDatabase@{getActiveDatabase}}
+\index{getActiveDatabase@{getActiveDatabase}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+\doxysubsubsection{\texorpdfstring{getActiveDatabase()}{getActiveDatabase()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ QSql\+Database $>$ Apos\+Backend\+::\+Object\+Handler\+::get\+Active\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the active database. 
+
+This function gets the active database of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \begin{DoxyReturn}{Returns}
+Shared pointer to the active QSql\+Database object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00070}{70}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{class_apos_backend_1_1_object_handler_a5b582ed58502f050c33a932d148e7c1e}\label{class_apos_backend_1_1_object_handler_a5b582ed58502f050c33a932d148e7c1e} 
+\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getActiveTableName@{getActiveTableName}}
+\index{getActiveTableName@{getActiveTableName}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+\doxysubsubsection{\texorpdfstring{getActiveTableName()}{getActiveTableName()}}
+{\footnotesize\ttfamily const QString \& Apos\+Backend\+::\+Object\+Handler\+::get\+Active\+Table\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the active table name. 
+
+This function gets the active table name of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \begin{DoxyReturn}{Returns}
+The active table name. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00062}{62}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{class_apos_backend_1_1_object_handler_a4f5b36cb39c17b71be234b7059c5cda8}\label{class_apos_backend_1_1_object_handler_a4f5b36cb39c17b71be234b7059c5cda8} 
+\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrApplication@{getPtrApplication}}
+\index{getPtrApplication@{getPtrApplication}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+\doxysubsubsection{\texorpdfstring{getPtrApplication()}{getPtrApplication()}}
+{\footnotesize\ttfamily const QShared\+Pointer$<$ QApplication $>$ \& Apos\+Backend\+::\+Object\+Handler\+::get\+Ptr\+Application (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the QApplication object. 
+
+This function gets the QApplication object of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \begin{DoxyReturn}{Returns}
+Shared pointer to the QApplication object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00078}{78}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{class_apos_backend_1_1_object_handler_a257fa500e50c436bb1c5f760fd721a17}\label{class_apos_backend_1_1_object_handler_a257fa500e50c436bb1c5f760fd721a17} 
+\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrDbHandler@{getPtrDbHandler}}
+\index{getPtrDbHandler@{getPtrDbHandler}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+\doxysubsubsection{\texorpdfstring{getPtrDbHandler()}{getPtrDbHandler()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Apos\+Database\+::\+Database\+Handler}} $>$ Apos\+Backend\+::\+Object\+Handler\+::get\+Ptr\+Db\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the database handler. 
+
+This function gets the database handler of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \begin{DoxyReturn}{Returns}
+Shared pointer to the Database\+Handler object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00058}{58}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{class_apos_backend_1_1_object_handler_a702f40cfa2c7466285aa9500c289bc2b}\label{class_apos_backend_1_1_object_handler_a702f40cfa2c7466285aa9500c289bc2b} 
+\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrTableHandler@{getPtrTableHandler}}
+\index{getPtrTableHandler@{getPtrTableHandler}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+\doxysubsubsection{\texorpdfstring{getPtrTableHandler()}{getPtrTableHandler()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_table_handler}{Apos\+Database\+::\+Table\+Handler}} $>$ Apos\+Backend\+::\+Object\+Handler\+::get\+Ptr\+Table\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the table handler. 
+
+This function gets the table handler of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \begin{DoxyReturn}{Returns}
+Shared pointer to the Table\+Handler object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00054}{54}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{class_apos_backend_1_1_object_handler_a1627dffe3fb1bff87cd8a6a8449644a7}\label{class_apos_backend_1_1_object_handler_a1627dffe3fb1bff87cd8a6a8449644a7} 
+\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getTableSqlError@{getTableSqlError}}
+\index{getTableSqlError@{getTableSqlError}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+\doxysubsubsection{\texorpdfstring{getTableSqlError()}{getTableSqlError()}}
+{\footnotesize\ttfamily const QSql\+Error \& Apos\+Backend\+::\+Object\+Handler\+::get\+Table\+Sql\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the table SQL error. 
+
+This function gets the table SQL error of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \begin{DoxyReturn}{Returns}
+The table SQL error. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00066}{66}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{class_apos_backend_1_1_object_handler_a01f8ae714d71caf1b6627ec3a237a547}\label{class_apos_backend_1_1_object_handler_a01f8ae714d71caf1b6627ec3a237a547} 
+\index{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!setActiveTableName@{setActiveTableName}}
+\index{setActiveTableName@{setActiveTableName}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}}
+\doxysubsubsection{\texorpdfstring{setActiveTableName()}{setActiveTableName()}}
+{\footnotesize\ttfamily void Apos\+Backend\+::\+Object\+Handler\+::set\+Active\+Table\+Name (\begin{DoxyParamCaption}\item[{const QString \&}]{new\+Active\+Table\+Name }\end{DoxyParamCaption})}
+
+
+
+Sets the active table name. 
+
+This function sets the active table name of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Active\+Table\+Name} & The new active table name. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00074}{74}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/backend\+Classes/\mbox{\hyperlink{objecthandler_8hpp}{objecthandler.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/backend\+Classes/\mbox{\hyperlink{objecthandler_8cpp}{objecthandler.\+cpp}}\end{DoxyCompactItemize}

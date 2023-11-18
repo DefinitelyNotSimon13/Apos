@@ -1,0 +1,69 @@
+\doxysection{Apos\+Backend\+::Startup\+Handler Class Reference}
+\hypertarget{class_apos_backend_1_1_startup_handler}{}\label{class_apos_backend_1_1_startup_handler}\index{AposBackend::StartupHandler@{AposBackend::StartupHandler}}
+
+
+Provides the functionality for initializing the application\textquotesingle{}s translator and \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}.  
+
+
+
+
+{\ttfamily \#include $<$startuphandler.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_gad6a08030d5d271b33b44783f373e5e37}{Startup\+Handler}} (const QShared\+Pointer$<$ QApplication $>$ \&application)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_backend_1_1_startup_handler}{Startup\+Handler} class. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Object\+Handler}} $>$ \mbox{\hyperlink{group___initialization_ga822be2ed5fb04376341c8b09702e8d61}{start\+Up}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the application\textquotesingle{}s translator and \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___initialization_gac6e06b1a893afdf477c3efa74c2f072c}{install\+Translator}} ()
+\begin{DoxyCompactList}\small\item\em Installs the application\textquotesingle{}s translator. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Object\+Handler}} $>$ \mbox{\hyperlink{group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8}{init\+Object\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the application\textquotesingle{}s \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static QShared\+Pointer$<$ QTranslator $>$ \mbox{\hyperlink{group___initialization_gab6fdaf5f748968ddfe136d8e6562c664}{init\+Translator}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the application\textquotesingle{}s translator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QShared\+Pointer$<$ QApplication $>$ \mbox{\hyperlink{group___variables_gaed685320f54b10ffaa0f59ca2bc41642}{ptr\+Application}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the QApplication object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Object\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga923855497b02e9f94fa6ca621d0541a5}{ptr\+Object\+Handler}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides the functionality for initializing the application\textquotesingle{}s translator and \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. 
+
+The \doxylink{class_apos_backend_1_1_startup_handler}{Startup\+Handler} class is a part of the application\textquotesingle{}s backend logic. It interacts with the QApplication object and uses the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} class to manage the application\textquotesingle{}s objects.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} 
+
+QApplication 
+
+QShared\+Pointer 
+
+QDebug 
+
+Qt\+Sql 
+
+QTranslator 
+
+QLocale 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{startuphandler_8hpp_source_l00049}{49}} of file \mbox{\hyperlink{startuphandler_8hpp_source}{startuphandler.\+hpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/backend\+Classes/\mbox{\hyperlink{startuphandler_8hpp}{startuphandler.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/backend\+Classes/\mbox{\hyperlink{startuphandler_8cpp}{startuphandler.\+cpp}}\end{DoxyCompactItemize}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  17 NOV 2023 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.17)  19 NOV 2023 00:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,131 +857,140 @@ texmf-dist/fonts/enc/dvips/base/8r.enc}] [2
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 8.99994pt on input line 206.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 206.
- [1]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 206.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 20
 6.
-
-(c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [2] [3] [4]
-Overfull \hbox (45.96869pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.1 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos
--[]Database[]Manager/[]Project/classes/backend[]Classes/objecthandler.cpp 
+)
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 206.
+
+[1] [2] [3] [4] [5]
+Overfull \hbox (50.9726pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.1 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
+s-[]Database[]Manager/[]Project/classes/backend[]Classes/objecthandler.cpp 
  []
 
 
-Overfull \hbox (46.47263pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.3 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos
--[]Database[]Manager/[]Project/classes/backend[]Classes/objecthandler.hpp 
+Overfull \hbox (51.47653pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.3 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
+s-[]Database[]Manager/[]Project/classes/backend[]Classes/objecthandler.hpp 
  []
 
 
-Overfull \hbox (49.82947pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.5 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos
--[]Database[]Manager/[]Project/classes/backend[]Classes/startuphandler.cpp 
+Overfull \hbox (54.83337pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.5 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
+s-[]Database[]Manager/[]Project/classes/backend[]Classes/startuphandler.cpp 
  []
 
 
-Overfull \hbox (50.3334pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.7 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos
--[]Database[]Manager/[]Project/classes/backend[]Classes/startuphandler.hpp 
+Overfull \hbox (55.33731pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.7 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
+s-[]Database[]Manager/[]Project/classes/backend[]Classes/startuphandler.hpp 
  []
 
 
-Overfull \hbox (62.3482pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.9 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos
--[]Database[]Manager/[]Project/classes/database[]Classes/databasehandler.cpp 
+Overfull \hbox (67.35211pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.9 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
+s-[]Database[]Manager/[]Project/classes/database[]Classes/databasehandler.cpp 
  []
 
 
-Overfull \hbox (67.85605pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.11 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/database[]Classes/databasehandler.hpp 
+Overfull \hbox (72.85995pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.11 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/database[]Classes/databasehandler.hpp 
+
  []
 
 
-Overfull \hbox (49.65842pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.13 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/database[]Classes/tablehandler.cpp 
+Overfull \hbox (54.66232pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.13 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/database[]Classes/tablehandler.cpp 
  []
 
 
-Overfull \hbox (50.16235pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.15 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/database[]Classes/tablehandler.hpp 
- []
-
-[5]
-Overfull \hbox (40.3258pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.17 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/devwindow.cpp 
+Overfull \hbox (55.16626pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.15 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/database[]Classes/tablehandler.hpp 
  []
 
 
-Overfull \hbox (40.82974pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.19 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/devwindow.hpp 
+Overfull \hbox (45.32971pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.17 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/devwindow.cpp 
  []
 
 
-Overfull \hbox (60.60236pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.21 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/launcherwindow.cpp 
+Overfull \hbox (45.83365pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.19 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/devwindow.hpp 
  []
 
 
-Overfull \hbox (61.1063pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.23 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/launcherwindow.hpp 
+Overfull \hbox (65.60626pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.21 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/launcherwindow.cpp 
  []
 
 
-Overfull \hbox (56.83142pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.25 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/settingswindow.cpp 
- []
-
-
-Overfull \hbox (57.33536pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.27 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/settingswindow.hpp 
- []
-
-
-Overfull \hbox (72.15808pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.29 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/translatablewindow.cp
-p 
- []
-
-
-Overfull \hbox (72.66202pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.31 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/translatablewindow.hp
-p 
- []
-
-
-Overfull \hbox (56.19237pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.33 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/windowhandler.cpp 
- []
-
-
-Overfull \hbox (56.6963pt too wide) in paragraph at lines 206--206
- [][] [][]\T1/phv/m/n/10 8.35 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apo
-s-[]Database[]Manager/[]Project/classes/frontend[]Classes/windowhandler.hpp 
+Overfull \hbox (66.1102pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.23 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/launcherwindow.hpp 
  []
 
 [6]
+Overfull \hbox (61.83533pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.25 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/settingswindow.cpp 
+ []
+
+
+Overfull \hbox (62.33926pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.27 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/settingswindow.hpp 
+ []
+
+
+Overfull \hbox (77.16199pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.29 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/translatablewindow.c
+pp 
+ []
+
+
+Overfull \hbox (77.66592pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.31 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/translatablewindow.h
+pp 
+ []
+
+
+Overfull \hbox (61.19627pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.33 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/windowhandler.cpp 
+ []
+
+
+Overfull \hbox (61.70021pt too wide) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.35 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/classes/frontend[]Classes/windowhandler.hpp 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+ [][] [][]\T1/phv/m/n/10 11.37 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Ap
+os-[]Database[]Manager/[]Project/[]CONTRIBUTING.md File 
+ []
+
+[7] [8
+
+]
 Package hyperref Info: Option `pageanchor' set `true' on input line 209.
 
-(./d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manag
-er_2_project_2_r_e_a_d_m_e.tex
+(./d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manag
+er_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
@@ -991,1223 +1000,1531 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 5.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 6
 .
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 8.
+(Font)              scaled to size 8.99994pt on input line 6.
  [1
 
-
-]) [2]
+])
+(./d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manag
+er_2_project_2_r_e_a_d_m_e.tex [2]
 Chapter 2.
-(./namespaces.tex) [3
 
-] [4
+! LaTeX Error: Unicode character α (U+03B1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...is inspired by the ancient Greek word "{}α
+                                                  ποθήκη"{}, which tra...
+
+? 
+
+! LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ... inspired by the ancient Greek word "{}απ
+                                                  οθήκη"{}, which trans...
+
+? 
+
+! LaTeX Error: Unicode character ο (U+03BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...nspired by the ancient Greek word "{}απο
+                                                  θήκη"{}, which transla...
+
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...pired by the ancient Greek word "{}αποθ
+                                                  ήκη"{}, which translate...
+
+? 
+
+! LaTeX Error: Unicode character ή (U+03AE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...red by the ancient Greek word "{}αποθή
+                                                  κη"{}, which translates ...
+
+? 
+
+! LaTeX Error: Unicode character κ (U+03BA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...d by the ancient Greek word "{}αποθήκ
+                                                  η"{}, which translates to...
+
+? 
+
+! LaTeX Error: Unicode character η (U+03B7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...by the ancient Greek word "{}αποθήκη
+                                                  "{}, which translates to "...
+
+? 
+[3
 
 ]
+Underfull \hbox (badness 5563) in paragraph at lines 41--42
+[]\T1/pcr/m/n/10 /classes/database[]Classes[]\T1/phv/m/n/10 : Con-tains classes
+ re-lated to database op-er-a-tions, such as
+ []
+
+) [4]
 Chapter 3.
-(./hierarchy.tex) [5] [6
+(./topics.tex) [5
+
+] [6
 
 ]
 Chapter 4.
-(./annotated.tex) [7] [8
+(./namespaces.tex) [7] [8
 
 ]
 Chapter 5.
+(./hierarchy.tex) [9] [10
+
+]
+Chapter 6.
+(./annotated.tex) [11] [12
+
+]
+Chapter 7.
 (./files.tex
 Overfull \hbox (30.78104pt too wide) in paragraph at lines 3--3
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/backend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
- []  
+ase[]Manager/[]Project/classes/backend[]Classes/[]  
  []
 
 
 Overfull \hbox (31.28497pt too wide) in paragraph at lines 4--4
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/backend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
- []  
+ase[]Manager/[]Project/classes/backend[]Classes/[]  
  []
 
 
 Overfull \hbox (34.64182pt too wide) in paragraph at lines 5--5
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/backend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
- []  
+ase[]Manager/[]Project/classes/backend[]Classes/[]  
  []
 
 
 Overfull \hbox (35.14575pt too wide) in paragraph at lines 6--6
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/backend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
- []  
+ase[]Manager/[]Project/classes/backend[]Classes/[]  
  []
 
 
 Overfull \hbox (47.16055pt too wide) in paragraph at lines 7--7
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/database[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
- []  
+ase[]Manager/[]Project/classes/database[]Classes/[]  
  []
 
 
 Overfull \hbox (47.66449pt too wide) in paragraph at lines 8--8
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/database[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
- []  
+ase[]Manager/[]Project/classes/database[]Classes/[]  
  []
 
 
 Overfull \hbox (29.46686pt too wide) in paragraph at lines 9--9
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/database[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
- []  
+ase[]Manager/[]Project/classes/database[]Classes/[]  
  []
 
 
 Overfull \hbox (29.9708pt too wide) in paragraph at lines 10--10
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/database[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
- []  
+ase[]Manager/[]Project/classes/database[]Classes/[]  
  []
 
 
 Overfull \hbox (20.13425pt too wide) in paragraph at lines 11--11
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (20.63818pt too wide) in paragraph at lines 12--12
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (40.4108pt too wide) in paragraph at lines 13--13
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (40.91473pt too wide) in paragraph at lines 14--14
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (36.63986pt too wide) in paragraph at lines 15--15
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (37.1438pt too wide) in paragraph at lines 16--16
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (51.96652pt too wide) in paragraph at lines 17--17
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (52.47046pt too wide) in paragraph at lines 18--18
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (36.00081pt too wide) in paragraph at lines 19--19
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
- []  
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
  []
 
 
 Overfull \hbox (36.50475pt too wide) in paragraph at lines 20--20
  [][] \T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Datab
-ase[]Manager/[]Project/classes/frontend[]Classes/[] 
+ase[]Manager/[]Project/classes/frontend[]Classes/[]  
+ []
+
+) [13] [14
+
+]
+Chapter 8.
+(./d3/dbc/group___constructructors-_destructors.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 6.29996pt on input line 12.
+
+Overfull \hbox (28.63036pt too wide) in paragraph at lines 23--24
+[][] \T1/phv/m/n/10 (QWid-get $\OMS/cmsy/m/n/10 ^^C$\T1/phv/m/n/10 parent=nullp
+tr, QShared[]Pointer$\OML/cmm/m/it/10 <$ []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
- []  
+Overfull \hbox (72.20732pt too wide) in paragraph at lines 27--28
+[][] \T1/phv/m/n/10 (QWid-get $\OMS/cmsy/m/n/10 ^^C$\T1/phv/m/n/10 parent=nullp
+tr, QShared[]Pointer$\OML/cmm/m/it/10 <$ []
  []
 
-) [9] [10
+
+Overfull \hbox (62.19926pt too wide) in paragraph at lines 31--32
+[][] \T1/phv/m/n/10 (QWid-get $\OMS/cmsy/m/n/10 ^^C$\T1/phv/m/n/10 parent=nullp
+tr, QShared[]Pointer$\OML/cmm/m/it/10 <$ []
+ []
+
+[15]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 41.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 61.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 61.
+
+Overfull \hbox (17.01996pt too wide) in paragraph at lines 84--85
+|  \T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$ [] $>$ \T1/pcr/m/sl/8 new[
+]Object[]Handler = nullptr \T1/pcr/m/n/8 ) [explicit] 
+ []
+
+[16] [17]
+Overfull \hbox (17.01996pt too wide) in paragraph at lines 128--129
+|  \T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$ [] $>$ \T1/pcr/m/sl/8 new[
+]Object[]Handler = nullptr \T1/pcr/m/n/8 ) [explicit] 
+ []
+
+[18]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 167.
+ [19] <./d3/dbc/group___constructructors-_destructors_ga8230aa2c25b5bb8db86c34b
+4b50bcd56_cgraph.pdf>
+<d3/dbc/group___constructructors-_destructors_ga8230aa2c25b5bb8db86c34b4b50bcd5
+6_cgraph.pdf, id=1779, 783.92876pt x 363.3575pt>
+File: d3/dbc/group___constructructors-_destructors_ga8230aa2c25b5bb8db86c34b4b5
+0bcd56_cgraph.pdf Graphic file (type pdf)
+<use d3/dbc/group___constructructors-_destructors_ga8230aa2c25b5bb8db86c34b4b50
+bcd56_cgraph.pdf>
+Package pdftex.def Info: d3/dbc/group___constructructors-_destructors_ga8230aa2
+c25b5bb8db86c34b4b50bcd56_cgraph.pdf  used on input line 238.
+(pdftex.def)             Requested size: 350.0pt x 162.2286pt.
+ [20]) (./dd/d44/group___database-_functions.tex
+LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 12.
+LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 12.
+
+[21] <./dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_c
+graph.pdf>
+<dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_cgraph.p
+df, id=1855, 383.4325pt x 112.42pt>
+File: dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_cgr
+aph.pdf Graphic file (type pdf)
+<use dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_cgra
+ph.pdf>
+Package pdftex.def Info: dd/d44/group___database-_functions_gaab8300a6ed941015a
+4c5e1d1c68335e3_cgraph.pdf  used on input line 86.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ <./dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_icgra
+ph.pdf>
+<dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_icgraph.
+pdf, id=1863, 383.4325pt x 112.42pt>
+File: dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_icg
+raph.pdf Graphic file (type pdf)
+<use dd/d44/group___database-_functions_gaab8300a6ed941015a4c5e1d1c68335e3_icgr
+aph.pdf>
+Package pdftex.def Info: dd/d44/group___database-_functions_gaab8300a6ed941015a
+4c5e1d1c68335e3_icgraph.pdf  used on input line 94.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ [22]
+Underfull \hbox (badness 10000) detected at line 112
+[][][]
+ []
+
+[23] <./dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_c
+graph.pdf>
+<dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_cgraph.p
+df, id=1901, 383.4325pt x 112.42pt>
+File: dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_cgr
+aph.pdf Graphic file (type pdf)
+<use dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_cgra
+ph.pdf>
+Package pdftex.def Info: dd/d44/group___database-_functions_gaf776a9f414cca86d1
+6ff2c25566459e0_cgraph.pdf  used on input line 171.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ <./dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_icgra
+ph.pdf>
+<dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_icgraph.
+pdf, id=1909, 383.4325pt x 112.42pt>
+File: dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_icg
+raph.pdf Graphic file (type pdf)
+<use dd/d44/group___database-_functions_gaf776a9f414cca86d16ff2c25566459e0_icgr
+aph.pdf>
+Package pdftex.def Info: dd/d44/group___database-_functions_gaf776a9f414cca86d1
+6ff2c25566459e0_icgraph.pdf  used on input line 179.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ [24]
+Underfull \hbox (badness 10000) detected at line 207
+[][][]
+ []
+
+ <./dd/d44/group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33_icgra
+ph.pdf>
+<dd/d44/group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33_icgraph.
+pdf, id=1932, 388.45125pt x 262.9825pt>
+File: dd/d44/group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33_icg
+raph.pdf Graphic file (type pdf)
+<use dd/d44/group___database-_functions_ga9f30984f5b6e7ee6061ea5107c79eb33_icgr
+aph.pdf>
+Package pdftex.def Info: dd/d44/group___database-_functions_ga9f30984f5b6e7ee60
+61ea5107c79eb33_icgraph.pdf  used on input line 233.
+(pdftex.def)             Requested size: 350.0pt x 236.95491pt.
+ [25]) (./de/dc6/group___initialization.tex
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+ []
+
+[26]
+Underfull \hbox (badness 10000) detected at line 67
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 84
+[][][]
+ []
+
+ <./de/dc6/group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8_icgraph.pd
+f>
+<de/dc6/group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8_icgraph.pdf, 
+id=1996, 412.54124pt x 112.42pt>
+File: de/dc6/group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8_icgraph.
+pdf Graphic file (type pdf)
+<use de/dc6/group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8_icgraph.p
+df>
+Package pdftex.def Info: de/dc6/group___initialization_gaeaab7554c87adccfd8bd5a
+ab2297c8a8_icgraph.pdf  used on input line 96.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+ [27]
+Underfull \hbox (badness 10000) detected at line 114
+[][][]
+ []
+
+
+Overfull \hbox (17.7145pt too wide) in paragraph at lines 125--126
+\T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$ \T1/pcr/m/n/8 QTranslator $\O
+ML/cmm/m/it/8 >$ \T1/pcr/m/n/8 Apos[]Backend[]::[]Startup[]Handler[]::init[]Tra
+nslator ( ) [static], [private] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 131
+[][][]
+ []
+
+ <./de/dc6/group___initialization_gab6fdaf5f748968ddfe136d8e6562c664_icgraph.pd
+f>
+<de/dc6/group___initialization_gab6fdaf5f748968ddfe136d8e6562c664_icgraph.pdf, 
+id=2019, 596.2275pt x 112.42pt>
+File: de/dc6/group___initialization_gab6fdaf5f748968ddfe136d8e6562c664_icgraph.
+pdf Graphic file (type pdf)
+<use de/dc6/group___initialization_gab6fdaf5f748968ddfe136d8e6562c664_icgraph.p
+df>
+Package pdftex.def Info: de/dc6/group___initialization_gab6fdaf5f748968ddfe136d
+8e6562c664_icgraph.pdf  used on input line 143.
+(pdftex.def)             Requested size: 350.0pt x 65.99272pt.
+ <./de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_cgraph.pdf
+>
+<de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_cgraph.pdf, i
+d=2029, 412.54124pt x 112.42pt>
+File: de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_cgraph.p
+df Graphic file (type pdf)
+<use de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_cgraph.pd
+f>
+Package pdftex.def Info: de/dc6/group___initialization_gac6e06b1a893afdf477c3ef
+a74c2f072c_cgraph.pdf  used on input line 165.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+ <./de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_icgraph.pd
+f>
+<de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_icgraph.pdf, 
+id=2037, 412.54124pt x 112.42pt>
+File: de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_icgraph.
+pdf Graphic file (type pdf)
+<use de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_icgraph.p
+df>
+Package pdftex.def Info: de/dc6/group___initialization_gac6e06b1a893afdf477c3ef
+a74c2f072c_icgraph.pdf  used on input line 173.
+(pdftex.def)             Requested size: 350.0pt x 95.37904pt.
+ [28] <./de/dc6/group___initialization_ga49b8895cc4133ac81bd799854b3515b6_icgra
+ph.pdf>
+<de/dc6/group___initialization_ga49b8895cc4133ac81bd799854b3515b6_icgraph.pdf, 
+id=2059, 424.58624pt x 112.42pt>
+File: de/dc6/group___initialization_ga49b8895cc4133ac81bd799854b3515b6_icgraph.
+pdf Graphic file (type pdf)
+<use de/dc6/group___initialization_ga49b8895cc4133ac81bd799854b3515b6_icgraph.p
+df>
+Package pdftex.def Info: de/dc6/group___initialization_ga49b8895cc4133ac81bd799
+854b3515b6_icgraph.pdf  used on input line 195.
+(pdftex.def)             Requested size: 350.0pt x 92.67558pt.
+
+Underfull \hbox (badness 10000) detected at line 208
+[][][]
+ []
+
+ <./de/dc6/group___initialization_ga822be2ed5fb04376341c8b09702e8d61_cgraph.pdf
+>
+<de/dc6/group___initialization_ga822be2ed5fb04376341c8b09702e8d61_cgraph.pdf, i
+d=2073, 596.2275pt x 162.6075pt>
+File: de/dc6/group___initialization_ga822be2ed5fb04376341c8b09702e8d61_cgraph.p
+df Graphic file (type pdf)
+<use de/dc6/group___initialization_ga822be2ed5fb04376341c8b09702e8d61_cgraph.pd
+f>
+Package pdftex.def Info: de/dc6/group___initialization_ga822be2ed5fb04376341c8b
+09702e8d61_cgraph.pdf  used on input line 220.
+(pdftex.def)             Requested size: 350.0pt x 95.45375pt.
+) (./d4/d29/group___log-_functions.tex [29] [30])
+(./d7/d58/group___signal-_funtions.tex <./d7/d58/group___signal-_funtions_gaa50
+2afe63303465922a81ff95f482b8e_icgraph.pdf>
+<d7/d58/group___signal-_funtions_gaa502afe63303465922a81ff95f482b8e_icgraph.pdf
+, id=2112, 424.58624pt x 162.6075pt>
+File: d7/d58/group___signal-_funtions_gaa502afe63303465922a81ff95f482b8e_icgrap
+h.pdf Graphic file (type pdf)
+<use d7/d58/group___signal-_funtions_gaa502afe63303465922a81ff95f482b8e_icgraph
+.pdf>
+Package pdftex.def Info: d7/d58/group___signal-_funtions_gaa502afe63303465922a8
+1ff95f482b8e_icgraph.pdf  used on input line 44.
+(pdftex.def)             Requested size: 350.0pt x 134.04863pt.
+ [31] <./d7/d58/group___signal-_funtions_ga0d06592356794582b3ad43292227af7a_icg
+raph.pdf>
+<d7/d58/group___signal-_funtions_ga0d06592356794582b3ad43292227af7a_icgraph.pdf
+, id=2135, 431.6125pt x 162.6075pt>
+File: d7/d58/group___signal-_funtions_ga0d06592356794582b3ad43292227af7a_icgrap
+h.pdf Graphic file (type pdf)
+<use d7/d58/group___signal-_funtions_ga0d06592356794582b3ad43292227af7a_icgraph
+.pdf>
+Package pdftex.def Info: d7/d58/group___signal-_funtions_ga0d06592356794582b3ad
+43292227af7a_icgraph.pdf  used on input line 62.
+(pdftex.def)             Requested size: 350.0pt x 131.86519pt.
+ <./d7/d58/group___signal-_funtions_gab1ca9c597770ec6d63a8245b94fb10a9_icgraph.
+pdf>
+<d7/d58/group___signal-_funtions_gab1ca9c597770ec6d63a8245b94fb10a9_icgraph.pdf
+, id=2143, 588.1975pt x 162.6075pt>
+File: d7/d58/group___signal-_funtions_gab1ca9c597770ec6d63a8245b94fb10a9_icgrap
+h.pdf Graphic file (type pdf)
+<use d7/d58/group___signal-_funtions_gab1ca9c597770ec6d63a8245b94fb10a9_icgraph
+.pdf>
+Package pdftex.def Info: d7/d58/group___signal-_funtions_gab1ca9c597770ec6d63a8
+245b94fb10a9_icgraph.pdf  used on input line 80.
+(pdftex.def)             Requested size: 350.0pt x 96.75887pt.
+ <./d7/d58/group___signal-_funtions_ga75e939cb47b5e6af99153b128c7bd5d6_icgraph.
+pdf>
+<d7/d58/group___signal-_funtions_ga75e939cb47b5e6af99153b128c7bd5d6_icgraph.pdf
+, id=2151, 431.6125pt x 162.6075pt>
+File: d7/d58/group___signal-_funtions_ga75e939cb47b5e6af99153b128c7bd5d6_icgrap
+h.pdf Graphic file (type pdf)
+<use d7/d58/group___signal-_funtions_ga75e939cb47b5e6af99153b128c7bd5d6_icgraph
+.pdf>
+Package pdftex.def Info: d7/d58/group___signal-_funtions_ga75e939cb47b5e6af9915
+3b128c7bd5d6_icgraph.pdf  used on input line 98.
+(pdftex.def)             Requested size: 350.0pt x 131.86519pt.
+ [32] <./d7/d58/group___signal-_funtions_gaa16d604f0aa073808b1466132a301c5b_icg
+raph.pdf>
+<d7/d58/group___signal-_funtions_gaa16d604f0aa073808b1466132a301c5b_icgraph.pdf
+, id=2168, 588.1975pt x 174.6525pt>
+File: d7/d58/group___signal-_funtions_gaa16d604f0aa073808b1466132a301c5b_icgrap
+h.pdf Graphic file (type pdf)
+<use d7/d58/group___signal-_funtions_gaa16d604f0aa073808b1466132a301c5b_icgraph
+.pdf>
+Package pdftex.def Info: d7/d58/group___signal-_funtions_gaa16d604f0aa073808b14
+66132a301c5b_icgraph.pdf  used on input line 116.
+(pdftex.def)             Requested size: 350.0pt x 103.92618pt.
+)
+(./d8/d33/group___slot-_functions.tex [33] <./d8/d33/group___slot-_functions_ga
+392e04e22c5ae7be73b639bef06ced8a_cgraph.pdf>
+<d8/d33/group___slot-_functions_ga392e04e22c5ae7be73b639bef06ced8a_cgraph.pdf, 
+id=2217, 553.06625pt x 184.69pt>
+File: d8/d33/group___slot-_functions_ga392e04e22c5ae7be73b639bef06ced8a_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga392e04e22c5ae7be73b639bef06ced8a_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga392e04e22c5ae7be73b63
+9bef06ced8a_cgraph.pdf  used on input line 68.
+(pdftex.def)             Requested size: 350.0pt x 116.87665pt.
+ <./d8/d33/group___slot-_functions_ga5dd5707ecd06a83a2f7d3c9f631583a1_cgraph.pd
+f>
+<d8/d33/group___slot-_functions_ga5dd5707ecd06a83a2f7d3c9f631583a1_cgraph.pdf, 
+id=2227, 553.06625pt x 212.795pt>
+File: d8/d33/group___slot-_functions_ga5dd5707ecd06a83a2f7d3c9f631583a1_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga5dd5707ecd06a83a2f7d3c9f631583a1_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga5dd5707ecd06a83a2f7d3
+c9f631583a1_cgraph.pdf  used on input line 90.
+(pdftex.def)             Requested size: 350.0pt x 134.66223pt.
+ [34] <./d8/d33/group___slot-_functions_ga6ed3311709733e1ea20c7a35f2fad9b7_cgra
+ph.pdf>
+<d8/d33/group___slot-_functions_ga6ed3311709733e1ea20c7a35f2fad9b7_cgraph.pdf, 
+id=2246, 553.06625pt x 134.5025pt>
+File: d8/d33/group___slot-_functions_ga6ed3311709733e1ea20c7a35f2fad9b7_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga6ed3311709733e1ea20c7a35f2fad9b7_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga6ed3311709733e1ea20c7
+a35f2fad9b7_cgraph.pdf  used on input line 112.
+(pdftex.def)             Requested size: 350.0pt x 85.11668pt.
+ <./d8/d33/group___slot-_functions_ga94f1bcb3a0d4ff36c4651a7d22bbc4ff_cgraph.pd
+f>
+<d8/d33/group___slot-_functions_ga94f1bcb3a0d4ff36c4651a7d22bbc4ff_cgraph.pdf, 
+id=2256, 553.06625pt x 250.9375pt>
+File: d8/d33/group___slot-_functions_ga94f1bcb3a0d4ff36c4651a7d22bbc4ff_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga94f1bcb3a0d4ff36c4651a7d22bbc4ff_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga94f1bcb3a0d4ff36c4651
+a7d22bbc4ff_cgraph.pdf  used on input line 134.
+(pdftex.def)             Requested size: 350.0pt x 158.7998pt.
+ <./d8/d33/group___slot-_functions_ga4951eac56d47f5a30f113cbb58a1acdf_cgraph.pd
+f>
+<d8/d33/group___slot-_functions_ga4951eac56d47f5a30f113cbb58a1acdf_cgraph.pdf, 
+id=2266, 388.45125pt x 162.6075pt>
+File: d8/d33/group___slot-_functions_ga4951eac56d47f5a30f113cbb58a1acdf_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga4951eac56d47f5a30f113cbb58a1acdf_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga4951eac56d47f5a30f113
+cbb58a1acdf_cgraph.pdf  used on input line 156.
+(pdftex.def)             Requested size: 350.0pt x 146.51411pt.
+ [35] <./d8/d33/group___slot-_functions_gac0dcf66680758b82204e93424b06ebff_cgra
+ph.pdf>
+<d8/d33/group___slot-_functions_gac0dcf66680758b82204e93424b06ebff_cgraph.pdf, 
+id=2285, 383.4325pt x 162.6075pt>
+File: d8/d33/group___slot-_functions_gac0dcf66680758b82204e93424b06ebff_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_gac0dcf66680758b82204e93424b06ebff_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_gac0dcf66680758b82204e9
+3424b06ebff_cgraph.pdf  used on input line 178.
+(pdftex.def)             Requested size: 350.0pt x 148.43703pt.
+ [36] <./d8/d33/group___slot-_functions_ga1b6d40414f86d0ccf375658eab05a297_cgra
+ph.pdf>
+<d8/d33/group___slot-_functions_ga1b6d40414f86d0ccf375658eab05a297_cgraph.pdf, 
+id=2305, 579.16376pt x 140.525pt>
+File: d8/d33/group___slot-_functions_ga1b6d40414f86d0ccf375658eab05a297_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga1b6d40414f86d0ccf375658eab05a297_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga1b6d40414f86d0ccf3756
+58eab05a297_cgraph.pdf  used on input line 207.
+(pdftex.def)             Requested size: 350.0pt x 84.92245pt.
+ <./d8/d33/group___slot-_functions_gac620d6fab40e2c7d07f43b8c78c94505_cgraph.pd
+f>
+<d8/d33/group___slot-_functions_gac620d6fab40e2c7d07f43b8c78c94505_cgraph.pdf, 
+id=2315, 553.06625pt x 140.525pt>
+File: d8/d33/group___slot-_functions_gac620d6fab40e2c7d07f43b8c78c94505_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_gac620d6fab40e2c7d07f43b8c78c94505_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_gac620d6fab40e2c7d07f43
+b8c78c94505_cgraph.pdf  used on input line 236.
+(pdftex.def)             Requested size: 350.0pt x 88.92789pt.
+ <./d8/d33/group___slot-_functions_gaf25a0a0d2cf2f2f20fec4ca3b4a36c88_cgraph.pd
+f>
+<d8/d33/group___slot-_functions_gaf25a0a0d2cf2f2f20fec4ca3b4a36c88_cgraph.pdf, 
+id=2325, 424.58624pt x 162.6075pt>
+File: d8/d33/group___slot-_functions_gaf25a0a0d2cf2f2f20fec4ca3b4a36c88_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_gaf25a0a0d2cf2f2f20fec4ca3b4a36c88_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_gaf25a0a0d2cf2f2f20fec4
+ca3b4a36c88_cgraph.pdf  used on input line 258.
+(pdftex.def)             Requested size: 350.0pt x 134.04863pt.
+
+[37] <./d8/d33/group___slot-_functions_ga7fc3608239d98ef3cd0be1cfc0128b02_cgrap
+h.pdf>
+<d8/d33/group___slot-_functions_ga7fc3608239d98ef3cd0be1cfc0128b02_cgraph.pdf, 
+id=2350, 383.4325pt x 124.465pt>
+File: d8/d33/group___slot-_functions_ga7fc3608239d98ef3cd0be1cfc0128b02_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga7fc3608239d98ef3cd0be1cfc0128b02_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga7fc3608239d98ef3cd0be
+1cfc0128b02_cgraph.pdf  used on input line 313.
+(pdftex.def)             Requested size: 350.0pt x 113.61847pt.
+ [38] <./d8/d33/group___slot-_functions_ga42bcd7a5ac4909f201e9f1268ec2b64c_cgra
+ph.pdf>
+<d8/d33/group___slot-_functions_ga42bcd7a5ac4909f201e9f1268ec2b64c_cgraph.pdf, 
+id=2370, 383.4325pt x 112.42pt>
+File: d8/d33/group___slot-_functions_ga42bcd7a5ac4909f201e9f1268ec2b64c_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga42bcd7a5ac4909f201e9f1268ec2b64c_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga42bcd7a5ac4909f201e9f
+1268ec2b64c_cgraph.pdf  used on input line 335.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ <./d8/d33/group___slot-_functions_ga4684f63ebb3e4edddc912ba372222ee1_cgraph.pd
+f>
+<d8/d33/group___slot-_functions_ga4684f63ebb3e4edddc912ba372222ee1_cgraph.pdf, 
+id=2380, 431.6125pt x 112.42pt>
+File: d8/d33/group___slot-_functions_ga4684f63ebb3e4edddc912ba372222ee1_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga4684f63ebb3e4edddc912ba372222ee1_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga4684f63ebb3e4edddc912
+ba372222ee1_cgraph.pdf  used on input line 357.
+(pdftex.def)             Requested size: 350.0pt x 91.16605pt.
+ [39] <./d8/d33/group___slot-_functions_ga7a52cc1168adc3df616915e4ec59e112_cgra
+ph.pdf>
+<d8/d33/group___slot-_functions_ga7a52cc1168adc3df616915e4ec59e112_cgraph.pdf, 
+id=2402, 431.6125pt x 112.42pt>
+File: d8/d33/group___slot-_functions_ga7a52cc1168adc3df616915e4ec59e112_cgraph.
+pdf Graphic file (type pdf)
+<use d8/d33/group___slot-_functions_ga7a52cc1168adc3df616915e4ec59e112_cgraph.p
+df>
+Package pdftex.def Info: d8/d33/group___slot-_functions_ga7a52cc1168adc3df61691
+5e4ec59e112_cgraph.pdf  used on input line 379.
+(pdftex.def)             Requested size: 350.0pt x 91.16605pt.
+) (./d6/de4/group___ui-_functions.tex [40] <./d6/de4/group___ui-_functions_gaa5
+f72842768883e8c2e29a8a54c74fe4_icgraph.pdf>
+<d6/de4/group___ui-_functions_gaa5f72842768883e8c2e29a8a54c74fe4_icgraph.pdf, i
+d=2448, 383.4325pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gaa5f72842768883e8c2e29a8a54c74fe4_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gaa5f72842768883e8c2e29a8a54c74fe4_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gaa5f72842768883e8c2e29a8
+a54c74fe4_icgraph.pdf  used on input line 80.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ [41] <./d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_cgraph
+.pdf>
+<d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_cgraph.pdf, id
+=2474, 403.5075pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_cgraph.pd
+f Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_cgraph.pdf
+>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gad12be8738b363edf8803ec1
+40c14989c_cgraph.pdf  used on input line 102.
+(pdftex.def)             Requested size: 350.0pt x 97.51299pt.
+ <./d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_icgraph.pdf
+>
+<d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_icgraph.pdf, i
+d=2482, 605.26125pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gad12be8738b363edf8803ec140c14989c_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gad12be8738b363edf8803ec1
+40c14989c_icgraph.pdf  used on input line 110.
+(pdftex.def)             Requested size: 350.0pt x 65.00809pt.
+
+Underfull \hbox (badness 10000) detected at line 130
+[][][]
+ []
+
+ <./d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_cgraph.pdf>
+<d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_cgraph.pdf, id
+=2493, 383.4325pt x 112.42pt>
+File: d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_cgraph.pd
+f Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_cgraph.pdf
+>
+Package pdftex.def Info: d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef4
+5f68763a6_cgraph.pdf  used on input line 142.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+[42] <./d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_icgraph
+.pdf>
+<d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_icgraph.pdf, i
+d=2511, 409.53pt x 186.6975pt>
+File: d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef45f68763a6_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_ga967ec97cb7b88eeb89c2ef4
+5f68763a6_icgraph.pdf  used on input line 150.
+(pdftex.def)             Requested size: 350.0pt x 159.56819pt.
+ <./d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_cgraph.pdf>
+<d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_cgraph.pdf, id
+=2522, 383.4325pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_cgraph.pd
+f Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_cgraph.pdf
+>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9
+fb81aa30f_cgraph.pdf  used on input line 179.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ [43] <./d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_icgrap
+h.pdf>
+<d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_icgraph.pdf, i
+d=2539, 383.4325pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9fb81aa30f_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gaea26af22c4b1427ec8aa9b9
+fb81aa30f_icgraph.pdf  used on input line 187.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ <./d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_cgraph.pdf>
+<d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_cgraph.pdf, id
+=2551, 383.4325pt x 112.42pt>
+File: d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_cgraph.pd
+f Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_cgraph.pdf
+>
+Package pdftex.def Info: d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1
+cdebb9b06_cgraph.pdf  used on input line 216.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ <./d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_icgraph.pdf
+>
+<d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_icgraph.pdf, i
+d=2559, 383.4325pt x 112.42pt>
+File: d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1cdebb9b06_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_ga03c2171905116230d3f05e1
+cdebb9b06_icgraph.pdf  used on input line 224.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ [44] <./d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_cgraph
+.pdf>
+<d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_cgraph.pdf, id
+=2580, 383.4325pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_cgraph.pd
+f Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_cgraph.pdf
+>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf
+20f1e8f8c_cgraph.pdf  used on input line 253.
+(pdftex.def)             Requested size: 350.0pt x 102.62312pt.
+ <./d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_icgraph.pdf
+>
+<d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_icgraph.pdf, i
+d=2588, 383.4325pt x 162.6075pt>
+File: d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf20f1e8f8c_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gad74b5ca7c247820a938dbdf
+20f1e8f8c_icgraph.pdf  used on input line 261.
+(pdftex.def)             Requested size: 350.0pt x 148.43703pt.
+ [45] <./d6/de4/group___ui-_functions_ga2190bba57416d43cf8ca3bb812e4aaf7_icgrap
+h.pdf>
+<d6/de4/group___ui-_functions_ga2190bba57416d43cf8ca3bb812e4aaf7_icgraph.pdf, i
+d=2622, 776.9025pt x 112.42pt>
+File: d6/de4/group___ui-_functions_ga2190bba57416d43cf8ca3bb812e4aaf7_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_ga2190bba57416d43cf8ca3bb812e4aaf7_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_ga2190bba57416d43cf8ca3bb
+812e4aaf7_icgraph.pdf  used on input line 337.
+(pdftex.def)             Requested size: 350.0pt x 50.64685pt.
+ <./d6/de4/group___ui-_functions_ga0ccce4c871b37eb96d2d3df478855277_icgraph.pdf
+>
+<d6/de4/group___ui-_functions_ga0ccce4c871b37eb96d2d3df478855277_icgraph.pdf, i
+d=2632, 605.26125pt x 112.42pt>
+File: d6/de4/group___ui-_functions_ga0ccce4c871b37eb96d2d3df478855277_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_ga0ccce4c871b37eb96d2d3df478855277_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_ga0ccce4c871b37eb96d2d3df
+478855277_icgraph.pdf  used on input line 359.
+(pdftex.def)             Requested size: 350.0pt x 65.00809pt.
+ [46] <./d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_cgraph
+.pdf>
+<d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_cgraph.pdf, id
+=2651, 590.205pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_cgraph.pd
+f Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_cgraph.pdf
+>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gab39e73556bb529119402e7e
+3cde6588e_cgraph.pdf  used on input line 384.
+(pdftex.def)             Requested size: 350.0pt x 66.66687pt.
+ <./d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_icgraph.pdf
+>
+<d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_icgraph.pdf, i
+d=2659, 418.56375pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gab39e73556bb529119402e7e3cde6588e_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gab39e73556bb529119402e7e
+3cde6588e_icgraph.pdf  used on input line 392.
+(pdftex.def)             Requested size: 350.0pt x 94.0033pt.
+ <./d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_cgraph.pdf>
+<d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_cgraph.pdf, id
+=2669, 418.56375pt x 262.9825pt>
+File: d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_cgraph.pd
+f Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_cgraph.pdf
+>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gad71663083f50868c2efb568
+336b50b56_cgraph.pdf  used on input line 414.
+(pdftex.def)             Requested size: 350.0pt x 219.90057pt.
+ [47] <./d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_icgrap
+h.pdf>
+<d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_icgraph.pdf, i
+d=2688, 418.56375pt x 112.42pt>
+File: d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_gad71663083f50868c2efb568336b50b56_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_gad71663083f50868c2efb568
+336b50b56_icgraph.pdf  used on input line 422.
+(pdftex.def)             Requested size: 350.0pt x 94.0033pt.
+ <./d6/de4/group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28_icgraph.pdf
+>
+<d6/de4/group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28_icgraph.pdf, i
+d=2698, 605.26125pt x 134.5025pt>
+File: d6/de4/group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28_icgraph.p
+df Graphic file (type pdf)
+<use d6/de4/group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28_icgraph.pd
+f>
+Package pdftex.def Info: d6/de4/group___ui-_functions_ga6ab1754f0158c37aabeac6f
+a84d31f28_icgraph.pdf  used on input line 444.
+(pdftex.def)             Requested size: 350.0pt x 77.77753pt.
+)
+(./dd/d50/group___utility-_functions.tex [48]) (./d0/dc5/group___variables.tex
+Underfull \hbox (badness 909) in paragraph at lines 27--28
+[]\T1/phv/m/n/10 QString [] = R"(C[]:\[]Users\[]Clean\[]Documents\[]Projekte\[]
+Apos-
+ []
+
+[49] [50]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+\T1/pcr/m/n/8 QString Apos[]Database[]::[]Database[]Handler[]::database[]Path =
+ R"(C[]:\[]Users\[]Clean\[]Documents\[]Projekte\[]
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+\T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$[]$>$ \T1/pcr/m/n/8 Apos[]Fron
+tend[]::[]Launcher[]Window[]::object[]Handler =
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$[]$>$ \T1/pcr/m/n/8 Apos[]Fron
+tend[]::[]Dev[]Window[]::ptr[]Object[]Handler = nullptr
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$[]$>$ \T1/pcr/m/n/8 Apos[]Fron
+tend[]::[]Settings[]Window[]::ptr[]Object[]Handler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+\T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$[]$>$ \T1/pcr/m/n/8 Apos[]Fron
+tend[]::[]Window[]Handler[]::ptr[]Object[]Handler
+ []
+
+[54] [55]) [56]
+Chapter 9.
+(./dd/d43/namespace_apos_backend.tex) (./d7/dc4/namespace_apos_database.tex)
+(./d7/d22/namespace_apos_frontend.tex)
+(./d6/de8/namespace_app_initialization.tex [57
 
 ]
-Chapter 6.
-(./dc/df0/namespace_ui.tex) [11] [12
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[]\T1/phv/m/n/10 QShared[]Pointer$\OML/cmm/m/it/10 <$ [] $>$ [] \T1/phv/m/n/10 
+(const QShared[]Pointer$\OML/cmm/m/it/10 <$
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 10--11
+[]\T1/phv/m/n/10 QShared[]Pointer$\OML/cmm/m/it/10 <$ [] $>$ [] \T1/phv/m/n/10 
+(const QShared[]Pointer$\OML/cmm/m/it/10 <$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+ <./d6/de8/namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8_icgra
+ph.pdf>
+<d6/de8/namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8_icgraph.
+pdf, id=3001, 266.9975pt x 112.42pt>
+File: d6/de8/namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8_icg
+raph.pdf Graphic file (type pdf)
+<use d6/de8/namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8_icgr
+aph.pdf>
+Package pdftex.def Info: d6/de8/namespace_app_initialization_aa4ace4d6b094a8873
+cd99a85fccd33f8_icgraph.pdf  used on input line 52.
+(pdftex.def)             Requested size: 266.0pt x 112.01146pt.
+ [58]
+Underfull \hbox (badness 10000) detected at line 72
+[][][]
+ []
+
+ <./d6/de8/namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084_icgra
+ph.pdf>
+<d6/de8/namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084_icgraph.
+pdf, id=3024, 270.00874pt x 112.42pt>
+File: d6/de8/namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084_icg
+raph.pdf Graphic file (type pdf)
+<use d6/de8/namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084_icgr
+aph.pdf>
+Package pdftex.def Info: d6/de8/namespace_app_initialization_a6151e2deab68f647b
+30a78db30b6a084_icgraph.pdf  used on input line 89.
+(pdftex.def)             Requested size: 269.0pt x 112.00288pt.
+ [59]
+Underfull \hbox (badness 10000) detected at line 109
+[][][]
+ []
+
+ <./d6/de8/namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93_icgra
+ph.pdf>
+<d6/de8/namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93_icgraph.
+pdf, id=3046, 273.02pt x 112.42pt>
+File: d6/de8/namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93_icg
+raph.pdf Graphic file (type pdf)
+<use d6/de8/namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93_icgr
+aph.pdf>
+Package pdftex.def Info: d6/de8/namespace_app_initialization_a1106d2231514c4bcd
+3d477a20eda7e93_icgraph.pdf  used on input line 126.
+(pdftex.def)             Requested size: 272.0pt x 112.0063pt.
+) (./dc/df0/namespace_ui.tex) [60]
+Chapter 10.
+(./d1/dbf/class_apos_backend_1_1_object_handler.tex
+Overfull \hbox (41.25551pt too wide) in paragraph at lines 15--16
+[][] \T1/phv/m/n/10 (QShared[]Pointer$\OML/cmm/m/it/10 <$ \T1/phv/m/n/10 QAp-pl
+i-ca-tion $\OML/cmm/m/it/10 >$ \T1/phv/m/n/10 new[]Application, QShared[]Pointe
+r$\OML/cmm/m/it/10 <$ []
+ []
+
+[61
 
 ]
-Chapter 7.
-(./d5/da6/class_database_handler.tex
-Overfull \hbox (34.57867pt too wide) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) detected at line 51
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 81
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 98
+[][][]
+ []
+
+[62]
+Underfull \hbox (badness 10000) detected at line 115
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+\T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$ [] $>$ \T1/pcr/m/n/8 Apos[]Ba
+ckend[]::[]Object[]Handler[]::get[]Ptr[]Db[]Handler (
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 132
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+\T1/pcr/m/n/8 QShared[]Pointer$\OML/cmm/m/it/8 <$ [] $>$ \T1/pcr/m/n/8 Apos[]Ba
+ckend[]::[]Object[]Handler[]::get[]Ptr[]Table[]Handler (
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 149
+[][][]
+ []
+
+[63]
+Underfull \hbox (badness 10000) detected at line 166
+[][][]
+ []
+
+
+Overfull \hbox (19.10878pt too wide) in paragraph at lines 196--197
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/backend[]Classes/[] 
+ []
+
+
+Overfull \hbox (18.60484pt too wide) in paragraph at lines 197--197
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/backend[]Classes/[] 
+ []
+
+) (./d1/ddc/class_apos_backend_1_1_startup_handler.tex [64]
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
+ []
+
+
+Overfull \hbox (22.96956pt too wide) in paragraph at lines 68--69
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/backend[]Classes/[] 
+ []
+
+
+Overfull \hbox (22.46562pt too wide) in paragraph at lines 69--69
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/backend[]Classes/[] 
+ []
+
+) (./da/d9d/class_apos_database_1_1_database_handler.tex [65]
+Overfull \hbox (34.57867pt too wide) in paragraph at lines 36--37
 []\T1/phv/m/n/10 QString [] = R"(C[]:\[]Users\[]Clean\[]Documents\[]Projekte\[]
 Apos-Database[]Manager\[]Project\resources\default[]
  []
 
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 37.
- <./d5/da6/class_database_handler_a98664b5a869a4afac56daebe3e731712_icgraph.pdf
->
-<d5/da6/class_database_handler_a98664b5a869a4afac56daebe3e731712_icgraph.pdf, i
-d=1384, 591.20876pt x 112.42pt>
-File: d5/da6/class_database_handler_a98664b5a869a4afac56daebe3e731712_icgraph.p
-df Graphic file (type pdf)
-<use d5/da6/class_database_handler_a98664b5a869a4afac56daebe3e731712_icgraph.pd
-f>
-Package pdftex.def Info: d5/da6/class_database_handler_a98664b5a869a4afac56daeb
-e3e731712_icgraph.pdf  used on input line 72.
-(pdftex.def)             Requested size: 350.0pt x 66.55536pt.
- [13]
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 79.
- <./d5/da6/class_database_handler_abc2283097707a94f4e5b867c1cade0b5_icgraph.pdf
->
-<d5/da6/class_database_handler_abc2283097707a94f4e5b867c1cade0b5_icgraph.pdf, i
-d=1420, 385.44pt x 112.42pt>
-File: d5/da6/class_database_handler_abc2283097707a94f4e5b867c1cade0b5_icgraph.p
-df Graphic file (type pdf)
-<use d5/da6/class_database_handler_abc2283097707a94f4e5b867c1cade0b5_icgraph.pd
-f>
-Package pdftex.def Info: d5/da6/class_database_handler_abc2283097707a94f4e5b867
-c1cade0b5_icgraph.pdf  used on input line 89.
-(pdftex.def)             Requested size: 350.0pt x 102.08278pt.
- <./d5/da6/class_database_handler_a30ba97d90e6c706d53db0616138dde3e_icgraph.pdf
->
-<d5/da6/class_database_handler_a30ba97d90e6c706d53db0616138dde3e_icgraph.pdf, i
-d=1430, 730.73pt x 238.8925pt>
-File: d5/da6/class_database_handler_a30ba97d90e6c706d53db0616138dde3e_icgraph.p
-df Graphic file (type pdf)
-<use d5/da6/class_database_handler_a30ba97d90e6c706d53db0616138dde3e_icgraph.pd
-f>
-Package pdftex.def Info: d5/da6/class_database_handler_a30ba97d90e6c706d53db061
-6138dde3e_icgraph.pdf  used on input line 106.
-(pdftex.def)             Requested size: 350.0pt x 114.42285pt.
- <./d5/da6/class_database_handler_aa8e009a40e0d5f3af64ffb03738cfedf_icgraph.pdf
->
-<d5/da6/class_database_handler_aa8e009a40e0d5f3af64ffb03738cfedf_icgraph.pdf, i
-d=1440, 564.1075pt x 156.585pt>
-File: d5/da6/class_database_handler_aa8e009a40e0d5f3af64ffb03738cfedf_icgraph.p
-df Graphic file (type pdf)
-<use d5/da6/class_database_handler_aa8e009a40e0d5f3af64ffb03738cfedf_icgraph.pd
-f>
-Package pdftex.def Info: d5/da6/class_database_handler_aa8e009a40e0d5f3af64ffb0
-3738cfedf_icgraph.pdf  used on input line 123.
-(pdftex.def)             Requested size: 350.0pt x 97.15337pt.
- [14] <./d5/da6/class_database_handler_af74b7a8f9a87051cd493a11ed87a3bf5_icgrap
-h.pdf>
-<d5/da6/class_database_handler_af74b7a8f9a87051cd493a11ed87a3bf5_icgraph.pdf, i
-d=1462, 732.7375pt x 112.42pt>
-File: d5/da6/class_database_handler_af74b7a8f9a87051cd493a11ed87a3bf5_icgraph.p
-df Graphic file (type pdf)
-<use d5/da6/class_database_handler_af74b7a8f9a87051cd493a11ed87a3bf5_icgraph.pd
-f>
-Package pdftex.def Info: d5/da6/class_database_handler_af74b7a8f9a87051cd493a11
-ed87a3bf5_icgraph.pdf  used on input line 140.
-(pdftex.def)             Requested size: 350.0pt x 53.69853pt.
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 147.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-\T1/pcr/m/n/8 QString Database[]Handler[]::database[]Path = R"(C[]:\[]Users\[]C
-lean\[]Documents\[]Projekte\[]Apos-Database[]
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
  []
 
 
-Overfull \hbox (35.4883pt too wide) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) detected at line 73
+[][][]
+ []
+
+[66]
+Underfull \hbox (badness 10000) detected at line 90
+[][][]
+ []
+
+
+Overfull \hbox (35.4883pt too wide) in paragraph at lines 101--102
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/database[]Classes/[] 
  []
 
 
-Overfull \hbox (34.98436pt too wide) in paragraph at lines 201--201
+Overfull \hbox (34.98436pt too wide) in paragraph at lines 102--102
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/database[]Classes/[] 
  []
 
-) (./d6/d5d/class_dev_window.tex [15] <./d8/ded/class_dev_window__inherit__grap
-h.pdf>
-<d8/ded/class_dev_window__inherit__graph.pdf, id=1495, 281.05pt x 156.585pt>
-File: d8/ded/class_dev_window__inherit__graph.pdf Graphic file (type pdf)
-<use d8/ded/class_dev_window__inherit__graph.pdf>
-Package pdftex.def Info: d8/ded/class_dev_window__inherit__graph.pdf  used on i
-nput line 13.
-(pdftex.def)             Requested size: 280.0pt x 156.00879pt.
- <./dc/db5/class_dev_window__coll__graph.pdf>
-<dc/db5/class_dev_window__coll__graph.pdf, id=1503, 430.60875pt x 236.885pt>
-File: dc/db5/class_dev_window__coll__graph.pdf Graphic file (type pdf)
-<use dc/db5/class_dev_window__coll__graph.pdf>
-Package pdftex.def Info: dc/db5/class_dev_window__coll__graph.pdf  used on inpu
-t line 22.
-(pdftex.def)             Requested size: 350.0pt x 192.54448pt.
- [16] [17] <./d6/d5d/class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322_icgraph
-.pdf>
-<d6/d5d/class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322_icgraph.pdf, id=1625
-, 363.3575pt x 112.42pt>
-File: d6/d5d/class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b322_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a7fcd442eb71c4bc791fb40a98bb0b
-322_icgraph.pdf  used on input line 164.
-(pdftex.def)             Requested size: 350.0pt x 108.29077pt.
- <./d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_cgraph.pdf>
-<d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_cgraph.pdf, id=1635,
- 368.37625pt x 100.375pt>
-File: d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e76
-4e8_cgraph.pdf  used on input line 181.
-(pdftex.def)             Requested size: 350.0pt x 95.36641pt.
- <./d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_icgraph.pdf>
-<d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_icgraph.pdf, id=1643
-, 412.54124pt x 162.6075pt>
-File: d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e764e8_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a8604a4e251b45712f5e214c416e76
-4e8_icgraph.pdf  used on input line 188.
-(pdftex.def)             Requested size: 350.0pt x 137.95898pt.
- <./d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_cgraph.pdf>
-<d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_cgraph.pdf, id=1653,
- 381.425pt x 100.375pt>
-File: d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd472
-1dd_cgraph.pdf  used on input line 205.
-(pdftex.def)             Requested size: 350.0pt x 92.1087pt.
- [18] <./d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_icgraph.pdf>
-<d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_icgraph.pdf, id=1672
-, 409.53pt x 112.42pt>
-File: d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd4721dd_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_aed7de9675bba89b1ee062980dd472
-1dd_icgraph.pdf  used on input line 212.
-(pdftex.def)             Requested size: 350.0pt x 96.08406pt.
- <./d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_cgraph.pdf>
-<d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_cgraph.pdf, id=1683,
- 346.29375pt x 100.375pt>
-File: d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf7
-0b1_cgraph.pdf  used on input line 229.
-(pdftex.def)             Requested size: 345.0pt x 100.00255pt.
- <./d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_icgraph.pdf>
-<d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_icgraph.pdf, id=1691
-, 355.3275pt x 112.42pt>
-File: d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf70b1_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_ad4d35e7e1fa533c5dcaa8f983bcf7
-0b1_icgraph.pdf  used on input line 236.
-(pdftex.def)             Requested size: 350.0pt x 110.73863pt.
- [19] <./d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_cgraph.pdf>
-<d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_cgraph.pdf, id=1712,
- 415.5525pt x 226.8475pt>
-File: d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d
-85f_cgraph.pdf  used on input line 253.
-(pdftex.def)             Requested size: 350.0pt x 191.06981pt.
- <./d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_icgraph.pdf>
-<d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_icgraph.pdf, id=1720
-, 394.47375pt x 112.42pt>
-File: d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d85f_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a7da394c44e1c71d58f2f9a3b1e22d
-85f_icgraph.pdf  used on input line 260.
-(pdftex.def)             Requested size: 350.0pt x 99.74643pt.
- <./d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_cgraph.pdf>
-<d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_cgraph.pdf, id=1730,
- 361.35pt x 100.375pt>
-File: d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f
-1c4_cgraph.pdf  used on input line 277.
-(pdftex.def)             Requested size: 350.0pt x 97.2227pt.
- <./d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_icgraph.pdf>
-<d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_icgraph.pdf, id=1738
-, 391.4625pt x 162.6075pt>
-File: d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f1c4_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a379f674b8b4775ebc5e8e5e27c51f
-1c4_icgraph.pdf  used on input line 284.
-(pdftex.def)             Requested size: 350.0pt x 145.39261pt.
- [20] <./d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_cgraph.pdf>
-<d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_cgraph.pdf, id=1759,
- 576.1525pt x 277.035pt>
-File: d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff
-1ec_cgraph.pdf  used on input line 301.
-(pdftex.def)             Requested size: 350.0pt x 168.29784pt.
- <./d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_icgraph.pdf>
-<d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_icgraph.pdf, id=1767
-, 371.3875pt x 112.42pt>
-File: d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff1ec_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a2aa91ebfb3fac512e407c89b9ffff
-1ec_icgraph.pdf  used on input line 308.
-(pdftex.def)             Requested size: 350.0pt x 105.94756pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 314.
- [21] <./d6/d5d/class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9_icgraph.pdf>
-<d6/d5d/class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9_icgraph.pdf, id=1792
-, 571.13374pt x 548.0475pt>
-File: d6/d5d/class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c0d9_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a1e4a5bbf08ba8e22e33eb0e083f5c
-0d9_icgraph.pdf  used on input line 345.
-(pdftex.def)             Requested size: 350.0pt x 335.85555pt.
- <./d6/d5d/class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd_cgraph.pdf>
-<d6/d5d/class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd_cgraph.pdf, id=1802,
- 593.21625pt x 365.365pt>
-File: d6/d5d/class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_ac3155195f2dfd5b46d676100d4b0f2bd_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_ac3155195f2dfd5b46d676100d4b0f
-2bd_cgraph.pdf  used on input line 362.
-(pdftex.def)             Requested size: 350.0pt x 215.57463pt.
+) (./d3/d34/class_apos_database_1_1_table_handler.tex [67]
+Underfull \hbox (badness 10000) detected at line 53
+[][][]
+ []
 
-[22] <./d6/d5d/class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595_cgraph.pdf>
-<d6/d5d/class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595_cgraph.pdf, id=1822,
- 593.21625pt x 264.99pt>
-File: d6/d5d/class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a5af0e44d3c6fff78f8a62cf26380f595_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a5af0e44d3c6fff78f8a62cf26380f
-595_cgraph.pdf  used on input line 379.
-(pdftex.def)             Requested size: 350.0pt x 156.35083pt.
- <./d6/d5d/class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694_cgraph.pdf>
-<d6/d5d/class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694_cgraph.pdf, id=1832,
- 555.07375pt x 264.99pt>
-File: d6/d5d/class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add694_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_ac5cf1fa72fa3b7eb8044a0e099add
-694_cgraph.pdf  used on input line 396.
-(pdftex.def)             Requested size: 350.0pt x 167.09013pt.
-
-[23] <./d6/d5d/class_dev_window_a9bfb7fe4688b2a94807581db270502ff_cgraph.pdf>
-<d6/d5d/class_dev_window_a9bfb7fe4688b2a94807581db270502ff_cgraph.pdf, id=1852,
- 783.92876pt x 415.5525pt>
-File: d6/d5d/class_dev_window_a9bfb7fe4688b2a94807581db270502ff_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a9bfb7fe4688b2a94807581db270502ff_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a9bfb7fe4688b2a94807581db27050
-2ff_cgraph.pdf  used on input line 413.
-(pdftex.def)             Requested size: 350.0pt x 185.53217pt.
- <./d6/d5d/class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2_cgraph.pdf>
-<d6/d5d/class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2_cgraph.pdf, id=1862,
- 423.5825pt x 264.99pt>
-File: d6/d5d/class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_af26a0e01b5d56697ce01cc2d18a042d2_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_af26a0e01b5d56697ce01cc2d18a04
-2d2_cgraph.pdf  used on input line 430.
-(pdftex.def)             Requested size: 350.0pt x 218.96313pt.
-
-[24] <./d6/d5d/class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d_cgraph.pdf>
-<d6/d5d/class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d_cgraph.pdf, id=1881,
- 403.5075pt x 264.99pt>
-File: d6/d5d/class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a3737796c404ea1c942cca38ef6fc4a7d_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a3737796c404ea1c942cca38ef6fc4
-a7d_cgraph.pdf  used on input line 447.
-(pdftex.def)             Requested size: 350.0pt x 229.85205pt.
- <./d6/d5d/class_dev_window_a9d0153391c509600fd5220e35f5bb22f_cgraph.pdf>
-<d6/d5d/class_dev_window_a9d0153391c509600fd5220e35f5bb22f_cgraph.pdf, id=1891,
- 558.085pt x 125.46875pt>
-File: d6/d5d/class_dev_window_a9d0153391c509600fd5220e35f5bb22f_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a9d0153391c509600fd5220e35f5bb22f_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a9d0153391c509600fd5220e35f5bb
-22f_cgraph.pdf  used on input line 464.
-(pdftex.def)             Requested size: 350.0pt x 78.68962pt.
-
-[25] <./d6/d5d/class_dev_window_a696f0d9d444264cbf55228ae7724f752_cgraph.pdf>
-<d6/d5d/class_dev_window_a696f0d9d444264cbf55228ae7724f752_cgraph.pdf, id=1910,
- 540.0175pt x 125.46875pt>
-File: d6/d5d/class_dev_window_a696f0d9d444264cbf55228ae7724f752_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a696f0d9d444264cbf55228ae7724f752_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a696f0d9d444264cbf55228ae7724f
-752_cgraph.pdf  used on input line 481.
-(pdftex.def)             Requested size: 350.0pt x 81.32205pt.
- <./d6/d5d/class_dev_window_afed326aaf50679142fa65bea233035c6_cgraph.pdf>
-<d6/d5d/class_dev_window_afed326aaf50679142fa65bea233035c6_cgraph.pdf, id=1920,
- 399.4925pt x 112.42pt>
-File: d6/d5d/class_dev_window_afed326aaf50679142fa65bea233035c6_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_afed326aaf50679142fa65bea233035c6_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_afed326aaf50679142fa65bea23303
-5c6_cgraph.pdf  used on input line 498.
-(pdftex.def)             Requested size: 350.0pt x 98.49762pt.
- <./d6/d5d/class_dev_window_a45b94a9795772df0c4975bcd950703c8_cgraph.pdf>
-<d6/d5d/class_dev_window_a45b94a9795772df0c4975bcd950703c8_cgraph.pdf, id=1930,
- 378.41376pt x 112.42pt>
-File: d6/d5d/class_dev_window_a45b94a9795772df0c4975bcd950703c8_cgraph.pdf Grap
-hic file (type pdf)
-<use d6/d5d/class_dev_window_a45b94a9795772df0c4975bcd950703c8_cgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a45b94a9795772df0c4975bcd95070
-3c8_cgraph.pdf  used on input line 515.
-(pdftex.def)             Requested size: 350.0pt x 103.98pt.
- [26] <./d6/d5d/class_dev_window_aa64f163f03e0190606cd9692d2beec28_icgraph.pdf>
-<d6/d5d/class_dev_window_aa64f163f03e0190606cd9692d2beec28_icgraph.pdf, id=1950
-, 603.25375pt x 150.5625pt>
-File: d6/d5d/class_dev_window_aa64f163f03e0190606cd9692d2beec28_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_aa64f163f03e0190606cd9692d2beec28_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_aa64f163f03e0190606cd9692d2bee
-c28_icgraph.pdf  used on input line 528.
-(pdftex.def)             Requested size: 350.0pt x 87.35387pt.
- <./d6/d5d/class_dev_window_a879985fff5798387b606f6c209322f95_icgraph.pdf>
-<d6/d5d/class_dev_window_a879985fff5798387b606f6c209322f95_icgraph.pdf, id=1961
-, 621.32124pt x 150.5625pt>
-File: d6/d5d/class_dev_window_a879985fff5798387b606f6c209322f95_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a879985fff5798387b606f6c209322f95_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a879985fff5798387b606f6c209322
-f95_icgraph.pdf  used on input line 555.
-(pdftex.def)             Requested size: 350.0pt x 84.81294pt.
- <./d6/d5d/class_dev_window_a89347408d6975ff5120340af8a4ac776_icgraph.pdf>
-<d6/d5d/class_dev_window_a89347408d6975ff5120340af8a4ac776_icgraph.pdf, id=1971
-, 408.52625pt x 262.9825pt>
-File: d6/d5d/class_dev_window_a89347408d6975ff5120340af8a4ac776_icgraph.pdf Gra
-phic file (type pdf)
-<use d6/d5d/class_dev_window_a89347408d6975ff5120340af8a4ac776_icgraph.pdf>
-Package pdftex.def Info: d6/d5d/class_dev_window_a89347408d6975ff5120340af8a4ac
-776_icgraph.pdf  used on input line 572.
-(pdftex.def)             Requested size: 350.0pt x 225.31784pt.
- [27] [28])
-(./dd/d74/class_launcher_window.tex <./d6/d5e/class_launcher_window__inherit__g
-raph.pdf>
-<d6/d5e/class_launcher_window__inherit__graph.pdf, id=2022, 281.05pt x 156.585p
-t>
-File: d6/d5e/class_launcher_window__inherit__graph.pdf Graphic file (type pdf)
-<use d6/d5e/class_launcher_window__inherit__graph.pdf>
-Package pdftex.def Info: d6/d5e/class_launcher_window__inherit__graph.pdf  used
- on input line 13.
-(pdftex.def)             Requested size: 280.0pt x 156.00879pt.
- <./d7/d6e/class_launcher_window__coll__graph.pdf>
-<d7/d6e/class_launcher_window__coll__graph.pdf, id=2030, 430.60875pt x 236.885p
-t>
-File: d7/d6e/class_launcher_window__coll__graph.pdf Graphic file (type pdf)
-<use d7/d6e/class_launcher_window__coll__graph.pdf>
-Package pdftex.def Info: d7/d6e/class_launcher_window__coll__graph.pdf  used on
- input line 22.
-(pdftex.def)             Requested size: 350.0pt x 192.54448pt.
- [29] [30] <./dd/d74/class_launcher_window_ae42dca7038ff6eed7d35701fdd858e42_cg
-raph.pdf>
-<dd/d74/class_launcher_window_ae42dca7038ff6eed7d35701fdd858e42_cgraph.pdf, id=
-2095, 391.4625pt x 112.42pt>
-File: dd/d74/class_launcher_window_ae42dca7038ff6eed7d35701fdd858e42_cgraph.pdf
- Graphic file (type pdf)
-<use dd/d74/class_launcher_window_ae42dca7038ff6eed7d35701fdd858e42_cgraph.pdf>
-
-Package pdftex.def Info: dd/d74/class_launcher_window_ae42dca7038ff6eed7d35701f
-dd858e42_cgraph.pdf  used on input line 110.
-(pdftex.def)             Requested size: 350.0pt x 100.51834pt.
- <./dd/d74/class_launcher_window_a843ea8d2cb731d1f73d17dafb72055f8_cgraph.pdf>
-<dd/d74/class_launcher_window_a843ea8d2cb731d1f73d17dafb72055f8_cgraph.pdf, id=
-2105, 377.41pt x 112.42pt>
-File: dd/d74/class_launcher_window_a843ea8d2cb731d1f73d17dafb72055f8_cgraph.pdf
- Graphic file (type pdf)
-<use dd/d74/class_launcher_window_a843ea8d2cb731d1f73d17dafb72055f8_cgraph.pdf>
-
-Package pdftex.def Info: dd/d74/class_launcher_window_a843ea8d2cb731d1f73d17daf
-b72055f8_cgraph.pdf  used on input line 127.
-(pdftex.def)             Requested size: 350.0pt x 104.25447pt.
- <./dd/d74/class_launcher_window_a4fd279164e186aeaf10dfada448c7efb_icgraph.pdf>
-<dd/d74/class_launcher_window_a4fd279164e186aeaf10dfada448c7efb_icgraph.pdf, id
-=2113, 442.65375pt x 150.5625pt>
-File: dd/d74/class_launcher_window_a4fd279164e186aeaf10dfada448c7efb_icgraph.pd
-f Graphic file (type pdf)
-<use dd/d74/class_launcher_window_a4fd279164e186aeaf10dfada448c7efb_icgraph.pdf
->
-Package pdftex.def Info: dd/d74/class_launcher_window_a4fd279164e186aeaf10dfada
-448c7efb_icgraph.pdf  used on input line 140.
-(pdftex.def)             Requested size: 350.0pt x 119.05333pt.
- [31] <./dd/d74/class_launcher_window_a16f5a8a4cf28e14a0c98ebeb6c60d1e1_icgraph
-.pdf>
-<dd/d74/class_launcher_window_a16f5a8a4cf28e14a0c98ebeb6c60d1e1_icgraph.pdf, id
-=2132, 427.5975pt x 150.5625pt>
-File: dd/d74/class_launcher_window_a16f5a8a4cf28e14a0c98ebeb6c60d1e1_icgraph.pd
-f Graphic file (type pdf)
-<use dd/d74/class_launcher_window_a16f5a8a4cf28e14a0c98ebeb6c60d1e1_icgraph.pdf
->
-Package pdftex.def Info: dd/d74/class_launcher_window_a16f5a8a4cf28e14a0c98ebeb
-6c60d1e1_icgraph.pdf  used on input line 153.
-(pdftex.def)             Requested size: 350.0pt x 123.23918pt.
-
-Overfull \hbox (28.73854pt too wide) in paragraph at lines 197--198
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/frontend[]Classes/[] 
+[68]
+Underfull \hbox (badness 10000) detected at line 87
+[][][]
  []
 
 
-Overfull \hbox (28.2346pt too wide) in paragraph at lines 198--198
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-) (./df/d32/class_object_handler.tex <./d8/d7a/class_object_handler__coll__grap
-h.pdf>
-<d8/d7a/class_object_handler__coll__graph.pdf, id=2150, 266.9975pt x 168.63pt>
-File: d8/d7a/class_object_handler__coll__graph.pdf Graphic file (type pdf)
-<use d8/d7a/class_object_handler__coll__graph.pdf>
-Package pdftex.def Info: d8/d7a/class_object_handler__coll__graph.pdf  used on 
-input line 13.
-(pdftex.def)             Requested size: 266.0pt x 168.01718pt.
- [32] <./df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_cgraph.p
-df>
-<df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_cgraph.pdf, id=2
-196, 376.40625pt x 112.42pt>
-File: df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_cgraph.pdf 
-Graphic file (type pdf)
-<use df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_cgraph.pdf>
-Package pdftex.def Info: df/d32/class_object_handler_abfd81a99d24bd756ea432965e
-dff7593_cgraph.pdf  used on input line 88.
-(pdftex.def)             Requested size: 350.0pt x 104.54094pt.
- <./df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_icgraph.pdf>
-<df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_icgraph.pdf, id=
-2204, 524.96124pt x 134.5025pt>
-File: df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_icgraph.pdf
- Graphic file (type pdf)
-<use df/d32/class_object_handler_abfd81a99d24bd756ea432965edff7593_icgraph.pdf>
-
-Package pdftex.def Info: df/d32/class_object_handler_abfd81a99d24bd756ea432965e
-dff7593_icgraph.pdf  used on input line 95.
-(pdftex.def)             Requested size: 350.0pt x 89.67699pt.
- [33] <./df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_cgraph.p
-df>
-<df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_cgraph.pdf, id=2
-241, 407.5225pt x 112.42pt>
-File: df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_cgraph.pdf 
-Graphic file (type pdf)
-<use df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_cgraph.pdf>
-Package pdftex.def Info: df/d32/class_object_handler_a36034a0611e57dd6862f61e87
-aaad808_cgraph.pdf  used on input line 112.
-(pdftex.def)             Requested size: 350.0pt x 96.5558pt.
- <./df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_icgraph.pdf>
-<df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_icgraph.pdf, id=
-2249, 524.96124pt x 162.6075pt>
-File: df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_icgraph.pdf
- Graphic file (type pdf)
-<use df/d32/class_object_handler_a36034a0611e57dd6862f61e87aaad808_icgraph.pdf>
-
-Package pdftex.def Info: df/d32/class_object_handler_a36034a0611e57dd6862f61e87
-aaad808_icgraph.pdf  used on input line 119.
-(pdftex.def)             Requested size: 350.0pt x 108.41548pt.
- <./df/d32/class_object_handler_a9168289b0153ecc7ca5efbe5cda35634_icgraph.pdf>
-<df/d32/class_object_handler_a9168289b0153ecc7ca5efbe5cda35634_icgraph.pdf, id=
-2260, 573.14125pt x 226.8475pt>
-File: df/d32/class_object_handler_a9168289b0153ecc7ca5efbe5cda35634_icgraph.pdf
- Graphic file (type pdf)
-<use df/d32/class_object_handler_a9168289b0153ecc7ca5efbe5cda35634_icgraph.pdf>
-
-Package pdftex.def Info: df/d32/class_object_handler_a9168289b0153ecc7ca5efbe5c
-da35634_icgraph.pdf  used on input line 136.
-(pdftex.def)             Requested size: 350.0pt x 138.52907pt.
- [34] <./df/d32/class_object_handler_ad59c4b63fee637565003477d1159d162_icgraph.
-pdf>
-<df/d32/class_object_handler_ad59c4b63fee637565003477d1159d162_icgraph.pdf, id=
-2282, 423.5825pt x 262.9825pt>
-File: df/d32/class_object_handler_ad59c4b63fee637565003477d1159d162_icgraph.pdf
- Graphic file (type pdf)
-<use df/d32/class_object_handler_ad59c4b63fee637565003477d1159d162_icgraph.pdf>
-
-Package pdftex.def Info: df/d32/class_object_handler_ad59c4b63fee637565003477d1
-159d162_icgraph.pdf  used on input line 153.
-(pdftex.def)             Requested size: 350.0pt x 217.3043pt.
- <./df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_cgraph.pdf>
-<df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_cgraph.pdf, id=2
-292, 385.44pt x 112.42pt>
-File: df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_cgraph.pdf 
-Graphic file (type pdf)
-<use df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_cgraph.pdf>
-Package pdftex.def Info: df/d32/class_object_handler_a964bdded60c3d676831e4c655
-976ad3b_cgraph.pdf  used on input line 170.
-(pdftex.def)             Requested size: 350.0pt x 102.08278pt.
- <./df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_icgraph.pdf>
-<df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_icgraph.pdf, id=
-2300, 370.38374pt x 112.42pt>
-File: df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_icgraph.pdf
- Graphic file (type pdf)
-<use df/d32/class_object_handler_a964bdded60c3d676831e4c655976ad3b_icgraph.pdf>
-
-Package pdftex.def Info: df/d32/class_object_handler_a964bdded60c3d676831e4c655
-976ad3b_icgraph.pdf  used on input line 177.
-(pdftex.def)             Requested size: 350.0pt x 106.23402pt.
- [35] <./df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_cgraph.p
-df>
-<df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_cgraph.pdf, id=2
-321, 405.515pt x 112.42pt>
-File: df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_cgraph.pdf 
-Graphic file (type pdf)
-<use df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_cgraph.pdf>
-Package pdftex.def Info: df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f
-83dc3d6_cgraph.pdf  used on input line 194.
-(pdftex.def)             Requested size: 350.0pt x 97.03268pt.
- <./df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_icgraph.pdf>
-<df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_icgraph.pdf, id=
-2329, 546.04pt x 112.42pt>
-File: df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_icgraph.pdf
- Graphic file (type pdf)
-<use df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f83dc3d6_icgraph.pdf>
-
-Package pdftex.def Info: df/d32/class_object_handler_a92adb8ba08335d950b4f59a1f
-83dc3d6_icgraph.pdf  used on input line 201.
-(pdftex.def)             Requested size: 350.0pt x 72.05833pt.
- <./df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_cgraph.pdf>
-<df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_cgraph.pdf, id=2
-339, 579.16376pt x 212.795pt>
-File: df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_cgraph.pdf 
-Graphic file (type pdf)
-<use df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_cgraph.pdf>
-Package pdftex.def Info: df/d32/class_object_handler_a0db21cc39e1879a9e0c86b569
-73a4195_cgraph.pdf  used on input line 218.
-(pdftex.def)             Requested size: 350.0pt x 128.59686pt.
- <./df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_icgraph.pdf>
-<df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_icgraph.pdf, id=
-2347, 364.36125pt x 112.42pt>
-File: df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_icgraph.pdf
- Graphic file (type pdf)
-<use df/d32/class_object_handler_a0db21cc39e1879a9e0c86b56973a4195_icgraph.pdf>
-
-Package pdftex.def Info: df/d32/class_object_handler_a0db21cc39e1879a9e0c86b569
-73a4195_icgraph.pdf  used on input line 225.
-(pdftex.def)             Requested size: 350.0pt x 107.9923pt.
- [36] <./df/d32/class_object_handler_a730600ee7de2764e336ab5dd5b98f1bc_cgraph.p
-df>
-<df/d32/class_object_handler_a730600ee7de2764e336ab5dd5b98f1bc_cgraph.pdf, id=2
-368, 376.40625pt x 112.42pt>
-File: df/d32/class_object_handler_a730600ee7de2764e336ab5dd5b98f1bc_cgraph.pdf 
-Graphic file (type pdf)
-<use df/d32/class_object_handler_a730600ee7de2764e336ab5dd5b98f1bc_cgraph.pdf>
-Package pdftex.def Info: df/d32/class_object_handler_a730600ee7de2764e336ab5dd5
-b98f1bc_cgraph.pdf  used on input line 242.
-(pdftex.def)             Requested size: 350.0pt x 104.54094pt.
- <./df/d32/class_object_handler_af13b45bf4507491185e1ae91a7d57325_cgraph.pdf>
-<df/d32/class_object_handler_af13b45bf4507491185e1ae91a7d57325_cgraph.pdf, id=2
-378, 407.5225pt x 112.42pt>
-File: df/d32/class_object_handler_af13b45bf4507491185e1ae91a7d57325_cgraph.pdf 
-Graphic file (type pdf)
-<use df/d32/class_object_handler_af13b45bf4507491185e1ae91a7d57325_cgraph.pdf>
-Package pdftex.def Info: df/d32/class_object_handler_af13b45bf4507491185e1ae91a
-7d57325_cgraph.pdf  used on input line 259.
-(pdftex.def)             Requested size: 350.0pt x 96.5558pt.
- [37]
-Overfull \hbox (19.10878pt too wide) in paragraph at lines 299--300
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/backend[]Classes/[] 
+Underfull \hbox (badness 10000) detected at line 104
+[][][]
  []
 
 
-Overfull \hbox (18.60484pt too wide) in paragraph at lines 300--300
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/backend[]Classes/[] 
+Underfull \hbox (badness 10000) detected at line 121
+[][][]
  []
 
-) (./de/d9e/class_settings_window.tex <./d2/daa/class_settings_window__inherit_
-_graph.pdf>
-<d2/daa/class_settings_window__inherit__graph.pdf, id=2408, 256.96pt x 156.585p
-t>
-File: d2/daa/class_settings_window__inherit__graph.pdf Graphic file (type pdf)
-<use d2/daa/class_settings_window__inherit__graph.pdf>
-Package pdftex.def Info: d2/daa/class_settings_window__inherit__graph.pdf  used
- on input line 13.
-(pdftex.def)             Requested size: 256.0pt x 156.01117pt.
- <./d3/de4/class_settings_window__coll__graph.pdf>
-<d3/de4/class_settings_window__coll__graph.pdf, id=2416, 405.515pt x 236.885pt>
-
-File: d3/de4/class_settings_window__coll__graph.pdf Graphic file (type pdf)
-<use d3/de4/class_settings_window__coll__graph.pdf>
-Package pdftex.def Info: d3/de4/class_settings_window__coll__graph.pdf  used on
- input line 22.
-(pdftex.def)             Requested size: 350.0pt x 204.46172pt.
- [38] <./de/d9e/class_settings_window_ad60370672d08fd3f5318abfbc14ecd8f_icgraph
-.pdf>
-<de/d9e/class_settings_window_ad60370672d08fd3f5318abfbc14ecd8f_icgraph.pdf, id
-=2462, 433.62pt x 150.5625pt>
-File: de/d9e/class_settings_window_ad60370672d08fd3f5318abfbc14ecd8f_icgraph.pd
-f Graphic file (type pdf)
-<use de/d9e/class_settings_window_ad60370672d08fd3f5318abfbc14ecd8f_icgraph.pdf
->
-Package pdftex.def Info: de/d9e/class_settings_window_ad60370672d08fd3f5318abfb
-c14ecd8f_icgraph.pdf  used on input line 118.
-(pdftex.def)             Requested size: 350.0pt x 121.53452pt.
- [39] <./de/d9e/class_settings_window_afa9884fc05c97f706b453c1b51167e11_icgraph
-.pdf>
-<de/d9e/class_settings_window_afa9884fc05c97f706b453c1b51167e11_icgraph.pdf, id
-=2500, 381.425pt x 112.42pt>
-File: de/d9e/class_settings_window_afa9884fc05c97f706b453c1b51167e11_icgraph.pd
-f Graphic file (type pdf)
-<use de/d9e/class_settings_window_afa9884fc05c97f706b453c1b51167e11_icgraph.pdf
->
-Package pdftex.def Info: de/d9e/class_settings_window_afa9884fc05c97f706b453c1b
-51167e11_icgraph.pdf  used on input line 135.
-(pdftex.def)             Requested size: 350.0pt x 103.16176pt.
- <./de/d9e/class_settings_window_a62b9a4c1ec8a234801b2dd43fd708413_cgraph.pdf>
-<de/d9e/class_settings_window_a62b9a4c1ec8a234801b2dd43fd708413_cgraph.pdf, id=
-2510, 381.425pt x 138.5175pt>
-File: de/d9e/class_settings_window_a62b9a4c1ec8a234801b2dd43fd708413_cgraph.pdf
- Graphic file (type pdf)
-<use de/d9e/class_settings_window_a62b9a4c1ec8a234801b2dd43fd708413_cgraph.pdf>
-
-Package pdftex.def Info: de/d9e/class_settings_window_a62b9a4c1ec8a234801b2dd43
-fd708413_cgraph.pdf  used on input line 152.
-(pdftex.def)             Requested size: 350.0pt x 127.11002pt.
- [40]
-Overfull \hbox (24.9676pt too wide) in paragraph at lines 266--267
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-
-Overfull \hbox (24.46367pt too wide) in paragraph at lines 267--267
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/frontend[]Classes/[] 
- []
-
-) (./df/d1b/class_startup_handler.tex <./d7/d55/class_startup_handler__coll__gr
-aph.pdf>
-<d7/d55/class_startup_handler__coll__graph.pdf, id=2554, 266.9975pt x 236.885pt
->
-File: d7/d55/class_startup_handler__coll__graph.pdf Graphic file (type pdf)
-<use d7/d55/class_startup_handler__coll__graph.pdf>
-Package pdftex.def Info: d7/d55/class_startup_handler__coll__graph.pdf  used on
- input line 13.
-(pdftex.def)             Requested size: 266.0pt x 236.02414pt.
- [41] <./df/d1b/class_startup_handler_a58cf31ef13e44af607a1c755a946b828_icgraph
-.pdf>
-<df/d1b/class_startup_handler_a58cf31ef13e44af607a1c755a946b828_icgraph.pdf, id
-=2590, 278.03876pt x 112.42pt>
-File: df/d1b/class_startup_handler_a58cf31ef13e44af607a1c755a946b828_icgraph.pd
-f Graphic file (type pdf)
-<use df/d1b/class_startup_handler_a58cf31ef13e44af607a1c755a946b828_icgraph.pdf
->
-Package pdftex.def Info: df/d1b/class_startup_handler_a58cf31ef13e44af607a1c755
-a946b828_icgraph.pdf  used on input line 73.
-(pdftex.def)             Requested size: 277.0pt x 112.00116pt.
- [42] <./df/d1b/class_startup_handler_a45aefa30358b6ca46e4c36cd012ba6be_icgraph
-.pdf>
-<df/d1b/class_startup_handler_a45aefa30358b6ca46e4c36cd012ba6be_icgraph.pdf, id
-=2621, 436.63126pt x 112.42pt>
-File: df/d1b/class_startup_handler_a45aefa30358b6ca46e4c36cd012ba6be_icgraph.pd
-f Graphic file (type pdf)
-<use df/d1b/class_startup_handler_a45aefa30358b6ca46e4c36cd012ba6be_icgraph.pdf
->
-Package pdftex.def Info: df/d1b/class_startup_handler_a45aefa30358b6ca46e4c36cd
-012ba6be_icgraph.pdf  used on input line 93.
-(pdftex.def)             Requested size: 350.0pt x 90.11452pt.
- <./df/d1b/class_startup_handler_a57a55def03eb37544d8373663d08c053_icgraph.pdf>
-<df/d1b/class_startup_handler_a57a55def03eb37544d8373663d08c053_icgraph.pdf, id
-=2632, 450.68375pt x 100.375pt>
-File: df/d1b/class_startup_handler_a57a55def03eb37544d8373663d08c053_icgraph.pd
-f Graphic file (type pdf)
-<use df/d1b/class_startup_handler_a57a55def03eb37544d8373663d08c053_icgraph.pdf
->
-Package pdftex.def Info: df/d1b/class_startup_handler_a57a55def03eb37544d837366
-3d08c053_icgraph.pdf  used on input line 110.
-(pdftex.def)             Requested size: 350.0pt x 77.95522pt.
- <./df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_cgraph.pdf>
-<df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_cgraph.pdf, id=
-2643, 377.41pt x 150.5625pt>
-File: df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_cgraph.pdf
- Graphic file (type pdf)
-<use df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_cgraph.pdf>
-
-Package pdftex.def Info: df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73
-a18f9f0b_cgraph.pdf  used on input line 127.
-(pdftex.def)             Requested size: 350.0pt x 139.62651pt.
- [43] <./df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_icgraph
-.pdf>
-<df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_icgraph.pdf, id
-=2662, 272.01625pt x 100.375pt>
-File: df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_icgraph.pd
-f Graphic file (type pdf)
-<use df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73a18f9f0b_icgraph.pdf
->
-Package pdftex.def Info: df/d1b/class_startup_handler_a59d6a1be3ce159dd5565ef73
-a18f9f0b_icgraph.pdf  used on input line 134.
-(pdftex.def)             Requested size: 271.0pt x 100.00562pt.
-
-Overfull \hbox (22.96956pt too wide) in paragraph at lines 164--165
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/backend[]Classes/[] 
- []
-
-
-Overfull \hbox (22.46562pt too wide) in paragraph at lines 165--165
-[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
-]Manager/[]Project/classes/backend[]Classes/[] 
- []
-
-) (./dd/d68/class_table_handler.tex [44] <./dd/d68/class_table_handler_ad44dcf4
-6ff59d328b5344b81ce5edb2f_icgraph.pdf>
-<dd/d68/class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f_icgraph.pdf, id=2
-719, 573.14125pt x 262.9825pt>
-File: dd/d68/class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f_icgraph.pdf 
-Graphic file (type pdf)
-<use dd/d68/class_table_handler_ad44dcf46ff59d328b5344b81ce5edb2f_icgraph.pdf>
-Package pdftex.def Info: dd/d68/class_table_handler_ad44dcf46ff59d328b5344b81ce
-5edb2f_icgraph.pdf  used on input line 94.
-(pdftex.def)             Requested size: 350.0pt x 160.59564pt.
- [45] <./dd/d68/class_table_handler_a45e72d50638a51b19a1262b134483195_icgraph.p
-df>
-<dd/d68/class_table_handler_a45e72d50638a51b19a1262b134483195_icgraph.pdf, id=2
-756, 727.71875pt x 162.6075pt>
-File: dd/d68/class_table_handler_a45e72d50638a51b19a1262b134483195_icgraph.pdf 
-Graphic file (type pdf)
-<use dd/d68/class_table_handler_a45e72d50638a51b19a1262b134483195_icgraph.pdf>
-Package pdftex.def Info: dd/d68/class_table_handler_a45e72d50638a51b19a1262b134
-483195_icgraph.pdf  used on input line 121.
-(pdftex.def)             Requested size: 350.0pt x 78.2095pt.
- <./dd/d68/class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e_icgraph.pdf>
-<dd/d68/class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e_icgraph.pdf, id=2
-766, 541.02126pt x 112.42pt>
-File: dd/d68/class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e_icgraph.pdf 
-Graphic file (type pdf)
-<use dd/d68/class_table_handler_a8df2381eabf8802f5c9d5aa0fda8482e_icgraph.pdf>
-Package pdftex.def Info: dd/d68/class_table_handler_a8df2381eabf8802f5c9d5aa0fd
-a8482e_icgraph.pdf  used on input line 138.
-(pdftex.def)             Requested size: 350.0pt x 72.72905pt.
- <./dd/d68/class_table_handler_afabdc34d6977a085f48e9b318b58cb2d_icgraph.pdf>
-<dd/d68/class_table_handler_afabdc34d6977a085f48e9b318b58cb2d_icgraph.pdf, id=2
-776, 411.5375pt x 212.795pt>
-File: dd/d68/class_table_handler_afabdc34d6977a085f48e9b318b58cb2d_icgraph.pdf 
-Graphic file (type pdf)
-<use dd/d68/class_table_handler_afabdc34d6977a085f48e9b318b58cb2d_icgraph.pdf>
-Package pdftex.def Info: dd/d68/class_table_handler_afabdc34d6977a085f48e9b318b
-58cb2d_icgraph.pdf  used on input line 155.
-(pdftex.def)             Requested size: 350.0pt x 180.97725pt.
- [46] <./dd/d68/class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b_icgraph.p
-df>
-<dd/d68/class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b_icgraph.pdf, id=2
-800, 354.32375pt x 112.42pt>
-File: dd/d68/class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b_icgraph.pdf 
-Graphic file (type pdf)
-<use dd/d68/class_table_handler_a84d3c0faa14ffee6aabf3c52b679560b_icgraph.pdf>
-Package pdftex.def Info: dd/d68/class_table_handler_a84d3c0faa14ffee6aabf3c52b6
-79560b_icgraph.pdf  used on input line 188.
-(pdftex.def)             Requested size: 350.0pt x 111.05084pt.
- <./dd/d68/class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0_icgraph.pdf>
-<dd/d68/class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0_icgraph.pdf, id=2
-810, 407.5225pt x 112.42pt>
-File: dd/d68/class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0_icgraph.pdf 
-Graphic file (type pdf)
-<use dd/d68/class_table_handler_a6a77e9a625aabcd82ab7e5a7f16260b0_icgraph.pdf>
-Package pdftex.def Info: dd/d68/class_table_handler_a6a77e9a625aabcd82ab7e5a7f1
-6260b0_icgraph.pdf  used on input line 211.
-(pdftex.def)             Requested size: 350.0pt x 96.5558pt.
- [47]
-Overfull \hbox (17.7946pt too wide) in paragraph at lines 267--268
+[69]
+Overfull \hbox (17.7946pt too wide) in paragraph at lines 151--152
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/database[]Classes/[] 
  []
 
 
-Overfull \hbox (17.29066pt too wide) in paragraph at lines 268--268
+Overfull \hbox (17.29066pt too wide) in paragraph at lines 152--152
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/database[]Classes/[] 
  []
 
-) (./d5/dbe/class_translatable_window.tex <./de/d5b/class_translatable_window__
-inherit__graph.pdf>
-<de/d5b/class_translatable_window__inherit__graph.pdf, id=2839, 359.3425pt x 15
-6.585pt>
-File: de/d5b/class_translatable_window__inherit__graph.pdf Graphic file (type p
-df)
-<use de/d5b/class_translatable_window__inherit__graph.pdf>
-Package pdftex.def Info: de/d5b/class_translatable_window__inherit__graph.pdf  
-used on input line 13.
-(pdftex.def)             Requested size: 350.0pt x 152.52519pt.
- [48] <./d5/dbe/class_translatable_window_a009edc93a44472b8eb27070b3f9258c2_icg
-raph.pdf>
-<d5/dbe/class_translatable_window_a009edc93a44472b8eb27070b3f9258c2_icgraph.pdf
-, id=2872, 767.86874pt x 112.42pt>
-File: d5/dbe/class_translatable_window_a009edc93a44472b8eb27070b3f9258c2_icgrap
-h.pdf Graphic file (type pdf)
-<use d5/dbe/class_translatable_window_a009edc93a44472b8eb27070b3f9258c2_icgraph
-.pdf>
-Package pdftex.def Info: d5/dbe/class_translatable_window_a009edc93a44472b8eb27
-070b3f9258c2_icgraph.pdf  used on input line 60.
-(pdftex.def)             Requested size: 350.0pt x 51.24208pt.
+) (./dc/dc2/class_apos_frontend_1_1_dev_window.tex <./df/dd7/class_apos_fronten
+d_1_1_dev_window__inherit__graph.pdf>
+<df/dd7/class_apos_frontend_1_1_dev_window__inherit__graph.pdf, id=3282, 313.17
+pt x 168.63pt>
+File: df/dd7/class_apos_frontend_1_1_dev_window__inherit__graph.pdf Graphic fil
+e (type pdf)
+<use df/dd7/class_apos_frontend_1_1_dev_window__inherit__graph.pdf>
+Package pdftex.def Info: df/dd7/class_apos_frontend_1_1_dev_window__inherit__gr
+aph.pdf  used on input line 19.
+(pdftex.def)             Requested size: 312.0pt x 168.00688pt.
+ <./d6/dde/class_apos_frontend_1_1_dev_window__coll__graph.pdf>
+<d6/dde/class_apos_frontend_1_1_dev_window__coll__graph.pdf, id=3290, 313.17pt 
+x 168.63pt>
+File: d6/dde/class_apos_frontend_1_1_dev_window__coll__graph.pdf Graphic file (
+type pdf)
+<use d6/dde/class_apos_frontend_1_1_dev_window__coll__graph.pdf>
+Package pdftex.def Info: d6/dde/class_apos_frontend_1_1_dev_window__coll__graph
+.pdf  used on input line 29.
+(pdftex.def)             Requested size: 312.0pt x 168.00688pt.
+ [70]
+Underfull \hbox (badness 6252) in paragraph at lines 42--43
+[][] \T1/phv/m/n/10 (QWid-get $\OMS/cmsy/m/n/10 ^^C$\T1/phv/m/n/10 parent=nullp
+tr, QShared[]Pointer$\OML/cmm/m/it/10 <$ [] $>$ \T1/phv/m/n/10 object[]
+ []
 
-Overfull \hbox (40.29427pt too wide) in paragraph at lines 67--68
+[71]
+Underfull \hbox (badness 10000) detected at line 131
+[][][]
+ []
+
+[72] <./dc/dc2/class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f15
+19e9_icgraph.pdf>
+<dc/dc2/class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f1519e9_ic
+graph.pdf, id=3381, 585.18625pt x 659.46375pt>
+File: dc/dc2/class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f1519
+e9_icgraph.pdf Graphic file (type pdf)
+<use dc/dc2/class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd65aefc8ed62fc9f1519e
+9_icgraph.pdf>
+Package pdftex.def Info: dc/dc2/class_apos_frontend_1_1_dev_window_a6e2ecb7e3fd
+65aefc8ed62fc9f1519e9_icgraph.pdf  used on input line 173.
+(pdftex.def)             Requested size: 350.0pt x 394.44359pt.
+ [73]) (./da/d2e/class_apos_frontend_1_1_launcher_window.tex <./da/d16/class_ap
+os_frontend_1_1_launcher_window__inherit__graph.pdf>
+<da/d16/class_apos_frontend_1_1_launcher_window__inherit__graph.pdf, id=3409, 3
+13.17pt x 168.63pt>
+File: da/d16/class_apos_frontend_1_1_launcher_window__inherit__graph.pdf Graphi
+c file (type pdf)
+<use da/d16/class_apos_frontend_1_1_launcher_window__inherit__graph.pdf>
+Package pdftex.def Info: da/d16/class_apos_frontend_1_1_launcher_window__inheri
+t__graph.pdf  used on input line 19.
+(pdftex.def)             Requested size: 312.0pt x 168.00688pt.
+ <./db/dbd/class_apos_frontend_1_1_launcher_window__coll__graph.pdf>
+<db/dbd/class_apos_frontend_1_1_launcher_window__coll__graph.pdf, id=3417, 313.
+17pt x 168.63pt>
+File: db/dbd/class_apos_frontend_1_1_launcher_window__coll__graph.pdf Graphic f
+ile (type pdf)
+<use db/dbd/class_apos_frontend_1_1_launcher_window__coll__graph.pdf>
+Package pdftex.def Info: db/dbd/class_apos_frontend_1_1_launcher_window__coll__
+graph.pdf  used on input line 29.
+(pdftex.def)             Requested size: 312.0pt x 168.00688pt.
+ [74] [75]
+Underfull \hbox (badness 10000) detected at line 74
+[][][]
+ []
+
+
+Overfull \hbox (28.73854pt too wide) in paragraph at lines 89--90
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/frontend[]Classes/[] 
  []
 
 
-Overfull \hbox (39.79033pt too wide) in paragraph at lines 68--68
+Overfull \hbox (28.2346pt too wide) in paragraph at lines 90--90
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/frontend[]Classes/[] 
  []
 
-) (./d5/d61/class_window_handler.tex <./d1/d83/class_window_handler__inherit__g
-raph.pdf>
-<d1/d83/class_window_handler__inherit__graph.pdf, id=2882, 164.615pt x 156.585p
-t>
-File: d1/d83/class_window_handler__inherit__graph.pdf Graphic file (type pdf)
-<use d1/d83/class_window_handler__inherit__graph.pdf>
-Package pdftex.def Info: d1/d83/class_window_handler__inherit__graph.pdf  used 
-on input line 13.
-(pdftex.def)             Requested size: 164.0pt x 156.004pt.
- <./d3/d2e/class_window_handler__coll__graph.pdf>
-<d3/d2e/class_window_handler__coll__graph.pdf, id=2890, 562.1pt x 305.14pt>
-File: d3/d2e/class_window_handler__coll__graph.pdf Graphic file (type pdf)
-<use d3/d2e/class_window_handler__coll__graph.pdf>
-Package pdftex.def Info: d3/d2e/class_window_handler__coll__graph.pdf  used on 
-input line 22.
-(pdftex.def)             Requested size: 350.0pt x 189.99963pt.
- [49] <./d5/d61/class_window_handler_adf32b0851c5df8d24cc2c74775e4b94d_cgraph.p
-df>
-<d5/d61/class_window_handler_adf32b0851c5df8d24cc2c74775e4b94d_cgraph.pdf, id=2
-926, 786.94pt x 312.16624pt>
-File: d5/d61/class_window_handler_adf32b0851c5df8d24cc2c74775e4b94d_cgraph.pdf 
-Graphic file (type pdf)
-<use d5/d61/class_window_handler_adf32b0851c5df8d24cc2c74775e4b94d_cgraph.pdf>
-Package pdftex.def Info: d5/d61/class_window_handler_adf32b0851c5df8d24cc2c7477
-5e4b94d_cgraph.pdf  used on input line 84.
-(pdftex.def)             Requested size: 350.0pt x 138.83495pt.
- <./d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_cgraph.pdf>
-<d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_cgraph.pdf, id=2
-936, 574.145pt x 112.42pt>
-File: d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_cgraph.pdf 
-Graphic file (type pdf)
-<use d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_cgraph.pdf>
-Package pdftex.def Info: d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab
-8a194ed_cgraph.pdf  used on input line 104.
-(pdftex.def)             Requested size: 350.0pt x 68.5332pt.
- [50] <./d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_icgraph.
-pdf>
-<d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_icgraph.pdf, id=
-2970, 423.5825pt x 100.375pt>
-File: d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_icgraph.pdf
- Graphic file (type pdf)
-<use d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab8a194ed_icgraph.pdf>
+) (./d2/df6/class_apos_frontend_1_1_settings_window.tex <./da/d36/class_apos_fr
+ontend_1_1_settings_window__inherit__graph.pdf>
+<da/d36/class_apos_frontend_1_1_settings_window__inherit__graph.pdf, id=3465, 2
+89.08pt x 168.63pt>
+File: da/d36/class_apos_frontend_1_1_settings_window__inherit__graph.pdf Graphi
+c file (type pdf)
+<use da/d36/class_apos_frontend_1_1_settings_window__inherit__graph.pdf>
+Package pdftex.def Info: da/d36/class_apos_frontend_1_1_settings_window__inheri
+t__graph.pdf  used on input line 19.
+(pdftex.def)             Requested size: 288.0pt x 168.00946pt.
+ [76] <./de/d59/class_apos_frontend_1_1_settings_window__coll__graph.pdf>
+<de/d59/class_apos_frontend_1_1_settings_window__coll__graph.pdf, id=3481, 289.
+08pt x 168.63pt>
+File: de/d59/class_apos_frontend_1_1_settings_window__coll__graph.pdf Graphic f
+ile (type pdf)
+<use de/d59/class_apos_frontend_1_1_settings_window__coll__graph.pdf>
+Package pdftex.def Info: de/d59/class_apos_frontend_1_1_settings_window__coll__
+graph.pdf  used on input line 29.
+(pdftex.def)             Requested size: 288.0pt x 168.00946pt.
+ [77]
+Underfull \hbox (badness 10000) detected at line 87
+[][][]
+ []
 
-Package pdftex.def Info: d5/d61/class_window_handler_a52436f8ef1145f13f153e49ab
-8a194ed_icgraph.pdf  used on input line 111.
-(pdftex.def)             Requested size: 350.0pt x 82.94057pt.
- <./d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_cgraph.pdf>
-<d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_cgraph.pdf, id=2
-981, 388.45125pt x 112.42pt>
-File: d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_cgraph.pdf 
-Graphic file (type pdf)
-<use d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_cgraph.pdf>
-Package pdftex.def Info: d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf
-31b423e_cgraph.pdf  used on input line 128.
-(pdftex.def)             Requested size: 350.0pt x 101.2937pt.
- <./d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_icgraph.pdf>
-<d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_icgraph.pdf, id=
-2989, 628.3475pt x 100.375pt>
-File: d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_icgraph.pdf
- Graphic file (type pdf)
-<use d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf31b423e_icgraph.pdf>
 
-Package pdftex.def Info: d5/d61/class_window_handler_ab585fdb0adaf982cb5f8212bf
-31b423e_icgraph.pdf  used on input line 135.
-(pdftex.def)             Requested size: 350.0pt x 55.90941pt.
- <./d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_cgraph.pdf>
-<d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_cgraph.pdf, id=2
-999, 427.5975pt x 238.8925pt>
-File: d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_cgraph.pdf 
-Graphic file (type pdf)
-<use d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_cgraph.pdf>
-Package pdftex.def Info: d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee
-873759d_cgraph.pdf  used on input line 152.
-(pdftex.def)             Requested size: 350.0pt x 195.53952pt.
- [51] <./d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_icgraph.
-pdf>
-<d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_icgraph.pdf, id=
-3018, 436.63126pt x 100.375pt>
-File: d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_icgraph.pdf
- Graphic file (type pdf)
-<use d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee873759d_icgraph.pdf>
-
-Package pdftex.def Info: d5/d61/class_window_handler_a8fdd3abd4b8019264d3ec25ee
-873759d_icgraph.pdf  used on input line 159.
-(pdftex.def)             Requested size: 350.0pt x 80.45938pt.
- <./d5/d61/class_window_handler_a7991c67765fc79b3049e249a7ee97434_icgraph.pdf>
-<d5/d61/class_window_handler_a7991c67765fc79b3049e249a7ee97434_icgraph.pdf, id=
-3028, 617.30624pt x 138.5175pt>
-File: d5/d61/class_window_handler_a7991c67765fc79b3049e249a7ee97434_icgraph.pdf
- Graphic file (type pdf)
-<use d5/d61/class_window_handler_a7991c67765fc79b3049e249a7ee97434_icgraph.pdf>
-
-Package pdftex.def Info: d5/d61/class_window_handler_a7991c67765fc79b3049e249a7
-ee97434_icgraph.pdf  used on input line 176.
-(pdftex.def)             Requested size: 350.0pt x 78.5394pt.
- <./d5/d61/class_window_handler_a1c119c52aff2591e273bd3b06a7b9270_icgraph.pdf>
-<d5/d61/class_window_handler_a1c119c52aff2591e273bd3b06a7b9270_icgraph.pdf, id=
-3038, 621.32124pt x 125.46875pt>
-File: d5/d61/class_window_handler_a1c119c52aff2591e273bd3b06a7b9270_icgraph.pdf
- Graphic file (type pdf)
-<use d5/d61/class_window_handler_a1c119c52aff2591e273bd3b06a7b9270_icgraph.pdf>
-
-Package pdftex.def Info: d5/d61/class_window_handler_a1c119c52aff2591e273bd3b06
-a7b9270_icgraph.pdf  used on input line 193.
-(pdftex.def)             Requested size: 350.0pt x 70.67746pt.
- [52]
-Overfull \hbox (24.32855pt too wide) in paragraph at lines 243--244
+Overfull \hbox (24.9676pt too wide) in paragraph at lines 106--107
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/frontend[]Classes/[] 
  []
 
 
-Overfull \hbox (23.82462pt too wide) in paragraph at lines 244--244
+Overfull \hbox (24.46367pt too wide) in paragraph at lines 107--107
 []\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
 ]Manager/[]Project/classes/frontend[]Classes/[] 
  []
 
-) [53] [54
+) (./da/dfc/class_apos_frontend_1_1_translatable_window.tex [78] <./d8/d7f/clas
+s_apos_frontend_1_1_translatable_window__inherit__graph.pdf>
+<d8/d7f/class_apos_frontend_1_1_translatable_window__inherit__graph.pdf, id=353
+8, 561.09625pt x 168.63pt>
+File: d8/d7f/class_apos_frontend_1_1_translatable_window__inherit__graph.pdf Gr
+aphic file (type pdf)
+<use d8/d7f/class_apos_frontend_1_1_translatable_window__inherit__graph.pdf>
+Package pdftex.def Info: d8/d7f/class_apos_frontend_1_1_translatable_window__in
+herit__graph.pdf  used on input line 19.
+(pdftex.def)             Requested size: 350.0pt x 105.18764pt.
+
+Overfull \hbox (40.29427pt too wide) in paragraph at lines 42--43
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/frontend[]Classes/[] 
+ []
+
+
+Overfull \hbox (39.79033pt too wide) in paragraph at lines 43--43
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/frontend[]Classes/[] 
+ []
+
+) (./d3/d90/class_apos_frontend_1_1_window_handler.tex <./db/d3a/class_apos_fro
+ntend_1_1_window_handler__inherit__graph.pdf>
+<db/d3a/class_apos_frontend_1_1_window_handler__inherit__graph.pdf, id=3554, 23
+0.8625pt x 156.585pt>
+File: db/d3a/class_apos_frontend_1_1_window_handler__inherit__graph.pdf Graphic
+ file (type pdf)
+<use db/d3a/class_apos_frontend_1_1_window_handler__inherit__graph.pdf>
+Package pdftex.def Info: db/d3a/class_apos_frontend_1_1_window_handler__inherit
+__graph.pdf  used on input line 19.
+(pdftex.def)             Requested size: 230.0pt x 156.00162pt.
+ [79] <./db/d5a/class_apos_frontend_1_1_window_handler__coll__graph.pdf>
+<db/d5a/class_apos_frontend_1_1_window_handler__coll__graph.pdf, id=3571, 230.8
+625pt x 156.585pt>
+File: db/d5a/class_apos_frontend_1_1_window_handler__coll__graph.pdf Graphic fi
+le (type pdf)
+<use db/d5a/class_apos_frontend_1_1_window_handler__coll__graph.pdf>
+Package pdftex.def Info: db/d5a/class_apos_frontend_1_1_window_handler__coll__g
+raph.pdf  used on input line 29.
+(pdftex.def)             Requested size: 230.0pt x 156.00162pt.
+ [80]
+Underfull \hbox (badness 10000) detected at line 71
+[][][]
+ []
+
+
+Overfull \hbox (24.32855pt too wide) in paragraph at lines 92--93
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/frontend[]Classes/[] 
+ []
+
+
+Overfull \hbox (23.82462pt too wide) in paragraph at lines 93--93
+[]\T1/phv/m/n/10 C[]:/[]Users/[]Clean/[]Documents/[]Projekte/[]Apos-[]Database[
+]Manager/[]Project/classes/frontend[]Classes/[] 
+ []
+
+) [81] [82
 
 ]
-Chapter 8.
+Chapter 11.
 (./d1/d58/objecthandler_8cpp.tex <./df/d29/objecthandler_8cpp__incl.pdf>
-<df/d29/objecthandler_8cpp__incl.pdf, id=3085, 452.69125pt x 317.185pt>
+<df/d29/objecthandler_8cpp__incl.pdf, id=3628, 417.56pt x 385.44pt>
 File: df/d29/objecthandler_8cpp__incl.pdf Graphic file (type pdf)
 <use df/d29/objecthandler_8cpp__incl.pdf>
 Package pdftex.def Info: df/d29/objecthandler_8cpp__incl.pdf  used on input lin
-e 8.
-(pdftex.def)             Requested size: 350.0pt x 245.2302pt.
-)
-(./d1/d58/objecthandler_8cpp_source.tex [55]) (./d5/dcc/objecthandler_8hpp.tex 
-<./df/d23/objecthandler_8hpp__incl.pdf>
-<df/d23/objecthandler_8hpp__incl.pdf, id=3160, 452.69125pt x 260.975pt>
+e 14.
+(pdftex.def)             Requested size: 350.0pt x 323.09692pt.
+
+[83]
+Underfull \hbox (badness 10000) detected at line 27
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+) (./d1/d58/objecthandler_8cpp_source.tex
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 9--9
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 23--23
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+[84]
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 37--37
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 41--41
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 45--45
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 49--49
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 53--53
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 57--57
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 61--61
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+) (./d5/dcc/objecthandler_8hpp.tex <./df/d23/objecthandler_8hpp__incl.pdf>
+<df/d23/objecthandler_8hpp__incl.pdf, id=3701, 415.5525pt x 329.23pt>
 File: df/d23/objecthandler_8hpp__incl.pdf Graphic file (type pdf)
 <use df/d23/objecthandler_8hpp__incl.pdf>
 Package pdftex.def Info: df/d23/objecthandler_8hpp__incl.pdf  used on input lin
-e 12.
-(pdftex.def)             Requested size: 350.0pt x 201.7717pt.
- [56] <./db/d20/objecthandler_8hpp__dep__incl.pdf>
-<db/d20/objecthandler_8hpp__dep__incl.pdf, id=3213, 1222.5675pt x 413.545pt>
+e 18.
+(pdftex.def)             Requested size: 350.0pt x 277.30486pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.16548pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.16548pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
+
+[85] <./db/d20/objecthandler_8hpp__dep__incl.pdf>
+<db/d20/objecthandler_8hpp__dep__incl.pdf, id=3757, 1075.01625pt x 413.545pt>
 File: db/d20/objecthandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use db/d20/objecthandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: db/d20/objecthandler_8hpp__dep__incl.pdf  used on inpu
-t line 19.
-(pdftex.def)             Requested size: 350.0pt x 118.38528pt.
-) (./d5/dcc/objecthandler_8hpp_source.tex [57])
-(./d3/dc6/startuphandler_8cpp.tex <./db/dd3/startuphandler_8cpp__incl.pdf>
-<db/dd3/startuphandler_8cpp__incl.pdf, id=3277, 655.44875pt x 373.395pt>
+t line 26.
+(pdftex.def)             Requested size: 350.0pt x 134.6403pt.
+ [86]
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 58
+[][][]
+ []
+
+) (./d5/dcc/objecthandler_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 15--15
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+[87]) (./d3/dc6/startuphandler_8cpp.tex <./db/dd3/startuphandler_8cpp__incl.pdf
+>
+<db/dd3/startuphandler_8cpp__incl.pdf, id=3821, 582.175pt x 441.65pt>
 File: db/dd3/startuphandler_8cpp__incl.pdf Graphic file (type pdf)
 <use db/dd3/startuphandler_8cpp__incl.pdf>
 Package pdftex.def Info: db/dd3/startuphandler_8cpp__incl.pdf  used on input li
-ne 8.
-(pdftex.def)             Requested size: 350.0pt x 199.38547pt.
-)
-(./d3/dc6/startuphandler_8cpp_source.tex [58])
-(./d3/d89/startuphandler_8hpp.tex <./d0/da2/startuphandler_8hpp__incl.pdf>
-<d0/da2/startuphandler_8hpp__incl.pdf, id=3353, 655.44875pt x 317.185pt>
+ne 14.
+(pdftex.def)             Requested size: 350.0pt x 265.52441pt.
+ [88]
+Underfull \hbox (badness 10000) detected at line 27
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+) (./d3/dc6/startuphandler_8cpp_source.tex
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 9--9
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 16--16
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 27--27
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 34--34
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+[89]
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 49--49
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+) (./d3/d89/startuphandler_8hpp.tex <./d0/da2/startuphandler_8hpp__incl.pdf>
+<d0/da2/startuphandler_8hpp__incl.pdf, id=3905, 582.175pt x 385.44pt>
 File: d0/da2/startuphandler_8hpp__incl.pdf Graphic file (type pdf)
 <use d0/da2/startuphandler_8hpp__incl.pdf>
 Package pdftex.def Info: d0/da2/startuphandler_8hpp__incl.pdf  used on input li
-ne 12.
-(pdftex.def)             Requested size: 350.0pt x 169.37044pt.
- <./de/d4c/startuphandler_8hpp__dep__incl.pdf>
-<de/d4c/startuphandler_8hpp__dep__incl.pdf, id=3361, 423.5825pt x 228.855pt>
+ne 18.
+(pdftex.def)             Requested size: 350.0pt x 231.73041pt.
+
+[90] <./de/d4c/startuphandler_8hpp__dep__incl.pdf>
+<de/d4c/startuphandler_8hpp__dep__incl.pdf, id=3954, 423.5825pt x 228.855pt>
 File: de/d4c/startuphandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use de/d4c/startuphandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: de/d4c/startuphandler_8hpp__dep__incl.pdf  used on inp
-ut line 19.
+ut line 26.
 (pdftex.def)             Requested size: 350.0pt x 189.10452pt.
 
 
@@ -2218,16 +2535,65 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[59]) (./d3/d89/startuphandler_8hpp_source.tex)
-(./dd/d61/databasehandler_8cpp.tex <./d1/d31/databasehandler_8cpp__incl.pdf>
-<d1/d31/databasehandler_8cpp__incl.pdf, id=3420, 245.91875pt x 248.93pt>
+[91]
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 58
+[][][]
+ []
+
+) (./d3/d89/startuphandler_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 15--15
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+) (./dd/d61/databasehandler_8cpp.tex [92] <./d1/d31/databasehandler_8cpp__incl.
+pdf>
+<d1/d31/databasehandler_8cpp__incl.pdf, id=4019, 245.91875pt x 248.93pt>
 File: d1/d31/databasehandler_8cpp__incl.pdf Graphic file (type pdf)
 <use d1/d31/databasehandler_8cpp__incl.pdf>
 Package pdftex.def Info: d1/d31/databasehandler_8cpp__incl.pdf  used on input l
-ine 8.
+ine 14.
 (pdftex.def)             Requested size: 245.0pt x 248.01018pt.
-)
-(./dd/d61/databasehandler_8cpp_source.tex [60]
+
+Underfull \hbox (badness 10000) detected at line 27
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.16548pt, for example:
@@ -2236,24 +2602,105 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[61]) (./de/d60/databasehandler_8hpp.tex <./df/d20/databasehandler_8hpp__incl.p
-df>
-<df/d20/databasehandler_8hpp__incl.pdf, id=3541, 245.91875pt x 192.72pt>
+[93]
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+) (./dd/d61/databasehandler_8cpp_source.tex
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 9--9
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 11--11
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 19--19
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 24--24
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 37--37
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 41--41
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+) (./de/d60/databasehandler_8hpp.tex [94] <./df/d20/databasehandler_8hpp__incl.
+pdf>
+<df/d20/databasehandler_8hpp__incl.pdf, id=4105, 245.91875pt x 192.72pt>
 File: df/d20/databasehandler_8hpp__incl.pdf Graphic file (type pdf)
 <use df/d20/databasehandler_8hpp__incl.pdf>
 Package pdftex.def Info: df/d20/databasehandler_8hpp__incl.pdf  used on input l
-ine 9.
+ine 15.
 (pdftex.def)             Requested size: 245.0pt x 192.00786pt.
  <./d4/d5b/databasehandler_8hpp__dep__incl.pdf>
-<d4/d5b/databasehandler_8hpp__dep__incl.pdf, id=3549, 1222.5675pt x 505.89pt>
+<d4/d5b/databasehandler_8hpp__dep__incl.pdf, id=4113, 1075.01625pt x 598.235pt>
+
 File: d4/d5b/databasehandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d4/d5b/databasehandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d4/d5b/databasehandler_8hpp__dep__incl.pdf  used on in
-put line 16.
-(pdftex.def)             Requested size: 350.0pt x 144.82083pt.
- [62])
-(./de/d60/databasehandler_8hpp_source.tex
-Overfull \hbox (31.03062pt too wide) in paragraph at lines 45--45
+put line 23.
+(pdftex.def)             Requested size: 350.0pt x 194.77094pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.16548pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.16548pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
+
+[95]
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 52
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][][]
+ []
+
+) (./de/d60/databasehandler_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 11--11
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (31.03062pt too wide) in paragraph at lines 33--33
 \T1/pcr/m/n/7 R[]"(C:$\OMS/cmsy/m/n/7 n$\T1/pcr/m/n/7 Users$\OMS/cmsy/m/n/7 n$\
 T1/pcr/m/n/7 Clean$\OMS/cmsy/m/n/7 n$\T1/pcr/m/n/7 Documents$\OMS/cmsy/m/n/7 n$
 \T1/pcr/m/n/7 Projekte$\OMS/cmsy/m/n/7 n$\T1/pcr/m/n/7 Apos-DatabaseManager$\OM
@@ -2262,29 +2709,114 @@ S/cmsy/m/n/7 n$\T1/pcr/m/n/7 Project$\OMS/cmsy/m/n/7 n$\T1/pcr/m/n/7 resources$
  userDatabase.db)";[]  
  []
 
-) (./df/d10/tablehandler_8cpp.tex <./de/d30/tablehandler_8cpp__incl.pdf>
-<de/d30/tablehandler_8cpp__incl.pdf, id=3603, 245.91875pt x 248.93pt>
+[96]) (./df/d10/tablehandler_8cpp.tex <./de/d30/tablehandler_8cpp__incl.pdf>
+<de/d30/tablehandler_8cpp__incl.pdf, id=4157, 302.12875pt x 305.14pt>
 File: de/d30/tablehandler_8cpp__incl.pdf Graphic file (type pdf)
 <use de/d30/tablehandler_8cpp__incl.pdf>
 Package pdftex.def Info: de/d30/tablehandler_8cpp__incl.pdf  used on input line
- 8.
-(pdftex.def)             Requested size: 245.0pt x 248.01018pt.
-)
-(./df/d10/tablehandler_8cpp_source.tex [63] [64])
-(./df/d46/tablehandler_8hpp.tex <./da/d28/tablehandler_8hpp__incl.pdf>
-<da/d28/tablehandler_8hpp__incl.pdf, id=3740, 245.91875pt x 192.72pt>
+ 15.
+(pdftex.def)             Requested size: 301.0pt x 303.99849pt.
+
+[97]
+Underfull \hbox (badness 10000) detected at line 28
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 31
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 34
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 39
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+[98]) (./df/d10/tablehandler_8cpp_source.tex
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 11--11
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 15--15
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 26--26
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 31--31
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 39--39
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 49--49
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+[99]
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 74--74
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 78--78
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 82--82
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 86--86
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+) (./df/d46/tablehandler_8hpp.tex <./da/d28/tablehandler_8hpp__incl.pdf>
+<da/d28/tablehandler_8hpp__incl.pdf, id=4296, 261.97874pt x 248.93pt>
 File: da/d28/tablehandler_8hpp__incl.pdf Graphic file (type pdf)
 <use da/d28/tablehandler_8hpp__incl.pdf>
 Package pdftex.def Info: da/d28/tablehandler_8hpp__incl.pdf  used on input line
- 9.
-(pdftex.def)             Requested size: 245.0pt x 192.00786pt.
- <./d1/d33/tablehandler_8hpp__dep__incl.pdf>
-<d1/d33/tablehandler_8hpp__dep__incl.pdf, id=3748, 1222.5675pt x 505.89pt>
+ 16.
+(pdftex.def)             Requested size: 261.0pt x 248.00638pt.
+
+[100] <./d1/d33/tablehandler_8hpp__dep__incl.pdf>
+<d1/d33/tablehandler_8hpp__dep__incl.pdf, id=4349, 1075.01625pt x 505.89pt>
 File: d1/d33/tablehandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d1/d33/tablehandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d1/d33/tablehandler_8hpp__dep__incl.pdf  used on input
- line 16.
-(pdftex.def)             Requested size: 350.0pt x 144.82083pt.
+ line 24.
+(pdftex.def)             Requested size: 350.0pt x 164.70563pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2294,15 +2826,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[65]) (./df/d46/tablehandler_8hpp_source.tex [66]) (./d1/d87/devwindow_8cpp.tex
- <./da/de8/devwindow_8cpp__incl.pdf>
-<da/de8/devwindow_8cpp__incl.pdf, id=3884, 784.9325pt x 373.395pt>
+[101]
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 48
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 53
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 56
+[][][]
+ []
+
+) (./df/d46/tablehandler_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 13--13
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+[102]) (./d1/d87/devwindow_8cpp.tex <./da/de8/devwindow_8cpp__incl.pdf>
+<da/de8/devwindow_8cpp__incl.pdf, id=4409, 696.6025pt x 441.65pt>
 File: da/de8/devwindow_8cpp__incl.pdf Graphic file (type pdf)
 <use da/de8/devwindow_8cpp__incl.pdf>
-Package pdftex.def Info: da/de8/devwindow_8cpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: da/de8/devwindow_8cpp__incl.pdf  used on input line 15
+.
+(pdftex.def)             Requested size: 350.0pt x 221.9027pt.
 
-(pdftex.def)             Requested size: 350.0pt x 166.49925pt.
-) (./d1/d87/devwindow_8cpp_source.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.16548pt, for example:
@@ -2311,43 +2873,326 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[67] [68] [69]) (./d5/d65/devwindow_8hpp.tex <./df/dd1/devwindow_8hpp__incl.pdf
->
-<df/dd1/devwindow_8hpp__incl.pdf, id=4281, 784.9325pt x 317.185pt>
+[103]
+Underfull \hbox (badness 10000) detected at line 28
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 31
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 34
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 39
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+) (./d1/d87/devwindow_8cpp_source.tex
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 10--10
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 16--16
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 20--20
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 25--25
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 30--30
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 35--35
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+[104]
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 45--45
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 52--52
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 58--58
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 66--66
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 80--80
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 87--87
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 100--100
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+[105]
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 111--111
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 118--118
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 131--131
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 137--137
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 147--147
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 153--153
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 166--166
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 172--172
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+[106]
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 177--177
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 182--182
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 186--186
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 190--190
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+) (./d5/d65/devwindow_8hpp.tex <./df/dd1/devwindow_8hpp__incl.pdf>
+<df/dd1/devwindow_8hpp__incl.pdf, id=4777, 696.6025pt x 385.44pt>
 File: df/dd1/devwindow_8hpp__incl.pdf Graphic file (type pdf)
 <use df/dd1/devwindow_8hpp__incl.pdf>
-Package pdftex.def Info: df/dd1/devwindow_8hpp__incl.pdf  used on input line 12
+Package pdftex.def Info: df/dd1/devwindow_8hpp__incl.pdf  used on input line 18
 .
-(pdftex.def)             Requested size: 350.0pt x 141.43483pt.
+(pdftex.def)             Requested size: 350.0pt x 193.66054pt.
  <./d4/d1f/devwindow_8hpp__dep__incl.pdf>
-<d4/d1f/devwindow_8hpp__dep__incl.pdf, id=4289, 513.92pt x 321.2pt>
+<d4/d1f/devwindow_8hpp__dep__incl.pdf, id=4785, 513.92pt x 321.2pt>
 File: d4/d1f/devwindow_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d4/d1f/devwindow_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d4/d1f/devwindow_8hpp__dep__incl.pdf  used on input li
-ne 19.
+ne 26.
 (pdftex.def)             Requested size: 350.0pt x 218.75128pt.
-) (./d5/d65/devwindow_8hpp_source.tex [70] [71]) (./d5/d17/launcherwindow_8cpp.
-tex <./dc/db1/launcherwindow_8cpp__incl.pdf>
-<dc/db1/launcherwindow_8cpp__incl.pdf, id=4453, 490.83376pt x 373.395pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.16548pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.16548pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
+
+[107]
+Underfull \hbox (badness 10000) detected at line 46
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 49
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 52
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 57
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 60
+[][][]
+ []
+
+[108]) (./d5/d65/devwindow_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 15--15
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+[109]) (./d5/d17/launcherwindow_8cpp.tex <./dc/db1/launcherwindow_8cpp__incl.pd
+f>
+<dc/db1/launcherwindow_8cpp__incl.pdf, id=4932, 498.86375pt x 441.65pt>
 File: dc/db1/launcherwindow_8cpp__incl.pdf Graphic file (type pdf)
 <use dc/db1/launcherwindow_8cpp__incl.pdf>
 Package pdftex.def Info: dc/db1/launcherwindow_8cpp__incl.pdf  used on input li
-ne 9.
-(pdftex.def)             Requested size: 350.0pt x 266.2632pt.
-) (./d5/d17/launcherwindow_8cpp_source.tex [72])
-(./d2/d3e/launcherwindow_8hpp.tex <./de/da9/launcherwindow_8hpp__incl.pdf>
-<de/da9/launcherwindow_8hpp__incl.pdf, id=4512, 490.83376pt x 317.185pt>
+ne 16.
+(pdftex.def)             Requested size: 350.0pt x 309.86722pt.
+ [110]
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 32
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 43
+[][][]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.16548pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.16548pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
+
+[111]) (./d5/d17/launcherwindow_8cpp_source.tex
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 13--13
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 20--20
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 24--24
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 28--28
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 32--32
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+) (./d2/d3e/launcherwindow_8hpp.tex <./de/da9/launcherwindow_8hpp__incl.pdf>
+<de/da9/launcherwindow_8hpp__incl.pdf, id=5002, 490.83376pt x 385.44pt>
 File: de/da9/launcherwindow_8hpp__incl.pdf Graphic file (type pdf)
 <use de/da9/launcherwindow_8hpp__incl.pdf>
 Package pdftex.def Info: de/da9/launcherwindow_8hpp__incl.pdf  used on input li
-ne 10.
-(pdftex.def)             Requested size: 350.0pt x 226.18056pt.
- <./dc/dba/launcherwindow_8hpp__dep__incl.pdf>
-<dc/dba/launcherwindow_8hpp__dep__incl.pdf, id=4520, 513.92pt x 321.2pt>
+ne 16.
+(pdftex.def)             Requested size: 350.0pt x 274.85234pt.
+
+[112] <./dc/dba/launcherwindow_8hpp__dep__incl.pdf>
+<dc/dba/launcherwindow_8hpp__dep__incl.pdf, id=5041, 513.92pt x 321.2pt>
 File: dc/dba/launcherwindow_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use dc/dba/launcherwindow_8hpp__dep__incl.pdf>
 Package pdftex.def Info: dc/dba/launcherwindow_8hpp__dep__incl.pdf  used on inp
-ut line 17.
+ut line 24.
 (pdftex.def)             Requested size: 350.0pt x 218.75128pt.
 
 
@@ -2358,16 +3203,116 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[73]) (./d2/d3e/launcherwindow_8hpp_source.tex)
-(./db/da0/settingswindow_8cpp.tex <./d3/de5/settingswindow_8cpp__incl.pdf>
-<d3/de5/settingswindow_8cpp__incl.pdf, id=4579, 599.23875pt x 373.395pt>
+[113]
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 58
+[][][]
+ []
+
+) (./d2/d3e/launcherwindow_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 13--13
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+[114]) (./db/da0/settingswindow_8cpp.tex <./d3/de5/settingswindow_8cpp__incl.pd
+f>
+<d3/de5/settingswindow_8cpp__incl.pdf, id=5087, 599.23875pt x 441.65pt>
 File: d3/de5/settingswindow_8cpp__incl.pdf Graphic file (type pdf)
 <use d3/de5/settingswindow_8cpp__incl.pdf>
 Package pdftex.def Info: d3/de5/settingswindow_8cpp__incl.pdf  used on input li
-ne 9.
-(pdftex.def)             Requested size: 350.0pt x 218.09619pt.
+ne 16.
+(pdftex.def)             Requested size: 350.0pt x 257.96323pt.
+ [115]
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+ []
 
-[74]) (./db/da0/settingswindow_8cpp_source.tex
+
+Underfull \hbox (badness 10000) detected at line 32
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 43
+[][][]
+ []
+
+) (./db/da0/settingswindow_8cpp_source.tex [116] [117])
+(./df/db5/settingswindow_8hpp.tex <./de/db5/settingswindow_8hpp__incl.pdf>
+<de/db5/settingswindow_8hpp__incl.pdf, id=5250, 599.23875pt x 385.44pt>
+File: de/db5/settingswindow_8hpp__incl.pdf Graphic file (type pdf)
+<use de/db5/settingswindow_8hpp__incl.pdf>
+Package pdftex.def Info: de/db5/settingswindow_8hpp__incl.pdf  used on input li
+ne 18.
+(pdftex.def)             Requested size: 350.0pt x 225.13155pt.
+ <./d1/da8/settingswindow_8hpp__dep__incl.pdf>
+<d1/da8/settingswindow_8hpp__dep__incl.pdf, id=5258, 513.92pt x 321.2pt>
+File: d1/da8/settingswindow_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use d1/da8/settingswindow_8hpp__dep__incl.pdf>
+Package pdftex.def Info: d1/da8/settingswindow_8hpp__dep__incl.pdf  used on inp
+ut line 26.
+(pdftex.def)             Requested size: 350.0pt x 218.75128pt.
+ [118]
+Underfull \hbox (badness 10000) detected at line 46
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 49
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 52
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 57
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 60
+[][][]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.16548pt, for example:
@@ -2376,233 +3321,411 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[75]) (./df/db5/settingswindow_8hpp.tex <./de/db5/settingswindow_8hpp__incl.pdf
->
-<de/db5/settingswindow_8hpp__incl.pdf, id=4719, 599.23875pt x 317.185pt>
-File: de/db5/settingswindow_8hpp__incl.pdf Graphic file (type pdf)
-<use de/db5/settingswindow_8hpp__incl.pdf>
-Package pdftex.def Info: de/db5/settingswindow_8hpp__incl.pdf  used on input li
-ne 12.
-(pdftex.def)             Requested size: 350.0pt x 185.2645pt.
- <./d1/da8/settingswindow_8hpp__dep__incl.pdf>
-<d1/da8/settingswindow_8hpp__dep__incl.pdf, id=4727, 513.92pt x 321.2pt>
-File: d1/da8/settingswindow_8hpp__dep__incl.pdf Graphic file (type pdf)
-<use d1/da8/settingswindow_8hpp__dep__incl.pdf>
-Package pdftex.def Info: d1/da8/settingswindow_8hpp__dep__incl.pdf  used on inp
-ut line 19.
-(pdftex.def)             Requested size: 350.0pt x 218.75128pt.
- [76])
-(./df/db5/settingswindow_8hpp_source.tex [77])
-(./d0/d45/translatablewindow_8cpp.tex <./da/de6/translatablewindow_8cpp__incl.p
-df>
-<da/de6/translatablewindow_8cpp__incl.pdf, id=4850, 242.9075pt x 192.72pt>
+[119]) (./df/db5/settingswindow_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 14--14
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 18--18
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+) (./d0/d45/translatablewindow_8cpp.tex [120] <./da/de6/translatablewindow_8cpp
+__incl.pdf>
+<da/de6/translatablewindow_8cpp__incl.pdf, id=5381, 242.9075pt x 192.72pt>
 File: da/de6/translatablewindow_8cpp__incl.pdf Graphic file (type pdf)
 <use da/de6/translatablewindow_8cpp__incl.pdf>
 Package pdftex.def Info: da/de6/translatablewindow_8cpp__incl.pdf  used on inpu
-t line 8.
+t line 14.
 (pdftex.def)             Requested size: 242.0pt x 191.99904pt.
-) (./d0/d45/translatablewindow_8cpp_source.tex)
-(./d7/dfa/translatablewindow_8hpp.tex <./d0/d33/translatablewindow_8hpp__dep__i
-ncl.pdf>
-<d0/d33/translatablewindow_8hpp__dep__incl.pdf, id=4862, 823.075pt x 413.545pt>
+
+Underfull \hbox (badness 10000) detected at line 27
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+ []
+
+) (./d0/d45/translatablewindow_8cpp_source.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.16548pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.16548pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
+
+[121]
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 8--8
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+) (./d7/dfa/translatablewindow_8hpp.tex <./d0/d33/translatablewindow_8hpp__dep_
+_incl.pdf>
+<d0/d33/translatablewindow_8hpp__dep__incl.pdf, id=5403, 823.075pt x 413.545pt>
 
 File: d0/d33/translatablewindow_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d0/d33/translatablewindow_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d0/d33/translatablewindow_8hpp__dep__incl.pdf  used on
- input line 7.
+ input line 13.
 (pdftex.def)             Requested size: 350.0pt x 175.8521pt.
- [78]) (./d7/dfa/translatablewindow_8hpp_source.tex)
-(./d0/d1d/windowhandler_8cpp.tex <./d2/d76/windowhandler_8cpp__incl.pdf>
-<d2/d76/windowhandler_8cpp__incl.pdf, id=4891, 744.7825pt x 429.605pt>
+
+Underfull \hbox (badness 10000) detected at line 31
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 34
+[][][]
+ []
+
+[122]
+Underfull \hbox (badness 10000) detected at line 37
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+) (./d7/dfa/translatablewindow_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 8--8
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+) (./d0/d1d/windowhandler_8cpp.tex <./d2/d76/windowhandler_8cpp__incl.pdf>
+<d2/d76/windowhandler_8cpp__incl.pdf, id=5438, 842.14626pt x 497.86pt>
 File: d2/d76/windowhandler_8cpp__incl.pdf Graphic file (type pdf)
 <use d2/d76/windowhandler_8cpp__incl.pdf>
 Package pdftex.def Info: d2/d76/windowhandler_8cpp__incl.pdf  used on input lin
-e 9.
-(pdftex.def)             Requested size: 350.0pt x 201.8947pt.
-)
-(./d0/d1d/windowhandler_8cpp_source.tex
+e 16.
+(pdftex.def)             Requested size: 350.0pt x 206.91191pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.16548pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.16548pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+[123]
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+ []
 
-(fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[79] [80]) (./da/d25/windowhandler_8hpp.tex <./d6/da8/windowhandler_8hpp__incl.
-pdf>
-<d6/da8/windowhandler_8hpp__incl.pdf, id=5017, 745.78625pt x 373.395pt>
+Underfull \hbox (badness 10000) detected at line 32
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 43
+[][][]
+ []
+
+) (./d0/d1d/windowhandler_8cpp_source.tex [124])
+(./da/d25/windowhandler_8hpp.tex <./d6/da8/windowhandler_8hpp__incl.pdf>
+<d6/da8/windowhandler_8hpp__incl.pdf, id=5525, 758.835pt x 441.65pt>
 File: d6/da8/windowhandler_8hpp__incl.pdf Graphic file (type pdf)
 <use d6/da8/windowhandler_8hpp__incl.pdf>
 Package pdftex.def Info: d6/da8/windowhandler_8hpp__incl.pdf  used on input lin
-e 12.
-(pdftex.def)             Requested size: 350.0pt x 175.23358pt.
- <./dd/de2/windowhandler_8hpp__dep__incl.pdf>
-<dd/de2/windowhandler_8hpp__dep__incl.pdf, id=5025, 423.5825pt x 228.855pt>
+e 18.
+(pdftex.def)             Requested size: 350.0pt x 203.70732pt.
+
+[125] <./dd/de2/windowhandler_8hpp__dep__incl.pdf>
+<dd/de2/windowhandler_8hpp__dep__incl.pdf, id=5593, 423.5825pt x 228.855pt>
 File: dd/de2/windowhandler_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use dd/de2/windowhandler_8hpp__dep__incl.pdf>
 Package pdftex.def Info: dd/de2/windowhandler_8hpp__dep__incl.pdf  used on inpu
-t line 19.
+t line 26.
 (pdftex.def)             Requested size: 350.0pt x 189.10452pt.
+ [126]
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.16548pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.16548pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+ []
 
-(fancyhdr)                \addtolength{\topmargin}{-10.16548pt}.
 
-[81]) (./da/d25/windowhandler_8hpp_source.tex) (./d9/dd6/_r_e_a_d_m_e_8md.tex)
-(./df/d0a/main_8cpp.tex <./da/dce/main_8cpp__incl.pdf>
-<da/dce/main_8cpp__incl.pdf, id=5080, 917.4275pt x 441.65pt>
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 58
+[][][]
+ []
+
+) (./da/d25/windowhandler_8hpp_source.tex
+Overfull \hbox (73.9555pt too wide) in paragraph at lines 14--14
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+-------------------------------------------------------//[]  
+ []
+
+[127]) (./d2/da7/_c_o_n_t_r_i_b_u_t_i_n_g_8md.tex)
+(./d9/dd6/_r_e_a_d_m_e_8md.tex) (./df/d0a/main_8cpp.tex <./da/dce/main_8cpp__in
+cl.pdf>
+<da/dce/main_8cpp__incl.pdf, id=5655, 996.72375pt x 509.905pt>
 File: da/dce/main_8cpp__incl.pdf Graphic file (type pdf)
 <use da/dce/main_8cpp__incl.pdf>
-Package pdftex.def Info: da/dce/main_8cpp__incl.pdf  used on input line 13.
-(pdftex.def)             Requested size: 350.0pt x 168.48917pt.
- [82] <./df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
-<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=5126, 476.78
-125pt x 200.75pt>
+Package pdftex.def Info: da/dce/main_8cpp__incl.pdf  used on input line 18.
+(pdftex.def)             Requested size: 350.0pt x 179.05295pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\T1/phv/m/n/10 QShared[]Pointer$\OML/cmm/m/it/10 <$ [] $>$ [] \T1/phv/m/n/10 
+(const
+ []
+
+[128]
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]\T1/phv/m/n/10 QShared[]Pointer$\OML/cmm/m/it/10 <$ [] $>$ [] \T1/phv/m/n/10 
+(const
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T1/phv/m/n/10 QShared[]Pointer$\OML/cmm/m/it/10 <$ [] $>$ [] \T1/phv/m/n/10 
+(const
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 48
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 59
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 62
+[][][]
+ []
+
+[129]
+Underfull \hbox (badness 10000) detected at line 97
+[][][]
+ []
+
+ <./df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
+<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=5706, 273.02
+pt x 212.795pt>
 File: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf Graphic fil
 e (type pdf)
 <use df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
 Package pdftex.def Info: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgr
-aph.pdf  used on input line 38.
-(pdftex.def)             Requested size: 350.0pt x 147.37639pt.
-) (./df/d0a/main_8cpp_source.tex
-[83]) [84] (./refman.ind
+aph.pdf  used on input line 109.
+(pdftex.def)             Requested size: 272.0pt x 212.01193pt.
+)
+(./df/d0a/main_8cpp_source.tex [130]
+Overfull \hbox (48.75552pt too wide) in paragraph at lines 19--19
+\T1/pcr/m/n/7 -----------------------------------------------------------------
+------------------------------------------------- 
+ []
+
+
+Overfull \hbox (48.75552pt too wide) in paragraph at lines 43--43
+\T1/pcr/m/n/7 -----------------------------------------------------------------
+------------------------------------------------- 
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 45--45
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 55--55
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+
+Overfull \hbox (57.15552pt too wide) in paragraph at lines 67--67
+[]\T1/pcr/m/n/7 //-------------------------------------------------------------
+---------------------------------------------------//[]  
+ []
+
+[131]) [132] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
 
-Overfull \hbox (228.72876pt too wide) in paragraph at lines 30--32
+Overfull \hbox (228.72876pt too wide) in paragraph at lines 63--65
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/backendClasses/objecthandler.cpp,
  []
 
 
-Overfull \hbox (229.2327pt too wide) in paragraph at lines 32--34
+Overfull \hbox (229.2327pt too wide) in paragraph at lines 65--67
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/backendClasses/objecthandler.hpp,
  []
 
 
-Overfull \hbox (232.58954pt too wide) in paragraph at lines 34--36
+Overfull \hbox (232.58954pt too wide) in paragraph at lines 67--69
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/backendClasses/startuphandler.cpp,
  []
 
 
-Overfull \hbox (233.09348pt too wide) in paragraph at lines 36--38
+Overfull \hbox (233.09348pt too wide) in paragraph at lines 69--71
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/backendClasses/startuphandler.hpp,
  []
 
 
-Overfull \hbox (245.10828pt too wide) in paragraph at lines 38--40
+Overfull \hbox (245.10828pt too wide) in paragraph at lines 71--73
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/databaseClasses/databasehandler.cpp,
  []
 
 
-Overfull \hbox (245.61221pt too wide) in paragraph at lines 40--42
+Overfull \hbox (245.61221pt too wide) in paragraph at lines 73--75
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/databaseClasses/databasehandler.hpp,
  []
 
 
-Overfull \hbox (227.41458pt too wide) in paragraph at lines 42--44
+Overfull \hbox (227.41458pt too wide) in paragraph at lines 75--77
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/databaseClasses/tablehandler.cpp,
  []
 
 
-Overfull \hbox (227.91852pt too wide) in paragraph at lines 44--46
+Overfull \hbox (227.91852pt too wide) in paragraph at lines 77--79
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/databaseClasses/tablehandler.hpp,
  []
 
 
-Overfull \hbox (218.08197pt too wide) in paragraph at lines 46--48
+Overfull \hbox (218.08197pt too wide) in paragraph at lines 79--81
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/devwindow.cpp,
  []
 
 
-Overfull \hbox (218.5859pt too wide) in paragraph at lines 48--50
+Overfull \hbox (218.5859pt too wide) in paragraph at lines 81--83
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/devwindow.hpp,
  []
 
 
-Overfull \hbox (238.35852pt too wide) in paragraph at lines 50--52
+Overfull \hbox (238.35852pt too wide) in paragraph at lines 83--85
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/launcherwindow.cpp,
  []
 
 
-Overfull \hbox (238.86246pt too wide) in paragraph at lines 52--54
+Overfull \hbox (238.86246pt too wide) in paragraph at lines 85--87
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/launcherwindow.hpp,
  []
 
 
-Overfull \hbox (234.58759pt too wide) in paragraph at lines 54--56
+Overfull \hbox (234.58759pt too wide) in paragraph at lines 87--89
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/settingswindow.cpp,
  []
 
 
-Overfull \hbox (235.09152pt too wide) in paragraph at lines 56--58
+Overfull \hbox (235.09152pt too wide) in paragraph at lines 89--91
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/settingswindow.hpp,
  []
 
 
-Overfull \hbox (249.91425pt too wide) in paragraph at lines 58--60
+Overfull \hbox (249.91425pt too wide) in paragraph at lines 91--93
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/translatablewindow.cpp,
  []
 
 
-Overfull \hbox (250.41818pt too wide) in paragraph at lines 60--62
+Overfull \hbox (250.41818pt too wide) in paragraph at lines 93--95
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/translatablewindow.hpp,
  []
 
 
-Overfull \hbox (233.94853pt too wide) in paragraph at lines 62--64
+Overfull \hbox (233.94853pt too wide) in paragraph at lines 95--97
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/windowhandler.cpp,
  []
 
 
-Overfull \hbox (234.45247pt too wide) in paragraph at lines 64--66
+Overfull \hbox (234.45247pt too wide) in paragraph at lines 97--99
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /classes/frontendClasses/windowhandler.hpp,
  []
 
 
-Overfull \hbox (110.97467pt too wide) in paragraph at lines 66--68
+Overfull \hbox (140.88118pt too wide) in paragraph at lines 99--101
+[]\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
+/CONTRIBUTING.md,
+ []
+
+
+Overfull \hbox (110.97467pt too wide) in paragraph at lines 101--103
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /README.md,
  []
 
 
-Overfull \hbox (123.4934pt too wide) in paragraph at lines 68--70
+Overfull \hbox (123.4934pt too wide) in paragraph at lines 103--105
 []\T1/phv/m/n/10 C:/Users/Clean/Documents/Projekte/Apos-DatabaseManager/Project
 /source/main.cpp,
  []
 
-[85
+[133
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+] [134]
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
 []| \T1/phv/m/n/10 on_clearCommandAfterExecute_stateChanged,
  []
 
-[86] [87] [88
+[135] [136
 
 ]) (./refman.aux)
  ***********
@@ -2610,29 +3733,31 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 7691B53DC37865B961F085F097703576;54842.
+(rerunfilecheck)             Checksum: C3C1B4E2386EB30E4A71C4972078699E;64161.
  ) 
 Here is how much of TeX's memory you used:
- 21294 strings out of 474267
- 427158 string characters out of 5751470
- 1957558 words of memory out of 5000000
- 41313 multiletter control sequences out of 15000+600000
- 605259 words of font info for 100 fonts, out of 8000000 for 9000
+ 21520 strings out of 474267
+ 428719 string characters out of 5751470
+ 1964558 words of memory out of 5000000
+ 41333 multiletter control sequences out of 15000+600000
+ 616172 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,16n,117p,1027b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,117p,873b,743s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/co
-urier/ucrb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb><c:/texlive/20
-23/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2023/texmf-dist/f
-onts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on refman.pdf (96 pages, 2305552 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrb
+8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb><c:/texlive/2023/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1
+/urw/helvetic/uhvb8ac.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/
+uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (146 pages, 2070703 bytes).
 PDF statistics:
- 5876 PDF objects out of 6186 (max. 8388607)
- 5351 compressed objects within 54 object streams
- 1726 named destinations out of 1728 (max. 500000)
- 2390 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6567 PDF objects out of 7423 (max. 8388607)
+ 6033 compressed objects within 61 object streams
+ 1868 named destinations out of 2073 (max. 500000)
+ 2590 words of extra memory for PDF output out of 10000 (max. 10000000)
 

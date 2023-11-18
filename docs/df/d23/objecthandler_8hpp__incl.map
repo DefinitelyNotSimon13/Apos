@@ -1,17 +1,18 @@
 <map id="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/backendClasses/objecthandler.hpp" name="C:/Users/Clean/Documents/Projekte/Apos&#45;DatabaseManager/Project/classes/backendClasses/objecthandler.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="134,5,351,80"/>
+<area shape="rect" id="Node000001" title="Header file for the ObjectHandler class." alt="" coords="141,5,357,80"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,136,101,163"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,83,91,130,88,126,174,78"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="208,219,277,245"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,82,180,104,166,129,161,150,166,169,182,191,204,208,201,213,179,195,161,172,155,150,161,127,176,101,195,79"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="379,219,434,245"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="352,50,391,59,430,75,465,97,494,127,502,149,494,172,474,197,449,215,446,210,470,193,489,169,496,149,489,129,462,101,427,79,389,64,350,55"/>
-<area shape="rect" id="Node000005" href="$de/d60/databasehandler_8hpp.html" title=" " alt="" coords="334,128,479,171"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="302,78,363,117,360,122,299,83"/>
-<area shape="rect" id="Node000006" href="$df/d46/tablehandler_8hpp.html" title=" " alt="" coords="176,128,309,171"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="245,80,245,113,240,113,240,80"/>
-<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="365,174,283,214,281,209,363,169"/>
-<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="409,171,409,203,404,203,404,171"/>
-<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="245,171,245,203,240,203,240,171"/>
-<area shape="poly" id="edge9_Node000006_Node000004" title=" " alt="" coords="286,169,368,209,366,214,283,174"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,83,92,131,89,126,179,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="215,309,283,336"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,82,194,144,179,181,168,219,163,241,167,260,185,282,208,299,204,304,181,286,163,262,157,241,162,218,174,180,189,142,223,79"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="383,309,438,336"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="359,67,402,91,421,107,437,127,447,148,452,170,451,216,440,260,426,296,421,294,435,259,446,216,447,171,442,149,432,129,417,111,399,95,356,72"/>
+<area shape="rect" id="Node000005" href="$de/d60/databasehandler_8hpp.html" title="Header file for the DatabaseHandler class." alt="" coords="176,219,322,261"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="252,81,252,203,246,203,246,81"/>
+<area shape="rect" id="Node000006" href="$df/d46/tablehandler_8hpp.html" title="Header file for the TableHandler class." alt="" coords="289,128,422,171"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="288,78,326,115,322,119,284,82"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="252,262,252,293,246,293,246,262"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="292,260,373,300,370,304,289,264"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="359,171,354,215,348,240,337,263,316,286,292,304,288,299,312,282,332,260,343,238,349,214,354,171"/>
+<area shape="poly" id="edge9_Node000006_Node000004" title=" " alt="" coords="365,170,381,218,405,294,400,296,376,219,360,172"/>
+<area shape="poly" id="edge10_Node000006_Node000005" title=" " alt="" coords="333,173,287,211,284,207,329,169"/>
 </map>

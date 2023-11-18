@@ -1,13 +1,9 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,55,99"/>
-<area shape="rect" id="Node000002" href="$d5/d61/class_window_handler.html#a7991c67765fc79b3049e249a7ee97434" title=" " alt="" coords="103,5,294,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,74,102,57,120,51,122,56,104,63,56,79"/>
-<area shape="rect" id="Node000003" href="$df/d1b/class_startup_handler.html#a59d6a1be3ce159dd5565ef73a18f9f0b" title=" " alt="" coords="120,72,277,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,83,104,83,104,88,55,88"/>
-<area shape="rect" id="Node000006" href="$df/d1b/class_startup_handler.html#a58cf31ef13e44af607a1c755a946b828" title=" " alt="" coords="116,123,281,165"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="56,91,104,108,122,115,120,120,102,113,54,96"/>
-<area shape="rect" id="Node000004" href="$df/d1b/class_startup_handler.html#a45aefa30358b6ca46e4c36cd012ba6be" title=" " alt="" coords="352,35,522,77"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="277,73,336,66,337,71,278,78"/>
-<area shape="rect" id="Node000005" href="$df/d1b/class_startup_handler.html#a57a55def03eb37544d8373663d08c053" title=" " alt="" coords="342,101,531,128"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="278,92,327,98,326,104,277,98"/>
+<area shape="rect" id="Node000001" title="Main function." alt="" coords="5,80,55,107"/>
+<area shape="rect" id="Node000002" href="$d6/de8/namespace_app_initialization.html#aa4ace4d6b094a8873cd99a85fccd33f8" title="Initialize the ObjectHandler object." alt="" coords="107,5,257,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,80,102,58,114,52,116,57,104,62,56,84"/>
+<area shape="rect" id="Node000003" href="$d6/de8/namespace_app_initialization.html#a6151e2deab68f647b30a78db30b6a084" title="Initialize the StartupHandler object." alt="" coords="105,72,259,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,91,89,91,89,96,55,96"/>
+<area shape="rect" id="Node000004" href="$d6/de8/namespace_app_initialization.html#a1106d2231514c4bcd3d477a20eda7e93" title="Initialize the WindowHandler object." alt="" coords="103,139,261,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,102,104,124,116,130,114,134,102,129,54,107"/>
 </map>

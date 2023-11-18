@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['features_0',['Features',['../d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#features',1,'']]],
-  ['file_20structure_1',['File Structure',['../d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#file-structure',1,'']]]
+  ['enablebuttons_0',['enableButtons',['../d6/de4/group___ui-_functions.html#gad74b5ca7c247820a938dbdf20f1e8f8c',1,'AposFrontend::DevWindow']]],
+  ['executecommand_1',['executeCommand',['../dd/d44/group___database-_functions.html#gabc612f16278129a412215e341da33b74',1,'AposDatabase::DatabaseHandler']]]
 ];

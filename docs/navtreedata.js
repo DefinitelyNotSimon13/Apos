@@ -25,19 +25,33 @@
 var NAVTREE =
 [
   [ "Apos - Database Manager", "index.html", [
+    [ "Contributing to Apos - Database Manager", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html", [
+      [ "Where do I go from here?", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#where-do-i-go-from-here", null ],
+      [ "Fork & create a branch", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#fork--create-a-branch", null ],
+      [ "Get the test suite running", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#get-the-test-suite-running", null ],
+      [ "Implement your fix or feature", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#implement-your-fix-or-feature", null ],
+      [ "Make a Pull Request", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#make-a-pull-request", null ],
+      [ "Keeping your Pull Request updated", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#keeping-your-pull-request-updated", null ],
+      [ "Merging a PR (maintainers only)", "d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#merging-a-pr-maintainers-only", null ]
+    ] ],
     [ "Apos - Database Manager", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html", [
-      [ "Features", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#features", null ],
+      [ "Key Features", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#key-features", null ],
       [ "Prerequisites", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#prerequisites", null ],
       [ "Installation", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#installation", null ],
       [ "Usage", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#usage", null ],
-      [ "File Structure", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#file-structure", null ],
+      [ "Project Structure", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#project-structure", null ],
       [ "Documentation", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#documentation", null ],
       [ "Contributing", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#contributing", null ],
       [ "License", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#license", null ],
       [ "Acknowledgments", "d4/da8/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_r_e_a_d_m_e.html#acknowledgments", null ]
     ] ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

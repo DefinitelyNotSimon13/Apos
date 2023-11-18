@@ -1,23 +1,77 @@
 \doxysection{C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/source/main.cpp File Reference}
 \hypertarget{main_8cpp}{}\label{main_8cpp}\index{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp}}
+
+
+Main entry point for the application.  
+
+
 {\ttfamily \#include "{}../classes/backend\+Classes/startuphandler.\+hpp"{}}\newline
-{\ttfamily \#include "{}../classes/backend\+Classes/objecthandler.\+hpp"{}}\newline
 {\ttfamily \#include "{}../classes/frontend\+Classes/windowhandler.\+hpp"{}}\newline
 {\ttfamily \#include $<$QApplication$>$}\newline
 {\ttfamily \#include $<$QDebug$>$}\newline
-{\ttfamily \#include $<$Qt\+Sql$>$}\newline
-Include dependency graph for main.\+cpp\+:\nopagebreak
+{\ttfamily \#include $<$QScoped\+Pointer$>$}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{da/dce/main_8cpp__incl}
 \end{center}
 \end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_app_initialization}{App\+Initialization}}
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_startup_handler}{Apos\+Backend\+::\+Startup\+Handler}} $>$ \mbox{\hyperlink{namespace_app_initialization_a6151e2deab68f647b30a78db30b6a084}{App\+Initialization\+::initialize\+Startup\+Handler}} (const QShared\+Pointer$<$ QApplication $>$ \&new\+App)
+\begin{DoxyCompactList}\small\item\em Initialize the Startup\+Handler object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \mbox{\hyperlink{namespace_app_initialization_aa4ace4d6b094a8873cd99a85fccd33f8}{App\+Initialization\+::initialize\+Object\+Handler}} (const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_startup_handler}{Apos\+Backend\+::\+Startup\+Handler}} $>$ \&startup\+Handler)
+\begin{DoxyCompactList}\small\item\em Initialize the Object\+Handler object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_frontend_1_1_window_handler}{Apos\+Frontend\+::\+Window\+Handler}} $>$ \mbox{\hyperlink{namespace_app_initialization_a1106d2231514c4bcd3d477a20eda7e93}{App\+Initialization\+::initialize\+Window\+Handler}} (const QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Apos\+Backend\+::\+Object\+Handler}} $>$ \&object\+Handler)
+\begin{DoxyCompactList}\small\item\em Initialize the Window\+Handler object. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main entry point for the application. 
+
+\begin{DoxyAuthor}{Author}
+Simon Blum 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+13.\+11.\+2023 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1\+\_\+alpha.\+2 @license LGPL-\/\+V3 
+\end{DoxyVersion}
+This file contains the main function, which represents the entry point for the application. It initializes the QApplication, Startup\+Handler, and Object\+Handler objects. It also creates a Window\+Handler object and shows the launch window.
+
+The application is built using the Qt framework and follows the object-\/oriented programming paradigm. The main function initializes the necessary objects and starts the application\textquotesingle{}s event loop. The QApplication object encapsulates the functionality of Qts core application class for GUI-\/based applications. The Startup\+Handler, Object\+Handler, and Window\+Handler classes are part of the application\textquotesingle{}s backend and frontend logic.
+
+@deviation MISRA 3-\/1-\/3 The argv parameter in the main function is a pointer to an array of C-\/style strings. This array is not explicitly sized, which violates MISRA rule 3-\/1-\/3. However, the parameters of the main function are defined by the C++ standard, and changing them would not be compliant with the standard. This deviation is considered acceptable because the size of the argv array is managed by the runtime environment, and the array is guaranteed to be null-\/terminated. Therefore, the risk of out-\/of-\/bounds access is minimal.
+
+@deviation MISRA 7-\/3-\/1 The main – defined as q\+Main – function is part of the global namespace, which violates MISRA rule 7-\/3-\/1. However, since the q\+Main function acts as the main function within the Qt framework, this deviation is considered acceptable.
+
+\begin{DoxyNote}{Note}
+The application is part of a student project and is not intended for commercial use.
+\end{DoxyNote}
+\begin{DoxySeeAlso}{See also}
+QApplication 
+
+Startup\+Handler 
+
+Object\+Handler 
+
+Window\+Handler 
+\end{DoxySeeAlso}
+
+
+Definition in file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+
 
 
 \doxysubsection{Function Documentation}
@@ -29,12 +83,29 @@ int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int ar
 
 
 
-Definition at line \mbox{\hyperlink{main_8cpp_source_l00010}{10}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+Main function. 
 
-Here is the call graph for this function\+:\nopagebreak
+This is the main function, which is the entry point for the application. It initializes the QApplication, Object\+Handler, and Window\+Handler objects, and starts the application\textquotesingle{}s event loop.
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Argument count \\
+\hline
+{\em argv} & Argument vector \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Application exit status 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00098}{98}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\includegraphics[width=272pt]{df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
 \end{center}
 \end{figure}

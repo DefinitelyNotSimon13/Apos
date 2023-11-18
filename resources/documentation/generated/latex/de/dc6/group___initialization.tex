@@ -1,0 +1,222 @@
+\doxysection{Initialization}
+\hypertarget{group___initialization}{}\label{group___initialization}\index{Initialization@{Initialization}}
+
+
+Group of initialization functions in the application.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_apos_backend_1_1_startup_handler}{Apos\+Backend\+::\+Startup\+Handler}}
+\begin{DoxyCompactList}\small\item\em Provides the functionality for initializing the application\textquotesingle{}s translator and \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{group___initialization_gac0379aadaeeeb327649a6f252da0c4e1}{Apos\+Backend\+::\+Object\+Handler\+::init\+Database\+Object}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the database object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___initialization_gacd26b741696339620d5d6f3d5e65e688}{Apos\+Backend\+::\+Object\+Handler\+::init\+Table\+Object}} (const QString \&input\+Table\+Name)
+\begin{DoxyCompactList}\small\item\em Initializes the table object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Object\+Handler}} $>$ \mbox{\hyperlink{group___initialization_ga822be2ed5fb04376341c8b09702e8d61}{Apos\+Backend\+::\+Startup\+Handler\+::start\+Up}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the application\textquotesingle{}s translator and \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. \end{DoxyCompactList}\item 
+static QShared\+Pointer$<$ QTranslator $>$ \mbox{\hyperlink{group___initialization_gab6fdaf5f748968ddfe136d8e6562c664}{Apos\+Backend\+::\+Startup\+Handler\+::init\+Translator}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the application\textquotesingle{}s translator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___initialization_gac6e06b1a893afdf477c3efa74c2f072c}{Apos\+Backend\+::\+Startup\+Handler\+::install\+Translator}} ()
+\begin{DoxyCompactList}\small\item\em Installs the application\textquotesingle{}s translator. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Object\+Handler}} $>$ \mbox{\hyperlink{group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8}{Apos\+Backend\+::\+Startup\+Handler\+::init\+Object\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the application\textquotesingle{}s \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___initialization_ga70eaf98f99b4ece646f3eb7a8240ae6a}{Apos\+Database\+::\+Database\+Handler\+::init\+Database}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___initialization_ga49b8895cc4133ac81bd799854b3515b6}{Apos\+Frontend\+::\+Settings\+Window\+::install\+Translator}} ()
+\begin{DoxyCompactList}\small\item\em Installs the application\textquotesingle{}s translator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Group of initialization functions in the application. 
+
+This group contains all the functions that are responsible for initializing various components of the application, such as the QApplication, Startup\+Handler, Object\+Handler, and Window\+Handler objects. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group___initialization_ga70eaf98f99b4ece646f3eb7a8240ae6a}\label{group___initialization_ga70eaf98f99b4ece646f3eb7a8240ae6a} 
+\index{Initialization@{Initialization}!initDatabase@{initDatabase}}
+\index{initDatabase@{initDatabase}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{initDatabase()}{initDatabase()}}
+{\footnotesize\ttfamily bool Apos\+Database\+::\+Database\+Handler\+::init\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the database. 
+
+This function initializes the database of the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} object. \begin{DoxyReturn}{Returns}
+Boolean value indicating whether the database is initialized. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{databasehandler_8cpp_source_l00026}{26}} of file \mbox{\hyperlink{databasehandler_8cpp_source}{databasehandler.\+cpp}}.
+
+\Hypertarget{group___initialization_gac0379aadaeeeb327649a6f252da0c4e1}\label{group___initialization_gac0379aadaeeeb327649a6f252da0c4e1} 
+\index{Initialization@{Initialization}!initDatabaseObject@{initDatabaseObject}}
+\index{initDatabaseObject@{initDatabaseObject}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{initDatabaseObject()}{initDatabaseObject()}}
+{\footnotesize\ttfamily bool Apos\+Backend\+::\+Object\+Handler\+::init\+Database\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the database object. 
+
+This function initializes the database object of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. \begin{DoxyReturn}{Returns}
+Boolean value indicating whether the database object is initialized. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00034}{34}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8}\label{group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8} 
+\index{Initialization@{Initialization}!initObjectHandler@{initObjectHandler}}
+\index{initObjectHandler@{initObjectHandler}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{initObjectHandler()}{initObjectHandler()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Object\+Handler}} $>$ Apos\+Backend\+::\+Startup\+Handler\+::init\+Object\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Initializes the application\textquotesingle{}s \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. 
+
+This function initializes the application\textquotesingle{}s \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. \begin{DoxyReturn}{Returns}
+Shared pointer to the initialized \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{startuphandler_8cpp_source_l00066}{66}} of file \mbox{\hyperlink{startuphandler_8cpp_source}{startuphandler.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/dc6/group___initialization_gaeaab7554c87adccfd8bd5aab2297c8a8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___initialization_gacd26b741696339620d5d6f3d5e65e688}\label{group___initialization_gacd26b741696339620d5d6f3d5e65e688} 
+\index{Initialization@{Initialization}!initTableObject@{initTableObject}}
+\index{initTableObject@{initTableObject}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{initTableObject()}{initTableObject()}}
+{\footnotesize\ttfamily bool Apos\+Backend\+::\+Object\+Handler\+::init\+Table\+Object (\begin{DoxyParamCaption}\item[{const QString \&}]{input\+Table\+Name }\end{DoxyParamCaption})}
+
+
+
+Initializes the table object. 
+
+This function initializes the table object of the \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object with a specified table name. 
+\begin{DoxyParams}{Parameters}
+{\em input\+Table\+Name} & The name of the table. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value indicating whether the table object is initialized. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{objecthandler_8cpp_source_l00040}{40}} of file \mbox{\hyperlink{objecthandler_8cpp_source}{objecthandler.\+cpp}}.
+
+\Hypertarget{group___initialization_gab6fdaf5f748968ddfe136d8e6562c664}\label{group___initialization_gab6fdaf5f748968ddfe136d8e6562c664} 
+\index{Initialization@{Initialization}!initTranslator@{initTranslator}}
+\index{initTranslator@{initTranslator}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{initTranslator()}{initTranslator()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ QTranslator $>$ Apos\+Backend\+::\+Startup\+Handler\+::init\+Translator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Initializes the application\textquotesingle{}s translator. 
+
+This function initializes the application\textquotesingle{}s translator. \begin{DoxyReturn}{Returns}
+Shared pointer to the initialized QTranslator object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{startuphandler_8cpp_source_l00051}{51}} of file \mbox{\hyperlink{startuphandler_8cpp_source}{startuphandler.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/dc6/group___initialization_gab6fdaf5f748968ddfe136d8e6562c664_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___initialization_gac6e06b1a893afdf477c3efa74c2f072c}\label{group___initialization_gac6e06b1a893afdf477c3efa74c2f072c} 
+\index{Initialization@{Initialization}!installTranslator@{installTranslator}}
+\index{installTranslator@{installTranslator}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{installTranslator()}{installTranslator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Apos\+Backend\+::\+Startup\+Handler\+::install\+Translator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Installs the application\textquotesingle{}s translator. 
+
+This function installs the application\textquotesingle{}s translator. 
+
+Definition at line \mbox{\hyperlink{startuphandler_8cpp_source_l00044}{44}} of file \mbox{\hyperlink{startuphandler_8cpp_source}{startuphandler.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/dc6/group___initialization_gac6e06b1a893afdf477c3efa74c2f072c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___initialization_ga49b8895cc4133ac81bd799854b3515b6}\label{group___initialization_ga49b8895cc4133ac81bd799854b3515b6} 
+\index{Initialization@{Initialization}!installTranslator@{installTranslator}}
+\index{installTranslator@{installTranslator}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{installTranslator()}{installTranslator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Apos\+Frontend\+::\+Settings\+Window\+::install\+Translator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Installs the application\textquotesingle{}s translator. 
+
+This function installs the application\textquotesingle{}s translator. 
+
+Definition at line \mbox{\hyperlink{settingswindow_8cpp_source_l00071}{71}} of file \mbox{\hyperlink{settingswindow_8cpp_source}{settingswindow.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/dc6/group___initialization_ga49b8895cc4133ac81bd799854b3515b6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group___initialization_ga822be2ed5fb04376341c8b09702e8d61}\label{group___initialization_ga822be2ed5fb04376341c8b09702e8d61} 
+\index{Initialization@{Initialization}!startUp@{startUp}}
+\index{startUp@{startUp}!Initialization@{Initialization}}
+\doxysubsubsection{\texorpdfstring{startUp()}{startUp()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_backend_1_1_object_handler}{Object\+Handler}} $>$ Apos\+Backend\+::\+Startup\+Handler\+::start\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the application\textquotesingle{}s translator and \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. 
+
+This function initializes the application\textquotesingle{}s translator and \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler}. \begin{DoxyReturn}{Returns}
+Shared pointer to the initialized \doxylink{class_apos_backend_1_1_object_handler}{Object\+Handler} object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{startuphandler_8cpp_source_l00033}{33}} of file \mbox{\hyperlink{startuphandler_8cpp_source}{startuphandler.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/dc6/group___initialization_ga822be2ed5fb04376341c8b09702e8d61_cgraph}
+\end{center}
+\end{figure}

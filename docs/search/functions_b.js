@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tablehandler_0',['tablehandler',['../dd/d68/class_table_handler.html#a7824771057567647419de994788c1b52',1,'TableHandler::TableHandler()'],['../dd/d68/class_table_handler.html#a19c5bfce9a2b4b9ab5aef9dce308ccc3',1,'TableHandler::TableHandler(const QSqlDatabase &amp;newActiveDatabase, const QString &amp;tableName)']]],
-  ['translatablewindow_1',['TranslatableWindow',['../d5/dbe/class_translatable_window.html#a3f94cb3a176b3b566544ae8638386860',1,'TranslatableWindow']]]
+  ['tablehandler_0',['tablehandler',['../d3/dbc/group___constructructors-_destructors.html#gadb9b122495372417ec1f26a371491b24',1,'AposDatabase::TableHandler::TableHandler(QSharedPointer&lt; DatabaseHandler &gt; newDbHandler)'],['../d3/dbc/group___constructructors-_destructors.html#ga04e3c28e0f43ec8dc927eb9384a1494f',1,'AposDatabase::TableHandler::TableHandler(QSharedPointer&lt; DatabaseHandler &gt; newDbHandler, const QString &amp;tableName)']]],
+  ['translatablewindow_1',['TranslatableWindow',['../d3/dbc/group___constructructors-_destructors.html#ga47ca01f45ced3c93739e8216f39f1aa2',1,'AposFrontend::TranslatableWindow']]]
 ];

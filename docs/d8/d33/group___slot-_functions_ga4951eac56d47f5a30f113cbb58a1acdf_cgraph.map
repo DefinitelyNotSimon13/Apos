@@ -1,0 +1,7 @@
+<map id="AposFrontend::DevWindow::on_btnSelectTable_clicked" name="AposFrontend::DevWindow::on_btnSelectTable_clicked">
+<area shape="rect" id="Node000001" title="Slot for the &#39;SelectTable&#39; button click event." alt="" coords="5,39,190,81"/>
+<area shape="rect" id="Node000002" href="$dc/dc2/class_apos_frontend_1_1_dev_window.html#a6e2ecb7e3fd65aefc8ed62fc9f1519e9" title="Logs an event with a type and a message." alt="" coords="238,5,415,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,44,222,39,223,44,191,49"/>
+<area shape="rect" id="Node000003" href="$dd/d44/group___database-_functions.html#ga9f30984f5b6e7ee6061ea5107c79eb33" title="Sets the model views." alt="" coords="238,72,415,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,71,223,76,222,81,190,76"/>
+</map>

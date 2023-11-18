@@ -1,5 +1,23 @@
-// Copyright (c) 2023. LGPL-V3
-//
+/**
+ * @file devwindow.hpp
+ * @author Simon Blum
+ * @date 13.11.2023
+ * @version 0.1_alpha.2
+ * @license LGPL-V3
+ * @brief Header file for the DevWindow class.
+ *
+ * @details This file contains the declaration of the DevWindow class, which is a part of the application's frontend logic.
+ * The DevWindow class inherits from QMainWindow and TranslatableWindow, and it provides the user interface for the developer window.
+ *
+ * @note The application is part of a student project and is not intended for commercial use.
+ *
+ * @see TranslatableWindow
+ * @see AposBackend::ObjectHandler
+ * @see QMainWindow
+ * @see QSharedPointer
+ * @see QDebug
+ * @see QtSql
+ */
 
 #pragma once
 
@@ -10,95 +28,331 @@
 #include "../backendClasses/objecthandler.hpp"
 #include "translatablewindow.hpp"
 
-QT_BEGIN_NAMESPACE
+//--------------------------------------------------------------------------------------------------------------------//
 namespace Ui { class DevWindow; }
-QT_END_NAMESPACE
+//--------------------------------------------------------------------------------------------------------------------//
+namespace AposFrontend {
+    /**
+     * @class DevWindow
+     *
+     * @brief Provides the user interface for the developer window.
+     *
+     * @details
+     * The DevWindow class provides the functionality for logging events, retranslating the user interface,
+     * initializing and closing the database, setting model views, enabling buttons, assigning inputs, checking checkboxes,
+     * and clearing inputs and the command box.
+     *
+     * @see QMainWindow
+     * @see TranslatableWindow
+     * @see AposBackend::ObjectHandler
+     */
+    class DevWindow : public QMainWindow, public TranslatableWindow {
+    Q_OBJECT
+    public:
+        /**
+         * @brief Constructor for the DevWindow class.
+         * @ingroup Constructructors-Destructors
+         *
+         * @details
+         * This constructor initializes the DevWindow object with a parent widget and an ObjectHandler object.
+         *
+         * @param parent Pointer to the parent widget.
+         * @param objectHandler Shared pointer to the ObjectHandler object.
+         */
+        explicit DevWindow(QWidget *parent = nullptr, QSharedPointer<AposBackend::ObjectHandler> objectHandler = nullptr);
 
-class DevWindow : public QMainWindow, public TranslatableWindow {
-Q_OBJECT
+        /**
+         * @brief Destructor for the DevWindow class.
+         * @ingroup Constructructors-Destructors
+         *
+         * @details
+         * This destructor cleans up the DevWindow object.
+         */
+        ~DevWindow() override;
 
-public:
+        /**
+         * @brief Logs an event with a type and a message.
+         *
+         * @details
+         * This function logs an event with a specified type and message.
+         *
+         * @param type The type of the event.
+         * @param message The message of the event.
+         */
+        void logEvent(const QString &type, const QString &message);
 
-    DevWindow(QWidget *parent = nullptr, ObjectHandler *objectHandler = nullptr);
+        /**
+         * @brief Logs an event with a message and a SQL error.
+         * @ingroup Log-Functions
+         *
+         * @details
+         * This function logs an event with a specified message and a SQL error.
+         *
+         * @param message The message of the event.
+         * @param error The SQL error of the event.
+         */
+        void logEvent(const QString &message, const QSqlError &error);
 
+        /**
+         * @brief Logs an event with a message.
+         * @ingroup Log-Functions
+         *
+         * @details
+         * This function logs an event with a specified message.
+         *
+         * @param message The message of the event.
+         */
+        void logEvent(const QString &message);
 
-    ~DevWindow();
+        /**
+         * @brief Retranslates the user interface.
+         * @ingroup Ui-Functions
+         *
+         * @details
+         * This function retranslates the user interface of the DevWindow object.
+         */
+        void retranslateUi() override;
+    signals:
+        /**
+         * @brief Signal for returning to the launcher.
+         * @ingroup Signal-Funtions
+         * @details
+         * This signal is emitted when the user wants to return to the launcher.
+         */
+        void returnToLauncher();
 
-    void logEvent(QString type, QString message);
+        /**
+         * @brief Signal for opening the settings.
+         * @ingroup Signal-Funtions
+         *
+         * @details
+         * This signal is emitted when the user wants to open the settings.
+         */
+        void openSettings();
+    private slots:
+        /**
+         * @brief Slot for the 'InitDB' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'InitDB' button is clicked.
+         */
+        void on_btnInitDB_clicked();
 
-    void logEvent(QString message, QSqlError error);
+        /**
+         * @brief Slot for the 'CloseDB' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'CloseDB' button is clicked.
+         */
+        void on_btnCloseDB_clicked();
 
+        /**
+         * @brief Slot for the 'Execute' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'Execute' button is clicked.
+         */
+        void on_btnExecute_clicked();
 
-    void logEvent(QString message);
+        /**
+         * @brief Slot for the 'SelectTable' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'SelectTable' button is clicked.
+         */
+        void on_btnSelectTable_clicked();
 
-    void retranslateUi();
+        /**
+         * @brief Slot for the 'Add' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'Add' button is clicked.
+         */
+        void on_btnAdd_clicked();
 
+        /**
+         * @brief Slot for the 'Update' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'Update' button is clicked.
+         */
+        void on_btnUpdate_clicked();
 
-signals:
+        /**
+         * @brief Slot for the 'clearCommandAfterExecute' state change event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the state of the 'clearCommandAfterExecute' checkbox is changed.
+         *
+         * @param arg1 The new state of the checkbox.
+         */
+        void on_clearCommandAfterExecute_stateChanged(int arg1);
 
-    void returnToLauncher();
+        /**
+         * @brief Slot for the 'clearInputsAfterInsert' state change event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the state of the 'clearInputsAfterInsert' checkbox is changed.
+         *
+         * @param arg1 The new state of the checkbox.
+         */
+        void on_clearInputsAfterInsert_stateChanged(int arg1);
 
-    void openSettings();
+        /**
+         * @brief Slot for the 'ReturnToLauncher' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'ReturnToLauncher' button is clicked.
+         */
+        void on_inReturnToLauncher_clicked();
 
-private slots:
+        /**
+         * @brief Slot for the 'Settings' button click event.
+         * @ingroup Slot-Functions
+         *
+         * @details
+         * This slot is triggered when the 'Settings' button is clicked.
+         */
+        void on_inSettings_clicked();
+    private:
+        /**
+         * @brief Initializes the database.
+         * @ingroup Database-Functions
+         *
+         * @details
+         * This function initializes the database of the DevWindow object.
+         */
+        void initDatabase();
 
+        /**
+         * @brief Closes the database.
+         * @ingroup Database-Functions
+         *
+         * @details
+         * This function closes the database of the DevWindow object.
+         *
+         * @param db Shared pointer to the DatabaseHandler object.
+         */
+        void closeDatabase(const QSharedPointer<AposDatabase::DatabaseHandler> &db);
 
-    void on_btnInitDB_clicked();
+        /**
+         * @brief Sets the model views.
+         * @ingroup Database-Functions
+         *
+         * @details
+         * This function sets the model views of the DevWindow object.
+         */
+        void setModelViews();
 
+        /**
+         * @brief Sets the model views with a table model.
+         * @ingroup Database-Functions
+         *
+         * @details
+         * This function sets the model views of the DevWindow object with a specified table model.
+         *
+         * @param tableModel Shared pointer to the QSqlTableModel object.
+         */
+        void setModelViews(const QSharedPointer<QSqlTableModel>& tableModel);
 
-    void on_btnCloseDB_clicked();
+        /**
+         * @brief Enables or disables the buttons.
+         * @ingroup Ui-Functions
+         *
+         * @details
+         * This function enables or disables the buttons of the DevWindow object based on whether the database is loaded.
+         *
+         * @param databaseLoaded Boolean value indicating whether the database is loaded.
+         */
+        void enableButtons(bool databaseLoaded);
 
+        /**
+         * @brief Assigns the inputs.
+         * @ingroup Ui-Functions
+         *
+         * @details
+         * This function assigns the inputs of the DevWindow object.
+         */
+        void assignInputs();
 
-    void on_btnExecute_clicked();
+        /**
+         * @brief Clears the inputs.
+         * @ingroup Ui-Functions
+         *
+         * @details
+         * This function clears the inputs of the DevWindow object based on a specified boolean value.
+         *
+         * @param clearBool Boolean value indicating whether to clear the inputs.
+         */
+        void clearInputs(bool clearBool);
 
+        /**
+         * @brief Checks a checkbox.
+         * @ingroup Ui-Functions
+         *
+         * @details
+         * This function checks a checkbox of the DevWindow object based on a specified integer value.
+         *
+         * @param argCb Integer value indicating the state of the checkbox.
+         * @return Boolean value indicating whether the checkbox is checked.
+         */
+        bool checkCheckbox(int argCb);
 
-    void on_btnSelectTable_clicked();
+        /**
+         * @brief Clears the command box.
+         * @ingroup Ui-Functions
+         *
+         * @details
+         * This function clears the command box of the DevWindow object based on a specified boolean value.
+         *
+         * @param clearBool Boolean value indicating whether to clear the command box.
+         */
+        void clearCommandBox(bool clearBool);
 
+        /**
+         * @brief Pointer to the user interface of the DevWindow object.
+         * @ingroup Variables
+         *
+         * @details
+         * This pointer is used to access the user interface of the DevWindow object.
+         */
+        Ui::DevWindow *ui;
 
-    void on_btnAdd_clicked();
+        /**
+         * @brief Shared pointer to the ObjectHandler object.
+         * @ingroup Variables
+         *
+         * @details
+         * This shared pointer is used to access the ObjectHandler object.
+         */
+        QSharedPointer<AposBackend::ObjectHandler> ptrObjectHandler = nullptr;
 
+        /**
+         * @brief String values for the inputs.
+         * @ingroup Variables
+         *
+         * @details
+         * These string values are used to store the inputs of the DevWindow object.
+         */
+        QString input1, input2, input3, input4, input5;
 
-    void on_btnUpdate_clicked();
+        /**
+         * @brief Boolean values for clearing the command and the inputs.
+         * @ingroup Variables
+         *
+         * @details
+         * These boolean values are used to determine whether to clear the command, and the inputs of the DevWindow object.
+         */
+        bool clearCommand = false, clearInput = false;
+    };
 
-    void on_clearCommandAfterExecute_stateChanged(int arg1);
-
-
-    void on_clearInputsAfterInsert_stateChanged(int arg1);
-
-
-    void on_inReturnToLauncher_clicked();
-
-    void on_inSettings_clicked();
-
-private:
-
-
-    void enableButtons(bool databaseLoaded);
-
-
-    void setModelViews(QSqlTableModel &m);
-
-    void setModelViews();
-
-    void assignInputs();
-
-
-    bool checkCheckbox(int argCB);
-
-    void initDatabase(ObjectHandler *oH);
-
-    void closeDatabase(DatabaseHandler *db);
-
-    void clearInputs(bool clearBool);
-
-
-    void clearCommandBox(bool clearBool);
-
-    Ui::DevWindow *ui;
-    ObjectHandler *objectHandler;
-
-    QString input1, input2, input3, input4, input5;
-    bool clearCommand = false, clearInput = false;
-};
-
-
+}

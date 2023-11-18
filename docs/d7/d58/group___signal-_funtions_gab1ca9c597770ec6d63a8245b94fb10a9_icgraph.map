@@ -1,0 +1,9 @@
+<map id="AposFrontend::DevWindow::openSettings" name="AposFrontend::DevWindow::openSettings">
+<area shape="rect" id="Node000001" title="Signal for opening the settings." alt="" coords="502,39,679,81"/>
+<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#ga42bcd7a5ac4909f201e9f1268ec2b64c" title="Slot for the &#39;Settings&#39; button click event." alt="" coords="265,5,443,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,48,443,42,444,37,487,43"/>
+<area shape="rect" id="Node000003" href="$d6/de4/group___ui-_functions.html#gad71663083f50868c2efb568336b50b56" title="Shows the developer window." alt="" coords="254,72,454,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="487,77,455,82,454,77,486,72"/>
+<area shape="rect" id="Node000004" href="$d3/dbc/group___constructructors-_destructors.html#ga8230aa2c25b5bb8db86c34b4b50bcd56" title="Constructor for the WindowHandler class." alt="" coords="5,72,206,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="238,96,206,96,206,91,238,91"/>
+</map>

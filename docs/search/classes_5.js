@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windowhandler_0',['WindowHandler',['../d5/d61/class_window_handler.html',1,'']]]
+  ['windowhandler_0',['WindowHandler',['../d3/d90/class_apos_frontend_1_1_window_handler.html',1,'AposFrontend']]]
 ];

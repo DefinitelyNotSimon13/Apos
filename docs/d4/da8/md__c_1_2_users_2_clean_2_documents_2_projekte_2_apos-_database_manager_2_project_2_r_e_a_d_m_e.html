@@ -99,21 +99,15 @@ $(document).ready(function(){initNavTree('d4/da8/md__c_1_2_users_2_clean_2_docum
   <div class="headertitle"><div class="title">Apos - Database Manager</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="apos---database-manager"></a> Apos - Database Manager is a Windows application designed to manage SQLite3 databases. It allows users to open, read, and edit tables within a SQLite3 database, as well as execute custom SQLite3 commands.</p>
-<h1><a class="anchor" id="features"></a>
-Features</h1>
+<div class="textblock"><p><a class="anchor" id="apos---database-manager"></a> Developed by Simon Blum, Apos - Database Manager is a comprehensive Windows application designed to manage SQLite3 databases.</p>
+<p>The application provides an intuitive and user-friendly interface for performing a variety of database operations. Whether you need to open, read, edit tables, or execute custom SQLite3 commands, Apos - Database Manager has got you covered.</p>
+<p>The name "Apos" is inspired by the ancient Greek word "αποθήκη", which translates to "storage" or "warehouse".</p>
+<h1><a class="anchor" id="key-features"></a>
+Key Features</h1>
 <ul>
-<li><b>Database Operations:</b><ul>
-<li>Open and manage SQLite3 databases.</li>
-<li>Execute custom SQLite3 commands.</li>
-<li>Read and edit tables within the database.</li>
-</ul>
-</li>
-<li><b>User Interface:</b><ul>
-<li>Graphical User Interface (GUI) created using the Qt framework.</li>
-<li>Intuitive design for easy navigation.</li>
-</ul>
-</li>
+<li><b>Efficient Database Operations</b>: Open, read, and edit tables within SQLite3 databases with ease.</li>
+<li><b>Custom SQLite3 Commands</b>: Execute custom SQLite3 commands for advanced database operations.</li>
+<li><b>Intuitive User Interface</b>: Navigate through the application effortlessly with the GUI, built using the Qt framework.</li>
 </ul>
 <h1><a class="anchor" id="prerequisites"></a>
 Prerequisites</h1>
@@ -122,63 +116,52 @@ Prerequisites</h1>
 </ul>
 <h1><a class="anchor" id="installation"></a>
 Installation</h1>
-<p>The software is installed using a custom installer available in the <a href="https://github.airbus.corp/Airbus/KompetenzWocheSimonBlum/releases">Releases</a> section.</p>
+<p>To install Apos - Database Manager, follow these steps:</p>
 <ol type="1">
-<li>Download the installer from the Releases page.</li>
+<li>Navigate to the <a href="https://github.com/DefinitelyNotSimon13/Apos/releases">Releases</a> page.</li>
+<li>Download the latest installer.</li>
 <li>Run the installer and follow the on-screen instructions.</li>
 </ol>
 <h1><a class="anchor" id="usage"></a>
 Usage</h1>
 <ol type="1">
-<li><b>Opening a Database:</b><ul>
-<li>Launch the application.</li>
-<li>Click on the "Open Database" button.</li>
-<li>Select the desired SQLite3 database file.</li>
-</ul>
-</li>
-<li><b>Executing Commands:</b><ul>
-<li>Use the "Command Box" to enter custom SQLite3 commands.</li>
-<li>Click the "Execute" button to execute the command.</li>
-</ul>
-</li>
-<li><b>Managing Tables:</b><ul>
-<li>Use the GUI to read and edit tables within the opened database.</li>
-<li>Buttons like "Add," "Update," and "Select Table" facilitate table operations.</li>
-</ul>
-</li>
+<li><b>Opening a Database</b>: Launch the application and click on the "Open Database" button to select the desired SQLite3 database file.</li>
+<li><b>Executing Commands</b>: Enter custom SQLite3 commands in the "Command Box" and click the "Execute" button.</li>
+<li><b>Managing Tables</b>: Use the GUI to perform various table operations such as "Add," "Update," and "Select Table".</li>
 </ol>
-<h1><a class="anchor" id="file-structure"></a>
-File Structure</h1>
+<h1><a class="anchor" id="project-structure"></a>
+Project Structure</h1>
+<p>The project is organized into several directories:</p>
 <ul>
-<li><code>/source</code>: Contains the source code for Apos - Database Manager.</li>
-<li><code>/basicClasses</code>: Basic classes used by the application.</li>
-<li><code>/databaseClasses</code>: Database-related classes.</li>
-<li><code>/tableClasses</code>: Classes related to table operations.</li>
-<li><code>/resources</code>: Includes any additional resources used by the application.</li>
+<li><code>/source</code>: Contains the main entry point for the application (<code><a class="el" href="../../df/d0a/main_8cpp.html" title="Main entry point for the application.">main.cpp</a></code>).</li>
+<li><code>/classes/backendClasses</code>: Contains classes related to the backend logic of the application, such as <code>StartupHandler</code> and <code>ObjectHandler</code>.</li>
+<li><code>/classes/frontendClasses</code>: Contains classes related to the frontend logic of the application, such as <code>WindowHandler</code> and various window classes.</li>
+<li><code>/classes/databaseClasses</code>: Contains classes related to database operations, such as <code>DatabaseHandler</code> and <code>TableHandler</code>.</li>
+<li><code>/resources</code>: Stores additional resources used by the application, such as translation files and the application logo.</li>
+<li><code>/docs</code>: Contains the Doxygen-generated documentation for the project.</li>
 </ul>
 <h1><a class="anchor" id="documentation"></a>
 Documentation</h1>
-<p>The full documentation for the application, including Doxygen-generated documentation, can be found [here](link-to-documentation). - TDB</p>
+<p>Comprehensive documentation for Apos - Database Manager is available on the <a href="https://definitelynotsimon13.github.io/Apos/">GitHub Pages website</a> and in the <code>/docs</code> directory of this repository.</p>
 <h1><a class="anchor" id="contributing"></a>
 Contributing</h1>
-<p>If you would like to contribute to the project, please follow the guidelines outlined in CONTRIBUTING.md. - TBD</p>
+<p>As a solo developer, I welcome contributions to the project! Please refer to the <a class="el" href="../../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html">Contribution Guidelines</a> for details.</p>
 <h1><a class="anchor" id="license"></a>
 License</h1>
-<p>This project is licensed under the LGPL-3.0 License.</p>
+<p>Apos - Database Manager is licensed under the LGPL-3.0 License.</p>
 <h1><a class="anchor" id="acknowledgments"></a>
 Acknowledgments</h1>
 <ul>
-<li>Special thanks to the Qt framework community.</li>
-<li>[Any other acknowledgments or credits]</li>
+<li>A big thank you to the Qt framework community for their invaluable resources and support.</li>
+<li>[Any other acknowledgments or credits] </li>
 </ul>
-<hr  />
- </div></div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 17 2023 18:52:29 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sun Nov 19 2023 00:42:33 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img alt="doxygen" class="footer" height="31" src="../../doxygen.svg" width="104"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

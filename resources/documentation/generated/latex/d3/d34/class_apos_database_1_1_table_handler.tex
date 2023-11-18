@@ -1,0 +1,152 @@
+\doxysection{Apos\+Database\+::Table\+Handler Class Reference}
+\hypertarget{class_apos_database_1_1_table_handler}{}\label{class_apos_database_1_1_table_handler}\index{AposDatabase::TableHandler@{AposDatabase::TableHandler}}
+
+
+Provides the functionality for generating a table model, inserting into a table, and getting the active table name, table model, and last table error.  
+
+
+
+
+{\ttfamily \#include $<$tablehandler.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___constructructors-_destructors_gadb9b122495372417ec1f26a371491b24}{Table\+Handler}} (QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Database\+Handler}} $>$ new\+Db\+Handler)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga04e3c28e0f43ec8dc927eb9384a1494f}{Table\+Handler}} (QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Database\+Handler}} $>$ new\+Db\+Handler, const QString \&table\+Name)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___constructructors-_destructors_ga178cb55f38456d466ecc143d53138752}{\texorpdfstring{$\sim$}{\string~}\+Table\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_ga74eea8f8068e895b538a5bd18c3cef4a}{generate\+Table\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Generates a table model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___database-_functions_ga2849d78435a250d304af1c4b69d35fa9}{generate\+Table\+Model}} (const QString \&table\+Name)
+\begin{DoxyCompactList}\small\item\em Generates a table model with a specified table name. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___database-_functions_ga2e1858b4578e4c66948b387cc9e34130}{insert\+Into\+Table}} (const QString \&table\+Name, const QString \&value1, const QString \&value2, const QString \&value3, const QString \&value4, const QString \&value5)
+\begin{DoxyCompactList}\small\item\em Inserts into a table. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_apos_database_1_1_table_handler_a266ca84a2e644708a557453b1d4abdd1}{set\+Active\+Table\+Name}} (const QString \&new\+Active\+Table\+Name)
+\begin{DoxyCompactList}\small\item\em Sets the active table name. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ QSql\+Table\+Model $>$ \mbox{\hyperlink{class_apos_database_1_1_table_handler_a3d104f5dc358a9243765f1fa604c01ea}{get\+Table\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Gets the table model. \end{DoxyCompactList}\item 
+const QString \& \mbox{\hyperlink{class_apos_database_1_1_table_handler_a6a46f85fb6c05071cbf1d6de1bd7c073}{get\+Active\+Table\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the active table name. \end{DoxyCompactList}\item 
+const QSql\+Error \& \mbox{\hyperlink{class_apos_database_1_1_table_handler_af5411c2efa6e4bd3d45fdf7b816913d3}{get\+Last\+Table\+Error}} () const
+\begin{DoxyCompactList}\small\item\em Gets the last table error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{group___variables_gab4abb0eefd7095ec5e62f080882c8a2e}{active\+Table\+Name}} = "{}user\+Table"{}
+\begin{DoxyCompactList}\small\item\em The active table name of the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ \mbox{\hyperlink{class_apos_database_1_1_database_handler}{Database\+Handler}} $>$ \mbox{\hyperlink{group___variables_ga1853572ec9214fee7adf41f133411ece}{ptr\+Db\+Handler}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the \doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} object. \end{DoxyCompactList}\item 
+QShared\+Pointer$<$ QSql\+Table\+Model $>$ \mbox{\hyperlink{group___variables_gab981cd2ae2530e6c1355fb9039076a49}{ptr\+Table\+Model}}
+\begin{DoxyCompactList}\small\item\em Shared pointer to the QSql\+Table\+Model object. \end{DoxyCompactList}\item 
+QSql\+Error \mbox{\hyperlink{group___variables_gaa4b41ba7e2c9bcf18cee8c01a909595c}{last\+Table\+Error}}
+\begin{DoxyCompactList}\small\item\em The last table error of the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides the functionality for generating a table model, inserting into a table, and getting the active table name, table model, and last table error. 
+
+The \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} class is a part of the application\textquotesingle{}s backend logic.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{class_apos_database_1_1_database_handler}{Database\+Handler} 
+
+QShared\+Pointer 
+
+QDebug 
+
+Qt\+Sql 
+
+QSql\+Table\+Model 
+
+QSql\+Error 
+
+QSql\+Query 
+
+QSql\+Database 
+\end{DoxySeeAlso}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8hpp_source_l00048}{48}} of file \mbox{\hyperlink{tablehandler_8hpp_source}{tablehandler.\+hpp}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_apos_database_1_1_table_handler_a6a46f85fb6c05071cbf1d6de1bd7c073}\label{class_apos_database_1_1_table_handler_a6a46f85fb6c05071cbf1d6de1bd7c073} 
+\index{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getActiveTableName@{getActiveTableName}}
+\index{getActiveTableName@{getActiveTableName}!AposDatabase::TableHandler@{AposDatabase::TableHandler}}
+\doxysubsubsection{\texorpdfstring{getActiveTableName()}{getActiveTableName()}}
+{\footnotesize\ttfamily const QString \& Apos\+Database\+::\+Table\+Handler\+::get\+Active\+Table\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the active table name. 
+
+This function gets the active table name of the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object. \begin{DoxyReturn}{Returns}
+The active table name. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00092}{92}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{class_apos_database_1_1_table_handler_af5411c2efa6e4bd3d45fdf7b816913d3}\label{class_apos_database_1_1_table_handler_af5411c2efa6e4bd3d45fdf7b816913d3} 
+\index{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getLastTableError@{getLastTableError}}
+\index{getLastTableError@{getLastTableError}!AposDatabase::TableHandler@{AposDatabase::TableHandler}}
+\doxysubsubsection{\texorpdfstring{getLastTableError()}{getLastTableError()}}
+{\footnotesize\ttfamily const QSql\+Error \& Apos\+Database\+::\+Table\+Handler\+::get\+Last\+Table\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the last table error. 
+
+This function gets the last table error of the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object. \begin{DoxyReturn}{Returns}
+The last table error. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00100}{100}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{class_apos_database_1_1_table_handler_a3d104f5dc358a9243765f1fa604c01ea}\label{class_apos_database_1_1_table_handler_a3d104f5dc358a9243765f1fa604c01ea} 
+\index{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getTableModel@{getTableModel}}
+\index{getTableModel@{getTableModel}!AposDatabase::TableHandler@{AposDatabase::TableHandler}}
+\doxysubsubsection{\texorpdfstring{getTableModel()}{getTableModel()}}
+{\footnotesize\ttfamily QShared\+Pointer$<$ QSql\+Table\+Model $>$ Apos\+Database\+::\+Table\+Handler\+::get\+Table\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the table model. 
+
+This function gets the table model of the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object. \begin{DoxyReturn}{Returns}
+Shared pointer to the QSql\+Table\+Model object. 
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00104}{104}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+\Hypertarget{class_apos_database_1_1_table_handler_a266ca84a2e644708a557453b1d4abdd1}\label{class_apos_database_1_1_table_handler_a266ca84a2e644708a557453b1d4abdd1} 
+\index{AposDatabase::TableHandler@{AposDatabase::TableHandler}!setActiveTableName@{setActiveTableName}}
+\index{setActiveTableName@{setActiveTableName}!AposDatabase::TableHandler@{AposDatabase::TableHandler}}
+\doxysubsubsection{\texorpdfstring{setActiveTableName()}{setActiveTableName()}}
+{\footnotesize\ttfamily void Apos\+Database\+::\+Table\+Handler\+::set\+Active\+Table\+Name (\begin{DoxyParamCaption}\item[{const QString \&}]{new\+Active\+Table\+Name }\end{DoxyParamCaption})}
+
+
+
+Sets the active table name. 
+
+This function sets the active table name of the \doxylink{class_apos_database_1_1_table_handler}{Table\+Handler} object. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Active\+Table\+Name} & The new active table name. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{tablehandler_8cpp_source_l00096}{96}} of file \mbox{\hyperlink{tablehandler_8cpp_source}{tablehandler.\+cpp}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/database\+Classes/\mbox{\hyperlink{tablehandler_8hpp}{tablehandler.\+hpp}}\item 
+C\+:/\+Users/\+Clean/\+Documents/\+Projekte/\+Apos-\/\+Database\+Manager/\+Project/classes/database\+Classes/\mbox{\hyperlink{tablehandler_8cpp}{tablehandler.\+cpp}}\end{DoxyCompactItemize}
