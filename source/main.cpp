@@ -1,28 +1,145 @@
-#include "../classes/backendClasses/startuphandler.hpp"
-#include "../classes/backendClasses/objecthandler.hpp"
-#include "../classes/frontendClasses/windowhandler.hpp"
+// Copyright (c) 2023. LGPL-V3
+//
 
-#include <QApplication>
-#include <QDebug>
-#include <QtSql>
+/**
+ * @file main.cpp
+ * @brief Main entry point for the application.
+ * @author Simon Blum
+ * @date 13.11.2023
+ * @version 1.0.0
+ * @license LGPL-V3
+ *
+ * This file contains the main function, which represents the entry point for the application.
+ * It initializes the QApplication, StartupHandler, and ObjectHandler objects.
+ * It also creates a WindowHandler object and shows the launch window.
+ *
+ * @details The application is built using the Qt framework and follows the object-oriented programming paradigm.
+ * The main function initializes the necessary objects and starts the application's event loop.
+ * The QApplication object encapsulates the functionality of Qts core application class for GUI-based applications.
+ * The StartupHandler, ObjectHandler, and WindowHandler classes are part of the
+ * application's backend and frontend logic.
+ *
+ * @deviation MISRA 3-1-3
+ * The argv parameter in the main function is a pointer to an array of C-style strings.
+ * This array is not explicitly sized, which violates MISRA rule 3-1-3.
+ * However, the parameters of the main function are defined by the C++ standard,
+ * and changing them would not be compliant with the standard.
+ * This deviation is considered acceptable because the size of the argv array is
+ * managed by the runtime environment, and the array is guaranteed to be null-terminated.
+ * Therefore, the risk of out-of-bounds access is minimal.
+ *
+ * @deviation MISRA 7-3-1
+ * The main – defined as qMain – function is part of the global namespace, which violates MISRA rule 7-3-1. However,
+ * since the qMain function acts as the main function within the Qt framework, this deviation is considered acceptable.
+ *
+ * @note The application is part of a student project and is not intended for commercial use.
+ * Therefore, the LGPL-V3 licence is used instead of the commercial Qt licence.
+ *
+ * @see QApplication
+ * @see StartupHandler
+ * @see ObjectHandler
+ * @see WindowHandler
+ */
 
+// Local includes --------------------------------------------------------------------------------------------------- //
+#include "../classes/backendClasses/startuphandler.hpp" /**< Include the StartupHandler class */
+#include "../classes/frontendClasses/windowhandler.hpp" /**< Include the WindowHandler class */
 
-int main(int argc, char *argv[])
-{
-    QApplication *a = new QApplication(argc, argv);
-    qDebug() << "Application Object initialized";
+// System includes -------------------------------------------------------------------------------------------------- //
+#include <QApplication> /**< Include the QApplication class */
+#include <QDebug> /**< Include the QDebug class for debugging */
+#include <memory> /**< Include the memory header for smart pointers */
 
-    StartupHandler startupHandler(a);
-    qDebug() << "StartupHandler Object initialized";
+// Declaration of functions------------------------------------------------------------------------------------------ //
+namespace appInitialization {
+    /**
+     * @brief Initialize the ObjectHandler object
+     *
+     * This function initializes the StartupHandler object with the QApplication object,
+     * then uses the StartupHandler object to initialize and return the ObjectHandler object.
+     *
+     * @param app Pointer to the QApplication object. This is used to initialize the StartupHandler object.
+     * @return Unique pointer to the initialized ObjectHandler object
+     * @throws std::runtime_error if the QApplication pointer is null or if the ObjectHandler fails to initialize.
+     */
+    std::unique_ptr<ObjectHandler> initializeObjectHandler(QApplication *app);
 
-    ObjectHandler *objectHandler = startupHandler.startUp();
-    qDebug() << "ObjectHandler Object initialized";
-    startupHandler.~StartupHandler();
+// ------------------------------------------------------------------------------------------------------------------ //
 
-    WindowHandler windowHandler(objectHandler);
-    windowHandler.showLaunchWindow();
-
-    qDebug() << "After DevWindow Show";
-
-    return a->exec();
+    /**
+     * @brief Initialize the WindowHandler object
+     *
+     * This function initializes the WindowHandler object with the ObjectHandler object and shows the launch window.
+     *
+     * @param objectHandler Unique pointer to the ObjectHandler object. This is used to
+     *                      initialize the WindowHandler object.
+     * @return Unique pointer to the initialized WindowHandler object
+     * @throws std::runtime_error if the ObjectHandler pointer is null, or if
+     *                            the WindowHandler object fails to initialize.
+     */
+    std::unique_ptr<WindowHandler> initializeWindowHandler(ObjectHandler *objectHandler);
 }
+
+// Implementation of functions -------------------------------------------------------------------------------------- //
+/**
+ * @brief Main function
+ *
+ * This is the main function, which is the entry point for the application.
+ * It initializes the QApplication, ObjectHandler, and WindowHandler objects,
+ * and starts the application's event loop.
+ *
+ * @param argc Argument count
+ * @param argv Argument vector
+ * @return int Application exit status
+ */
+int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-misra-cpp2008-7-3-1)
+    int returnStatus = -1; // Initialize return status to -1 (error state)
+    try {
+        std::unique_ptr<QApplication> application = std::make_unique<QApplication>(argc, argv);
+        qDebug() << "Application Object initialized";
+
+        std::unique_ptr<ObjectHandler> objectHandler = appInitialization::initializeObjectHandler(application.get());
+        std::unique_ptr<WindowHandler> windowHandler = appInitialization::initializeWindowHandler(objectHandler.get());
+
+        returnStatus = QApplication::exec(); // Update return status
+    } catch (const std::exception &e) {
+        qDebug() << "Exception caught in main: " << e.what();
+    }
+    return returnStatus; // Single point of exit
+}
+
+// ------------------------------------------------------------------------------------------------------------------ //
+namespace appInitialization {
+    std::unique_ptr<ObjectHandler> initializeObjectHandler(QApplication *app) {
+        if (app == nullptr) {
+            throw std::runtime_error("QApplication pointer is null");
+        }
+
+        StartupHandler startupHandler(app);
+        qDebug() << "StartupHandler Object initialized";
+
+        std::unique_ptr<ObjectHandler> objectHandler(startupHandler.startUp());
+        if (objectHandler == nullptr) {
+            throw std::runtime_error("Failed to initialize ObjectHandler");
+        }
+        qDebug() << "ObjectHandler Object initialized";
+
+        return objectHandler;
+    }
+
+    std::unique_ptr<WindowHandler> initializeWindowHandler(ObjectHandler *objectHandler) {
+        if (objectHandler == nullptr) {
+            throw std::runtime_error("ObjectHandler pointer is null");
+        }
+
+        std::unique_ptr<WindowHandler> windowHandler(new WindowHandler(objectHandler));
+        if (windowHandler == nullptr) {
+            throw std::runtime_error("Failed to initialize WindowHandler");
+        }
+        windowHandler->showLaunchWindow();
+        qDebug() << "After DevWindow Show";
+
+        return windowHandler;
+    }
+}
+// -----------------------------------------------------------------------------
