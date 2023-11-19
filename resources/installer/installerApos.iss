@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Apos - Database Manager"
-#define MyAppVersion "0.1-a.2"
+#define MyAppVersion "0.1-alpha.2"
 #define MyAppPublisher "Simon Blum"
 #define MyAppURL "https://definitelynotsimon13.github.io/Apos/"
 #define MyAppExeName "Apos-Databasemanager.exe"
