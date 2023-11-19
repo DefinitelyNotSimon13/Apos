@@ -28,17 +28,27 @@ namespace AposFrontend {
             ui(new Ui::LauncherWindow) {
         ui->setupUi(this);
         objectHandler = std::move(newObjectHandler);
+        //TODO: implement Logger
+        launcherConnectUi();
     }
     //----------------------------------------------------------------------------------------------------------------//
     LauncherWindow::~LauncherWindow() {
         delete ui;
     }
     //----------------------------------------------------------------------------------------------------------------//
-    void LauncherWindow::on_inShowDev_clicked() {
+    bool LauncherWindow::launcherConnectUi(){
+        //TODO: implement Logger
+        connect(ui->inShowDev, SIGNAL(clicked()), this, SLOT(showDevClicked()));
+        //TODO: implement Logger
+        connect(ui->pushButton, SIGNAL(clicked()), this, SLOT(pushButtonClicked()));
+        return true;
+    }
+    //----------------------------------------------------------------------------------------------------------------//
+    void LauncherWindow::showDevClicked() {
         emit openDevWindow();
     }
     //----------------------------------------------------------------------------------------------------------------//
-    void LauncherWindow::on_pushButton_clicked() {
+    void LauncherWindow::pushButtonClicked() {
         emit openSettings();
     }
     //----------------------------------------------------------------------------------------------------------------//

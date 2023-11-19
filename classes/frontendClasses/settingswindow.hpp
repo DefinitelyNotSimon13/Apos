@@ -85,14 +85,14 @@ namespace AposFrontend {
          * @ingroup Slot-Functions
          * @details This slot is triggered when the 'Close' button is clicked.
          */
-        void on_inClose_clicked();
+        void closeClicked();
 
         /**
          * @brief Slot for the 'Apply' button click event.
          * @ingroup Slot-Functions
          * @details This slot is triggered when the 'Apply' button is clicked.
          */
-        void on_inApply_clicked();
+        void applyClicked();
 
         /**
          * @brief Slot for the 'Language' combo box index change event.
@@ -100,8 +100,11 @@ namespace AposFrontend {
          * @details This slot is triggered when the index of the 'Language' combo box is changed.
          * @param index The new index of the combo box.
          */
-        void on_inLanguage_currentIndexChanged(int index);
+        void languageCurrentIndexChanged(int index);
     private:
+        //TODO: add Documentation
+        void settingsConnectUi();
+
         /**
          * @brief Installs the application's translator.
          * @ingroup Initialization

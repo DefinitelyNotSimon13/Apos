@@ -1,4 +1,4 @@
-<map id="AposFrontend::DevWindow::on_btnCloseDB_clicked" name="AposFrontend::DevWindow::on_btnCloseDB_clicked">
+<map id="AposFrontend::DevWindow::on_btnCloseDB_clicked" name="AposFrontend::DevWindow::closeDBClicked">
 <area shape="rect" id="Node000001" title="Slot for the &#39;CloseDB&#39; button click event." alt="" coords="5,72,183,115"/>
 <area shape="rect" id="Node000002" href="$dd/d44/group___database-_functions.html#gaab8300a6ed941015a4c5e1d1c68335e3" title="Closes the database." alt="" coords="231,5,408,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,69,229,50,231,56,169,74"/>

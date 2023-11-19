@@ -1,4 +1,4 @@
-<map id="AposFrontend::DevWindow::on_clearCommandAfterExecute_stateChanged" name="AposFrontend::DevWindow::on_clearCommandAfterExecute_stateChanged">
+<map id="AposFrontend::DevWindow::on_clearCommandAfterExecute_stateChanged" name="AposFrontend::DevWindow::clearCommandAfterExecuteStateChanged">
 <area shape="rect" id="Node000001" title="Slot for the &#39;clearCommandAfterExecute&#39; state change event." alt="" coords="5,27,218,85"/>
 <area shape="rect" id="Node000002" href="$d6/de4/group___ui-_functions.html#ga967ec97cb7b88eeb89c2ef45f68763a6" title="Checks a checkbox." alt="" coords="266,5,443,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,40,250,37,251,42,218,46"/>

@@ -27,7 +27,7 @@
 namespace AposFrontend {
     WindowHandler::WindowHandler(QSharedPointer<AposBackend::ObjectHandler> newObjectHandler) {
 
-        ptrObjectHandler = std::move(newObjectHandler);
+        ptrObjectHandler = qMove(newObjectHandler);
         ptrLauncherWindow = QSharedPointer<LauncherWindow>(new LauncherWindow(nullptr, ptrObjectHandler));
         ptrSettingsWindow = QSharedPointer<SettingsWindow>(new SettingsWindow(nullptr, ptrObjectHandler));
         (void)QObject::connect(ptrLauncherWindow.data(), &LauncherWindow::openDevWindow, this, &WindowHandler::showDevWindow,
@@ -50,13 +50,15 @@ namespace AposFrontend {
         ptrLauncherWindow->hide();
         if (ptrDevWindow == nullptr) {
             ptrDevWindow = QSharedPointer<DevWindow>(new DevWindow(nullptr, ptrObjectHandler));
-            (void)QObject::connect(ptrDevWindow.data(), &DevWindow::returnToLauncher, this, &WindowHandler::showLaunchWindow,
+            QObject::connect(ptrDevWindow.data(), &DevWindow::returnToLauncher, this, &WindowHandler::showLaunchWindow,
                              Qt::DirectConnection);
-            (void)QObject::connect(ptrDevWindow.data(), &DevWindow::openSettings, this, &WindowHandler::showSettingsWindow,
+            QObject::connect(ptrDevWindow.data(), &DevWindow::openSettings, this, &WindowHandler::showSettingsWindow,
                              Qt::DirectConnection);
         }
+        if(ptrDevWindow != nullptr){
+            ptrDevWindow->show();
+        }
 
-        ptrDevWindow->show();
     }
 
     void WindowHandler::showSettingsWindow() {

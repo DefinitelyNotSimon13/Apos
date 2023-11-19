@@ -102,7 +102,7 @@
 <g id="a_Node000006"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga6ed3311709733e1ea20c7a35f2fad9b7" target="_top" xlink:title="Slot for the &#39;Execute&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="146.12,-431 13.12,-431 13.12,-399 146.12,-399 146.12,-431"/>
 <text text-anchor="start" x="21.12" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="79.62" y="-405.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_btnExecute_clicked</text>
+<text text-anchor="middle" x="79.62" y="-405.5" font-family="Helvetica,sans-Serif" font-size="10.00">::executeClicked</text>
 </a>
 </g>
 </g>
@@ -140,7 +140,7 @@
 <g id="a_Node000008"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga392e04e22c5ae7be73b639bef06ced8a" target="_top" xlink:title="Slot for the &#39;Add&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="146.12,-336 13.12,-336 13.12,-304 146.12,-304 146.12,-336"/>
 <text text-anchor="start" x="21.12" y="-322.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="79.62" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_btnAdd_clicked</text>
+<text text-anchor="middle" x="79.62" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">::addValuesClicked</text>
 </a>
 </g>
 </g>
@@ -197,7 +197,7 @@
 <g id="a_Node000012"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga94f1bcb3a0d4ff36c4651a7d22bbc4ff" target="_top" xlink:title="Slot for the &#39;InitDB&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="146.12,-176 13.12,-176 13.12,-144 146.12,-144 146.12,-176"/>
 <text text-anchor="start" x="21.12" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="79.62" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_btnInitDB_clicked</text>
+<text text-anchor="middle" x="79.62" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">::initDbClicked</text>
 </a>
 </g>
 </g>
@@ -235,7 +235,7 @@
 <g id="a_Node000014"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga4951eac56d47f5a30f113cbb58a1acdf" target="_top" xlink:title="Slot for the &#39;SelectTable&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="333.5,-82 195.25,-82 195.25,-50 333.5,-50 333.5,-82"/>
 <text text-anchor="start" x="203.25" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="264.38" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_btnSelectTable_clicked</text>
+<text text-anchor="middle" x="264.38" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::selectTableClicked</text>
 </a>
 </g>
 </g>
@@ -254,7 +254,7 @@
 <g id="a_Node000015"><a xlink:href="../../d8/d33/group___slot-_functions.html#gac0dcf66680758b82204e93424b06ebff" target="_top" xlink:title="Slot for the &#39;Update&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="330.88,-32 197.88,-32 197.88,0 330.88,0 330.88,-32"/>
 <text text-anchor="start" x="205.88" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="264.38" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_btnUpdate_clicked</text>
+<text text-anchor="middle" x="264.38" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">::updateTableClicked</text>
 </a>
 </g>
 </g>
@@ -309,7 +309,7 @@
 <g id="a_Node000010"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga5dd5707ecd06a83a2f7d3c9f631583a1" target="_top" xlink:title="Slot for the &#39;CloseDB&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="146.12,-248 13.12,-248 13.12,-216 146.12,-216 146.12,-248"/>
 <text text-anchor="start" x="21.12" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="79.62" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_btnCloseDB_clicked</text>
+<text text-anchor="middle" x="79.62" y="-222.5" font-family="Helvetica,sans-Serif" font-size="10.00">::closeDBClicked</text>
 </a>
 </g>
 </g>

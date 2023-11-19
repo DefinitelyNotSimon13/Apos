@@ -1,4 +1,4 @@
-<map id="AposFrontend::SettingsWindow::on_inApply_clicked" name="AposFrontend::SettingsWindow::on_inApply_clicked">
+<map id="AposFrontend::SettingsWindow::on_inApply_clicked" name="AposFrontend::SettingsWindow::applyClicked">
 <area shape="rect" id="Node000001" title="Slot for the &#39;Apply&#39; button click event." alt="" coords="5,39,210,81"/>
 <area shape="rect" id="Node000002" href="$d7/d58/group___signal-_funtions.html#gaa502afe63303465922a81ff95f482b8e" title="Signal for applying settings." alt="" coords="258,5,462,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,44,242,40,242,45,210,49"/>
