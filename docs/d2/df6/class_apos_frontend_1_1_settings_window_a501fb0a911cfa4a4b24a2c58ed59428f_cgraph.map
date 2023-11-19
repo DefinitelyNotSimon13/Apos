@@ -1,0 +1,17 @@
+<map id="AposFrontend::SettingsWindow::settingsConnectUi" name="AposFrontend::SettingsWindow::settingsConnectUi">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,113,210,156"/>
+<area shape="rect" id="Node000002" href="$d2/df6/class_apos_frontend_1_1_settings_window.html#aa6da7c10b8630bef5645e16d93989327" title=" " alt="" coords="258,84,463,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,120,242,116,243,122,211,125"/>
+<area shape="rect" id="Node000003" href="$d8/d33/group___slot-_functions.html#gaf8c51b81640606727dea981bd3ede5ff" title="Slot for the &#39;Apply&#39; button click event." alt="" coords="511,39,715,81"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="148,110,199,88,257,69,318,59,380,53,496,51,496,56,380,58,318,64,258,75,201,93,150,115"/>
+<area shape="rect" id="Node000006" href="$d8/d33/group___slot-_functions.html#ga561c502efb9484c99cb1d337cf1bf90a" title="Slot for the &#39;Close&#39; button click event." alt="" coords="511,117,715,160"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="210,135,258,136,495,137,495,142,258,141,210,140"/>
+<area shape="rect" id="Node000007" href="$d8/d33/group___slot-_functions.html#gac3ddae8dd71cc05c8149e6f605f6e058" title="Slot for the &#39;Language&#39; combo box index change event." alt="" coords="258,201,463,244"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="172,154,283,193,282,198,170,159"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="463,84,495,78,496,84,464,90"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="463,116,496,121,496,126,463,121"/>
+<area shape="rect" id="Node000004" href="$d7/d58/group___signal-_funtions.html#gaa502afe63303465922a81ff95f482b8e" title="Signal for applying settings." alt="" coords="763,5,968,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="715,44,747,40,748,45,716,49"/>
+<area shape="rect" id="Node000005" href="$de/dc6/group___initialization.html#ga49b8895cc4133ac81bd799854b3515b6" title="Installs the application&#39;s translator." alt="" coords="763,72,968,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="716,71,748,75,747,80,715,76"/>
+</map>

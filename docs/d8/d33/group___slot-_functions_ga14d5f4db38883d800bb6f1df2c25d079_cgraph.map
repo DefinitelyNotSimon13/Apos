@@ -1,0 +1,13 @@
+<map id="AposFrontend::DevWindow::initDbClicked" name="AposFrontend::DevWindow::initDbClicked">
+<area shape="rect" id="Node000001" title="Slot for the &#39;InitDB&#39; button click event." alt="" coords="5,93,183,136"/>
+<area shape="rect" id="Node000002" href="$d6/de4/group___ui-_functions.html#gad74b5ca7c247820a938dbdf20f1e8f8c" title="Enables or disables the buttons." alt="" coords="231,5,408,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,90,248,52,250,57,152,95"/>
+<area shape="rect" id="Node000003" href="$dc/dc2/class_apos_frontend_1_1_dev_window.html#a6e2ecb7e3fd65aefc8ed62fc9f1519e9" title="Logs an event with a type and a message." alt="" coords="456,64,633,107"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="183,106,440,89,441,95,183,112"/>
+<area shape="rect" id="Node000004" href="$dd/d44/group___database-_functions.html#gaf776a9f414cca86d16ff2c25566459e0" title="Initializes the database." alt="" coords="231,123,408,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,124,215,128,215,133,182,129"/>
+<area shape="rect" id="Node000005" href="$dd/d44/group___database-_functions.html#ga9f30984f5b6e7ee6061ea5107c79eb33" title="Sets the model views." alt="" coords="231,189,408,232"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="142,134,232,175,246,181,244,186,230,180,140,139"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,46,446,57,445,62,403,51"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="403,120,445,109,446,114,404,125"/>
+</map>

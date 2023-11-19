@@ -1,0 +1,11 @@
+<map id="AposFrontend::SettingsWindow::applyAndCloseClicked" name="AposFrontend::SettingsWindow::applyAndCloseClicked">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,210,115"/>
+<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#gaf8c51b81640606727dea981bd3ede5ff" title="Slot for the &#39;Apply&#39; button click event." alt="" coords="258,39,462,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,77,242,73,242,78,210,82"/>
+<area shape="rect" id="Node000005" href="$d8/d33/group___slot-_functions.html#ga561c502efb9484c99cb1d337cf1bf90a" title="Slot for the &#39;Close&#39; button click event." alt="" coords="258,105,462,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="210,104,242,108,242,114,210,109"/>
+<area shape="rect" id="Node000003" href="$d7/d58/group___signal-_funtions.html#gaa502afe63303465922a81ff95f482b8e" title="Signal for applying settings." alt="" coords="510,5,714,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="462,44,494,40,495,45,463,49"/>
+<area shape="rect" id="Node000004" href="$de/dc6/group___initialization.html#ga49b8895cc4133ac81bd799854b3515b6" title="Installs the application&#39;s translator." alt="" coords="510,72,714,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="463,71,495,75,494,80,462,76"/>
+</map>

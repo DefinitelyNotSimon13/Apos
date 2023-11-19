@@ -601,7 +601,7 @@
     <normaloff>:/icon/images/APOS-ICON.ico</normaloff>:/icon/images/APOS-ICON.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>16</x>
@@ -647,6 +647,9 @@
           <number>0</number>
          </property>
          <widget class="QPushButton" name="btnShowDev">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
           <property name="maximumSize">
            <size>
             <width>180</width>
@@ -658,6 +661,9 @@
           </property>
          </widget>
          <widget class="QToolButton" name="toolButton">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>...</string>
           </property>
@@ -709,6 +715,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="btnOpenDatabase">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
            <horstretch>0</horstretch>
@@ -728,6 +737,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="btnNewDatabase">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
            <horstretch>0</horstretch>

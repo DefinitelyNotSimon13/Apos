@@ -1,0 +1,13 @@
+<map id="AposFrontend::LauncherWindow::LauncherWindow" name="AposFrontend::LauncherWindow::LauncherWindow">
+<area shape="rect" id="Node000001" title="Constructor for the LauncherWindow class." alt="" coords="5,39,215,81"/>
+<area shape="rect" id="Node000002" href="$da/d2e/class_apos_frontend_1_1_launcher_window.html#ae1983d72ca64b6600ee8b0651fb412fc" title=" " alt="" coords="263,39,472,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,57,247,57,247,63,215,63"/>
+<area shape="rect" id="Node000003" href="$d8/d33/group___slot-_functions.html#gab825d6fc24f308db7d35b33ca73b2cdf" title="Slot for the &#39;PushButton&#39; button click event." alt="" coords="520,5,729,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,44,504,40,505,45,473,49"/>
+<area shape="rect" id="Node000005" href="$d8/d33/group___slot-_functions.html#gaba4f6584c940222b5f4e849005518ce9" title="Slot for the &#39;ShowDev&#39; button click event." alt="" coords="520,72,729,115"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="473,71,505,75,504,80,472,76"/>
+<area shape="rect" id="Node000004" href="$d7/d58/group___signal-_funtions.html#ga75e939cb47b5e6af99153b128c7bd5d6" title="Signal for opening the settings." alt="" coords="777,5,987,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="730,24,762,24,762,29,730,29"/>
+<area shape="rect" id="Node000006" href="$d7/d58/group___signal-_funtions.html#ga0d06592356794582b3ad43292227af7a" title="Signal for opening the developer window." alt="" coords="777,72,987,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="730,91,762,91,762,96,730,96"/>
+</map>
