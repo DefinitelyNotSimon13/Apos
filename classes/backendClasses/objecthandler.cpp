@@ -25,57 +25,77 @@ namespace AposBackend {
     //----------------------------------------------------------------------------------------------------------------//
     ObjectHandler::ObjectHandler(QSharedPointer<QApplication> newApplication,
                                  QSharedPointer<AposDatabase::DatabaseHandler> newDbHandler,
-                                 QSharedPointer<AposDatabase::TableHandler> newTableHandler) {
-        ptrApplication = newApplication;
-        ptrDbHandler = newDbHandler;
-        ptrTableHandler = newTableHandler;
+                                 QSharedPointer<AposDatabase::TableHandler> newTableHandler,
+                                 QSharedPointer<AposLogger::Logger> newLogger) :
+            ptrApplication(qMove(newApplication)),
+            ptrDbHandler(qMove(newDbHandler)),
+            ptrTableHandler(qMove(newTableHandler)),
+            ptrLogger(qMove(newLogger)) {
+        ptrLogger->log("init", "ObjectHandler initialized");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     bool ObjectHandler::initDatabaseObject() {
         bool initializedDatabaseObject = false;
         initializedDatabaseObject = ptrDbHandler->initDatabase();
+        ptrLogger->log("init", "DatabaseHandler initialized");
         return initializedDatabaseObject;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     bool ObjectHandler::initTableObject(const QString &inputTableName) {
-        bool initializedTableObject = false;
+        bool initializedTableObject;
         try {
             ptrTableHandler->generateTableModel(inputTableName);
             initializedTableObject = true;
         }
-        catch (const std::exception &e) {
-            qDebug() << "Error: " << e.what();
+        catch (const QException &e) {
+            ptrLogger->log("caught exception", e.what());
             initializedTableObject = false;
         }
         return initializedTableObject;
 
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<AposDatabase::TableHandler> ObjectHandler::getPtrTableHandler() const {
+        ptrLogger->log("status", "ObjectHandler");
         return ptrTableHandler;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<AposDatabase::DatabaseHandler> ObjectHandler::getPtrDbHandler() const {
+        ptrLogger->log("status", "ObjectHandler");
         return ptrDbHandler;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     const QString &ObjectHandler::getActiveTableName() const {
+        ptrLogger->log("status", "ObjectHandler");
         return ptrTableHandler->getActiveTableName();
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     const QSqlError &ObjectHandler::getTableSqlError() const {
+        ptrLogger->log("status", "ObjectHandler");
         return ptrTableHandler->getLastTableError();
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     [[maybe_unused]] QSharedPointer<QSqlDatabase> ObjectHandler::getActiveDatabase() const {
+        ptrLogger->log("status", "ObjectHandler");
         return ptrDbHandler->getActiveDatabase();
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     [[maybe_unused]] void ObjectHandler::setActiveTableName(const QString &newActiveTableName) {
+        ptrLogger->log("status", "ObjectHandler");
         ptrTableHandler->setActiveTableName(newActiveTableName);
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     const QSharedPointer<QApplication> &ObjectHandler::getPtrApplication() const {
+        ptrLogger->log("status", "ObjectHandler");
         return ptrApplication;
     }
 

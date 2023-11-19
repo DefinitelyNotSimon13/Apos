@@ -358,11 +358,11 @@
     \subitem {clearCommandAfterExecuteStateChanged}, \hyperpage{35}
     \subitem {clearInputsAfterInsertStateChanged}, \hyperpage{36}
     \subitem {closeClicked}, \hyperpage{37}
-    \subitem {closeDBClicked}, \hyperpage{37}
+    \subitem {closeDbClicked}, \hyperpage{37}
     \subitem {executeClicked}, \hyperpage{38}
     \subitem {initDbClicked}, \hyperpage{38}
     \subitem {languageCurrentIndexChanged}, \hyperpage{39}
-    \subitem {pushButtonClicked}, \hyperpage{39}
+    \subitem {showSettingsClicked}, \hyperpage{39}
     \subitem {returnToLauncherClicked}, \hyperpage{40}
     \subitem {selectTableClicked}, \hyperpage{41}
     \subitem {settingsClicked}, \hyperpage{41}

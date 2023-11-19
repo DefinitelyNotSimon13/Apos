@@ -43,7 +43,7 @@
 <g id="a_Node000003"><a xlink:href="../../d8/d33/group___slot-_functions.html#gab825d6fc24f308db7d35b33ca73b2cdf" target="_top" xlink:title="Slot for the &#39;PushButton&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="543,-82 386,-82 386,-50 543,-50 543,-82"/>
 <text text-anchor="start" x="394" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::LauncherWindow</text>
-<text text-anchor="middle" x="464.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushButtonClicked</text>
+<text text-anchor="middle" x="464.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::showSettingsClicked</text>
 </a>
 </g>
 </g>

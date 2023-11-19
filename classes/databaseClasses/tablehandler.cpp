@@ -26,43 +26,65 @@
 
 namespace AposDatabase {
     //----------------------------------------------------------------------------------------------------------------//
-    TableHandler::TableHandler(QSharedPointer<DatabaseHandler> newDbHandler) {
-        ptrDbHandler = std::move(newDbHandler);
+    TableHandler::TableHandler(QSharedPointer<DatabaseHandler> newDbHandler,
+                               QSharedPointer<AposLogger::Logger> newLogger)
+            : ptrLogger(qMove(newLogger)),
+              ptrDbHandler(qMove(newDbHandler)) {
+        ptrLogger->log("init", "TableHandler initialized");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    TableHandler::TableHandler(QSharedPointer<DatabaseHandler> newDbHandler, const QString &tableName) {
-        ptrDbHandler = std::move(newDbHandler);
+    TableHandler::TableHandler(QSharedPointer<DatabaseHandler> newDbHandler,
+                               const QString &tableName,
+                               QSharedPointer<AposLogger::Logger> newLogger)
+            : ptrLogger(qMove(newLogger)),
+              ptrDbHandler(qMove(newDbHandler)) {
         activeTableName = tableName;
         ptrTableModel = QSharedPointer<QSqlTableModel>(
                 new QSqlTableModel(nullptr, *ptrDbHandler->getActiveDatabase()));
+        ptrLogger->log("init", "ptrTableModel initialized");
+
         ptrTableModel->setTable(tableName);
         if (!ptrTableModel->select()) {
-            throw std::runtime_error("Failed to select table");
+            ptrLogger->error("Failed to select table" + ptrTableModel->lastError().text(),
+                             "TableHandler()", "TableHandler", "");
         }
+        ptrLogger->log("init", "TableHandler initialized and table model generated");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     TableHandler::~TableHandler() {
         ptrTableModel = nullptr;
-        qDebug() << "TableHandler destroyed";
+        ptrLogger->log("status", "TableHandler destroyed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void TableHandler::generateTableModel() {
         ptrTableModel = QSharedPointer<QSqlTableModel>(new QSqlTableModel(nullptr, *ptrDbHandler->getActiveDatabase()));
+        ptrLogger->log("status", "ptrTableModel (re)initialized");
+
         ptrTableModel->setTable(activeTableName);
         if (!ptrTableModel->select()) {
-            throw std::runtime_error("Failed to select table");
+            ptrLogger->error("Failed to select table" + ptrTableModel->lastError().text(),
+                             "generateTableModel()", "TableHandler", "");
         }
+        ptrLogger->log("status", "Table model generated");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void TableHandler::generateTableModel(const QString &tableName) {
         activeTableName = tableName;
         ptrTableModel = QSharedPointer<QSqlTableModel>(new QSqlTableModel(nullptr, *ptrDbHandler->getActiveDatabase()));
+        ptrLogger->log("status", "ptrTableModel (re)initialized");
+
         ptrTableModel.data()->setTable(activeTableName);
         if (!ptrTableModel.data()->select()) {
-            qDebug() << "Failed to select table:" << ptrTableModel->lastError();
-            throw std::runtime_error("Failed to select table");
+            ptrLogger->error("Failed to select table" + ptrTableModel->lastError().text(),
+                             "generateTableModel()", "TableHandler", "");
         }
+        ptrLogger->log("status", "Table model generated");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     bool TableHandler::insertIntoTable(const QString &tableName, const QString &value1, const QString &value2,
                                        const QString &value3, const QString &value4, const QString &value5) {
@@ -72,7 +94,8 @@ namespace AposDatabase {
                 QString("INSERT INTO %1 VALUES (:value1, :value2, :value3, :value4, :value5)").arg(tableName))) {
             lastTableError = query.lastError();
             querrySuccess = false;
-
+            ptrLogger->log("Error", "prepare query - " + lastTableError.text(), "insertIntoTable()", "TableHandler",
+                           "");
         } else {
             query.bindValue(":value1", value1);
             query.bindValue(":value2", value2);
@@ -82,26 +105,37 @@ namespace AposDatabase {
             if (!query.exec()) {
                 lastTableError = query.lastError();
                 querrySuccess = false;
+                ptrLogger->log("Error", "execute query - " + lastTableError.text(), "insertIntoTable()", "TableHandler",
+                               "");
             } else {
                 querrySuccess = true;
+                ptrLogger->log("status", "Query executed");
             }
         }
         return querrySuccess;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     const QString &TableHandler::getActiveTableName() const {
+        ptrLogger->log("status", "Active table name requested");
         return activeTableName;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void TableHandler::setActiveTableName(const QString &newActiveTableName) {
+        ptrLogger->log("status", "Active table name set");
         activeTableName = newActiveTableName;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     const QSqlError &TableHandler::getLastTableError() const {
+        ptrLogger->log("status", "Last table error requested");
         return lastTableError;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<QSqlTableModel> TableHandler::getTableModel() {
+        ptrLogger->log("status", "Table model requested");
         return ptrTableModel;
     }
 }

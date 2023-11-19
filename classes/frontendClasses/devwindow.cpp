@@ -20,32 +20,35 @@
 
 namespace AposFrontend {
     //----------------------------------------------------------------------------------------------------------------//
-    DevWindow::DevWindow(QWidget *parent, QSharedPointer<AposBackend::ObjectHandler> newObjectHandler)
-            : QMainWindow(parent), ui(new Ui::DevWindow) {
-        qDebug() << "DevWindow constructor called";
+    DevWindow::DevWindow(QWidget *parent,
+                         QSharedPointer<AposBackend::ObjectHandler> newObjectHandler,
+                         QSharedPointer<AposLogger::Logger> newLogger) :
+            QMainWindow(parent),
+            ui(new Ui::DevWindow),
+            ptrObjectHandler(qMove(newObjectHandler)),
+            ptrLogger(qMove(newLogger)) {
         ui->setupUi(this);
         qDebug() << "DevWindow ui setup";
-        ptrObjectHandler = qMove(newObjectHandler);
         qDebug() << "DevWindow ptrObjectHandler moved";
-        //TODO: implement Logger
+
         devConnectUi();
-        qDebug() << "DevWindow connected UiElements";
-
-
-
+        ptrLogger->log("init", "Slots and signals connected");
+        ptrLogger->log("init", "DevWindow initialized");
 
 
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     DevWindow::~DevWindow() {
         delete ui;
+        ptrLogger->log("status", "DevWindow destroyed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    bool DevWindow::devConnectUi() {
-        //TODO: implement Logger
+    void DevWindow::devConnectUi() {
         //Buttons
         connect(ui->btnInitDB, &QPushButton::clicked, this, &DevWindow::initDbClicked);
-        connect(ui->btnCloseDB, &QPushButton::clicked, this, &DevWindow::closeDBClicked);
+        connect(ui->btnCloseDB, &QPushButton::clicked, this, &DevWindow::closeDbClicked);
         connect(ui->btnExecute, &QPushButton::clicked, this, &DevWindow::executeClicked);
         connect(ui->btnSelectTable, &QPushButton::clicked, this, &DevWindow::selectTableClicked);
         connect(ui->btnAdd, &QPushButton::clicked, this, &DevWindow::addValuesClicked);
@@ -53,31 +56,30 @@ namespace AposFrontend {
         connect(ui->inReturnToLauncher, &QPushButton::clicked, this, &DevWindow::returnToLauncherClicked);
         connect(ui->inSettings, &QPushButton::clicked, this, &DevWindow::settingsClicked);
         //Checkboxes
-        connect(ui->clearCommandAfterExecute, &QCheckBox::stateChanged, this, &DevWindow::clearCommandAfterExecuteStateChanged);
-        connect(ui->clearInputsAfterInsert, &QCheckBox::stateChanged, this, &DevWindow::clearInputsAfterInsertStateChanged);
-        return true;
+        connect(ui->clearCommandAfterExecute, &QCheckBox::stateChanged, this,
+                &DevWindow::clearCommandAfterExecuteStateChanged);
+        connect(ui->clearInputsAfterInsert, &QCheckBox::stateChanged, this,
+                &DevWindow::clearInputsAfterInsertStateChanged);
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    void DevWindow::logEvent(const QString &type,const QString &message) {
-        //TODO: implement Logger
+    void DevWindow::logEvent(const QString &type, const QString &message) {
         ui->outLog->append("Log |  " + type + ": " + message);
-        //TODO: implement Logger
-        qDebug() << "Logged:  " + type + " - " + message;
+        ptrLogger->log(type, message);
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    void DevWindow::logEvent(const QString &message,const QSqlError &error) {
-        //TODO: implement Logger
+    void DevWindow::logEvent(const QString &message, const QSqlError &error) {
         ui->outLog->append("Log | " + message + "-" + error.text());
-        //TODO: implement Logger
-        qDebug() << "Logged: " + message + " - " + error.text();
+        ptrLogger->log("status", message + error.text());
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::logEvent(const QString &message) {
-        //TODO: implement Logger
         ui->outLog->append("Log | " + message);
-        //TODO: implement Logger
-        qDebug() << "Logged: " + message;
+        ptrLogger->log("status", message);
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::enableButtons(bool databaseLoaded) {
         ui->btnAdd->setEnabled(databaseLoaded);
@@ -86,23 +88,25 @@ namespace AposFrontend {
         ui->btnExecute->setEnabled(databaseLoaded);
         ui->btnSelectTable->setEnabled(databaseLoaded);
         ui->btnInitDB->setEnabled(!databaseLoaded);
-        //TODO: implement Logger
         logEvent("action", "Buttons enabled/disabled");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    void DevWindow::setModelViews(const QSharedPointer<QSqlTableModel>& tableModel) {
-        //TODO: implement Logger
-        qDebug() <<"SharedPointer.data(): " << tableModel->database();
+    void DevWindow::setModelViews(const QSharedPointer<QSqlTableModel> &tableModel) {
         ui->outTable->setModel(tableModel.data());
         ui->outColumn->setModel(tableModel.data());
         ui->outList->setModel(tableModel.data());
+        logEvent("action", "ModelViews set");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::setModelViews() {
         ui->outTable->setModel(nullptr);
         ui->outColumn->setModel(nullptr);
         ui->outList->setModel(nullptr);
+        logEvent("action", "ModelViews cleared");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::assignInputs() {
         input1 = ui->inInput1->text();
@@ -110,34 +114,31 @@ namespace AposFrontend {
         input3 = ui->inInput3->text();
         input4 = ui->inInput4->text();
         input5 = ui->inInput5->text();
+        ptrLogger->log("status", "Inputs assigned");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::initDatabase() {
         if (!ptrObjectHandler->initDatabaseObject()) {
-            //TODO: implement Logger
             logEvent("Error initiating database", ptrObjectHandler->getPtrDbHandler()->getSqlError());
-
-        }
-        else {
-            //TODO: implement Logger
+        } else {
             logEvent("action", "Database initiated");
-            //TODO: implement Logger
             logEvent("action",
                      QString(ptrObjectHandler->getPtrDbHandler()->getActiveDatabase()->databaseName()) + " opened");
-            //TODO: implement Logger
             logEvent("status", ptrObjectHandler->getPtrDbHandler()->getActiveDatabase()->isOpen()
-                                                                                ? "Database open": "Database closed");
+                               ? "Database open" : "Database closed");
         }
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    void DevWindow::closeDatabase(const QSharedPointer<AposDatabase::DatabaseHandler>& db) {
+    void DevWindow::closeDatabase(const QSharedPointer<AposDatabase::DatabaseHandler> &db) {
         db->closeDatabase();
-        //TODO: implement Logger
         logEvent("action", "Database closed");
-        //TODO: implement Logger
         logEvent("status",
-                 ptrObjectHandler->getPtrDbHandler()->getActiveDatabase()->isOpen() ? "Database open" : "Database closed");
+                 ptrObjectHandler->getPtrDbHandler()->getActiveDatabase()->isOpen() ? "Database open"
+                                                                                    : "Database closed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     bool DevWindow::checkCheckbox(int argCb) {
         bool checked = false;
@@ -146,12 +147,12 @@ namespace AposFrontend {
         } else if (argCb == 0) {
             checked = false;
         } else {
-            //TODO: implement Logger
             logEvent("warning", "Something went wrong!");
             checked = false;
         }
         return checked;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::clearInputs(bool clearBool) {
         if (clearBool) {
@@ -160,105 +161,105 @@ namespace AposFrontend {
             ui->inInput3->clear();
             ui->inInput4->clear();
             ui->inInput5->clear();
-            //TODO: implement Logger
             logEvent("action", "cleared inputs");
         }
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::clearCommandBox(bool clearBool) {
         if (clearBool) {
             ui->inCommand->clear();
-            //TODO: implement Logger
             logEvent("action", "tried to clear command-line");
         }
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::initDbClicked() {
+        //! @BUG: When reopening the database crashes the application
         initDatabase();
-        //TODO: implement Logger
-        qDebug() << "Database initialized";
-        if(!ptrObjectHandler->initTableObject("userTable")){
-            //TODO: implement Logger
+        if (!ptrObjectHandler->initTableObject("userTable")) {
             logEvent("Error initiating table", ptrObjectHandler->getTableSqlError());
             return;
         }
-        //TODO: implement Logger
-        qDebug() << "TableHander initialized";
-        setModelViews(ptrObjectHandler->getPtrTableHandler()->getTableModel());
-        //TODO: implement Logger
-        qDebug() << "ModelViews set";
         enableButtons(true);
+        ptrLogger->log("status", "Database initiated");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    void DevWindow::closeDBClicked() {
+    void DevWindow::closeDbClicked() {
         setModelViews();
         closeDatabase(ptrObjectHandler->getPtrDbHandler());
         enableButtons(false);
+        ptrLogger->log("status", "Database closed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::executeClicked() {
         if (!ptrObjectHandler->getPtrDbHandler()->executeCommand(ui->inCommand->toPlainText())) {
-            //TODO: implement Logger
             logEvent("Error executing command", ptrObjectHandler->getPtrDbHandler()->getSqlError());
             clearCommandBox(clearCommand);
             return;
         }
         clearCommandBox(clearCommand);
-        //TODO: implement Logger
         logEvent("action", "Command executed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::selectTableClicked() {
         ptrObjectHandler->getPtrTableHandler()->generateTableModel();
-        //TODO: implement Logger
         logEvent("action", "Table selected");
         setModelViews(ptrObjectHandler->getPtrTableHandler()->getTableModel());
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::addValuesClicked() {
         assignInputs();
-        if (!ptrObjectHandler->getPtrTableHandler()->insertIntoTable(ptrObjectHandler->getActiveTableName(), input1, input2,
-                                                               input3,
-                                                               input4, input5)) {
-            //TODO: implement Logger
+        if (!ptrObjectHandler->getPtrTableHandler()->insertIntoTable(ptrObjectHandler->getActiveTableName(), input1,
+                                                                     input2,
+                                                                     input3,
+                                                                     input4, input5)) {
             logEvent("Insert Error", ptrObjectHandler->getTableSqlError());
             clearInputs(clearInput);
             return;
         }
         clearInputs(clearInput);
-        //TODO: implement Logger
         logEvent("action", "Values inserted");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::updateTableClicked() {
         ptrObjectHandler->getPtrTableHandler()->generateTableModel();
         setModelViews(ptrObjectHandler->getPtrTableHandler()->getTableModel());
-        //TODO: implement Logger
         logEvent("action", "Table view updated");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::clearCommandAfterExecuteStateChanged(int arg1) {
         clearCommand = checkCheckbox(arg1);
-        //TODO: implement Logger
         logEvent("status", "Command will clear after execute: " + QString(clearCommand ? "true" : "false"));
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::clearInputsAfterInsertStateChanged(int arg1) {
         clearInput = checkCheckbox(arg1);
-        //TODO: implement Logger
         logEvent("status", "Inputs will be cleared after execution: " + QString(clearInput ? "true" : "false"));
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::returnToLauncherClicked() {
+        ptrLogger->log("signal", "Return to launcher requested");
         emit returnToLauncher();
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::settingsClicked() {
+        ptrLogger->log("signal", "Open settings requested");
         emit openSettings();
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DevWindow::retranslateUi() {
         ui->retranslateUi(this);
+        ptrLogger->log("status", "DevWindow retranslated");
     }
-
 }

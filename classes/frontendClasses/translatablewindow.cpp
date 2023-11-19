@@ -12,6 +12,7 @@
  * @note The application is part of a student project and is not intended for commercial use.
  */
 #include "translatablewindow.hpp"
+
 namespace AposFrontend {
     //----------------------------------------------------------------------------------------------------------------//
     TranslatableWindow::TranslatableWindow() = default;

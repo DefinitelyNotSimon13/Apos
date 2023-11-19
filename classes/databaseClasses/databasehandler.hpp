@@ -22,6 +22,7 @@
 
 #include <QDebug>
 #include <QtSql>
+#include "../backendClasses/logger.hpp"
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace AposDatabase {
@@ -44,7 +45,7 @@ namespace AposDatabase {
          * @ingroup Constructructors-Destructors
          * @details This constructor initializes the DatabaseHandler object.
          */
-        DatabaseHandler();
+        explicit DatabaseHandler(QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Initializes the database.
@@ -85,6 +86,7 @@ namespace AposDatabase {
          * @return The SQL error.
          */
         [[nodiscard]] const QSqlError &getSqlError() const;
+
     private:
         /**
          * @brief The SQL error of the DatabaseHandler object.
@@ -106,6 +108,13 @@ namespace AposDatabase {
          * @details This shared pointer is used to access the active database of the DatabaseHandler object.
          */
         QSharedPointer<QSqlDatabase> ptrActiveDatabase;
+
+        /**
+         * @brief Shared pointer to the Logger object.
+         * @ingroup Variables
+         * @details This shared pointer is used to access the Logger object.
+         */
+        QSharedPointer<AposLogger::Logger> ptrLogger = nullptr;
 
         /**
          * @brief The path to the database.

@@ -22,6 +22,7 @@
 
 #include "../backendClasses/objecthandler.hpp"
 #include "translatablewindow.hpp"
+#include "../backendClasses/logger.hpp"
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace Ui {
@@ -44,6 +45,7 @@ namespace AposFrontend {
      */
     class LauncherWindow : public QMainWindow, public TranslatableWindow {
     Q_OBJECT
+
     public:
         /**
          * @brief Constructor for the LauncherWindow class.
@@ -52,17 +54,16 @@ namespace AposFrontend {
          * @param parent Pointer to the parent widget.
          * @param newObjectHandler Shared pointer to the ObjectHandler object.
          */
-        explicit LauncherWindow(QWidget *parent = nullptr,
-                                QSharedPointer<AposBackend::ObjectHandler> newObjectHandler = nullptr);
+        explicit LauncherWindow(QWidget *parent,
+                                QSharedPointer<AposBackend::ObjectHandler> newObjectHandler,
+                                QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Destructor for the LauncherWindow class.
          * @ingroup Constructructors-Destructors
          * @details This destructor cleans up the LauncherWindow object.
          */
-        ~LauncherWindow() override;
-
-        ;
+        ~LauncherWindow() override;;
 
         /**
          * @brief Retranslates the user interface.
@@ -70,7 +71,9 @@ namespace AposFrontend {
          * @details This function retranslates the user interface of the LauncherWindow object.
          */
         void retranslateUi() override;
+
     signals:
+
         /**
          * @brief Signal for opening the developer window.
          * @ingroup Signal-Funtions
@@ -84,7 +87,9 @@ namespace AposFrontend {
          * @details This signal is emitted when the user wants to open the settings.
          */
         void openSettings();
+
     private slots:
+
         /**
          * @brief Slot for the 'ShowDev' button click event.
          * @ingroup Slot-Functions
@@ -97,10 +102,15 @@ namespace AposFrontend {
          * @ingroup Slot-Functions
          * @details This slot is triggered when the 'PushButton' button is clicked.
          */
-        void pushButtonClicked();
+        void showSettingsClicked();
+
     private:
-        //TODO: Add documentation
-        bool launcherConnectUi();
+        /**
+         * @brief Connects the user interface.
+         * @ingroup Ui-Functions
+         * @details This function connects the user interface of the LauncherWindow object.
+         */
+        void launcherConnectUi();
 
         /**
          * @brief Pointer to the user interface of the LauncherWindow object.
@@ -115,5 +125,12 @@ namespace AposFrontend {
          * @details This shared pointer is used to access the ObjectHandler object.
          */
         QSharedPointer<AposBackend::ObjectHandler> objectHandler = nullptr;
+
+        /**
+         * @brief Shared pointer to the Logger object.
+         * @ingroup Variables
+         * @details This shared pointer is used to access the Logger object.
+         */
+        QSharedPointer<AposLogger::Logger> ptrLogger = nullptr;
     };
 }

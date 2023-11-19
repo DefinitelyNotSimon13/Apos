@@ -27,6 +27,7 @@
 #include "devwindow.hpp"
 #include "settingswindow.hpp"
 #include "../backendClasses/objecthandler.hpp"
+#include "../backendClasses/logger.hpp"
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace AposFrontend {
@@ -53,7 +54,8 @@ namespace AposFrontend {
          * @details This constructor initializes the WindowHandler object with an ObjectHandler object.
          * @param newObjectHandler Shared pointer to the ObjectHandler object.
          */
-        explicit WindowHandler(QSharedPointer<AposBackend::ObjectHandler> newObjectHandler);
+        explicit WindowHandler(QSharedPointer<AposBackend::ObjectHandler> newObjectHandler,
+                               QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Shows the launcher window.
@@ -61,7 +63,14 @@ namespace AposFrontend {
          * @details This function shows the launcher window of the application.
          */
         void showLaunchWindow();
+
+
+    public slots:
+
+        void handleAboutToQuit();
+
     private slots:
+
         /**
          * @brief Shows the developer window.
          * @ingroup Ui-Functions
@@ -82,6 +91,7 @@ namespace AposFrontend {
          * @details This slot is triggered when the user applies the settings.
          */
         void applySettings();
+
     private:
         /**
          * @brief Changes languages.
@@ -117,5 +127,12 @@ namespace AposFrontend {
          * @details This shared pointer is used to access the ObjectHandler object.
          */
         QSharedPointer<AposBackend::ObjectHandler> ptrObjectHandler;
+
+        /**
+         * @brief Shared pointer to the Logger object.
+         * @ingroup Variables
+         * @details This shared pointer is used to access the Logger object.
+         */
+        QSharedPointer<AposLogger::Logger> ptrLogger;
     };
 }

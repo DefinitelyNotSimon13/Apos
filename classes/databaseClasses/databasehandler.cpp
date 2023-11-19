@@ -21,39 +21,64 @@
 
 namespace AposDatabase {
     //----------------------------------------------------------------------------------------------------------------//
-    DatabaseHandler::DatabaseHandler() = default;
+    DatabaseHandler::DatabaseHandler(QSharedPointer<AposLogger::Logger> newLogger)
+            : ptrLogger(qMove(newLogger)) {
+        ptrLogger->log("init", "DatabaseHandler initialized");
+    }
+
     //----------------------------------------------------------------------------------------------------------------//
     bool DatabaseHandler::initDatabase() {
-
+        bool openedDatabase = true;
         activeDatabase = QSqlDatabase::addDatabase("QSQLITE", "db1");
         activeDatabase.setDatabaseName(databasePath);
-        ptrActiveDatabase = QSharedPointer<QSqlDatabase>(&activeDatabase);
-        return activeDatabase.open();
+
+        ptrActiveDatabase = QSharedPointer<QSqlDatabase>(nullptr);
+
+        ptrActiveDatabase = QSharedPointer<QSqlDatabase>(new QSqlDatabase(activeDatabase));
+
+        if (!activeDatabase.open()) {
+            ptrLogger->error("Failed to open database", "initDatabase()", "DatabaseHandler", "");
+            openedDatabase = false;
+        }
+        else{
+
+            ptrLogger->log("init", "Database initialized");
+        }
+
+        return openedDatabase;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void DatabaseHandler::closeDatabase() {
         activeDatabase.close();
         QSqlDatabase::removeDatabase("db1");
+        ptrLogger->log("status", "Database closed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     bool DatabaseHandler::executeCommand(const QString &command) {
         bool queryExecuted = false;
         QSqlQuery query(activeDatabase);
         if (!query.exec(command)) {
             lastSqlError = query.lastError();
-            qDebug() << lastSqlError.text();
+            ptrLogger->log("Error", lastSqlError.text(), "executeCommand()", "DatabaseHandler", "");
             queryExecuted = false;
         } else {
+            ptrLogger->log("status", "SQL command executed");
             queryExecuted = true;
         }
         return queryExecuted;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<QSqlDatabase> DatabaseHandler::getActiveDatabase() {
+        ptrLogger->log("status", "Active database requested");
         return ptrActiveDatabase;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     const QSqlError &DatabaseHandler::getSqlError() const {
+        ptrLogger->log("status", "SQL error requested");
         return lastSqlError;
     }
 }
