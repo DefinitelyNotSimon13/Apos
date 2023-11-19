@@ -27,6 +27,7 @@
 #include <QTranslator>
 
 #include "objecthandler.hpp"
+#include "Logger.hpp"
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace AposBackend {
@@ -51,10 +52,12 @@ namespace AposBackend {
         /**
          * @brief Constructor for the StartupHandler class.
          * @ingroup Constructructors-Destructors
-         * @details This constructor initializes the StartupHandler object with a QApplication object.
+         * @details This constructor initializes the StartupHandler object with a QApplication object and a Logger object.
          * @param application Shared pointer to the QApplication object.
+         * @param logger Shared pointer to the Logger object.
          */
-        explicit StartupHandler(const QSharedPointer<QApplication> &application);
+        explicit StartupHandler(const QSharedPointer<QApplication> &application,
+                                const QSharedPointer<AposLogger::Logger> &logger);
 
         /**
          * @brief Initializes the application's translator and ObjectHandler.
@@ -63,6 +66,7 @@ namespace AposBackend {
          * @return Shared pointer to the initialized ObjectHandler object.
          */
         QSharedPointer<ObjectHandler> startUp();
+
     private:
         /**
          * @brief Initializes the application's translator.
@@ -70,7 +74,7 @@ namespace AposBackend {
          * @details This function initializes the application's translator.
          * @return Shared pointer to the initialized QTranslator object.
          */
-        static QSharedPointer<QTranslator> initTranslator();
+        QSharedPointer<QTranslator> initTranslator();
 
         /**
          * @brief Installs the application's translator.
@@ -95,10 +99,11 @@ namespace AposBackend {
         QSharedPointer<QApplication> ptrApplication;
 
         /**
-         * @brief Shared pointer to the ObjectHandler object.
+         * @brief Shared pointer to the Logger object.
          * @ingroup Variables
-         * @details This shared pointer is used to access the ObjectHandler object.
+         * @details This shared pointer is used to access the Logger object.
          */
-        QSharedPointer<ObjectHandler> ptrObjectHandler;
+        QSharedPointer<AposLogger::Logger> ptrLogger;
+
     };
 }

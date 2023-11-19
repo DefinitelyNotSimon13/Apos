@@ -24,7 +24,7 @@
 <g id="a_Node000002"><a xlink:href="../../d8/d33/group___slot-_functions.html#gae146dd428f1022b7a3870f48d7ae7ed8" target="_top" xlink:title="Slot for the &#39;CloseDB&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="471,-182 338,-182 338,-150 471,-150 471,-182"/>
 <text text-anchor="start" x="346" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="404.5" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">::closeDBClicked</text>
+<text text-anchor="middle" x="404.5" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">::closeDbClicked</text>
 </a>
 </g>
 </g>

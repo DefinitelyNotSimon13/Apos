@@ -1,4 +1,4 @@
-<map id="AposFrontend::LauncherWindow::pushButtonClicked" name="AposFrontend::LauncherWindow::pushButtonClicked">
+<map id="AposFrontend::LauncherWindow::pushButtonClicked" name="AposFrontend::LauncherWindow::showSettingsClicked">
 <area shape="rect" id="Node000001" title="Slot for the &#39;PushButton&#39; button click event." alt="" coords="520,5,729,48"/>
 <area shape="rect" id="Node000002" href="$da/d2e/class_apos_frontend_1_1_launcher_window.html#ae1983d72ca64b6600ee8b0651fb412fc" title=" " alt="" coords="263,5,472,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="504,29,472,29,472,24,504,24"/>

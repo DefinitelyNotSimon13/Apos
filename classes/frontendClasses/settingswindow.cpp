@@ -24,21 +24,24 @@
 
 
 namespace AposFrontend {
-    SettingsWindow::SettingsWindow(QWidget *parent, QSharedPointer<AposBackend::ObjectHandler> newObjectHandler) :
-            QWidget(parent),
-            ui(new Ui::SettingsWindow) {
+    SettingsWindow::SettingsWindow(QWidget *parent, QSharedPointer<AposBackend::ObjectHandler> newObjectHandler,
+                                   QSharedPointer<AposLogger::Logger> newLogger)
+            : QWidget(parent),
+              ptrObjectHandler(qMove(newObjectHandler)),
+              ptrLogger(qMove(newLogger)),
+              ui(new Ui::SettingsWindow) {
         ui->setupUi(this);
-        ptrObjectHandler = std::move(newObjectHandler);
         ptrTranslator = QSharedPointer<QTranslator>(new QTranslator);
         settingsConnectUi();
+        ptrLogger->log("init", "SettingsWindow initialized and connected to UI");
     }
 
     SettingsWindow::~SettingsWindow() {
         delete ui;
+        ptrLogger->log("status", "SettingsWindow destroyed");
     }
 
     void SettingsWindow::settingsConnectUi() {
-        //TODO: implement Logger
         connect(ui->btnClose, SIGNAL(clicked()), this, SLOT(closeClicked()));
         connect(ui->btnApply, SIGNAL(clicked()), this, SLOT(applyClicked()));
         connect(ui->btnApplyAndClose, SIGNAL(clicked()), this, SLOT(applyAndCloseClicked()));
@@ -47,20 +50,23 @@ namespace AposFrontend {
 
     void SettingsWindow::retranslateUi() {
         ui->retranslateUi(this);
+        ptrLogger->log("status", "SettingsWindow retranslated");
     }
 
     void SettingsWindow::closeClicked() {
         this->hide();
+        ptrLogger->log("signal", "SettingsWindow hidden");
     }
 
 
     void SettingsWindow::applyClicked() {
         if (languageChanged) {
-            qDebug() << "New Language will be applied";
+            ptrLogger->log("signal", "New language will be applied!");
 
             languageIndex = tempLanguageIndex;
             installTranslator();
         }
+        ptrLogger->log("signal", "Settings applied sent");
         emit appliedSettings();
     }
 
@@ -72,42 +78,54 @@ namespace AposFrontend {
 
     void SettingsWindow::languageCurrentIndexChanged(int index) {
         tempLanguageIndex = index;
-        qDebug() << "checkboxIndex: " << index << "tempIndex: " << tempLanguageIndex << "index: " << languageIndex;
         if (tempLanguageIndex == languageIndex) {
-            qDebug() << "Language not changed";
             languageChanged = false;
             return;
         }
-        qDebug() << "Language changed";
+        ptrLogger->log("status", "Language index changed");
         languageChanged = true;
     }
 
     void SettingsWindow::installTranslator() {
-        qDebug() << "Language Index: " << languageIndex;
+        ptrLogger->log("status", "Language index: " + QString::number(languageIndex));
 
         QTranslator *translator = ptrTranslator.data();
-        if(ptrObjectHandler->getPtrApplication()->removeTranslator(translator)){
-            qDebug() << "removed translator";
-        }
-        else{
-            qDebug() << "could not remove translator";
+        if (ptrObjectHandler->getPtrApplication()->removeTranslator(translator)) {
+            ptrLogger->log("status", "Translator removed");
+        } else {
+            ptrLogger->log("error", "Translator not removed");
         }
         ptrTranslator = QSharedPointer<QTranslator>(new QTranslator);
         switch (languageIndex) {
             case 0:
-                (void)ptrTranslator->load(":/i18n/Apos-DatabaseManager_en_GB");
-                qDebug() << "tried to load english";
+                if (ptrTranslator->load(":/i18n/Apos-DatabaseManager_en_GB")) {
+                    ptrLogger->log("status", "loaded english");
+                } else {
+                    ptrLogger->log("error", "couldn't load english");
+                }
                 translator = ptrTranslator.data();
-                (void)ptrObjectHandler->getPtrApplication()->installTranslator(translator);
+                if (ptrObjectHandler->getPtrApplication()->installTranslator(translator)) {
+                    ptrLogger->log("status", "Translator installed");
+                } else {
+                    ptrLogger->log("error", "Translator not installed");
+                }
                 break;
             case 1:
-                (void)ptrTranslator->load(":/i18n/Apos-DatabaseManager_de_DE");
+                if (ptrTranslator->load(":/i18n/Apos-DatabaseManager_de_DE")) {
+                    ptrLogger->log("status", "loaded german");
+                } else {
+                    ptrLogger->log("error", "couldn't load german");
+                }
                 qDebug() << "tried to load german";
                 translator = ptrTranslator.data();
-                (void)ptrObjectHandler->getPtrApplication()->installTranslator(translator);
+                if (ptrObjectHandler->getPtrApplication()->installTranslator(translator)) {
+                    ptrLogger->log("status", "Translator installed");
+                } else {
+                    ptrLogger->log("error", "Translator not installed");
+                }
                 break;
             default:
-                qDebug() << "no language selected";
+                ptrLogger->log("error", "Language index not found");
                 break;
         }
     }

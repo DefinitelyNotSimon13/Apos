@@ -1,0 +1,117 @@
+Log |Sun Nov 19 21:32:35 2023 - AposLog file initialized | 0ms
+init |Sun Nov 19 21:32:35 2023 - AposLog | QApplication initialized | in function: main() | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 17ms
+init |Sun Nov 19 21:32:35 2023 - AposLog | StartupHandler initialized | in function: main() | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 17ms
+init |Sun Nov 19 21:32:35 2023 - AposLog | ObjectHandler initialized | in function: main() | 17ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 27ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 34ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 34ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | init | 34ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | status | 34ms
+Log |Sun Nov 19 21:32:35 2023 - AposLog | status | 73ms
+Log |Sun Nov 19 21:32:36 2023 - AposLog | signal | 1693ms
+Log |Sun Nov 19 21:32:36 2023 - AposLog | status | 1698ms
+Log |Sun Nov 19 21:32:36 2023 - AposLog | init | 1698ms
+Log |Sun Nov 19 21:32:36 2023 - AposLog | init | 1704ms
+Log |Sun Nov 19 21:32:36 2023 - AposLog | init | 1704ms
+Log |Sun Nov 19 21:32:36 2023 - AposLog | status | 1726ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | init | 2572ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | init | 2572ms
+action |Sun Nov 19 21:32:37 2023 - AposLog | Database initiated | 2572ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2572ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2572ms
+action |Sun Nov 19 21:32:37 2023 - AposLog | C:\Users\Clean\Documents\Projekte\Apos-DatabaseManager\Project\resources\defaultDatabase\userDatabase.db opened | 2573ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2573ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2573ms
+status |Sun Nov 19 21:32:37 2023 - AposLog | Database open | 2573ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2573ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2573ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2573ms
+action |Sun Nov 19 21:32:37 2023 - AposLog | Buttons enabled/disabled | 2574ms
+Log |Sun Nov 19 21:32:37 2023 - AposLog | status | 2574ms
+action |Sun Nov 19 21:32:38 2023 - AposLog | ModelViews cleared | 3067ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3068ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3068ms
+action |Sun Nov 19 21:32:38 2023 - AposLog | Database closed | 3068ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3068ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3068ms
+status |Sun Nov 19 21:32:38 2023 - AposLog | Database closed | 3068ms
+action |Sun Nov 19 21:32:38 2023 - AposLog | Buttons enabled/disabled | 3069ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3069ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | init | 3622ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | init | 3622ms
+action |Sun Nov 19 21:32:38 2023 - AposLog | Database initiated | 3622ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3622ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3622ms
+action |Sun Nov 19 21:32:38 2023 - AposLog | C:\Users\Clean\Documents\Projekte\Apos-DatabaseManager\Project\resources\defaultDatabase\userDatabase.db opened | 3623ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3623ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3624ms
+status |Sun Nov 19 21:32:38 2023 - AposLog | Database open | 3624ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3624ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3624ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3624ms
+action |Sun Nov 19 21:32:38 2023 - AposLog | Buttons enabled/disabled | 3625ms
+Log |Sun Nov 19 21:32:38 2023 - AposLog | status | 3625ms
+action |Sun Nov 19 21:32:39 2023 - AposLog | ModelViews cleared | 4092ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4093ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4093ms
+action |Sun Nov 19 21:32:39 2023 - AposLog | Database closed | 4093ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4093ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4093ms
+status |Sun Nov 19 21:32:39 2023 - AposLog | Database closed | 4093ms
+action |Sun Nov 19 21:32:39 2023 - AposLog | Buttons enabled/disabled | 4094ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4094ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | init | 4517ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | init | 4518ms
+action |Sun Nov 19 21:32:39 2023 - AposLog | Database initiated | 4518ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4518ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4518ms
+action |Sun Nov 19 21:32:39 2023 - AposLog | C:\Users\Clean\Documents\Projekte\Apos-DatabaseManager\Project\resources\defaultDatabase\userDatabase.db opened | 4518ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4518ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4518ms
+status |Sun Nov 19 21:32:39 2023 - AposLog | Database open | 4518ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4518ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4518ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4519ms
+action |Sun Nov 19 21:32:39 2023 - AposLog | Buttons enabled/disabled | 4519ms
+Log |Sun Nov 19 21:32:39 2023 - AposLog | status | 4519ms
+action |Sun Nov 19 21:32:40 2023 - AposLog | ModelViews cleared | 5478ms
+Log |Sun Nov 19 21:32:40 2023 - AposLog | status | 5478ms
+Log |Sun Nov 19 21:32:40 2023 - AposLog | status | 5478ms
+action |Sun Nov 19 21:32:40 2023 - AposLog | Database closed | 5478ms
+Log |Sun Nov 19 21:32:40 2023 - AposLog | status | 5478ms
+Log |Sun Nov 19 21:32:40 2023 - AposLog | status | 5478ms
+status |Sun Nov 19 21:32:40 2023 - AposLog | Database closed | 5478ms
+action |Sun Nov 19 21:32:40 2023 - AposLog | Buttons enabled/disabled | 5479ms
+Log |Sun Nov 19 21:32:40 2023 - AposLog | status | 5479ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | init | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | init | 6069ms
+action |Sun Nov 19 21:32:41 2023 - AposLog | Database initiated | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6069ms
+action |Sun Nov 19 21:32:41 2023 - AposLog | C:\Users\Clean\Documents\Projekte\Apos-DatabaseManager\Project\resources\defaultDatabase\userDatabase.db opened | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6069ms
+status |Sun Nov 19 21:32:41 2023 - AposLog | Database open | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6069ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6070ms
+action |Sun Nov 19 21:32:41 2023 - AposLog | Buttons enabled/disabled | 6071ms
+Log |Sun Nov 19 21:32:41 2023 - AposLog | status | 6071ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | closing | 7027ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | closing | 7027ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | closing | 7029ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | closing | 7029ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | closing | 7029ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | status | 7029ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | status | 7030ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | status | 7030ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog | status | 7030ms
+Log |Sun Nov 19 21:32:42 2023 - AposLogger beeing destroyed | 7040ms
+Log |Sun Nov 19 21:32:42 2023 - AposLog closing | 7040ms

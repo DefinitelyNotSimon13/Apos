@@ -27,6 +27,7 @@
 #include <QtSql>
 
 #include "databasehandler.hpp"
+#include "../backendClasses/logger.hpp"
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace AposDatabase {
@@ -53,7 +54,7 @@ namespace AposDatabase {
          * @details This constructor initializes the TableHandler object with a DatabaseHandler object.
          * @param newDbHandler Shared pointer to the DatabaseHandler object.
          */
-        explicit TableHandler(QSharedPointer<DatabaseHandler> newDbHandler);
+        TableHandler(QSharedPointer<DatabaseHandler> newDbHandler, QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Constructor for the TableHandler class.
@@ -62,7 +63,9 @@ namespace AposDatabase {
          * @param newDbHandler Shared pointer to the DatabaseHandler object.
          * @param tableName The name of the table.
          */
-        TableHandler(QSharedPointer<DatabaseHandler> newDbHandler, const QString &tableName);
+        TableHandler(QSharedPointer<DatabaseHandler> newDbHandler,
+                     const QString &tableName,
+                     QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Destructor for the TableHandler class.
@@ -132,6 +135,7 @@ namespace AposDatabase {
          * @return The last table error.
          */
         [[nodiscard]] const QSqlError &getLastTableError() const;
+
     private:
         /**
          * @brief The active table name of the TableHandler object.
@@ -153,6 +157,13 @@ namespace AposDatabase {
          * @details This shared pointer is used to access the QSqlTableModel object.
          */
         QSharedPointer<QSqlTableModel> ptrTableModel;
+
+        /**
+         * @brief Shared pointer to the Logger object.
+         * @ingroup Variables
+         * @details This shared pointer is used to access the Logger object.
+         */
+        QSharedPointer<AposLogger::Logger> ptrLogger;
 
         /**
          * @brief The last table error of the TableHandler object.

@@ -93,7 +93,7 @@
 \indexentry{Slot Functions@{Slot Functions}!closeClicked@{closeClicked}|hyperpage}{37}
 \indexentry{closeClicked@{closeClicked}!Slot Functions@{Slot Functions}|hyperpage}{37}
 \indexentry{Slot Functions@{Slot Functions}!closeDBClicked@{closeDBClicked}|hyperpage}{37}
-\indexentry{closeDBClicked@{closeDBClicked}!Slot Functions@{Slot Functions}|hyperpage}{37}
+\indexentry{closeDBClicked@{closeDbClicked}!Slot Functions@{Slot Functions}|hyperpage}{37}
 \indexentry{Slot Functions@{Slot Functions}!executeClicked@{executeClicked}|hyperpage}{38}
 \indexentry{executeClicked@{executeClicked}!Slot Functions@{Slot Functions}|hyperpage}{38}
 \indexentry{Slot Functions@{Slot Functions}!initDbClicked@{initDbClicked}|hyperpage}{38}
@@ -101,7 +101,7 @@
 \indexentry{Slot Functions@{Slot Functions}!languageCurrentIndexChanged@{languageCurrentIndexChanged}|hyperpage}{39}
 \indexentry{languageCurrentIndexChanged@{languageCurrentIndexChanged}!Slot Functions@{Slot Functions}|hyperpage}{39}
 \indexentry{Slot Functions@{Slot Functions}!pushButtonClicked@{pushButtonClicked}|hyperpage}{39}
-\indexentry{pushButtonClicked@{pushButtonClicked}!Slot Functions@{Slot Functions}|hyperpage}{39}
+\indexentry{pushButtonClicked@{showSettingsClicked}!Slot Functions@{Slot Functions}|hyperpage}{39}
 \indexentry{Slot Functions@{Slot Functions}!returnToLauncherClicked@{returnToLauncherClicked}|hyperpage}{40}
 \indexentry{returnToLauncherClicked@{returnToLauncherClicked}!Slot Functions@{Slot Functions}|hyperpage}{40}
 \indexentry{Slot Functions@{Slot Functions}!selectTableClicked@{selectTableClicked}|hyperpage}{41}

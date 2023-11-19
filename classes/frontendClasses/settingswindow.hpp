@@ -22,9 +22,11 @@
 
 #include <QWidget>
 #include <QDebug>
+#include <QTranslator>
 #include "../backendClasses/objecthandler.hpp"
 #include "translatablewindow.hpp"
-#include <QTranslator>
+#include "../backendClasses/logger.hpp"
+
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace Ui {
@@ -48,6 +50,7 @@ namespace AposFrontend {
      */
     class SettingsWindow : public QWidget, public TranslatableWindow {
     Q_OBJECT
+
     public:
         /**
          * @brief Constructor for the SettingsWindow class.
@@ -56,8 +59,9 @@ namespace AposFrontend {
          * @param parent Pointer to the parent widget.
          * @param newObjectHandler Shared pointer to the ObjectHandler object.
          */
-        explicit SettingsWindow(QWidget *parent = nullptr,
-                                QSharedPointer<AposBackend::ObjectHandler> newObjectHandler = nullptr);
+        explicit SettingsWindow(QWidget *parent,
+                                QSharedPointer<AposBackend::ObjectHandler> newObjectHandler,
+                                QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Destructor for the SettingsWindow class.
@@ -72,14 +76,18 @@ namespace AposFrontend {
          * @details This function retranslates the user interface of the SettingsWindow object.
          */
         void retranslateUi() override;
+
     signals:
+
         /**
          * @brief Signal for applying settings.
          * @ingroup Signal-Funtions
          * @details This signal is emitted when the user applies the settings.
          */
         void appliedSettings();
+
     private slots:
+
         /**
          * @brief Slot for the 'Close' button click event.
          * @ingroup Slot-Functions
@@ -94,7 +102,11 @@ namespace AposFrontend {
          */
         void applyClicked();
 
-        //TODO: add Documentation
+        /**
+         * @brief Slot for the 'Apply and Close' button click event.
+         * @ingroup Slot-Functions
+         * @details This slot is triggered when the 'Apply and Close' button is clicked.
+         */
         void applyAndCloseClicked();
 
         /**
@@ -104,8 +116,13 @@ namespace AposFrontend {
          * @param index The new index of the combo box.
          */
         void languageCurrentIndexChanged(int index);
+
     private:
-        //TODO: add Documentation
+        /**
+         * @brief Connects the user interface.
+         * @ingroup Ui-Functions
+         * @details This function connects the user interface of the SettingsWindow object.
+         */
         void settingsConnectUi();
 
         /**
@@ -127,14 +144,21 @@ namespace AposFrontend {
          * @ingroup Variables
          * @details This shared pointer is used to access the ObjectHandler object.
          */
-        QSharedPointer<AposBackend::ObjectHandler> ptrObjectHandler;
+        QSharedPointer<AposBackend::ObjectHandler> ptrObjectHandler = nullptr;
 
         /**
          * @brief Shared pointer to the QTranslator object.
          * @ingroup Variables
          * @details This shared pointer is used to access the QTranslator object.
          */
-        QSharedPointer<QTranslator> ptrTranslator;
+        QSharedPointer<QTranslator> ptrTranslator = nullptr;
+
+        /**
+         * @brief Shared pointer to the Logger object.
+         * @ingroup Variables
+         * @details This shared pointer is used to access the Logger object.
+         */
+        QSharedPointer<AposLogger::Logger> ptrLogger = nullptr;
 
         /**
          * @brief The index of the selected language.

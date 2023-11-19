@@ -89,11 +89,11 @@
 \contentsline {subsubsection}{\numberline {8.6.2.3}clearCommandAfterExecuteStateChanged}{35}{subsubsection.8.6.2.3}%
 \contentsline {subsubsection}{\numberline {8.6.2.4}clearInputsAfterInsertStateChanged}{36}{subsubsection.8.6.2.4}%
 \contentsline {subsubsection}{\numberline {8.6.2.5}closeClicked}{37}{subsubsection.8.6.2.5}%
-\contentsline {subsubsection}{\numberline {8.6.2.6}closeDBClicked}{37}{subsubsection.8.6.2.6}%
+\contentsline {subsubsection}{\numberline {8.6.2.6}closeDbClicked}{37}{subsubsection.8.6.2.6}%
 \contentsline {subsubsection}{\numberline {8.6.2.7}executeClicked}{38}{subsubsection.8.6.2.7}%
 \contentsline {subsubsection}{\numberline {8.6.2.8}initDbClicked}{38}{subsubsection.8.6.2.8}%
 \contentsline {subsubsection}{\numberline {8.6.2.9}languageCurrentIndexChanged}{39}{subsubsection.8.6.2.9}%
-\contentsline {subsubsection}{\numberline {8.6.2.10}pushButtonClicked}{40}{subsubsection.8.6.2.10}%
+\contentsline {subsubsection}{\numberline {8.6.2.10}showSettingsClicked}{40}{subsubsection.8.6.2.10}%
 \contentsline {subsubsection}{\numberline {8.6.2.11}returnToLauncherClicked}{40}{subsubsection.8.6.2.11}%
 \contentsline {subsubsection}{\numberline {8.6.2.12}selectTableClicked}{41}{subsubsection.8.6.2.12}%
 \contentsline {subsubsection}{\numberline {8.6.2.13}settingsClicked}{42}{subsubsection.8.6.2.13}%

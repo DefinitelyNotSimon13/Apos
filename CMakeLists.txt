@@ -31,6 +31,8 @@ set(BACKEND_CLASSES
         classes/backendClasses/startuphandler.cpp
         classes/databaseClasses/databasehandler.cpp
         classes/databaseClasses/tablehandler.cpp
+        classes/backendClasses/Logger.cpp
+        classes/backendClasses/Logger.hpp
 )
 
 # Set the source files for the frontend classes
@@ -48,6 +50,8 @@ set(BACKEND_HEADERS
         classes/backendClasses/startuphandler.hpp
         classes/databaseClasses/databasehandler.hpp
         classes/databaseClasses/tablehandler.hpp
+        classes/backendClasses/Logger.cpp
+        classes/backendClasses/Logger.hpp
 )
 
 # Set the header files for the frontend classes

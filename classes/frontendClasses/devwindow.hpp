@@ -27,6 +27,7 @@
 
 #include "../backendClasses/objecthandler.hpp"
 #include "translatablewindow.hpp"
+#include "../backendClasses/logger.hpp"
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace Ui { class DevWindow; }
@@ -48,6 +49,7 @@ namespace AposFrontend {
      */
     class DevWindow : public QMainWindow, public TranslatableWindow {
     Q_OBJECT
+
     public:
         /**
          * @brief Constructor for the DevWindow class.
@@ -59,7 +61,9 @@ namespace AposFrontend {
          * @param parent Pointer to the parent widget.
          * @param objectHandler Shared pointer to the ObjectHandler object.
          */
-        explicit DevWindow(QWidget *parent = nullptr, QSharedPointer<AposBackend::ObjectHandler> objectHandler = nullptr);
+        explicit DevWindow(QWidget *parent,
+                           QSharedPointer<AposBackend::ObjectHandler> objectHandler,
+                           QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Destructor for the DevWindow class.
@@ -70,9 +74,6 @@ namespace AposFrontend {
          */
         ~DevWindow() override;
 
-
-
-        //TODO: Replace with logging class
         /**
          * @brief Logs an event with a type and a message.
          *
@@ -115,7 +116,9 @@ namespace AposFrontend {
          * This function retranslates the user interface of the DevWindow object.
          */
         void retranslateUi() override;
+
     signals:
+
         /**
          * @brief Signal for returning to the launcher.
          * @ingroup Signal-Funtions
@@ -132,7 +135,9 @@ namespace AposFrontend {
          * This signal is emitted when the user wants to open the settings.
          */
         void openSettings();
+
     private slots:
+
         /**
          * @brief Slot for the 'InitDB' button click event.
          * @ingroup Slot-Functions
@@ -149,7 +154,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'CloseDB' button is clicked.
          */
-        void closeDBClicked();
+        void closeDbClicked();
 
         /**
          * @brief Slot for the 'Execute' button click event.
@@ -228,8 +233,15 @@ namespace AposFrontend {
         void settingsClicked();
 
     private:
-        //TODO: Add documentation
-        bool devConnectUi();
+
+        /**
+         * @brief Connects the user interface signals and slots.
+         * @ingroup Ui-Functions
+         *
+         * @details This function is responsible for connecting the user interface signals to their corresponding slots.
+         * It should be called after the user interface has been set up, typically in the constructor of the class.
+         */
+        void devConnectUi();
 
         /**
          * @brief Initializes the database.
@@ -269,7 +281,7 @@ namespace AposFrontend {
          *
          * @param tableModel Shared pointer to the QSqlTableModel object.
          */
-        void setModelViews(const QSharedPointer<QSqlTableModel>& tableModel);
+        void setModelViews(const QSharedPointer<QSqlTableModel> &tableModel);
 
         /**
          * @brief Enables or disables the buttons.
@@ -342,6 +354,15 @@ namespace AposFrontend {
          * This shared pointer is used to access the ObjectHandler object.
          */
         QSharedPointer<AposBackend::ObjectHandler> ptrObjectHandler = nullptr;
+
+        /**
+         * @brief Shared pointer to the Logger object.
+         * @ingroup Variables
+         *
+         * @details
+         * This shared pointer is used to access the Logger object.
+         */
+        QSharedPointer<AposLogger::Logger> ptrLogger = nullptr;
 
         /**
          * @brief String values for the inputs.

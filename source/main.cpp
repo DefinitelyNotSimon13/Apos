@@ -39,6 +39,7 @@
 // Local includes --------------------------------------------------------------------------------------------------- //
 #include "../classes/backendClasses/startuphandler.hpp" /**< Include the StartupHandler class */
 #include "../classes/frontendClasses/windowhandler.hpp" /**< Include the WindowHandler class */
+#include "../classes/backendClasses/logger.hpp" /**< Include the Logger class */
 // System includes -------------------------------------------------------------------------------------------------- //
 #include <QApplication> /**< Include the QApplication class */
 #include <QDebug> /**< Include the QDebug class for debugging */
@@ -54,7 +55,9 @@ namespace AppInitialization {
      * @return Shared pointer to the initialized StartupHandler object
      * @throws std::runtime_error if the QApplication pointer is null.
      */
-    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication>& newApp);
+    QSharedPointer<AposBackend::StartupHandler>
+    initializeStartupHandler(const QSharedPointer<QApplication> &newApp,
+                             const QSharedPointer<AposLogger::Logger> &newLogger);
 
     /**
      * @brief Initialize the ObjectHandler object
@@ -63,11 +66,12 @@ namespace AppInitialization {
      * then uses the StartupHandler object to initialize and return the ObjectHandler object.
      *
      * @param startupHandler Pointer to the StartupHandler object. This is used to initialize the ObjectHandler object.
+     * @param logger Pointer to the Logger object. This is used to initialize the ObjectHandler object.
      * @return Unique pointer to the initialized ObjectHandler object
      * @throws std::runtime_error if the QApplication pointer is null or if the ObjectHandler fails to initialize.
      */
     QSharedPointer<AposBackend::ObjectHandler> initializeObjectHandler(
-            const QSharedPointer<AposBackend::StartupHandler>& startupHandler);
+            const QSharedPointer<AposBackend::StartupHandler> &startupHandler);
 // ------------------------------------------------------------------------------------------------------------------ //
     /**
      * @brief Initialize the WindowHandler object
@@ -81,7 +85,8 @@ namespace AppInitialization {
      *                            the WindowHandler object fails to initialize.
      */
     QSharedPointer<AposFrontend::WindowHandler>
-    initializeWindowHandler(const QSharedPointer<AposBackend::ObjectHandler>& objectHandler);
+    initializeWindowHandler(const QSharedPointer<AposBackend::ObjectHandler> &objectHandler,
+                            const QSharedPointer<AposLogger::Logger> &newLogger);
 }
 // Implementation of functions -------------------------------------------------------------------------------------- //
 /**
@@ -97,38 +102,69 @@ namespace AppInitialization {
  */
 int main(int argc, char *argv[]) { // NOLINT(clion-misra-cpp2008-3-1-3, clion-misra-cpp2008-7-3-1)
     int returnStatus = -1; // Initialize return status to -1 (error state)
+    QSharedPointer<AposLogger::Logger> ptrLogger(new AposLogger::Logger());
+
     try {
         QSharedPointer<QApplication> application(new QApplication(argc, argv));
-        qDebug() << "Application Object initialized";
+        if (application == nullptr) {
+            ptrLogger->error("Failed to initialize QApplication", "main()", "main", "");
+        }
+        ptrLogger->log("init", "QApplication initialized", "main()");
 
         QSharedPointer<AposBackend::StartupHandler>
-                startupHandler = AppInitialization::initializeStartupHandler(application);
+                startupHandler = AppInitialization::initializeStartupHandler(application, ptrLogger);
+        if (startupHandler == nullptr) {
+            ptrLogger->error("Failed to initialize StartupHandler", "main()", "main", "");
+        }
+        ptrLogger->log("init", "StartupHandler initialized", "main()");
+
         QSharedPointer<AposBackend::ObjectHandler>
                 objectHandler = AppInitialization::initializeObjectHandler(startupHandler);
-        QSharedPointer<AposFrontend::WindowHandler> windowHandler = AppInitialization::initializeWindowHandler(
-                objectHandler);
+        if (objectHandler == nullptr) {
+            ptrLogger->error("Failed to initialize ObjectHandler", "main()", "main", "");
+        }
+        ptrLogger->log("init", "ObjectHandler initialized", "main()");
 
+        QSharedPointer<AposFrontend::WindowHandler> windowHandler = AppInitialization::initializeWindowHandler(
+                objectHandler, ptrLogger);
+        if (windowHandler == nullptr) {
+            ptrLogger->error("Failed to initialize WindowHandler", "main()", "main", "");
+        }
+        ptrLogger->log("init", "WindowHandler initialized");
+
+        QObject::connect(application.data(), &QApplication::aboutToQuit, windowHandler.data(),
+                         &AposFrontend::WindowHandler::handleAboutToQuit);
+
+
+        ptrLogger->log("status", "Startup complete");
+        windowHandler->showLaunchWindow();
         returnStatus = QApplication::exec(); // Update return status
-    } catch (const std::exception &e) {
-        qDebug() << "Exception caught in main: " << e.what();
+
+    } catch (const QException &e) {
+        ptrLogger->log("caught exception", e.what());
+        ptrLogger->log("hint", "One or more objects failed to initialize properly");
+        ptrLogger->log("hint", "Application will now exit");
     }
     return returnStatus; // Single point of exit
 }
 // ------------------------------------------------------------------------------------------------------------------ //
 namespace AppInitialization {
     //----------------------------------------------------------------------------------------------------------------//
-    QSharedPointer<AposBackend::StartupHandler> initializeStartupHandler(const QSharedPointer<QApplication>& newApp) {
+    QSharedPointer<AposBackend::StartupHandler>
+    initializeStartupHandler(const QSharedPointer<QApplication> &newApp,
+                             const QSharedPointer<AposLogger::Logger> &newLogger) {
         if (newApp == nullptr) {
-            throw std::runtime_error("QApplication pointer is null");
+            newLogger->error("QApplication pointer is null", "initializeStartupHandler()", "AppInitialization", "");
         }
 
-        QSharedPointer<AposBackend::StartupHandler> startupHandler(new AposBackend::StartupHandler(newApp));
+        QSharedPointer<AposBackend::StartupHandler> startupHandler(new AposBackend::StartupHandler(newApp, newLogger));
         qDebug() << "StartupHandler Object initialized";
         return startupHandler;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<AposBackend::ObjectHandler>
-    initializeObjectHandler(const QSharedPointer<AposBackend::StartupHandler>& startupHandler) {
+    initializeObjectHandler(const QSharedPointer<AposBackend::StartupHandler> &startupHandler) {
 
         QSharedPointer<AposBackend::ObjectHandler> objectHandler(startupHandler->startUp());
         if (objectHandler == nullptr) {
@@ -138,16 +174,18 @@ namespace AppInitialization {
 
         return objectHandler;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<AposFrontend::WindowHandler>
-    initializeWindowHandler(const QSharedPointer<AposBackend::ObjectHandler>& objectHandler) {
+    initializeWindowHandler(const QSharedPointer<AposBackend::ObjectHandler> &objectHandler,
+                            const QSharedPointer<AposLogger::Logger> &newLogger) {
         if (objectHandler == nullptr) {
             throw std::runtime_error("ObjectHandler pointer is null");
         }
 
-        QSharedPointer<AposFrontend::WindowHandler> windowHandler(new AposFrontend::WindowHandler(objectHandler));
-        windowHandler->showLaunchWindow();
-        qDebug() << "After DevWindow Show";
+        QSharedPointer<AposFrontend::WindowHandler> windowHandler(
+                new AposFrontend::WindowHandler(objectHandler, newLogger));
+
 
         return windowHandler;
     }

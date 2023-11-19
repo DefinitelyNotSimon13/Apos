@@ -102,7 +102,7 @@
 <g id="a_Node000010"><a xlink:href="../../d8/d33/group___slot-_functions.html#gae146dd428f1022b7a3870f48d7ae7ed8" target="_top" xlink:title="Slot for the &#39;CloseDB&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="487.88,-283 354.88,-283 354.88,-251 487.88,-251 487.88,-283"/>
 <text text-anchor="start" x="362.88" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="421.38" y="-257.5" font-family="Helvetica,sans-Serif" font-size="10.00">::closeDBClicked</text>
+<text text-anchor="middle" x="421.38" y="-257.5" font-family="Helvetica,sans-Serif" font-size="10.00">::closeDbClicked</text>
 </a>
 </g>
 </g>

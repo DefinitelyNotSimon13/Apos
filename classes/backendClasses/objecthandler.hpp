@@ -28,6 +28,7 @@
 
 #include "../databaseClasses/databasehandler.hpp"
 #include "../databaseClasses/tablehandler.hpp"
+#include "logger.hpp"
 
 //--------------------------------------------------------------------------------------------------------------------//
 namespace AposBackend {
@@ -54,10 +55,12 @@ namespace AposBackend {
          * @param newApplication Shared pointer to the QApplication object.
          * @param newDbHandler Shared pointer to the DatabaseHandler object.
          * @param newTableHandler Shared pointer to the TableHandler object.
+         * @param newLogger Shared pointer to the Logger object.
          */
         ObjectHandler(QSharedPointer<QApplication> newApplication,
                       QSharedPointer<AposDatabase::DatabaseHandler> newDbHandler,
-                      QSharedPointer<AposDatabase::TableHandler> newTableHandler);
+                      QSharedPointer<AposDatabase::TableHandler> newTableHandler,
+                      QSharedPointer<AposLogger::Logger> newLogger);
 
         /**
          * @brief Initializes the database object.
@@ -131,6 +134,7 @@ namespace AposBackend {
          * @return Shared pointer to the QApplication object.
          */
         [[nodiscard]] const QSharedPointer<QApplication> &getPtrApplication() const;
+
     private:
         /**
          * @brief Shared pointer to the QApplication object.
@@ -152,5 +156,12 @@ namespace AposBackend {
          * @details This shared pointer is used to access the TableHandler object.
          */
         QSharedPointer<AposDatabase::TableHandler> ptrTableHandler;
+
+        /**
+         * @brief Shared pointer to the Logger object.
+         * @ingroup Variables
+         * @details This shared pointer is used to access the Logger object.
+         */
+        QSharedPointer<AposLogger::Logger> ptrLogger;
     };
 }

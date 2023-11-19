@@ -23,35 +23,44 @@
 
 namespace AposFrontend {
     //----------------------------------------------------------------------------------------------------------------//
-    LauncherWindow::LauncherWindow(QWidget *parent, QSharedPointer<AposBackend::ObjectHandler> newObjectHandler) :
+    LauncherWindow::LauncherWindow(QWidget *parent, QSharedPointer<AposBackend::ObjectHandler> newObjectHandler,
+                                   QSharedPointer<AposLogger::Logger> newLogger) :
             QMainWindow(parent),
-            ui(new Ui::LauncherWindow) {
+            ui(new Ui::LauncherWindow),
+            ptrLogger(qMove(newLogger)) {
         ui->setupUi(this);
         objectHandler = std::move(newObjectHandler);
-        //TODO: implement Logger
         launcherConnectUi();
+        ptrLogger->log("init", "LauncherWindow initialized");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     LauncherWindow::~LauncherWindow() {
         delete ui;
+        ptrLogger->log("status", "LauncherWindow destroyed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    bool LauncherWindow::launcherConnectUi(){
-        //TODO: implement Logger
+    void LauncherWindow::launcherConnectUi() {
         connect(ui->btnShowDev, SIGNAL(clicked()), this, SLOT(showDevClicked()));
-        //TODO: implement Logger
-        connect(ui->btnSettings, SIGNAL(clicked()), this, SLOT(pushButtonClicked()));
-        return true;
+        connect(ui->btnSettings, SIGNAL(clicked()), this, SLOT(showSettingsClicked()));
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void LauncherWindow::showDevClicked() {
+        ptrLogger->log("signal", "Dev window requested");
         emit openDevWindow();
     }
+
     //----------------------------------------------------------------------------------------------------------------//
-    void LauncherWindow::pushButtonClicked() {
+    void LauncherWindow::showSettingsClicked() {
+        ptrLogger->log("signal", "Settings window requested");
         emit openSettings();
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void LauncherWindow::retranslateUi() {
+        ui->retranslateUi(this);
+        ptrLogger->log("status", "LauncherWindow retranslated");
     }
 }

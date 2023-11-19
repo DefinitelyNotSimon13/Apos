@@ -23,30 +23,39 @@
 
 namespace AposBackend {
     //----------------------------------------------------------------------------------------------------------------//
-    StartupHandler::StartupHandler(const QSharedPointer<QApplication> &application) {
-        if (application == nullptr) {
-            throw std::runtime_error("QApplication pointer is null");
+    StartupHandler::StartupHandler(const QSharedPointer<QApplication> &application,
+                                   const QSharedPointer<AposLogger::Logger> &logger) {
+        if (application == nullptr || logger == nullptr) {
+            throw QException();
         }
         this->ptrApplication = application;
+        this->ptrLogger = logger;
+        ptrLogger->log("init", "StartupHandler initialized");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<ObjectHandler> StartupHandler::startUp() {
+        QSharedPointer<ObjectHandler> ptrObjectHandler = nullptr;
         try {
             installTranslator();
             ptrObjectHandler = initObjectHandler();
-        } catch (const std::exception &e) {
-            qDebug() << "Exception caught in StartupHandler::startUp: " << e.what();
+        } catch (const QException &e) {
+            ptrLogger->log("caught exception", e.what());
             ptrObjectHandler = nullptr;
         }
+        ptrLogger->log("init", "StartupHandler finished, returning ObjectHandler");
         return ptrObjectHandler;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     void StartupHandler::installTranslator() {
         QSharedPointer<QTranslator> translator = initTranslator();
-        if (ptrApplication->installTranslator(translator.data())) {
-            qDebug() << "Translator installed";
+        if (!ptrApplication->installTranslator(translator.data())) {
+            ptrLogger->error("Failed to install translator", "installTranslator()", "StartupHandler", "");
         }
+        ptrLogger->log("init", "Translator installed");
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<QTranslator> StartupHandler::initTranslator() {
         QSharedPointer<QTranslator> translator(new QTranslator());
@@ -58,18 +67,19 @@ namespace AposBackend {
             }
         }
         if (translator->isEmpty()) {
-            throw std::runtime_error("Failed to load translator");
+            ptrLogger->error("Failed to load translator", "initTranslator()", "StartupHandler", "");
         }
+        ptrLogger->log("init", "Translator loaded");
         return translator;
     }
+
     //----------------------------------------------------------------------------------------------------------------//
     QSharedPointer<ObjectHandler> StartupHandler::initObjectHandler() {
-        QSharedPointer<AposDatabase::DatabaseHandler> dbHandler(new AposDatabase::DatabaseHandler());
-        QSharedPointer<AposDatabase::TableHandler> tableHandler(new AposDatabase::TableHandler(dbHandler));
+        QSharedPointer<AposDatabase::DatabaseHandler> dbHandler(new AposDatabase::DatabaseHandler(ptrLogger));
+        QSharedPointer<AposDatabase::TableHandler> tableHandler(new AposDatabase::TableHandler(dbHandler, ptrLogger));
         if (dbHandler == nullptr || tableHandler == nullptr) {
-            throw std::runtime_error("Failed to initialize DatabaseHandler or TableHandler");
+            ptrLogger->error("Failed to initialize ObjectHandler", "initObjectHandler()", "StartupHandler", "");
         }
-        return QSharedPointer<ObjectHandler>(new ObjectHandler(ptrApplication, dbHandler, tableHandler));
+        return QSharedPointer<ObjectHandler>(new ObjectHandler(ptrApplication, dbHandler, tableHandler, ptrLogger));
     }
-
 }
