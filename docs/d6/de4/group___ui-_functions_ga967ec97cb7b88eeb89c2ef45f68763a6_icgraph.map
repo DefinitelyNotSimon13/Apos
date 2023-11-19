@@ -1,7 +1,12 @@
 <map id="AposFrontend::DevWindow::checkCheckbox" name="AposFrontend::DevWindow::checkCheckbox">
-<area shape="rect" id="Node000001" title="Checks a checkbox." alt="" coords="266,55,443,97"/>
-<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#ga1b6d40414f86d0ccf375658eab05a297" title="Slot for the &#39;clearCommandAfterExecute&#39; state change event." alt="" coords="5,5,218,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,61,218,55,219,50,251,56"/>
-<area shape="rect" id="Node000003" href="$d8/d33/group___slot-_functions.html#gac620d6fab40e2c7d07f43b8c78c94505" title="Slot for the &#39;clearInputsAfterInsert&#39; state change event." alt="" coords="23,88,200,147"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,96,201,105,200,100,250,91"/>
+<area shape="rect" id="Node000001" title="Checks a checkbox." alt="" coords="726,55,904,97"/>
+<area shape="rect" id="Node000002" href="$d8/d33/group___slot-_functions.html#ga9476410c44a8a05671495955dd0d1326" title="Slot for the &#39;clearCommandAfterExecute&#39; state change event." alt="" coords="456,5,678,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="711,61,678,56,679,51,711,56"/>
+<area shape="rect" id="Node000005" href="$d8/d33/group___slot-_functions.html#gad57d8acf5aa5859e527474010d106a15" title="Slot for the &#39;clearInputsAfterInsert&#39; state change event." alt="" coords="476,88,658,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="711,96,659,105,658,100,710,91"/>
+<area shape="rect" id="Node000003" href="$dc/dc2/class_apos_frontend_1_1_dev_window.html#a23ebf9d4eb49ee75ff31618f545b8f98" title=" " alt="" coords="231,55,408,97"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="441,58,409,64,408,59,440,53"/>
+<area shape="rect" id="Node000004" href="$d3/dbc/group___constructructors-_destructors.html#gafa7c4dab5fd2d00d38e0b3f3929978e7" title="Constructor for the DevWindow class." alt="" coords="5,55,183,97"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,79,183,79,183,73,215,73"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="460,102,408,93,409,88,461,97"/>
 </map>

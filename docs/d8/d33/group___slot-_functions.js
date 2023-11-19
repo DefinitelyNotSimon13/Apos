@@ -1,18 +1,18 @@
 var group___slot__functions =
 [
-    [ "AposFrontend::DevWindow::on_btnAdd_clicked", "d8/d33/group___slot-_functions.html#ga392e04e22c5ae7be73b639bef06ced8a", null ],
-    [ "AposFrontend::DevWindow::on_btnCloseDB_clicked", "d8/d33/group___slot-_functions.html#ga5dd5707ecd06a83a2f7d3c9f631583a1", null ],
-    [ "AposFrontend::DevWindow::on_btnExecute_clicked", "d8/d33/group___slot-_functions.html#ga6ed3311709733e1ea20c7a35f2fad9b7", null ],
-    [ "AposFrontend::DevWindow::on_btnInitDB_clicked", "d8/d33/group___slot-_functions.html#ga94f1bcb3a0d4ff36c4651a7d22bbc4ff", null ],
-    [ "AposFrontend::DevWindow::on_btnSelectTable_clicked", "d8/d33/group___slot-_functions.html#ga4951eac56d47f5a30f113cbb58a1acdf", null ],
-    [ "AposFrontend::DevWindow::on_btnUpdate_clicked", "d8/d33/group___slot-_functions.html#gac0dcf66680758b82204e93424b06ebff", null ],
-    [ "AposFrontend::DevWindow::on_clearCommandAfterExecute_stateChanged", "d8/d33/group___slot-_functions.html#ga1b6d40414f86d0ccf375658eab05a297", null ],
-    [ "AposFrontend::DevWindow::on_clearInputsAfterInsert_stateChanged", "d8/d33/group___slot-_functions.html#gac620d6fab40e2c7d07f43b8c78c94505", null ],
-    [ "AposFrontend::SettingsWindow::on_inApply_clicked", "d8/d33/group___slot-_functions.html#gaf25a0a0d2cf2f2f20fec4ca3b4a36c88", null ],
-    [ "AposFrontend::SettingsWindow::on_inClose_clicked", "d8/d33/group___slot-_functions.html#gae63d418ffbe16a232f34ec3cdadcce68", null ],
-    [ "AposFrontend::SettingsWindow::on_inLanguage_currentIndexChanged", "d8/d33/group___slot-_functions.html#ga26dd51e0b757378c0003ea02844b19cf", null ],
-    [ "AposFrontend::DevWindow::on_inReturnToLauncher_clicked", "d8/d33/group___slot-_functions.html#ga7fc3608239d98ef3cd0be1cfc0128b02", null ],
-    [ "AposFrontend::DevWindow::on_inSettings_clicked", "d8/d33/group___slot-_functions.html#ga42bcd7a5ac4909f201e9f1268ec2b64c", null ],
-    [ "AposFrontend::LauncherWindow::on_inShowDev_clicked", "d8/d33/group___slot-_functions.html#ga4684f63ebb3e4edddc912ba372222ee1", null ],
-    [ "AposFrontend::LauncherWindow::on_pushButton_clicked", "d8/d33/group___slot-_functions.html#ga7a52cc1168adc3df616915e4ec59e112", null ]
+    [ "AposFrontend::DevWindow::addValuesClicked", "d8/d33/group___slot-_functions.html#ga0f119ee2e0614736c00367c7adf6d90f", null ],
+    [ "AposFrontend::SettingsWindow::applyClicked", "d8/d33/group___slot-_functions.html#gaf8c51b81640606727dea981bd3ede5ff", null ],
+    [ "AposFrontend::DevWindow::clearCommandAfterExecuteStateChanged", "d8/d33/group___slot-_functions.html#ga9476410c44a8a05671495955dd0d1326", null ],
+    [ "AposFrontend::DevWindow::clearInputsAfterInsertStateChanged", "d8/d33/group___slot-_functions.html#gad57d8acf5aa5859e527474010d106a15", null ],
+    [ "AposFrontend::SettingsWindow::closeClicked", "d8/d33/group___slot-_functions.html#ga561c502efb9484c99cb1d337cf1bf90a", null ],
+    [ "AposFrontend::DevWindow::closeDBClicked", "d8/d33/group___slot-_functions.html#gae146dd428f1022b7a3870f48d7ae7ed8", null ],
+    [ "AposFrontend::DevWindow::executeClicked", "d8/d33/group___slot-_functions.html#gacc29aca9e2412bd437baad293a50ad60", null ],
+    [ "AposFrontend::DevWindow::initDbClicked", "d8/d33/group___slot-_functions.html#ga14d5f4db38883d800bb6f1df2c25d079", null ],
+    [ "AposFrontend::SettingsWindow::languageCurrentIndexChanged", "d8/d33/group___slot-_functions.html#gac3ddae8dd71cc05c8149e6f605f6e058", null ],
+    [ "AposFrontend::LauncherWindow::pushButtonClicked", "d8/d33/group___slot-_functions.html#gab825d6fc24f308db7d35b33ca73b2cdf", null ],
+    [ "AposFrontend::DevWindow::returnToLauncherClicked", "d8/d33/group___slot-_functions.html#gaa325eec0551d473ae853938926226e76", null ],
+    [ "AposFrontend::DevWindow::selectTableClicked", "d8/d33/group___slot-_functions.html#ga1890e27f325371c72977a5b6485817ca", null ],
+    [ "AposFrontend::DevWindow::settingsClicked", "d8/d33/group___slot-_functions.html#ga2226eb622bf9e90c33e692a1be9cb3fc", null ],
+    [ "AposFrontend::LauncherWindow::showDevClicked", "d8/d33/group___slot-_functions.html#gaba4f6584c940222b5f4e849005518ce9", null ],
+    [ "AposFrontend::DevWindow::updateTableClicked", "d8/d33/group___slot-_functions.html#ga6b20717bf1ad767e3aa3878bb5723f44", null ]
 ];

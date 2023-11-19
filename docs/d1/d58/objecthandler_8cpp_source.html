@@ -32,7 +32,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../icons8-database-100.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Apos - Database Manager
+   <div id="projectname">Apos - Database Manager<span id="projectnumber">&#160;V0.1-alpha.2</span>
    </div>
   </td>
  </tr>
@@ -107,10 +107,10 @@ $(document).ready(function(){initNavTree('d1/d58/objecthandler_8cpp_source.html'
 <a href="../../d1/d58/objecthandler_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/dcc/objecthandler_8hpp.html">objecthandler.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00024">
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../dd/d43/namespace_apos_backend.html">   24</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../dd/d43/namespace_apos_backend.html">AposBackend</a> {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00026">
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d3/dbc/group___constructructors-_destructors.html#ga323a5ed5f8ed6cd37cdb838e132f025a">   26</a></span>    <a class="code hl_function" href="../../d3/dbc/group___constructructors-_destructors.html#ga323a5ed5f8ed6cd37cdb838e132f025a">ObjectHandler::ObjectHandler</a>(QSharedPointer&lt;QApplication&gt; newApplication,</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                                 QSharedPointer&lt;AposDatabase::DatabaseHandler&gt; newDbHandler,</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                                 QSharedPointer&lt;AposDatabase::TableHandler&gt; newTableHandler) {</div>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d1/d58/objecthandler_8cpp_source.html'
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
 </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00034">
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../de/dc6/group___initialization.html#gac0379aadaeeeb327649a6f252da0c4e1">   34</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/dc6/group___initialization.html#gac0379aadaeeeb327649a6f252da0c4e1">ObjectHandler::initDatabaseObject</a>() {</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordtype">bool</span> initializedDatabaseObject = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        initializedDatabaseObject = <a class="code hl_variable" href="../../d0/dc5/group___variables.html#ga445f6970d80bf4f3f401a644a752a3d0">ptrDbHandler</a>-&gt;initDatabase();</div>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('d1/d58/objecthandler_8cpp_source.html'
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
 </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00040">
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../de/dc6/group___initialization.html#gacd26b741696339620d5d6f3d5e65e688">   40</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/dc6/group___initialization.html#gacd26b741696339620d5d6f3d5e65e688">ObjectHandler::initTableObject</a>(<span class="keyword">const</span> QString &amp;inputTableName) {</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordtype">bool</span> initializedTableObject = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">try</span> {</div>
@@ -144,43 +144,43 @@ $(document).ready(function(){initNavTree('d1/d58/objecthandler_8cpp_source.html'
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
 </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00054">
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a702f40cfa2c7466285aa9500c289bc2b">   54</a></span>    QSharedPointer&lt;AposDatabase::TableHandler&gt; <a class="code hl_function" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a702f40cfa2c7466285aa9500c289bc2b">ObjectHandler::getPtrTableHandler</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc5/group___variables.html#ga14fd424be7ad4195dcf9349466f177a2">ptrTableHandler</a>;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
 </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00058">
+<div class="foldopen" id="foldopen00058" data-start="{" data-end="}">
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a257fa500e50c436bb1c5f760fd721a17">   58</a></span>    QSharedPointer&lt;AposDatabase::DatabaseHandler&gt; <a class="code hl_function" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a257fa500e50c436bb1c5f760fd721a17">ObjectHandler::getPtrDbHandler</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc5/group___variables.html#ga445f6970d80bf4f3f401a644a752a3d0">ptrDbHandler</a>;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
 </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00062">
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a5b582ed58502f050c33a932d148e7c1e">   62</a></span>    <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a5b582ed58502f050c33a932d148e7c1e">ObjectHandler::getActiveTableName</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc5/group___variables.html#ga14fd424be7ad4195dcf9349466f177a2">ptrTableHandler</a>-&gt;getActiveTableName();</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    }</div>
 </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00066">
+<div class="foldopen" id="foldopen00066" data-start="{" data-end="}">
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a1627dffe3fb1bff87cd8a6a8449644a7">   66</a></span>    <span class="keyword">const</span> QSqlError &amp;<a class="code hl_function" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a1627dffe3fb1bff87cd8a6a8449644a7">ObjectHandler::getTableSqlError</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc5/group___variables.html#ga14fd424be7ad4195dcf9349466f177a2">ptrTableHandler</a>-&gt;getLastTableError();</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
 </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00070">
+<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#aeb2f428369d3d319a4e498165d74bc63">   70</a></span>    [[maybe_unused]] QSharedPointer&lt;QSqlDatabase&gt; <a class="code hl_function" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#aeb2f428369d3d319a4e498165d74bc63">ObjectHandler::getActiveDatabase</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc5/group___variables.html#ga445f6970d80bf4f3f401a644a752a3d0">ptrDbHandler</a>-&gt;getActiveDatabase();</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
 </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00074">
+<div class="foldopen" id="foldopen00074" data-start="{" data-end="}">
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a01f8ae714d71caf1b6627ec3a237a547">   74</a></span>    [[maybe_unused]] <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a01f8ae714d71caf1b6627ec3a237a547">ObjectHandler::setActiveTableName</a>(<span class="keyword">const</span> QString &amp;newActiveTableName) {</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <a class="code hl_variable" href="../../d0/dc5/group___variables.html#ga14fd424be7ad4195dcf9349466f177a2">ptrTableHandler</a>-&gt;setActiveTableName(newActiveTableName);</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
 </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="comment">//----------------------------------------------------------------------------------------------------------------//</span></div>
-<div class="foldopen" data-end="}" data-start="{" id="foldopen00078">
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a4f5b36cb39c17b71be234b7059c5cda8">   78</a></span>    <span class="keyword">const</span> QSharedPointer&lt;QApplication&gt; &amp;<a class="code hl_function" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a4f5b36cb39c17b71be234b7059c5cda8">ObjectHandler::getPtrApplication</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc5/group___variables.html#gaaf8c1776cb05952a63caad3e0d731af3">ptrApplication</a>;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    }</div>
@@ -213,7 +213,7 @@ $(document).ready(function(){initNavTree('d1/d58/objecthandler_8cpp_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_b02e4219757ae4e3a0f1714873865bbf.html">classes</a></li><li class="navelem"><a class="el" href="../../dir_9298123355dd038e9f4613f865552c14.html">backendClasses</a></li><li class="navelem"><a class="el" href="../../d1/d58/objecthandler_8cpp.html">objecthandler.cpp</a></li>
-    <li class="footer">Generated on Sun Nov 19 2023 00:42:33 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img alt="doxygen" class="footer" height="31" src="../../doxygen.svg" width="104"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sun Nov 19 2023 16:17:01 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

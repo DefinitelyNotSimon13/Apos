@@ -33,16 +33,16 @@
 \contentsline {subsection}{\numberline {8.1.2}Function Documentation}{16}{subsection.8.1.2}%
 \contentsline {subsubsection}{\numberline {8.1.2.1}DatabaseHandler()}{16}{subsubsection.8.1.2.1}%
 \contentsline {subsubsection}{\numberline {8.1.2.2}DevWindow()}{16}{subsubsection.8.1.2.2}%
-\contentsline {subsubsection}{\numberline {8.1.2.3}LauncherWindow()}{16}{subsubsection.8.1.2.3}%
+\contentsline {subsubsection}{\numberline {8.1.2.3}LauncherWindow()}{17}{subsubsection.8.1.2.3}%
 \contentsline {subsubsection}{\numberline {8.1.2.4}ObjectHandler()}{18}{subsubsection.8.1.2.4}%
 \contentsline {subsubsection}{\numberline {8.1.2.5}SettingsWindow()}{18}{subsubsection.8.1.2.5}%
-\contentsline {subsubsection}{\numberline {8.1.2.6}StartupHandler()}{18}{subsubsection.8.1.2.6}%
+\contentsline {subsubsection}{\numberline {8.1.2.6}StartupHandler()}{19}{subsubsection.8.1.2.6}%
 \contentsline {subsubsection}{\numberline {8.1.2.7}TableHandler()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{19}{subsubsection.8.1.2.7}%
 \contentsline {subsubsection}{\numberline {8.1.2.8}TableHandler()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{19}{subsubsection.8.1.2.8}%
-\contentsline {subsubsection}{\numberline {8.1.2.9}TranslatableWindow()}{19}{subsubsection.8.1.2.9}%
+\contentsline {subsubsection}{\numberline {8.1.2.9}TranslatableWindow()}{20}{subsubsection.8.1.2.9}%
 \contentsline {subsubsection}{\numberline {8.1.2.10}WindowHandler()}{20}{subsubsection.8.1.2.10}%
 \contentsline {subsubsection}{\numberline {8.1.2.11}$\sim $DevWindow()}{20}{subsubsection.8.1.2.11}%
-\contentsline {subsubsection}{\numberline {8.1.2.12}$\sim $LauncherWindow()}{20}{subsubsection.8.1.2.12}%
+\contentsline {subsubsection}{\numberline {8.1.2.12}$\sim $LauncherWindow()}{21}{subsubsection.8.1.2.12}%
 \contentsline {subsubsection}{\numberline {8.1.2.13}$\sim $SettingsWindow()}{21}{subsubsection.8.1.2.13}%
 \contentsline {subsubsection}{\numberline {8.1.2.14}$\sim $TableHandler()}{21}{subsubsection.8.1.2.14}%
 \contentsline {section}{\numberline {8.2}Database Functions}{21}{section.8.2}%
@@ -52,11 +52,11 @@
 \contentsline {subsubsection}{\numberline {8.2.2.2}closeDatabase()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{22}{subsubsection.8.2.2.2}%
 \contentsline {subsubsection}{\numberline {8.2.2.3}executeCommand()}{23}{subsubsection.8.2.2.3}%
 \contentsline {subsubsection}{\numberline {8.2.2.4}generateTableModel()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{23}{subsubsection.8.2.2.4}%
-\contentsline {subsubsection}{\numberline {8.2.2.5}generateTableModel()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{23}{subsubsection.8.2.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.2.5}generateTableModel()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{24}{subsubsection.8.2.2.5}%
 \contentsline {subsubsection}{\numberline {8.2.2.6}initDatabase()}{24}{subsubsection.8.2.2.6}%
-\contentsline {subsubsection}{\numberline {8.2.2.7}insertIntoTable()}{24}{subsubsection.8.2.2.7}%
+\contentsline {subsubsection}{\numberline {8.2.2.7}insertIntoTable()}{25}{subsubsection.8.2.2.7}%
 \contentsline {subsubsection}{\numberline {8.2.2.8}setModelViews()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{25}{subsubsection.8.2.2.8}%
-\contentsline {subsubsection}{\numberline {8.2.2.9}setModelViews()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{25}{subsubsection.8.2.2.9}%
+\contentsline {subsubsection}{\numberline {8.2.2.9}setModelViews()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{26}{subsubsection.8.2.2.9}%
 \contentsline {section}{\numberline {8.3}Initialization}{26}{section.8.3}%
 \contentsline {subsection}{\numberline {8.3.1}Detailed Description}{26}{subsection.8.3.1}%
 \contentsline {subsection}{\numberline {8.3.2}Function Documentation}{27}{subsection.8.3.2}%
@@ -84,186 +84,192 @@
 \contentsline {section}{\numberline {8.6}Slot Functions}{33}{section.8.6}%
 \contentsline {subsection}{\numberline {8.6.1}Detailed Description}{34}{subsection.8.6.1}%
 \contentsline {subsection}{\numberline {8.6.2}Private Slots}{34}{subsection.8.6.2}%
-\contentsline {subsubsection}{\numberline {8.6.2.1}on\_btnAdd\_clicked}{34}{subsubsection.8.6.2.1}%
-\contentsline {subsubsection}{\numberline {8.6.2.2}on\_btnCloseDB\_clicked}{34}{subsubsection.8.6.2.2}%
-\contentsline {subsubsection}{\numberline {8.6.2.3}on\_btnExecute\_clicked}{35}{subsubsection.8.6.2.3}%
-\contentsline {subsubsection}{\numberline {8.6.2.4}on\_btnInitDB\_clicked}{35}{subsubsection.8.6.2.4}%
-\contentsline {subsubsection}{\numberline {8.6.2.5}on\_btnSelectTable\_clicked}{36}{subsubsection.8.6.2.5}%
-\contentsline {subsubsection}{\numberline {8.6.2.6}on\_btnUpdate\_clicked}{36}{subsubsection.8.6.2.6}%
-\contentsline {subsubsection}{\numberline {8.6.2.7}on\_clearCommandAfterExecute\_stateChanged}{36}{subsubsection.8.6.2.7}%
-\contentsline {subsubsection}{\numberline {8.6.2.8}on\_clearInputsAfterInsert\_stateChanged}{37}{subsubsection.8.6.2.8}%
-\contentsline {subsubsection}{\numberline {8.6.2.9}on\_inApply\_clicked}{37}{subsubsection.8.6.2.9}%
-\contentsline {subsubsection}{\numberline {8.6.2.10}on\_inClose\_clicked}{38}{subsubsection.8.6.2.10}%
-\contentsline {subsubsection}{\numberline {8.6.2.11}on\_inLanguage\_currentIndexChanged}{38}{subsubsection.8.6.2.11}%
-\contentsline {subsubsection}{\numberline {8.6.2.12}on\_inReturnToLauncher\_clicked}{38}{subsubsection.8.6.2.12}%
-\contentsline {subsubsection}{\numberline {8.6.2.13}on\_inSettings\_clicked}{39}{subsubsection.8.6.2.13}%
-\contentsline {subsubsection}{\numberline {8.6.2.14}on\_inShowDev\_clicked}{39}{subsubsection.8.6.2.14}%
-\contentsline {subsubsection}{\numberline {8.6.2.15}on\_pushButton\_clicked}{40}{subsubsection.8.6.2.15}%
-\contentsline {section}{\numberline {8.7}UI Functions}{40}{section.8.7}%
-\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{41}{subsection.8.7.1}%
-\contentsline {subsection}{\numberline {8.7.2}Function Documentation}{41}{subsection.8.7.2}%
-\contentsline {subsubsection}{\numberline {8.7.2.1}assignInputs()}{41}{subsubsection.8.7.2.1}%
-\contentsline {subsubsection}{\numberline {8.7.2.2}changeLanguages()}{42}{subsubsection.8.7.2.2}%
-\contentsline {subsubsection}{\numberline {8.7.2.3}checkCheckbox()}{42}{subsubsection.8.7.2.3}%
-\contentsline {subsubsection}{\numberline {8.7.2.4}clearCommandBox()}{43}{subsubsection.8.7.2.4}%
-\contentsline {subsubsection}{\numberline {8.7.2.5}clearInputs()}{44}{subsubsection.8.7.2.5}%
-\contentsline {subsubsection}{\numberline {8.7.2.6}enableButtons()}{45}{subsubsection.8.7.2.6}%
-\contentsline {subsubsection}{\numberline {8.7.2.7}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{46}{subsubsection.8.7.2.7}%
-\contentsline {subsubsection}{\numberline {8.7.2.8}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{46}{subsubsection.8.7.2.8}%
-\contentsline {subsubsection}{\numberline {8.7.2.9}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{46}{subsubsection.8.7.2.9}%
-\contentsline {subsubsection}{\numberline {8.7.2.10}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{46}{subsubsection.8.7.2.10}%
-\contentsline {subsubsection}{\numberline {8.7.2.11}showLaunchWindow()}{47}{subsubsection.8.7.2.11}%
-\contentsline {subsection}{\numberline {8.7.3}Private Slots}{47}{subsection.8.7.3}%
-\contentsline {subsubsection}{\numberline {8.7.3.1}applySettings}{47}{subsubsection.8.7.3.1}%
-\contentsline {subsubsection}{\numberline {8.7.3.2}showDevWindow}{48}{subsubsection.8.7.3.2}%
-\contentsline {subsubsection}{\numberline {8.7.3.3}showSettingsWindow}{48}{subsubsection.8.7.3.3}%
-\contentsline {section}{\numberline {8.8}Utility Functions}{49}{section.8.8}%
-\contentsline {section}{\numberline {8.9}Variables}{49}{section.8.9}%
-\contentsline {subsection}{\numberline {8.9.1}Detailed Description}{50}{subsection.8.9.1}%
-\contentsline {subsection}{\numberline {8.9.2}Variable Documentation}{50}{subsection.8.9.2}%
-\contentsline {subsubsection}{\numberline {8.9.2.1}activeDatabase}{50}{subsubsection.8.9.2.1}%
-\contentsline {subsubsection}{\numberline {8.9.2.2}activeTableName}{51}{subsubsection.8.9.2.2}%
-\contentsline {subsubsection}{\numberline {8.9.2.3}clearCommand}{51}{subsubsection.8.9.2.3}%
-\contentsline {subsubsection}{\numberline {8.9.2.4}databasePath}{51}{subsubsection.8.9.2.4}%
-\contentsline {subsubsection}{\numberline {8.9.2.5}input1}{51}{subsubsection.8.9.2.5}%
-\contentsline {subsubsection}{\numberline {8.9.2.6}languageChanged}{51}{subsubsection.8.9.2.6}%
-\contentsline {subsubsection}{\numberline {8.9.2.7}languageIndex}{52}{subsubsection.8.9.2.7}%
-\contentsline {subsubsection}{\numberline {8.9.2.8}lastSqlError}{52}{subsubsection.8.9.2.8}%
-\contentsline {subsubsection}{\numberline {8.9.2.9}lastTableError}{52}{subsubsection.8.9.2.9}%
-\contentsline {subsubsection}{\numberline {8.9.2.10}objectHandler}{52}{subsubsection.8.9.2.10}%
-\contentsline {subsubsection}{\numberline {8.9.2.11}ptrActiveDatabase}{52}{subsubsection.8.9.2.11}%
-\contentsline {subsubsection}{\numberline {8.9.2.12}ptrApplication\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{53}{subsubsection.8.9.2.12}%
-\contentsline {subsubsection}{\numberline {8.9.2.13}ptrApplication\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{53}{subsubsection.8.9.2.13}%
-\contentsline {subsubsection}{\numberline {8.9.2.14}ptrDbHandler\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{53}{subsubsection.8.9.2.14}%
-\contentsline {subsubsection}{\numberline {8.9.2.15}ptrDbHandler\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{53}{subsubsection.8.9.2.15}%
-\contentsline {subsubsection}{\numberline {8.9.2.16}ptrDevWindow}{53}{subsubsection.8.9.2.16}%
-\contentsline {subsubsection}{\numberline {8.9.2.17}ptrLauncherWindow}{54}{subsubsection.8.9.2.17}%
-\contentsline {subsubsection}{\numberline {8.9.2.18}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{54}{subsubsection.8.9.2.18}%
-\contentsline {subsubsection}{\numberline {8.9.2.19}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{54}{subsubsection.8.9.2.19}%
-\contentsline {subsubsection}{\numberline {8.9.2.20}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{54}{subsubsection.8.9.2.20}%
-\contentsline {subsubsection}{\numberline {8.9.2.21}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{54}{subsubsection.8.9.2.21}%
-\contentsline {subsubsection}{\numberline {8.9.2.22}ptrSettingsWindow}{55}{subsubsection.8.9.2.22}%
-\contentsline {subsubsection}{\numberline {8.9.2.23}ptrTableHandler}{55}{subsubsection.8.9.2.23}%
-\contentsline {subsubsection}{\numberline {8.9.2.24}ptrTableModel}{55}{subsubsection.8.9.2.24}%
-\contentsline {subsubsection}{\numberline {8.9.2.25}ptrTranslator}{55}{subsubsection.8.9.2.25}%
-\contentsline {subsubsection}{\numberline {8.9.2.26}tempLanguageIndex}{55}{subsubsection.8.9.2.26}%
-\contentsline {subsubsection}{\numberline {8.9.2.27}ui\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{56}{subsubsection.8.9.2.27}%
-\contentsline {subsubsection}{\numberline {8.9.2.28}ui\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{56}{subsubsection.8.9.2.28}%
-\contentsline {subsubsection}{\numberline {8.9.2.29}ui\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{56}{subsubsection.8.9.2.29}%
-\contentsline {chapter}{\numberline {9}Namespace Documentation}{57}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Backend Namespace Reference}{57}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database Namespace Reference}{57}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend Namespace Reference}{57}{section.9.3}%
-\contentsline {section}{\numberline {9.4}App\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Initialization Namespace Reference}{58}{section.9.4}%
-\contentsline {subsection}{\numberline {9.4.1}Detailed Description}{58}{subsection.9.4.1}%
-\contentsline {subsection}{\numberline {9.4.2}Function Documentation}{58}{subsection.9.4.2}%
-\contentsline {subsubsection}{\numberline {9.4.2.1}initializeObjectHandler()}{58}{subsubsection.9.4.2.1}%
-\contentsline {subsubsection}{\numberline {9.4.2.2}initializeStartupHandler()}{59}{subsubsection.9.4.2.2}%
-\contentsline {subsubsection}{\numberline {9.4.2.3}initializeWindowHandler()}{60}{subsubsection.9.4.2.3}%
-\contentsline {section}{\numberline {9.5}Ui Namespace Reference}{60}{section.9.5}%
-\contentsline {chapter}{\numberline {10}Class Documentation}{61}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Object\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{61}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}Detailed Description}{62}{subsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.1.2}Member Function Documentation}{62}{subsection.10.1.2}%
-\contentsline {subsubsection}{\numberline {10.1.2.1}getActiveDatabase()}{62}{subsubsection.10.1.2.1}%
-\contentsline {subsubsection}{\numberline {10.1.2.2}getActiveTableName()}{63}{subsubsection.10.1.2.2}%
-\contentsline {subsubsection}{\numberline {10.1.2.3}getPtrApplication()}{63}{subsubsection.10.1.2.3}%
-\contentsline {subsubsection}{\numberline {10.1.2.4}getPtrDbHandler()}{63}{subsubsection.10.1.2.4}%
-\contentsline {subsubsection}{\numberline {10.1.2.5}getPtrTableHandler()}{63}{subsubsection.10.1.2.5}%
-\contentsline {subsubsection}{\numberline {10.1.2.6}getTableSqlError()}{64}{subsubsection.10.1.2.6}%
-\contentsline {subsubsection}{\numberline {10.1.2.7}setActiveTableName()}{64}{subsubsection.10.1.2.7}%
-\contentsline {section}{\numberline {10.2}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Startup\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{64}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Detailed Description}{65}{subsection.10.2.1}%
-\contentsline {section}{\numberline {10.3}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{65}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Detailed Description}{66}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Member Function Documentation}{67}{subsection.10.3.2}%
-\contentsline {subsubsection}{\numberline {10.3.2.1}getActiveDatabase()}{67}{subsubsection.10.3.2.1}%
-\contentsline {subsubsection}{\numberline {10.3.2.2}getSqlError()}{67}{subsubsection.10.3.2.2}%
-\contentsline {section}{\numberline {10.4}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Table\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{67}{section.10.4}%
-\contentsline {subsection}{\numberline {10.4.1}Detailed Description}{68}{subsection.10.4.1}%
-\contentsline {subsection}{\numberline {10.4.2}Member Function Documentation}{69}{subsection.10.4.2}%
-\contentsline {subsubsection}{\numberline {10.4.2.1}getActiveTableName()}{69}{subsubsection.10.4.2.1}%
-\contentsline {subsubsection}{\numberline {10.4.2.2}getLastTableError()}{69}{subsubsection.10.4.2.2}%
-\contentsline {subsubsection}{\numberline {10.4.2.3}getTableModel()}{69}{subsubsection.10.4.2.3}%
-\contentsline {subsubsection}{\numberline {10.4.2.4}setActiveTableName()}{69}{subsubsection.10.4.2.4}%
-\contentsline {section}{\numberline {10.5}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Dev\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{70}{section.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}Detailed Description}{72}{subsection.10.5.1}%
-\contentsline {subsection}{\numberline {10.5.2}Member Function Documentation}{73}{subsection.10.5.2}%
-\contentsline {subsubsection}{\numberline {10.5.2.1}logEvent()}{73}{subsubsection.10.5.2.1}%
-\contentsline {subsection}{\numberline {10.5.3}Member Data Documentation}{74}{subsection.10.5.3}%
-\contentsline {subsubsection}{\numberline {10.5.3.1}clearInput}{74}{subsubsection.10.5.3.1}%
-\contentsline {subsubsection}{\numberline {10.5.3.2}input2}{74}{subsubsection.10.5.3.2}%
-\contentsline {subsubsection}{\numberline {10.5.3.3}input3}{74}{subsubsection.10.5.3.3}%
-\contentsline {subsubsection}{\numberline {10.5.3.4}input4}{74}{subsubsection.10.5.3.4}%
-\contentsline {subsubsection}{\numberline {10.5.3.5}input5}{74}{subsubsection.10.5.3.5}%
-\contentsline {section}{\numberline {10.6}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Launcher\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{75}{section.10.6}%
-\contentsline {subsection}{\numberline {10.6.1}Detailed Description}{76}{subsection.10.6.1}%
-\contentsline {section}{\numberline {10.7}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Settings\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{77}{section.10.7}%
-\contentsline {subsection}{\numberline {10.7.1}Detailed Description}{78}{subsection.10.7.1}%
-\contentsline {section}{\numberline {10.8}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Translatable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{79}{section.10.8}%
-\contentsline {subsection}{\numberline {10.8.1}Detailed Description}{79}{subsection.10.8.1}%
-\contentsline {section}{\numberline {10.9}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{80}{section.10.9}%
-\contentsline {subsection}{\numberline {10.9.1}Detailed Description}{81}{subsection.10.9.1}%
-\contentsline {chapter}{\numberline {11}File Documentation}{83}{chapter.11}%
-\contentsline {section}{\numberline {11.1}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/objecthandler.cpp File Reference}{83}{section.11.1}%
-\contentsline {subsection}{\numberline {11.1.1}Detailed Description}{84}{subsection.11.1.1}%
-\contentsline {section}{\numberline {11.2}objecthandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{84}{section.11.2}%
-\contentsline {section}{\numberline {11.3}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/objecthandler.hpp File Reference}{85}{section.11.3}%
-\contentsline {subsection}{\numberline {11.3.1}Detailed Description}{87}{subsection.11.3.1}%
-\contentsline {section}{\numberline {11.4}objecthandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{87}{section.11.4}%
-\contentsline {section}{\numberline {11.5}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/startuphandler.cpp File Reference}{88}{section.11.5}%
-\contentsline {subsection}{\numberline {11.5.1}Detailed Description}{89}{subsection.11.5.1}%
-\contentsline {section}{\numberline {11.6}startuphandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{89}{section.11.6}%
-\contentsline {section}{\numberline {11.7}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/startuphandler.hpp File Reference}{90}{section.11.7}%
-\contentsline {subsection}{\numberline {11.7.1}Detailed Description}{92}{subsection.11.7.1}%
-\contentsline {section}{\numberline {11.8}startuphandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{92}{section.11.8}%
-\contentsline {section}{\numberline {11.9}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/databasehandler.cpp File Reference}{93}{section.11.9}%
-\contentsline {subsection}{\numberline {11.9.1}Detailed Description}{93}{subsection.11.9.1}%
-\contentsline {section}{\numberline {11.10}databasehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{94}{section.11.10}%
-\contentsline {section}{\numberline {11.11}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/databasehandler.hpp File Reference}{95}{section.11.11}%
-\contentsline {subsection}{\numberline {11.11.1}Detailed Description}{96}{subsection.11.11.1}%
-\contentsline {section}{\numberline {11.12}databasehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{97}{section.11.12}%
-\contentsline {section}{\numberline {11.13}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/tablehandler.cpp File Reference}{97}{section.11.13}%
-\contentsline {subsection}{\numberline {11.13.1}Detailed Description}{98}{subsection.11.13.1}%
-\contentsline {section}{\numberline {11.14}tablehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{99}{section.11.14}%
-\contentsline {section}{\numberline {11.15}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/tablehandler.hpp File Reference}{100}{section.11.15}%
-\contentsline {subsection}{\numberline {11.15.1}Detailed Description}{102}{subsection.11.15.1}%
-\contentsline {section}{\numberline {11.16}tablehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{102}{section.11.16}%
-\contentsline {section}{\numberline {11.17}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/devwindow.cpp File Reference}{103}{section.11.17}%
-\contentsline {subsection}{\numberline {11.17.1}Detailed Description}{104}{subsection.11.17.1}%
-\contentsline {section}{\numberline {11.18}devwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{104}{section.11.18}%
-\contentsline {section}{\numberline {11.19}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/devwindow.hpp File Reference}{107}{section.11.19}%
-\contentsline {subsection}{\numberline {11.19.1}Detailed Description}{108}{subsection.11.19.1}%
-\contentsline {section}{\numberline {11.20}devwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{109}{section.11.20}%
-\contentsline {section}{\numberline {11.21}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/launcherwindow.cpp File Reference}{110}{section.11.21}%
-\contentsline {subsection}{\numberline {11.21.1}Detailed Description}{111}{subsection.11.21.1}%
-\contentsline {section}{\numberline {11.22}launcherwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{112}{section.11.22}%
-\contentsline {section}{\numberline {11.23}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/launcherwindow.hpp File Reference}{112}{section.11.23}%
-\contentsline {subsection}{\numberline {11.23.1}Detailed Description}{114}{subsection.11.23.1}%
-\contentsline {section}{\numberline {11.24}launcherwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{115}{section.11.24}%
-\contentsline {section}{\numberline {11.25}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/settingswindow.cpp File Reference}{115}{section.11.25}%
-\contentsline {subsection}{\numberline {11.25.1}Detailed Description}{116}{subsection.11.25.1}%
-\contentsline {section}{\numberline {11.26}settingswindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{117}{section.11.26}%
-\contentsline {section}{\numberline {11.27}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/settingswindow.hpp File Reference}{118}{section.11.27}%
-\contentsline {subsection}{\numberline {11.27.1}Detailed Description}{119}{subsection.11.27.1}%
-\contentsline {section}{\numberline {11.28}settingswindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{120}{section.11.28}%
-\contentsline {section}{\numberline {11.29}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/translatablewindow.cpp File Reference}{121}{section.11.29}%
-\contentsline {subsection}{\numberline {11.29.1}Detailed Description}{121}{subsection.11.29.1}%
-\contentsline {section}{\numberline {11.30}translatablewindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{122}{section.11.30}%
-\contentsline {section}{\numberline {11.31}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/translatablewindow.hpp File Reference}{122}{section.11.31}%
-\contentsline {subsection}{\numberline {11.31.1}Detailed Description}{123}{subsection.11.31.1}%
-\contentsline {section}{\numberline {11.32}translatablewindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{123}{section.11.32}%
-\contentsline {section}{\numberline {11.33}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/windowhandler.cpp File Reference}{123}{section.11.33}%
-\contentsline {subsection}{\numberline {11.33.1}Detailed Description}{124}{subsection.11.33.1}%
-\contentsline {section}{\numberline {11.34}windowhandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{125}{section.11.34}%
-\contentsline {section}{\numberline {11.35}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/windowhandler.hpp File Reference}{125}{section.11.35}%
-\contentsline {subsection}{\numberline {11.35.1}Detailed Description}{127}{subsection.11.35.1}%
-\contentsline {section}{\numberline {11.36}windowhandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{127}{section.11.36}%
-\contentsline {section}{\numberline {11.37}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CONTRIBUTING.md File Reference}{128}{section.11.37}%
-\contentsline {section}{\numberline {11.38}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}README.md File Reference}{128}{section.11.38}%
-\contentsline {section}{\numberline {11.39}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/source/main.cpp File Reference}{128}{section.11.39}%
-\contentsline {subsection}{\numberline {11.39.1}Detailed Description}{129}{subsection.11.39.1}%
-\contentsline {subsection}{\numberline {11.39.2}Function Documentation}{130}{subsection.11.39.2}%
-\contentsline {subsubsection}{\numberline {11.39.2.1}main()}{130}{subsubsection.11.39.2.1}%
-\contentsline {section}{\numberline {11.40}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{130}{section.11.40}%
-\contentsline {chapter}{Index}{133}{section*.167}%
+\contentsline {subsubsection}{\numberline {8.6.2.1}addValuesClicked}{34}{subsubsection.8.6.2.1}%
+\contentsline {subsubsection}{\numberline {8.6.2.2}applyClicked}{35}{subsubsection.8.6.2.2}%
+\contentsline {subsubsection}{\numberline {8.6.2.3}clearCommandAfterExecuteStateChanged}{35}{subsubsection.8.6.2.3}%
+\contentsline {subsubsection}{\numberline {8.6.2.4}clearInputsAfterInsertStateChanged}{36}{subsubsection.8.6.2.4}%
+\contentsline {subsubsection}{\numberline {8.6.2.5}closeClicked}{37}{subsubsection.8.6.2.5}%
+\contentsline {subsubsection}{\numberline {8.6.2.6}closeDBClicked}{37}{subsubsection.8.6.2.6}%
+\contentsline {subsubsection}{\numberline {8.6.2.7}executeClicked}{38}{subsubsection.8.6.2.7}%
+\contentsline {subsubsection}{\numberline {8.6.2.8}initDbClicked}{38}{subsubsection.8.6.2.8}%
+\contentsline {subsubsection}{\numberline {8.6.2.9}languageCurrentIndexChanged}{39}{subsubsection.8.6.2.9}%
+\contentsline {subsubsection}{\numberline {8.6.2.10}pushButtonClicked}{40}{subsubsection.8.6.2.10}%
+\contentsline {subsubsection}{\numberline {8.6.2.11}returnToLauncherClicked}{40}{subsubsection.8.6.2.11}%
+\contentsline {subsubsection}{\numberline {8.6.2.12}selectTableClicked}{41}{subsubsection.8.6.2.12}%
+\contentsline {subsubsection}{\numberline {8.6.2.13}settingsClicked}{42}{subsubsection.8.6.2.13}%
+\contentsline {subsubsection}{\numberline {8.6.2.14}showDevClicked}{42}{subsubsection.8.6.2.14}%
+\contentsline {subsubsection}{\numberline {8.6.2.15}updateTableClicked}{43}{subsubsection.8.6.2.15}%
+\contentsline {section}{\numberline {8.7}UI Functions}{43}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{44}{subsection.8.7.1}%
+\contentsline {subsection}{\numberline {8.7.2}Function Documentation}{45}{subsection.8.7.2}%
+\contentsline {subsubsection}{\numberline {8.7.2.1}assignInputs()}{45}{subsubsection.8.7.2.1}%
+\contentsline {subsubsection}{\numberline {8.7.2.2}changeLanguages()}{45}{subsubsection.8.7.2.2}%
+\contentsline {subsubsection}{\numberline {8.7.2.3}checkCheckbox()}{45}{subsubsection.8.7.2.3}%
+\contentsline {subsubsection}{\numberline {8.7.2.4}clearCommandBox()}{46}{subsubsection.8.7.2.4}%
+\contentsline {subsubsection}{\numberline {8.7.2.5}clearInputs()}{47}{subsubsection.8.7.2.5}%
+\contentsline {subsubsection}{\numberline {8.7.2.6}enableButtons()}{48}{subsubsection.8.7.2.6}%
+\contentsline {subsubsection}{\numberline {8.7.2.7}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{48}{subsubsection.8.7.2.7}%
+\contentsline {subsubsection}{\numberline {8.7.2.8}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{49}{subsubsection.8.7.2.8}%
+\contentsline {subsubsection}{\numberline {8.7.2.9}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{49}{subsubsection.8.7.2.9}%
+\contentsline {subsubsection}{\numberline {8.7.2.10}retranslateUi()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{49}{subsubsection.8.7.2.10}%
+\contentsline {subsubsection}{\numberline {8.7.2.11}showLaunchWindow()}{50}{subsubsection.8.7.2.11}%
+\contentsline {subsection}{\numberline {8.7.3}Private Slots}{50}{subsection.8.7.3}%
+\contentsline {subsubsection}{\numberline {8.7.3.1}applySettings}{50}{subsubsection.8.7.3.1}%
+\contentsline {subsubsection}{\numberline {8.7.3.2}showDevWindow}{51}{subsubsection.8.7.3.2}%
+\contentsline {subsubsection}{\numberline {8.7.3.3}showSettingsWindow}{51}{subsubsection.8.7.3.3}%
+\contentsline {section}{\numberline {8.8}Utility Functions}{52}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Variables}{52}{section.8.9}%
+\contentsline {subsection}{\numberline {8.9.1}Detailed Description}{53}{subsection.8.9.1}%
+\contentsline {subsection}{\numberline {8.9.2}Variable Documentation}{53}{subsection.8.9.2}%
+\contentsline {subsubsection}{\numberline {8.9.2.1}activeDatabase}{53}{subsubsection.8.9.2.1}%
+\contentsline {subsubsection}{\numberline {8.9.2.2}activeTableName}{54}{subsubsection.8.9.2.2}%
+\contentsline {subsubsection}{\numberline {8.9.2.3}clearCommand}{54}{subsubsection.8.9.2.3}%
+\contentsline {subsubsection}{\numberline {8.9.2.4}databasePath}{54}{subsubsection.8.9.2.4}%
+\contentsline {subsubsection}{\numberline {8.9.2.5}input1}{54}{subsubsection.8.9.2.5}%
+\contentsline {subsubsection}{\numberline {8.9.2.6}languageChanged}{54}{subsubsection.8.9.2.6}%
+\contentsline {subsubsection}{\numberline {8.9.2.7}languageIndex}{55}{subsubsection.8.9.2.7}%
+\contentsline {subsubsection}{\numberline {8.9.2.8}lastSqlError}{55}{subsubsection.8.9.2.8}%
+\contentsline {subsubsection}{\numberline {8.9.2.9}lastTableError}{55}{subsubsection.8.9.2.9}%
+\contentsline {subsubsection}{\numberline {8.9.2.10}objectHandler}{55}{subsubsection.8.9.2.10}%
+\contentsline {subsubsection}{\numberline {8.9.2.11}ptrActiveDatabase}{55}{subsubsection.8.9.2.11}%
+\contentsline {subsubsection}{\numberline {8.9.2.12}ptrApplication\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{56}{subsubsection.8.9.2.12}%
+\contentsline {subsubsection}{\numberline {8.9.2.13}ptrApplication\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{56}{subsubsection.8.9.2.13}%
+\contentsline {subsubsection}{\numberline {8.9.2.14}ptrDbHandler\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{56}{subsubsection.8.9.2.14}%
+\contentsline {subsubsection}{\numberline {8.9.2.15}ptrDbHandler\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{56}{subsubsection.8.9.2.15}%
+\contentsline {subsubsection}{\numberline {8.9.2.16}ptrDevWindow}{56}{subsubsection.8.9.2.16}%
+\contentsline {subsubsection}{\numberline {8.9.2.17}ptrLauncherWindow}{57}{subsubsection.8.9.2.17}%
+\contentsline {subsubsection}{\numberline {8.9.2.18}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{57}{subsubsection.8.9.2.18}%
+\contentsline {subsubsection}{\numberline {8.9.2.19}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{57}{subsubsection.8.9.2.19}%
+\contentsline {subsubsection}{\numberline {8.9.2.20}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{57}{subsubsection.8.9.2.20}%
+\contentsline {subsubsection}{\numberline {8.9.2.21}ptrObjectHandler\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{57}{subsubsection.8.9.2.21}%
+\contentsline {subsubsection}{\numberline {8.9.2.22}ptrSettingsWindow}{58}{subsubsection.8.9.2.22}%
+\contentsline {subsubsection}{\numberline {8.9.2.23}ptrTableHandler}{58}{subsubsection.8.9.2.23}%
+\contentsline {subsubsection}{\numberline {8.9.2.24}ptrTableModel}{58}{subsubsection.8.9.2.24}%
+\contentsline {subsubsection}{\numberline {8.9.2.25}ptrTranslator}{58}{subsubsection.8.9.2.25}%
+\contentsline {subsubsection}{\numberline {8.9.2.26}tempLanguageIndex}{58}{subsubsection.8.9.2.26}%
+\contentsline {subsubsection}{\numberline {8.9.2.27}ui\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{59}{subsubsection.8.9.2.27}%
+\contentsline {subsubsection}{\numberline {8.9.2.28}ui\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{59}{subsubsection.8.9.2.28}%
+\contentsline {subsubsection}{\numberline {8.9.2.29}ui\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{59}{subsubsection.8.9.2.29}%
+\contentsline {chapter}{\numberline {9}Namespace Documentation}{61}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Backend Namespace Reference}{61}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database Namespace Reference}{61}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend Namespace Reference}{61}{section.9.3}%
+\contentsline {section}{\numberline {9.4}App\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Initialization Namespace Reference}{62}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Detailed Description}{62}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Function Documentation}{62}{subsection.9.4.2}%
+\contentsline {subsubsection}{\numberline {9.4.2.1}initializeObjectHandler()}{62}{subsubsection.9.4.2.1}%
+\contentsline {subsubsection}{\numberline {9.4.2.2}initializeStartupHandler()}{63}{subsubsection.9.4.2.2}%
+\contentsline {subsubsection}{\numberline {9.4.2.3}initializeWindowHandler()}{64}{subsubsection.9.4.2.3}%
+\contentsline {section}{\numberline {9.5}Ui Namespace Reference}{64}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Class Documentation}{65}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Object\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{65}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Detailed Description}{66}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Member Function Documentation}{66}{subsection.10.1.2}%
+\contentsline {subsubsection}{\numberline {10.1.2.1}getActiveDatabase()}{66}{subsubsection.10.1.2.1}%
+\contentsline {subsubsection}{\numberline {10.1.2.2}getActiveTableName()}{67}{subsubsection.10.1.2.2}%
+\contentsline {subsubsection}{\numberline {10.1.2.3}getPtrApplication()}{67}{subsubsection.10.1.2.3}%
+\contentsline {subsubsection}{\numberline {10.1.2.4}getPtrDbHandler()}{67}{subsubsection.10.1.2.4}%
+\contentsline {subsubsection}{\numberline {10.1.2.5}getPtrTableHandler()}{67}{subsubsection.10.1.2.5}%
+\contentsline {subsubsection}{\numberline {10.1.2.6}getTableSqlError()}{68}{subsubsection.10.1.2.6}%
+\contentsline {subsubsection}{\numberline {10.1.2.7}setActiveTableName()}{68}{subsubsection.10.1.2.7}%
+\contentsline {section}{\numberline {10.2}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Startup\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{68}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Detailed Description}{69}{subsection.10.2.1}%
+\contentsline {section}{\numberline {10.3}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{69}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Detailed Description}{70}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Member Function Documentation}{71}{subsection.10.3.2}%
+\contentsline {subsubsection}{\numberline {10.3.2.1}getActiveDatabase()}{71}{subsubsection.10.3.2.1}%
+\contentsline {subsubsection}{\numberline {10.3.2.2}getSqlError()}{71}{subsubsection.10.3.2.2}%
+\contentsline {section}{\numberline {10.4}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Table\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{71}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Detailed Description}{72}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Member Function Documentation}{73}{subsection.10.4.2}%
+\contentsline {subsubsection}{\numberline {10.4.2.1}getActiveTableName()}{73}{subsubsection.10.4.2.1}%
+\contentsline {subsubsection}{\numberline {10.4.2.2}getLastTableError()}{73}{subsubsection.10.4.2.2}%
+\contentsline {subsubsection}{\numberline {10.4.2.3}getTableModel()}{73}{subsubsection.10.4.2.3}%
+\contentsline {subsubsection}{\numberline {10.4.2.4}setActiveTableName()}{73}{subsubsection.10.4.2.4}%
+\contentsline {section}{\numberline {10.5}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Dev\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{74}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Detailed Description}{76}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Member Function Documentation}{77}{subsection.10.5.2}%
+\contentsline {subsubsection}{\numberline {10.5.2.1}devConnectUi()}{77}{subsubsection.10.5.2.1}%
+\contentsline {subsubsection}{\numberline {10.5.2.2}logEvent()}{78}{subsubsection.10.5.2.2}%
+\contentsline {subsection}{\numberline {10.5.3}Member Data Documentation}{78}{subsection.10.5.3}%
+\contentsline {subsubsection}{\numberline {10.5.3.1}clearInput}{78}{subsubsection.10.5.3.1}%
+\contentsline {subsubsection}{\numberline {10.5.3.2}input2}{78}{subsubsection.10.5.3.2}%
+\contentsline {subsubsection}{\numberline {10.5.3.3}input3}{79}{subsubsection.10.5.3.3}%
+\contentsline {subsubsection}{\numberline {10.5.3.4}input4}{79}{subsubsection.10.5.3.4}%
+\contentsline {subsubsection}{\numberline {10.5.3.5}input5}{79}{subsubsection.10.5.3.5}%
+\contentsline {section}{\numberline {10.6}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Launcher\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{79}{section.10.6}%
+\contentsline {subsection}{\numberline {10.6.1}Detailed Description}{81}{subsection.10.6.1}%
+\contentsline {subsection}{\numberline {10.6.2}Member Function Documentation}{81}{subsection.10.6.2}%
+\contentsline {subsubsection}{\numberline {10.6.2.1}launcherConnectUi()}{81}{subsubsection.10.6.2.1}%
+\contentsline {section}{\numberline {10.7}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Settings\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{82}{section.10.7}%
+\contentsline {subsection}{\numberline {10.7.1}Detailed Description}{83}{subsection.10.7.1}%
+\contentsline {subsection}{\numberline {10.7.2}Member Function Documentation}{84}{subsection.10.7.2}%
+\contentsline {subsubsection}{\numberline {10.7.2.1}applyAndCloseClicked}{84}{subsubsection.10.7.2.1}%
+\contentsline {subsubsection}{\numberline {10.7.2.2}settingsConnectUi()}{84}{subsubsection.10.7.2.2}%
+\contentsline {section}{\numberline {10.8}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Translatable\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{85}{section.10.8}%
+\contentsline {subsection}{\numberline {10.8.1}Detailed Description}{85}{subsection.10.8.1}%
+\contentsline {section}{\numberline {10.9}Apos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{86}{section.10.9}%
+\contentsline {subsection}{\numberline {10.9.1}Detailed Description}{87}{subsection.10.9.1}%
+\contentsline {chapter}{\numberline {11}File Documentation}{89}{chapter.11}%
+\contentsline {section}{\numberline {11.1}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/objecthandler.cpp File Reference}{89}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Detailed Description}{90}{subsection.11.1.1}%
+\contentsline {section}{\numberline {11.2}objecthandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{90}{section.11.2}%
+\contentsline {section}{\numberline {11.3}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/objecthandler.hpp File Reference}{91}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Detailed Description}{93}{subsection.11.3.1}%
+\contentsline {section}{\numberline {11.4}objecthandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{93}{section.11.4}%
+\contentsline {section}{\numberline {11.5}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/startuphandler.cpp File Reference}{94}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Detailed Description}{95}{subsection.11.5.1}%
+\contentsline {section}{\numberline {11.6}startuphandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{95}{section.11.6}%
+\contentsline {section}{\numberline {11.7}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/backend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/startuphandler.hpp File Reference}{96}{section.11.7}%
+\contentsline {subsection}{\numberline {11.7.1}Detailed Description}{98}{subsection.11.7.1}%
+\contentsline {section}{\numberline {11.8}startuphandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{98}{section.11.8}%
+\contentsline {section}{\numberline {11.9}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/databasehandler.cpp File Reference}{99}{section.11.9}%
+\contentsline {subsection}{\numberline {11.9.1}Detailed Description}{99}{subsection.11.9.1}%
+\contentsline {section}{\numberline {11.10}databasehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{100}{section.11.10}%
+\contentsline {section}{\numberline {11.11}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/databasehandler.hpp File Reference}{101}{section.11.11}%
+\contentsline {subsection}{\numberline {11.11.1}Detailed Description}{102}{subsection.11.11.1}%
+\contentsline {section}{\numberline {11.12}databasehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{103}{section.11.12}%
+\contentsline {section}{\numberline {11.13}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/tablehandler.cpp File Reference}{103}{section.11.13}%
+\contentsline {subsection}{\numberline {11.13.1}Detailed Description}{104}{subsection.11.13.1}%
+\contentsline {section}{\numberline {11.14}tablehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{105}{section.11.14}%
+\contentsline {section}{\numberline {11.15}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/tablehandler.hpp File Reference}{106}{section.11.15}%
+\contentsline {subsection}{\numberline {11.15.1}Detailed Description}{108}{subsection.11.15.1}%
+\contentsline {section}{\numberline {11.16}tablehandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{108}{section.11.16}%
+\contentsline {section}{\numberline {11.17}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/devwindow.cpp File Reference}{109}{section.11.17}%
+\contentsline {subsection}{\numberline {11.17.1}Detailed Description}{110}{subsection.11.17.1}%
+\contentsline {section}{\numberline {11.18}devwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{110}{section.11.18}%
+\contentsline {section}{\numberline {11.19}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/devwindow.hpp File Reference}{114}{section.11.19}%
+\contentsline {subsection}{\numberline {11.19.1}Detailed Description}{115}{subsection.11.19.1}%
+\contentsline {section}{\numberline {11.20}devwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{116}{section.11.20}%
+\contentsline {section}{\numberline {11.21}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/launcherwindow.cpp File Reference}{117}{section.11.21}%
+\contentsline {subsection}{\numberline {11.21.1}Detailed Description}{118}{subsection.11.21.1}%
+\contentsline {section}{\numberline {11.22}launcherwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{118}{section.11.22}%
+\contentsline {section}{\numberline {11.23}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/launcherwindow.hpp File Reference}{119}{section.11.23}%
+\contentsline {subsection}{\numberline {11.23.1}Detailed Description}{120}{subsection.11.23.1}%
+\contentsline {section}{\numberline {11.24}launcherwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{121}{section.11.24}%
+\contentsline {section}{\numberline {11.25}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/settingswindow.cpp File Reference}{121}{section.11.25}%
+\contentsline {subsection}{\numberline {11.25.1}Detailed Description}{122}{subsection.11.25.1}%
+\contentsline {section}{\numberline {11.26}settingswindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{123}{section.11.26}%
+\contentsline {section}{\numberline {11.27}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/settingswindow.hpp File Reference}{124}{section.11.27}%
+\contentsline {subsection}{\numberline {11.27.1}Detailed Description}{126}{subsection.11.27.1}%
+\contentsline {section}{\numberline {11.28}settingswindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{126}{section.11.28}%
+\contentsline {section}{\numberline {11.29}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/translatablewindow.cpp File Reference}{127}{section.11.29}%
+\contentsline {subsection}{\numberline {11.29.1}Detailed Description}{128}{subsection.11.29.1}%
+\contentsline {section}{\numberline {11.30}translatablewindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{128}{section.11.30}%
+\contentsline {section}{\numberline {11.31}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/translatablewindow.hpp File Reference}{128}{section.11.31}%
+\contentsline {subsection}{\numberline {11.31.1}Detailed Description}{129}{subsection.11.31.1}%
+\contentsline {section}{\numberline {11.32}translatablewindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{129}{section.11.32}%
+\contentsline {section}{\numberline {11.33}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/windowhandler.cpp File Reference}{130}{section.11.33}%
+\contentsline {subsection}{\numberline {11.33.1}Detailed Description}{130}{subsection.11.33.1}%
+\contentsline {section}{\numberline {11.34}windowhandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{131}{section.11.34}%
+\contentsline {section}{\numberline {11.35}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/classes/frontend\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Classes/windowhandler.hpp File Reference}{132}{section.11.35}%
+\contentsline {subsection}{\numberline {11.35.1}Detailed Description}{133}{subsection.11.35.1}%
+\contentsline {section}{\numberline {11.36}windowhandler.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{134}{section.11.36}%
+\contentsline {section}{\numberline {11.37}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CONTRIBUTING.md File Reference}{134}{section.11.37}%
+\contentsline {section}{\numberline {11.38}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}README.md File Reference}{134}{section.11.38}%
+\contentsline {section}{\numberline {11.39}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Documents/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekte/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Apos-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Project/source/main.cpp File Reference}{134}{section.11.39}%
+\contentsline {subsection}{\numberline {11.39.1}Detailed Description}{135}{subsection.11.39.1}%
+\contentsline {subsection}{\numberline {11.39.2}Function Documentation}{136}{subsection.11.39.2}%
+\contentsline {subsubsection}{\numberline {11.39.2.1}main()}{136}{subsubsection.11.39.2.1}%
+\contentsline {section}{\numberline {11.40}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{137}{section.11.40}%
+\contentsline {chapter}{Index}{139}{section*.194}%
