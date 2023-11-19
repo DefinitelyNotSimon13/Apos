@@ -1,4 +1,4 @@
-<map id="AposFrontend::DevWindow::on_btnAdd_clicked" name="AposFrontend::DevWindow::on_btnAdd_clicked">
+<map id="AposFrontend::DevWindow::on_btnAdd_clicked" name="AposFrontend::DevWindow::addValuesClicked">
 <area shape="rect" id="Node000001" title="Slot for the &#39;Add&#39; button click event." alt="" coords="5,72,183,115"/>
 <area shape="rect" id="Node000002" href="$d6/de4/group___ui-_functions.html#gaa5f72842768883e8c2e29a8a54c74fe4" title="Assigns the inputs." alt="" coords="231,5,408,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,69,229,50,231,56,169,74"/>

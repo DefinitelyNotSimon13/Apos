@@ -1,4 +1,4 @@
-<map id="AposFrontend::DevWindow::on_clearInputsAfterInsert_stateChanged" name="AposFrontend::DevWindow::on_clearInputsAfterInsert_stateChanged">
+<map id="AposFrontend::DevWindow::on_clearInputsAfterInsert_stateChanged" name="AposFrontend::DevWindow::clearInputsAfterInsertStateChanged">
 <area shape="rect" id="Node000001" title="Slot for the &#39;clearInputsAfterInsert&#39; state change event." alt="" coords="5,27,183,85"/>
 <area shape="rect" id="Node000002" href="$d6/de4/group___ui-_functions.html#ga967ec97cb7b88eeb89c2ef45f68763a6" title="Checks a checkbox." alt="" coords="231,5,408,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,42,215,38,215,43,183,47"/>

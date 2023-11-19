@@ -24,7 +24,7 @@
 <g id="a_Node000002"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga42bcd7a5ac4909f201e9f1268ec2b64c" target="_top" xlink:title="Slot for the &#39;Settings&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="327.88,-82 194.88,-82 194.88,-50 327.88,-50 327.88,-82"/>
 <text text-anchor="start" x="202.88" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="261.38" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_inSettings_clicked</text>
+<text text-anchor="middle" x="261.38" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::settingsClicked</text>
 </a>
 </g>
 </g>

@@ -30,22 +30,30 @@ namespace AposFrontend {
         ui->setupUi(this);
         ptrObjectHandler = std::move(newObjectHandler);
         ptrTranslator = QSharedPointer<QTranslator>(new QTranslator);
+        settingsConnectUi();
     }
 
     SettingsWindow::~SettingsWindow() {
         delete ui;
     }
 
+    void SettingsWindow::settingsConnectUi() {
+        //TODO: implement Logger
+        connect(ui->inClose, SIGNAL(clicked()), this, SLOT(closeClicked()));
+        connect(ui->inApply, SIGNAL(clicked()), this, SLOT(applyClicked()));
+        connect(ui->inLanguage, SIGNAL(currentIndexChanged(int)), this, SLOT(languageCurrentIndexChanged(int)));
+    }
+
     void SettingsWindow::retranslateUi() {
         ui->retranslateUi(this);
     }
 
-    void SettingsWindow::on_inClose_clicked() {
+    void SettingsWindow::closeClicked() {
         this->hide();
     }
 
 
-    void SettingsWindow::on_inApply_clicked() {
+    void SettingsWindow::applyClicked() {
         if (languageChanged) {
             qDebug() << "New Language will be applied";
 
@@ -56,7 +64,7 @@ namespace AposFrontend {
     }
 
 
-    void SettingsWindow::on_inLanguage_currentIndexChanged(int index) {
+    void SettingsWindow::languageCurrentIndexChanged(int index) {
         tempLanguageIndex = index;
         qDebug() << "checkboxIndex: " << index << "tempIndex: " << tempLanguageIndex << "index: " << languageIndex;
         if (tempLanguageIndex == languageIndex) {

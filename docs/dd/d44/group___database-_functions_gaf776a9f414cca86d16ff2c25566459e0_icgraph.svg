@@ -24,7 +24,7 @@
 <g id="a_Node000002"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga94f1bcb3a0d4ff36c4651a7d22bbc4ff" target="_top" xlink:title="Slot for the &#39;InitDB&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="133,-32 0,-32 0,0 133,0 133,-32"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::DevWindow</text>
-<text text-anchor="middle" x="66.5" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_btnInitDB_clicked</text>
+<text text-anchor="middle" x="66.5" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">::initDbClicked</text>
 </a>
 </g>
 </g>

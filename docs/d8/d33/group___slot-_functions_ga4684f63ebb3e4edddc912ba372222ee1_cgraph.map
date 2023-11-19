@@ -1,4 +1,4 @@
-<map id="AposFrontend::LauncherWindow::on_inShowDev_clicked" name="AposFrontend::LauncherWindow::on_inShowDev_clicked">
+<map id="AposFrontend::LauncherWindow::on_inShowDev_clicked" name="AposFrontend::LauncherWindow::showDevClicked">
 <area shape="rect" id="Node000001" title="Slot for the &#39;ShowDev&#39; button click event." alt="" coords="5,5,215,48"/>
 <area shape="rect" id="Node000002" href="$d7/d58/group___signal-_funtions.html#ga0d06592356794582b3ad43292227af7a" title="Signal for opening the developer window." alt="" coords="263,5,472,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,24,247,24,247,29,215,29"/>

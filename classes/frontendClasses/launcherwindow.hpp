@@ -62,6 +62,8 @@ namespace AposFrontend {
          */
         ~LauncherWindow() override;
 
+        ;
+
         /**
          * @brief Retranslates the user interface.
          * @ingroup Ui-Functions
@@ -88,15 +90,18 @@ namespace AposFrontend {
          * @ingroup Slot-Functions
          * @details This slot is triggered when the 'ShowDev' button is clicked.
          */
-        void on_inShowDev_clicked();
+        void showDevClicked();
 
         /**
          * @brief Slot for the 'PushButton' button click event.
          * @ingroup Slot-Functions
          * @details This slot is triggered when the 'PushButton' button is clicked.
          */
-        void on_pushButton_clicked();
+        void pushButtonClicked();
     private:
+        //TODO: Add documentation
+        bool launcherConnectUi();
+
         /**
          * @brief Pointer to the user interface of the LauncherWindow object.
          * @ingroup Variables

@@ -70,6 +70,9 @@ namespace AposFrontend {
          */
         ~DevWindow() override;
 
+
+
+        //TODO: Replace with logging class
         /**
          * @brief Logs an event with a type and a message.
          *
@@ -137,7 +140,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'InitDB' button is clicked.
          */
-        void on_btnInitDB_clicked();
+        void initDbClicked();
 
         /**
          * @brief Slot for the 'CloseDB' button click event.
@@ -146,7 +149,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'CloseDB' button is clicked.
          */
-        void on_btnCloseDB_clicked();
+        void closeDBClicked();
 
         /**
          * @brief Slot for the 'Execute' button click event.
@@ -155,7 +158,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'Execute' button is clicked.
          */
-        void on_btnExecute_clicked();
+        void executeClicked();
 
         /**
          * @brief Slot for the 'SelectTable' button click event.
@@ -164,7 +167,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'SelectTable' button is clicked.
          */
-        void on_btnSelectTable_clicked();
+        void selectTableClicked();
 
         /**
          * @brief Slot for the 'Add' button click event.
@@ -173,7 +176,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'Add' button is clicked.
          */
-        void on_btnAdd_clicked();
+        void addValuesClicked();
 
         /**
          * @brief Slot for the 'Update' button click event.
@@ -182,7 +185,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'Update' button is clicked.
          */
-        void on_btnUpdate_clicked();
+        void updateTableClicked();
 
         /**
          * @brief Slot for the 'clearCommandAfterExecute' state change event.
@@ -193,7 +196,7 @@ namespace AposFrontend {
          *
          * @param arg1 The new state of the checkbox.
          */
-        void on_clearCommandAfterExecute_stateChanged(int arg1);
+        void clearCommandAfterExecuteStateChanged(int arg1);
 
         /**
          * @brief Slot for the 'clearInputsAfterInsert' state change event.
@@ -204,7 +207,7 @@ namespace AposFrontend {
          *
          * @param arg1 The new state of the checkbox.
          */
-        void on_clearInputsAfterInsert_stateChanged(int arg1);
+        void clearInputsAfterInsertStateChanged(int arg1);
 
         /**
          * @brief Slot for the 'ReturnToLauncher' button click event.
@@ -213,7 +216,7 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'ReturnToLauncher' button is clicked.
          */
-        void on_inReturnToLauncher_clicked();
+        void returnToLauncherClicked();
 
         /**
          * @brief Slot for the 'Settings' button click event.
@@ -222,8 +225,12 @@ namespace AposFrontend {
          * @details
          * This slot is triggered when the 'Settings' button is clicked.
          */
-        void on_inSettings_clicked();
+        void settingsClicked();
+
     private:
+        //TODO: Add documentation
+        bool devConnectUi();
+
         /**
          * @brief Initializes the database.
          * @ingroup Database-Functions

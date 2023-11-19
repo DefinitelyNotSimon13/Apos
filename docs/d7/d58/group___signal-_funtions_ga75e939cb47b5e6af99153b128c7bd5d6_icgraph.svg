@@ -24,7 +24,7 @@
 <g id="a_Node000002"><a xlink:href="../../d8/d33/group___slot-_functions.html#ga7a52cc1168adc3df616915e4ec59e112" target="_top" xlink:title="Slot for the &#39;PushButton&#39; button click event.">
 <polygon fill="white" stroke="#666666" points="157,-82 0,-82 0,-50 157,-50 157,-82"/>
 <text text-anchor="start" x="8" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00">AposFrontend::LauncherWindow</text>
-<text text-anchor="middle" x="78.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_pushButton_clicked</text>
+<text text-anchor="middle" x="78.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushButtonClicked</text>
 </a>
 </g>
 </g>

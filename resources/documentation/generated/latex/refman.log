@@ -3722,7 +3722,7 @@ Overfull \hbox (123.4934pt too wide) in paragraph at lines 103--105
 
 ] [134]
 Underfull \hbox (badness 10000) in paragraph at lines 352--354
-[]| \T1/phv/m/n/10 on_clearCommandAfterExecute_stateChanged,
+[]| \T1/phv/m/n/10 clearCommandAfterExecuteStateChanged,
  []
 
 [135] [136
