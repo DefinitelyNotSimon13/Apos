@@ -1,0 +1,7 @@
+<map id="AposFrontend::SettingsWindow::applyClicked" name="AposFrontend::SettingsWindow::applyClicked">
+<area shape="rect" id="Node000001" title="Slot for the &#39;Apply&#39; button click event." alt="" coords="5,39,210,81"/>
+<area shape="rect" id="Node000002" href="$d7/d58/group___signal-_funtions.html#gaa502afe63303465922a81ff95f482b8e" title="Signal for applying settings." alt="" coords="258,5,462,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,44,242,40,242,45,210,49"/>
+<area shape="rect" id="Node000003" href="$de/dc6/group___initialization.html#ga49b8895cc4133ac81bd799854b3515b6" title="Installs the application&#39;s translator." alt="" coords="258,72,462,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,71,242,75,242,80,210,76"/>
+</map>

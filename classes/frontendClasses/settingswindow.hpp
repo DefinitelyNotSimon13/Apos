@@ -94,6 +94,9 @@ namespace AposFrontend {
          */
         void applyClicked();
 
+        //TODO: add Documentation
+        void applyAndCloseClicked();
+
         /**
          * @brief Slot for the 'Language' combo box index change event.
          * @ingroup Slot-Functions

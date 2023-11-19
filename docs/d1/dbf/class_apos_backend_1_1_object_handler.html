@@ -1,38 +1,38 @@
 <!-- HTML header for doxygen 1.9.8-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<meta content="text/xhtml;charset=UTF-8" http-equiv="Content-Type"/>
-<meta content="IE=11" http-equiv="X-UA-Compatible"/>
-<meta content="Doxygen 1.9.8" name="generator"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Apos - Database Manager: AposBackend::ObjectHandler Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
-<script src="../../jquery.js" type="text/javascript"></script>
-<script src="../../dynsections.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
-<script src="../../resize.js" type="text/javascript"></script>
-<script src="../../navtreedata.js" type="text/javascript"></script>
-<script src="../../navtree.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
-<script src="../../search/searchdata.js" type="text/javascript"></script>
-<script src="../../search/search.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<script src="Doxygen-awesome/doxygen-awesome-darkmode-toggle.js" type="text/javascript"></script>
+<script type="text/javascript" src="Doxygen-awesome/doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">doxygen-awesome-darkmode-toggle.init()</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
-<table cellpadding="0" cellspacing="0">
+<table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../icons8-database-100.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Apos - Database Manager
+   <div id="projectname">Apos - Database Manager<span id="projectnumber">&#160;V0.1-alpha.2</span>
    </div>
   </td>
  </tr>
@@ -46,8 +46,8 @@
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 /* @license-end */
 </script>
-<script src="../../menudata.js" type="text/javascript"></script>
-<script src="../../menu.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
@@ -58,14 +58,14 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div class="ui-resizable side-nav-resizable" id="side-nav">
+<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
-      <div class="sync" id="nav-sync"></div>
+      <div id="nav-sync" class="sync"></div>
     </div>
   </div>
-  <div class="ui-resizable-handle" id="splitbar"
-       style="-moz-user-select:none;">
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
   </div>
 </div>
 <script type="text/javascript">
@@ -76,9 +76,9 @@ $(document).ready(function(){initNavTree('d1/dbf/class_apos_backend_1_1_object_h
 <div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
-     onkeydown="return searchBox.OnSearchSelectKey(event)"
+     onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
-     onmouseover="return searchBox.OnSearchSelectShow()">
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
 </div>
 
 <!-- iframe showing the search results (closed by default) -->
@@ -111,50 +111,50 @@ $(document).ready(function(){initNavTree('d1/dbf/class_apos_backend_1_1_object_h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ga323a5ed5f8ed6cd37cdb838e132f025a" id="r_ga323a5ed5f8ed6cd37cdb838e132f025a"><td align="right" class="memItemLeft" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbc/group___constructructors-_destructors.html#ga323a5ed5f8ed6cd37cdb838e132f025a">ObjectHandler</a> (QSharedPointer&lt; QApplication &gt; newApplication, QSharedPointer&lt; <a class="el" href="../../da/d9d/class_apos_database_1_1_database_handler.html">AposDatabase::DatabaseHandler</a> &gt; newDbHandler, QSharedPointer&lt; <a class="el" href="../../d3/d34/class_apos_database_1_1_table_handler.html">AposDatabase::TableHandler</a> &gt; newTableHandler)</td></tr>
+<tr class="memitem:ga323a5ed5f8ed6cd37cdb838e132f025a" id="r_ga323a5ed5f8ed6cd37cdb838e132f025a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dbc/group___constructructors-_destructors.html#ga323a5ed5f8ed6cd37cdb838e132f025a">ObjectHandler</a> (QSharedPointer&lt; QApplication &gt; newApplication, QSharedPointer&lt; <a class="el" href="../../da/d9d/class_apos_database_1_1_database_handler.html">AposDatabase::DatabaseHandler</a> &gt; newDbHandler, QSharedPointer&lt; <a class="el" href="../../d3/d34/class_apos_database_1_1_table_handler.html">AposDatabase::TableHandler</a> &gt; newTableHandler)</td></tr>
 <tr class="memdesc:ga323a5ed5f8ed6cd37cdb838e132f025a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html" title="The ObjectHandler class is a part of the application&#39;s backend logic.">ObjectHandler</a> class.  <br /></td></tr>
 <tr class="separator:ga323a5ed5f8ed6cd37cdb838e132f025a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac0379aadaeeeb327649a6f252da0c4e1" id="r_gac0379aadaeeeb327649a6f252da0c4e1"><td align="right" class="memItemLeft" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc6/group___initialization.html#gac0379aadaeeeb327649a6f252da0c4e1">initDatabaseObject</a> ()</td></tr>
+<tr class="memitem:gac0379aadaeeeb327649a6f252da0c4e1" id="r_gac0379aadaeeeb327649a6f252da0c4e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc6/group___initialization.html#gac0379aadaeeeb327649a6f252da0c4e1">initDatabaseObject</a> ()</td></tr>
 <tr class="memdesc:gac0379aadaeeeb327649a6f252da0c4e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the database object.  <br /></td></tr>
 <tr class="separator:gac0379aadaeeeb327649a6f252da0c4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacd26b741696339620d5d6f3d5e65e688" id="r_gacd26b741696339620d5d6f3d5e65e688"><td align="right" class="memItemLeft" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc6/group___initialization.html#gacd26b741696339620d5d6f3d5e65e688">initTableObject</a> (const QString &amp;inputTableName)</td></tr>
+<tr class="memitem:gacd26b741696339620d5d6f3d5e65e688" id="r_gacd26b741696339620d5d6f3d5e65e688"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dc6/group___initialization.html#gacd26b741696339620d5d6f3d5e65e688">initTableObject</a> (const QString &amp;inputTableName)</td></tr>
 <tr class="memdesc:gacd26b741696339620d5d6f3d5e65e688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the table object.  <br /></td></tr>
 <tr class="separator:gacd26b741696339620d5d6f3d5e65e688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01f8ae714d71caf1b6627ec3a237a547" id="r_a01f8ae714d71caf1b6627ec3a237a547"><td align="right" class="memItemLeft" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a01f8ae714d71caf1b6627ec3a237a547">setActiveTableName</a> (const QString &amp;newActiveTableName)</td></tr>
+<tr class="memitem:a01f8ae714d71caf1b6627ec3a237a547" id="r_a01f8ae714d71caf1b6627ec3a237a547"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a01f8ae714d71caf1b6627ec3a237a547">setActiveTableName</a> (const QString &amp;newActiveTableName)</td></tr>
 <tr class="memdesc:a01f8ae714d71caf1b6627ec3a237a547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active table name.  <br /></td></tr>
 <tr class="separator:a01f8ae714d71caf1b6627ec3a237a547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb2f428369d3d319a4e498165d74bc63" id="r_aeb2f428369d3d319a4e498165d74bc63"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; QSqlDatabase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#aeb2f428369d3d319a4e498165d74bc63">getActiveDatabase</a> () const</td></tr>
+<tr class="memitem:aeb2f428369d3d319a4e498165d74bc63" id="r_aeb2f428369d3d319a4e498165d74bc63"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; QSqlDatabase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#aeb2f428369d3d319a4e498165d74bc63">getActiveDatabase</a> () const</td></tr>
 <tr class="memdesc:aeb2f428369d3d319a4e498165d74bc63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the active database.  <br /></td></tr>
 <tr class="separator:aeb2f428369d3d319a4e498165d74bc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a702f40cfa2c7466285aa9500c289bc2b" id="r_a702f40cfa2c7466285aa9500c289bc2b"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; <a class="el" href="../../d3/d34/class_apos_database_1_1_table_handler.html">AposDatabase::TableHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a702f40cfa2c7466285aa9500c289bc2b">getPtrTableHandler</a> () const</td></tr>
+<tr class="memitem:a702f40cfa2c7466285aa9500c289bc2b" id="r_a702f40cfa2c7466285aa9500c289bc2b"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../d3/d34/class_apos_database_1_1_table_handler.html">AposDatabase::TableHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a702f40cfa2c7466285aa9500c289bc2b">getPtrTableHandler</a> () const</td></tr>
 <tr class="memdesc:a702f40cfa2c7466285aa9500c289bc2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the table handler.  <br /></td></tr>
 <tr class="separator:a702f40cfa2c7466285aa9500c289bc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a257fa500e50c436bb1c5f760fd721a17" id="r_a257fa500e50c436bb1c5f760fd721a17"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; <a class="el" href="../../da/d9d/class_apos_database_1_1_database_handler.html">AposDatabase::DatabaseHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a257fa500e50c436bb1c5f760fd721a17">getPtrDbHandler</a> () const</td></tr>
+<tr class="memitem:a257fa500e50c436bb1c5f760fd721a17" id="r_a257fa500e50c436bb1c5f760fd721a17"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../da/d9d/class_apos_database_1_1_database_handler.html">AposDatabase::DatabaseHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a257fa500e50c436bb1c5f760fd721a17">getPtrDbHandler</a> () const</td></tr>
 <tr class="memdesc:a257fa500e50c436bb1c5f760fd721a17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the database handler.  <br /></td></tr>
 <tr class="separator:a257fa500e50c436bb1c5f760fd721a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b582ed58502f050c33a932d148e7c1e" id="r_a5b582ed58502f050c33a932d148e7c1e"><td align="right" class="memItemLeft" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a5b582ed58502f050c33a932d148e7c1e">getActiveTableName</a> () const</td></tr>
+<tr class="memitem:a5b582ed58502f050c33a932d148e7c1e" id="r_a5b582ed58502f050c33a932d148e7c1e"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a5b582ed58502f050c33a932d148e7c1e">getActiveTableName</a> () const</td></tr>
 <tr class="memdesc:a5b582ed58502f050c33a932d148e7c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the active table name.  <br /></td></tr>
 <tr class="separator:a5b582ed58502f050c33a932d148e7c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1627dffe3fb1bff87cd8a6a8449644a7" id="r_a1627dffe3fb1bff87cd8a6a8449644a7"><td align="right" class="memItemLeft" valign="top">const QSqlError &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a1627dffe3fb1bff87cd8a6a8449644a7">getTableSqlError</a> () const</td></tr>
+<tr class="memitem:a1627dffe3fb1bff87cd8a6a8449644a7" id="r_a1627dffe3fb1bff87cd8a6a8449644a7"><td class="memItemLeft" align="right" valign="top">const QSqlError &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a1627dffe3fb1bff87cd8a6a8449644a7">getTableSqlError</a> () const</td></tr>
 <tr class="memdesc:a1627dffe3fb1bff87cd8a6a8449644a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the table SQL error.  <br /></td></tr>
 <tr class="separator:a1627dffe3fb1bff87cd8a6a8449644a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f5b36cb39c17b71be234b7059c5cda8" id="r_a4f5b36cb39c17b71be234b7059c5cda8"><td align="right" class="memItemLeft" valign="top">const QSharedPointer&lt; QApplication &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a4f5b36cb39c17b71be234b7059c5cda8">getPtrApplication</a> () const</td></tr>
+<tr class="memitem:a4f5b36cb39c17b71be234b7059c5cda8" id="r_a4f5b36cb39c17b71be234b7059c5cda8"><td class="memItemLeft" align="right" valign="top">const QSharedPointer&lt; QApplication &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html#a4f5b36cb39c17b71be234b7059c5cda8">getPtrApplication</a> () const</td></tr>
 <tr class="memdesc:a4f5b36cb39c17b71be234b7059c5cda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the QApplication object.  <br /></td></tr>
 <tr class="separator:a4f5b36cb39c17b71be234b7059c5cda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:gaaf8c1776cb05952a63caad3e0d731af3" id="r_gaaf8c1776cb05952a63caad3e0d731af3"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; QApplication &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/group___variables.html#gaaf8c1776cb05952a63caad3e0d731af3">ptrApplication</a></td></tr>
+<tr class="memitem:gaaf8c1776cb05952a63caad3e0d731af3" id="r_gaaf8c1776cb05952a63caad3e0d731af3"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; QApplication &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/group___variables.html#gaaf8c1776cb05952a63caad3e0d731af3">ptrApplication</a></td></tr>
 <tr class="memdesc:gaaf8c1776cb05952a63caad3e0d731af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared pointer to the QApplication object.  <br /></td></tr>
 <tr class="separator:gaaf8c1776cb05952a63caad3e0d731af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga445f6970d80bf4f3f401a644a752a3d0" id="r_ga445f6970d80bf4f3f401a644a752a3d0"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; <a class="el" href="../../da/d9d/class_apos_database_1_1_database_handler.html">AposDatabase::DatabaseHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/group___variables.html#ga445f6970d80bf4f3f401a644a752a3d0">ptrDbHandler</a></td></tr>
+<tr class="memitem:ga445f6970d80bf4f3f401a644a752a3d0" id="r_ga445f6970d80bf4f3f401a644a752a3d0"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../da/d9d/class_apos_database_1_1_database_handler.html">AposDatabase::DatabaseHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/group___variables.html#ga445f6970d80bf4f3f401a644a752a3d0">ptrDbHandler</a></td></tr>
 <tr class="memdesc:ga445f6970d80bf4f3f401a644a752a3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared pointer to the DatabaseHandler object.  <br /></td></tr>
 <tr class="separator:ga445f6970d80bf4f3f401a644a752a3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga14fd424be7ad4195dcf9349466f177a2" id="r_ga14fd424be7ad4195dcf9349466f177a2"><td align="right" class="memItemLeft" valign="top">QSharedPointer&lt; <a class="el" href="../../d3/d34/class_apos_database_1_1_table_handler.html">AposDatabase::TableHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/group___variables.html#ga14fd424be7ad4195dcf9349466f177a2">ptrTableHandler</a></td></tr>
+<tr class="memitem:ga14fd424be7ad4195dcf9349466f177a2" id="r_ga14fd424be7ad4195dcf9349466f177a2"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../d3/d34/class_apos_database_1_1_table_handler.html">AposDatabase::TableHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/group___variables.html#ga14fd424be7ad4195dcf9349466f177a2">ptrTableHandler</a></td></tr>
 <tr class="memdesc:ga14fd424be7ad4195dcf9349466f177a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared pointer to the TableHandler object.  <br /></td></tr>
 <tr class="separator:ga14fd424be7ad4195dcf9349466f177a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a id="details" name="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html" title="The ObjectHandler class is a part of the application&#39;s backend logic.">ObjectHandler</a> class is a part of the application's backend logic. </p>
 <p>Provides the functionality for initializing the database and table objects, setting the active table name, and getting the active database, table handler, database handler, active table name, and table SQL error.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="../../da/d9d/class_apos_database_1_1_database_handler.html" title="Provides the functionality for initializing and closing the database, executing SQL commands,...">AposDatabase::DatabaseHandler</a> </dd>
@@ -338,10 +338,10 @@ QtSql </dd></dl>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
-<div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d43/namespace_apos_backend.html">AposBackend</a></li><li class="navelem"><a class="el" href="../../d1/dbf/class_apos_backend_1_1_object_handler.html">ObjectHandler</a></li>
-    <li class="footer">Generated on Sun Nov 19 2023 00:42:33 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img alt="doxygen" class="footer" height="31" src="../../doxygen.svg" width="104"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Sun Nov 19 2023 16:17:01 for Apos - Database Manager by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

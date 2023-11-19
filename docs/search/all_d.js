@@ -14,5 +14,6 @@ var searchData=
   ['ptrtablemodel_11',['ptrTableModel',['../d0/dc5/group___variables.html#gab981cd2ae2530e6c1355fb9039076a49',1,'AposDatabase::TableHandler']]],
   ['ptrtranslator_12',['ptrTranslator',['../d0/dc5/group___variables.html#ga3a888be424dc6808e654b2b888b6b7a3',1,'AposFrontend::SettingsWindow']]],
   ['pull_20request_13',['Make a Pull Request',['../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#make-a-pull-request',1,'']]],
-  ['pull_20request_20updated_14',['Keeping your Pull Request updated',['../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#keeping-your-pull-request-updated',1,'']]]
+  ['pull_20request_20updated_14',['Keeping your Pull Request updated',['../d5/d49/md__c_1_2_users_2_clean_2_documents_2_projekte_2_apos-_database_manager_2_project_2_c_o_n_t_r_i_b_u_t_i_n_g.html#keeping-your-pull-request-updated',1,'']]],
+  ['pushbuttonclicked_15',['pushButtonClicked',['../d8/d33/group___slot-_functions.html#gab825d6fc24f308db7d35b33ca73b2cdf',1,'AposFrontend::LauncherWindow']]]
 ];

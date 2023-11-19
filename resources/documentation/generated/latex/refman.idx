@@ -5,28 +5,28 @@
 \indexentry{DatabaseHandler@{DatabaseHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{16}
 \indexentry{Constructors and Desctructors@{Constructors and Desctructors}!DevWindow@{DevWindow}|hyperpage}{16}
 \indexentry{DevWindow@{DevWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{16}
-\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!LauncherWindow@{LauncherWindow}|hyperpage}{16}
-\indexentry{LauncherWindow@{LauncherWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{16}
+\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!LauncherWindow@{LauncherWindow}|hyperpage}{17}
+\indexentry{LauncherWindow@{LauncherWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{17}
 \indexentry{Constructors and Desctructors@{Constructors and Desctructors}!ObjectHandler@{ObjectHandler}|hyperpage}{18}
 \indexentry{ObjectHandler@{ObjectHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{18}
 \indexentry{Constructors and Desctructors@{Constructors and Desctructors}!SettingsWindow@{SettingsWindow}|hyperpage}{18}
 \indexentry{SettingsWindow@{SettingsWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{18}
-\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!StartupHandler@{StartupHandler}|hyperpage}{18}
-\indexentry{StartupHandler@{StartupHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{18}
+\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!StartupHandler@{StartupHandler}|hyperpage}{19}
+\indexentry{StartupHandler@{StartupHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{19}
 \indexentry{Constructors and Desctructors@{Constructors and Desctructors}!TableHandler@{TableHandler}|hyperpage}{19}
 \indexentry{TableHandler@{TableHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{19}
 \indexentry{Constructors and Desctructors@{Constructors and Desctructors}!TableHandler@{TableHandler}|hyperpage}{19}
 \indexentry{TableHandler@{TableHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{19}
-\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!TranslatableWindow@{TranslatableWindow}|hyperpage}{19}
-\indexentry{TranslatableWindow@{TranslatableWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{19}
-\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!WindowHandler@{WindowHandler}|hyperpage}{19}
-\indexentry{WindowHandler@{WindowHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{19}
+\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!TranslatableWindow@{TranslatableWindow}|hyperpage}{20}
+\indexentry{TranslatableWindow@{TranslatableWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{20}
+\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!WindowHandler@{WindowHandler}|hyperpage}{20}
+\indexentry{WindowHandler@{WindowHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{20}
 \indexentry{Constructors and Desctructors@{Constructors and Desctructors}!````~DevWindow@{\texorpdfstring{$\sim$}{\string~}DevWindow}|hyperpage}{20}
 \indexentry{````~DevWindow@{\texorpdfstring{$\sim$}{\string~}DevWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{20}
-\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!````~LauncherWindow@{\texorpdfstring{$\sim$}{\string~}LauncherWindow}|hyperpage}{20}
-\indexentry{````~LauncherWindow@{\texorpdfstring{$\sim$}{\string~}LauncherWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{20}
-\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!````~SettingsWindow@{\texorpdfstring{$\sim$}{\string~}SettingsWindow}|hyperpage}{20}
-\indexentry{````~SettingsWindow@{\texorpdfstring{$\sim$}{\string~}SettingsWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{20}
+\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!````~LauncherWindow@{\texorpdfstring{$\sim$}{\string~}LauncherWindow}|hyperpage}{21}
+\indexentry{````~LauncherWindow@{\texorpdfstring{$\sim$}{\string~}LauncherWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{21}
+\indexentry{Constructors and Desctructors@{Constructors and Desctructors}!````~SettingsWindow@{\texorpdfstring{$\sim$}{\string~}SettingsWindow}|hyperpage}{21}
+\indexentry{````~SettingsWindow@{\texorpdfstring{$\sim$}{\string~}SettingsWindow}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{21}
 \indexentry{Constructors and Desctructors@{Constructors and Desctructors}!````~TableHandler@{\texorpdfstring{$\sim$}{\string~}TableHandler}|hyperpage}{21}
 \indexentry{````~TableHandler@{\texorpdfstring{$\sim$}{\string~}TableHandler}!Constructors and Desctructors@{Constructors and Desctructors}|hyperpage}{21}
 \indexentry{Database Functions@{Database Functions}|hyperpage}{21}
@@ -38,8 +38,8 @@
 \indexentry{executeCommand@{executeCommand}!Database Functions@{Database Functions}|hyperpage}{23}
 \indexentry{Database Functions@{Database Functions}!generateTableModel@{generateTableModel}|hyperpage}{23}
 \indexentry{generateTableModel@{generateTableModel}!Database Functions@{Database Functions}|hyperpage}{23}
-\indexentry{Database Functions@{Database Functions}!generateTableModel@{generateTableModel}|hyperpage}{23}
-\indexentry{generateTableModel@{generateTableModel}!Database Functions@{Database Functions}|hyperpage}{23}
+\indexentry{Database Functions@{Database Functions}!generateTableModel@{generateTableModel}|hyperpage}{24}
+\indexentry{generateTableModel@{generateTableModel}!Database Functions@{Database Functions}|hyperpage}{24}
 \indexentry{Database Functions@{Database Functions}!initDatabase@{initDatabase}|hyperpage}{24}
 \indexentry{initDatabase@{initDatabase}!Database Functions@{Database Functions}|hyperpage}{24}
 \indexentry{Database Functions@{Database Functions}!insertIntoTable@{insertIntoTable}|hyperpage}{24}
@@ -82,222 +82,230 @@
 \indexentry{Signal Functions@{Signal Functions}!returnToLauncher@{returnToLauncher}|hyperpage}{32}
 \indexentry{returnToLauncher@{returnToLauncher}!Signal Functions@{Signal Functions}|hyperpage}{32}
 \indexentry{Slot Functions@{Slot Functions}|hyperpage}{33}
-\indexentry{Slot Functions@{Slot Functions}!on\_btnAdd\_clicked@{on\_btnAdd\_clicked}|hyperpage}{34}
-\indexentry{on\_btnAdd\_clicked@{on\_btnAdd\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{34}
-\indexentry{Slot Functions@{Slot Functions}!on\_btnCloseDB\_clicked@{on\_btnCloseDB\_clicked}|hyperpage}{34}
-\indexentry{on\_btnCloseDB\_clicked@{on\_btnCloseDB\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{34}
-\indexentry{Slot Functions@{Slot Functions}!on\_btnExecute\_clicked@{on\_btnExecute\_clicked}|hyperpage}{34}
-\indexentry{on\_btnExecute\_clicked@{on\_btnExecute\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{34}
-\indexentry{Slot Functions@{Slot Functions}!on\_btnInitDB\_clicked@{on\_btnInitDB\_clicked}|hyperpage}{35}
-\indexentry{on\_btnInitDB\_clicked@{on\_btnInitDB\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{35}
-\indexentry{Slot Functions@{Slot Functions}!on\_btnSelectTable\_clicked@{on\_btnSelectTable\_clicked}|hyperpage}{35}
-\indexentry{on\_btnSelectTable\_clicked@{on\_btnSelectTable\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{35}
-\indexentry{Slot Functions@{Slot Functions}!on\_btnUpdate\_clicked@{on\_btnUpdate\_clicked}|hyperpage}{36}
-\indexentry{on\_btnUpdate\_clicked@{on\_btnUpdate\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{36}
-\indexentry{Slot Functions@{Slot Functions}!on\_clearCommandAfterExecute\_stateChanged@{on\_clearCommandAfterExecute\_stateChanged}|hyperpage}{36}
-\indexentry{on\_clearCommandAfterExecute\_stateChanged@{on\_clearCommandAfterExecute\_stateChanged}!Slot Functions@{Slot Functions}|hyperpage}{36}
-\indexentry{Slot Functions@{Slot Functions}!on\_clearInputsAfterInsert\_stateChanged@{on\_clearInputsAfterInsert\_stateChanged}|hyperpage}{37}
-\indexentry{on\_clearInputsAfterInsert\_stateChanged@{on\_clearInputsAfterInsert\_stateChanged}!Slot Functions@{Slot Functions}|hyperpage}{37}
-\indexentry{Slot Functions@{Slot Functions}!on\_inApply\_clicked@{on\_inApply\_clicked}|hyperpage}{37}
-\indexentry{on\_inApply\_clicked@{on\_inApply\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{37}
-\indexentry{Slot Functions@{Slot Functions}!on\_inClose\_clicked@{on\_inClose\_clicked}|hyperpage}{38}
-\indexentry{on\_inClose\_clicked@{on\_inClose\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{38}
-\indexentry{Slot Functions@{Slot Functions}!on\_inLanguage\_currentIndexChanged@{on\_inLanguage\_currentIndexChanged}|hyperpage}{38}
-\indexentry{on\_inLanguage\_currentIndexChanged@{on\_inLanguage\_currentIndexChanged}!Slot Functions@{Slot Functions}|hyperpage}{38}
-\indexentry{Slot Functions@{Slot Functions}!on\_inReturnToLauncher\_clicked@{on\_inReturnToLauncher\_clicked}|hyperpage}{38}
-\indexentry{on\_inReturnToLauncher\_clicked@{on\_inReturnToLauncher\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{38}
-\indexentry{Slot Functions@{Slot Functions}!on\_inSettings\_clicked@{on\_inSettings\_clicked}|hyperpage}{39}
-\indexentry{on\_inSettings\_clicked@{on\_inSettings\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{39}
-\indexentry{Slot Functions@{Slot Functions}!on\_inShowDev\_clicked@{on\_inShowDev\_clicked}|hyperpage}{39}
-\indexentry{on\_inShowDev\_clicked@{on\_inShowDev\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{39}
-\indexentry{Slot Functions@{Slot Functions}!on\_pushButton\_clicked@{on\_pushButton\_clicked}|hyperpage}{39}
-\indexentry{on\_pushButton\_clicked@{on\_pushButton\_clicked}!Slot Functions@{Slot Functions}|hyperpage}{39}
-\indexentry{UI Functions@{UI Functions}|hyperpage}{40}
-\indexentry{UI Functions@{UI Functions}!assignInputs@{assignInputs}|hyperpage}{41}
-\indexentry{assignInputs@{assignInputs}!UI Functions@{UI Functions}|hyperpage}{41}
-\indexentry{UI Functions@{UI Functions}!changeLanguages@{changeLanguages}|hyperpage}{41}
-\indexentry{changeLanguages@{changeLanguages}!UI Functions@{UI Functions}|hyperpage}{41}
-\indexentry{UI Functions@{UI Functions}!checkCheckbox@{checkCheckbox}|hyperpage}{42}
-\indexentry{checkCheckbox@{checkCheckbox}!UI Functions@{UI Functions}|hyperpage}{42}
-\indexentry{UI Functions@{UI Functions}!clearCommandBox@{clearCommandBox}|hyperpage}{43}
-\indexentry{clearCommandBox@{clearCommandBox}!UI Functions@{UI Functions}|hyperpage}{43}
-\indexentry{UI Functions@{UI Functions}!clearInputs@{clearInputs}|hyperpage}{44}
-\indexentry{clearInputs@{clearInputs}!UI Functions@{UI Functions}|hyperpage}{44}
-\indexentry{UI Functions@{UI Functions}!enableButtons@{enableButtons}|hyperpage}{45}
-\indexentry{enableButtons@{enableButtons}!UI Functions@{UI Functions}|hyperpage}{45}
-\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{46}
-\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{46}
-\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{46}
-\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{46}
-\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{46}
-\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{46}
-\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{46}
-\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{46}
-\indexentry{UI Functions@{UI Functions}!showLaunchWindow@{showLaunchWindow}|hyperpage}{46}
-\indexentry{showLaunchWindow@{showLaunchWindow}!UI Functions@{UI Functions}|hyperpage}{46}
-\indexentry{UI Functions@{UI Functions}!applySettings@{applySettings}|hyperpage}{47}
-\indexentry{applySettings@{applySettings}!UI Functions@{UI Functions}|hyperpage}{47}
-\indexentry{UI Functions@{UI Functions}!showDevWindow@{showDevWindow}|hyperpage}{47}
-\indexentry{showDevWindow@{showDevWindow}!UI Functions@{UI Functions}|hyperpage}{47}
-\indexentry{UI Functions@{UI Functions}!showSettingsWindow@{showSettingsWindow}|hyperpage}{48}
-\indexentry{showSettingsWindow@{showSettingsWindow}!UI Functions@{UI Functions}|hyperpage}{48}
-\indexentry{Utility Functions@{Utility Functions}|hyperpage}{49}
-\indexentry{Variables@{Variables}|hyperpage}{49}
-\indexentry{Variables@{Variables}!activeDatabase@{activeDatabase}|hyperpage}{50}
-\indexentry{activeDatabase@{activeDatabase}!Variables@{Variables}|hyperpage}{50}
-\indexentry{Variables@{Variables}!activeTableName@{activeTableName}|hyperpage}{50}
-\indexentry{activeTableName@{activeTableName}!Variables@{Variables}|hyperpage}{50}
-\indexentry{Variables@{Variables}!clearCommand@{clearCommand}|hyperpage}{51}
-\indexentry{clearCommand@{clearCommand}!Variables@{Variables}|hyperpage}{51}
-\indexentry{Variables@{Variables}!databasePath@{databasePath}|hyperpage}{51}
-\indexentry{databasePath@{databasePath}!Variables@{Variables}|hyperpage}{51}
-\indexentry{Variables@{Variables}!input1@{input1}|hyperpage}{51}
-\indexentry{input1@{input1}!Variables@{Variables}|hyperpage}{51}
-\indexentry{Variables@{Variables}!languageChanged@{languageChanged}|hyperpage}{51}
-\indexentry{languageChanged@{languageChanged}!Variables@{Variables}|hyperpage}{51}
-\indexentry{Variables@{Variables}!languageIndex@{languageIndex}|hyperpage}{51}
-\indexentry{languageIndex@{languageIndex}!Variables@{Variables}|hyperpage}{51}
-\indexentry{Variables@{Variables}!lastSqlError@{lastSqlError}|hyperpage}{52}
-\indexentry{lastSqlError@{lastSqlError}!Variables@{Variables}|hyperpage}{52}
-\indexentry{Variables@{Variables}!lastTableError@{lastTableError}|hyperpage}{52}
-\indexentry{lastTableError@{lastTableError}!Variables@{Variables}|hyperpage}{52}
-\indexentry{Variables@{Variables}!objectHandler@{objectHandler}|hyperpage}{52}
-\indexentry{objectHandler@{objectHandler}!Variables@{Variables}|hyperpage}{52}
-\indexentry{Variables@{Variables}!ptrActiveDatabase@{ptrActiveDatabase}|hyperpage}{52}
-\indexentry{ptrActiveDatabase@{ptrActiveDatabase}!Variables@{Variables}|hyperpage}{52}
-\indexentry{Variables@{Variables}!ptrApplication@{ptrApplication}|hyperpage}{52}
-\indexentry{ptrApplication@{ptrApplication}!Variables@{Variables}|hyperpage}{52}
-\indexentry{Variables@{Variables}!ptrApplication@{ptrApplication}|hyperpage}{53}
-\indexentry{ptrApplication@{ptrApplication}!Variables@{Variables}|hyperpage}{53}
-\indexentry{Variables@{Variables}!ptrDbHandler@{ptrDbHandler}|hyperpage}{53}
-\indexentry{ptrDbHandler@{ptrDbHandler}!Variables@{Variables}|hyperpage}{53}
-\indexentry{Variables@{Variables}!ptrDbHandler@{ptrDbHandler}|hyperpage}{53}
-\indexentry{ptrDbHandler@{ptrDbHandler}!Variables@{Variables}|hyperpage}{53}
-\indexentry{Variables@{Variables}!ptrDevWindow@{ptrDevWindow}|hyperpage}{53}
-\indexentry{ptrDevWindow@{ptrDevWindow}!Variables@{Variables}|hyperpage}{53}
-\indexentry{Variables@{Variables}!ptrLauncherWindow@{ptrLauncherWindow}|hyperpage}{53}
-\indexentry{ptrLauncherWindow@{ptrLauncherWindow}!Variables@{Variables}|hyperpage}{53}
-\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{54}
-\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{54}
-\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{54}
-\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{54}
-\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{54}
-\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{54}
-\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{54}
-\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{54}
-\indexentry{Variables@{Variables}!ptrSettingsWindow@{ptrSettingsWindow}|hyperpage}{54}
-\indexentry{ptrSettingsWindow@{ptrSettingsWindow}!Variables@{Variables}|hyperpage}{54}
-\indexentry{Variables@{Variables}!ptrTableHandler@{ptrTableHandler}|hyperpage}{55}
-\indexentry{ptrTableHandler@{ptrTableHandler}!Variables@{Variables}|hyperpage}{55}
-\indexentry{Variables@{Variables}!ptrTableModel@{ptrTableModel}|hyperpage}{55}
-\indexentry{ptrTableModel@{ptrTableModel}!Variables@{Variables}|hyperpage}{55}
-\indexentry{Variables@{Variables}!ptrTranslator@{ptrTranslator}|hyperpage}{55}
-\indexentry{ptrTranslator@{ptrTranslator}!Variables@{Variables}|hyperpage}{55}
-\indexentry{Variables@{Variables}!tempLanguageIndex@{tempLanguageIndex}|hyperpage}{55}
-\indexentry{tempLanguageIndex@{tempLanguageIndex}!Variables@{Variables}|hyperpage}{55}
-\indexentry{Variables@{Variables}!ui@{ui}|hyperpage}{55}
-\indexentry{ui@{ui}!Variables@{Variables}|hyperpage}{55}
-\indexentry{Variables@{Variables}!ui@{ui}|hyperpage}{56}
-\indexentry{ui@{ui}!Variables@{Variables}|hyperpage}{56}
-\indexentry{Variables@{Variables}!ui@{ui}|hyperpage}{56}
-\indexentry{ui@{ui}!Variables@{Variables}|hyperpage}{56}
-\indexentry{AposBackend@{AposBackend}|hyperpage}{57}
-\indexentry{AposDatabase@{AposDatabase}|hyperpage}{57}
-\indexentry{AposFrontend@{AposFrontend}|hyperpage}{57}
-\indexentry{AppInitialization@{AppInitialization}|hyperpage}{58}
-\indexentry{AppInitialization@{AppInitialization}!initializeObjectHandler@{initializeObjectHandler}|hyperpage}{58}
-\indexentry{initializeObjectHandler@{initializeObjectHandler}!AppInitialization@{AppInitialization}|hyperpage}{58}
-\indexentry{AppInitialization@{AppInitialization}!initializeStartupHandler@{initializeStartupHandler}|hyperpage}{59}
-\indexentry{initializeStartupHandler@{initializeStartupHandler}!AppInitialization@{AppInitialization}|hyperpage}{59}
-\indexentry{AppInitialization@{AppInitialization}!initializeWindowHandler@{initializeWindowHandler}|hyperpage}{59}
-\indexentry{initializeWindowHandler@{initializeWindowHandler}!AppInitialization@{AppInitialization}|hyperpage}{59}
-\indexentry{Ui@{Ui}|hyperpage}{60}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{61}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getActiveDatabase@{getActiveDatabase}|hyperpage}{62}
-\indexentry{getActiveDatabase@{getActiveDatabase}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{62}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getActiveTableName@{getActiveTableName}|hyperpage}{62}
-\indexentry{getActiveTableName@{getActiveTableName}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{62}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrApplication@{getPtrApplication}|hyperpage}{63}
-\indexentry{getPtrApplication@{getPtrApplication}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{63}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrDbHandler@{getPtrDbHandler}|hyperpage}{63}
-\indexentry{getPtrDbHandler@{getPtrDbHandler}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{63}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrTableHandler@{getPtrTableHandler}|hyperpage}{63}
-\indexentry{getPtrTableHandler@{getPtrTableHandler}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{63}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getTableSqlError@{getTableSqlError}|hyperpage}{63}
-\indexentry{getTableSqlError@{getTableSqlError}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{63}
-\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!setActiveTableName@{setActiveTableName}|hyperpage}{64}
-\indexentry{setActiveTableName@{setActiveTableName}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{64}
-\indexentry{AposBackend::StartupHandler@{AposBackend::StartupHandler}|hyperpage}{64}
-\indexentry{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}|hyperpage}{65}
-\indexentry{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}!getActiveDatabase@{getActiveDatabase}|hyperpage}{67}
-\indexentry{getActiveDatabase@{getActiveDatabase}!AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}|hyperpage}{67}
-\indexentry{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}!getSqlError@{getSqlError}|hyperpage}{67}
-\indexentry{getSqlError@{getSqlError}!AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}|hyperpage}{67}
-\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{67}
-\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getActiveTableName@{getActiveTableName}|hyperpage}{69}
-\indexentry{getActiveTableName@{getActiveTableName}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{69}
-\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getLastTableError@{getLastTableError}|hyperpage}{69}
-\indexentry{getLastTableError@{getLastTableError}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{69}
-\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getTableModel@{getTableModel}|hyperpage}{69}
-\indexentry{getTableModel@{getTableModel}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{69}
-\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!setActiveTableName@{setActiveTableName}|hyperpage}{69}
-\indexentry{setActiveTableName@{setActiveTableName}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{69}
-\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{70}
-\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!logEvent@{logEvent}|hyperpage}{73}
-\indexentry{logEvent@{logEvent}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{73}
-\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!clearInput@{clearInput}|hyperpage}{74}
-\indexentry{clearInput@{clearInput}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{74}
-\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input2@{input2}|hyperpage}{74}
-\indexentry{input2@{input2}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{74}
-\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input3@{input3}|hyperpage}{74}
-\indexentry{input3@{input3}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{74}
-\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input4@{input4}|hyperpage}{74}
-\indexentry{input4@{input4}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{74}
-\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input5@{input5}|hyperpage}{74}
-\indexentry{input5@{input5}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{74}
-\indexentry{AposFrontend::LauncherWindow@{AposFrontend::LauncherWindow}|hyperpage}{75}
-\indexentry{AposFrontend::SettingsWindow@{AposFrontend::SettingsWindow}|hyperpage}{77}
-\indexentry{AposFrontend::TranslatableWindow@{AposFrontend::TranslatableWindow}|hyperpage}{79}
-\indexentry{AposFrontend::WindowHandler@{AposFrontend::WindowHandler}|hyperpage}{80}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp}|hyperpage}{83}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp}|hyperpage}{84}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp}|hyperpage}{85}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp}|hyperpage}{87}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp}|hyperpage}{88}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp}|hyperpage}{89}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp}|hyperpage}{90}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp}|hyperpage}{92}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp}|hyperpage}{93}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp}|hyperpage}{94}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp}|hyperpage}{95}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp}|hyperpage}{97}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp}|hyperpage}{97}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp}|hyperpage}{99}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp}|hyperpage}{100}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp}|hyperpage}{102}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp}|hyperpage}{103}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp}|hyperpage}{104}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp}|hyperpage}{107}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp}|hyperpage}{109}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp}|hyperpage}{110}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp}|hyperpage}{112}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp}|hyperpage}{112}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp}|hyperpage}{115}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp}|hyperpage}{115}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp}|hyperpage}{117}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp}|hyperpage}{118}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp}|hyperpage}{120}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp}|hyperpage}{121}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp}|hyperpage}{122}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp}|hyperpage}{122}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp}|hyperpage}{123}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp}|hyperpage}{123}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp}|hyperpage}{125}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp}|hyperpage}{125}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp}|hyperpage}{127}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/CONTRIBUTING.md@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/CONTRIBUTING.md}|hyperpage}{128}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/README.md@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/README.md}|hyperpage}{128}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp}|hyperpage}{128}
-\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{130}
-\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{130}
-\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp}|hyperpage}{130}
+\indexentry{Slot Functions@{Slot Functions}!addValuesClicked@{addValuesClicked}|hyperpage}{34}
+\indexentry{addValuesClicked@{addValuesClicked}!Slot Functions@{Slot Functions}|hyperpage}{34}
+\indexentry{Slot Functions@{Slot Functions}!applyClicked@{applyClicked}|hyperpage}{34}
+\indexentry{applyClicked@{applyClicked}!Slot Functions@{Slot Functions}|hyperpage}{34}
+\indexentry{Slot Functions@{Slot Functions}!clearCommandAfterExecuteStateChanged@{clearCommandAfterExecuteStateChanged}|hyperpage}{35}
+\indexentry{clearCommandAfterExecuteStateChanged@{clearCommandAfterExecuteStateChanged}!Slot Functions@{Slot Functions}|hyperpage}{35}
+\indexentry{Slot Functions@{Slot Functions}!clearInputsAfterInsertStateChanged@{clearInputsAfterInsertStateChanged}|hyperpage}{36}
+\indexentry{clearInputsAfterInsertStateChanged@{clearInputsAfterInsertStateChanged}!Slot Functions@{Slot Functions}|hyperpage}{36}
+\indexentry{Slot Functions@{Slot Functions}!closeClicked@{closeClicked}|hyperpage}{37}
+\indexentry{closeClicked@{closeClicked}!Slot Functions@{Slot Functions}|hyperpage}{37}
+\indexentry{Slot Functions@{Slot Functions}!closeDBClicked@{closeDBClicked}|hyperpage}{37}
+\indexentry{closeDBClicked@{closeDBClicked}!Slot Functions@{Slot Functions}|hyperpage}{37}
+\indexentry{Slot Functions@{Slot Functions}!executeClicked@{executeClicked}|hyperpage}{38}
+\indexentry{executeClicked@{executeClicked}!Slot Functions@{Slot Functions}|hyperpage}{38}
+\indexentry{Slot Functions@{Slot Functions}!initDbClicked@{initDbClicked}|hyperpage}{38}
+\indexentry{initDbClicked@{initDbClicked}!Slot Functions@{Slot Functions}|hyperpage}{38}
+\indexentry{Slot Functions@{Slot Functions}!languageCurrentIndexChanged@{languageCurrentIndexChanged}|hyperpage}{39}
+\indexentry{languageCurrentIndexChanged@{languageCurrentIndexChanged}!Slot Functions@{Slot Functions}|hyperpage}{39}
+\indexentry{Slot Functions@{Slot Functions}!pushButtonClicked@{pushButtonClicked}|hyperpage}{39}
+\indexentry{pushButtonClicked@{pushButtonClicked}!Slot Functions@{Slot Functions}|hyperpage}{39}
+\indexentry{Slot Functions@{Slot Functions}!returnToLauncherClicked@{returnToLauncherClicked}|hyperpage}{40}
+\indexentry{returnToLauncherClicked@{returnToLauncherClicked}!Slot Functions@{Slot Functions}|hyperpage}{40}
+\indexentry{Slot Functions@{Slot Functions}!selectTableClicked@{selectTableClicked}|hyperpage}{41}
+\indexentry{selectTableClicked@{selectTableClicked}!Slot Functions@{Slot Functions}|hyperpage}{41}
+\indexentry{Slot Functions@{Slot Functions}!settingsClicked@{settingsClicked}|hyperpage}{41}
+\indexentry{settingsClicked@{settingsClicked}!Slot Functions@{Slot Functions}|hyperpage}{41}
+\indexentry{Slot Functions@{Slot Functions}!showDevClicked@{showDevClicked}|hyperpage}{42}
+\indexentry{showDevClicked@{showDevClicked}!Slot Functions@{Slot Functions}|hyperpage}{42}
+\indexentry{Slot Functions@{Slot Functions}!updateTableClicked@{updateTableClicked}|hyperpage}{43}
+\indexentry{updateTableClicked@{updateTableClicked}!Slot Functions@{Slot Functions}|hyperpage}{43}
+\indexentry{UI Functions@{UI Functions}|hyperpage}{43}
+\indexentry{UI Functions@{UI Functions}!assignInputs@{assignInputs}|hyperpage}{45}
+\indexentry{assignInputs@{assignInputs}!UI Functions@{UI Functions}|hyperpage}{45}
+\indexentry{UI Functions@{UI Functions}!changeLanguages@{changeLanguages}|hyperpage}{45}
+\indexentry{changeLanguages@{changeLanguages}!UI Functions@{UI Functions}|hyperpage}{45}
+\indexentry{UI Functions@{UI Functions}!checkCheckbox@{checkCheckbox}|hyperpage}{45}
+\indexentry{checkCheckbox@{checkCheckbox}!UI Functions@{UI Functions}|hyperpage}{45}
+\indexentry{UI Functions@{UI Functions}!clearCommandBox@{clearCommandBox}|hyperpage}{46}
+\indexentry{clearCommandBox@{clearCommandBox}!UI Functions@{UI Functions}|hyperpage}{46}
+\indexentry{UI Functions@{UI Functions}!clearInputs@{clearInputs}|hyperpage}{47}
+\indexentry{clearInputs@{clearInputs}!UI Functions@{UI Functions}|hyperpage}{47}
+\indexentry{UI Functions@{UI Functions}!enableButtons@{enableButtons}|hyperpage}{48}
+\indexentry{enableButtons@{enableButtons}!UI Functions@{UI Functions}|hyperpage}{48}
+\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{48}
+\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{48}
+\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{49}
+\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{49}
+\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{49}
+\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{49}
+\indexentry{UI Functions@{UI Functions}!retranslateUi@{retranslateUi}|hyperpage}{49}
+\indexentry{retranslateUi@{retranslateUi}!UI Functions@{UI Functions}|hyperpage}{49}
+\indexentry{UI Functions@{UI Functions}!showLaunchWindow@{showLaunchWindow}|hyperpage}{49}
+\indexentry{showLaunchWindow@{showLaunchWindow}!UI Functions@{UI Functions}|hyperpage}{49}
+\indexentry{UI Functions@{UI Functions}!applySettings@{applySettings}|hyperpage}{50}
+\indexentry{applySettings@{applySettings}!UI Functions@{UI Functions}|hyperpage}{50}
+\indexentry{UI Functions@{UI Functions}!showDevWindow@{showDevWindow}|hyperpage}{50}
+\indexentry{showDevWindow@{showDevWindow}!UI Functions@{UI Functions}|hyperpage}{50}
+\indexentry{UI Functions@{UI Functions}!showSettingsWindow@{showSettingsWindow}|hyperpage}{51}
+\indexentry{showSettingsWindow@{showSettingsWindow}!UI Functions@{UI Functions}|hyperpage}{51}
+\indexentry{Utility Functions@{Utility Functions}|hyperpage}{52}
+\indexentry{Variables@{Variables}|hyperpage}{52}
+\indexentry{Variables@{Variables}!activeDatabase@{activeDatabase}|hyperpage}{53}
+\indexentry{activeDatabase@{activeDatabase}!Variables@{Variables}|hyperpage}{53}
+\indexentry{Variables@{Variables}!activeTableName@{activeTableName}|hyperpage}{53}
+\indexentry{activeTableName@{activeTableName}!Variables@{Variables}|hyperpage}{53}
+\indexentry{Variables@{Variables}!clearCommand@{clearCommand}|hyperpage}{54}
+\indexentry{clearCommand@{clearCommand}!Variables@{Variables}|hyperpage}{54}
+\indexentry{Variables@{Variables}!databasePath@{databasePath}|hyperpage}{54}
+\indexentry{databasePath@{databasePath}!Variables@{Variables}|hyperpage}{54}
+\indexentry{Variables@{Variables}!input1@{input1}|hyperpage}{54}
+\indexentry{input1@{input1}!Variables@{Variables}|hyperpage}{54}
+\indexentry{Variables@{Variables}!languageChanged@{languageChanged}|hyperpage}{54}
+\indexentry{languageChanged@{languageChanged}!Variables@{Variables}|hyperpage}{54}
+\indexentry{Variables@{Variables}!languageIndex@{languageIndex}|hyperpage}{54}
+\indexentry{languageIndex@{languageIndex}!Variables@{Variables}|hyperpage}{54}
+\indexentry{Variables@{Variables}!lastSqlError@{lastSqlError}|hyperpage}{55}
+\indexentry{lastSqlError@{lastSqlError}!Variables@{Variables}|hyperpage}{55}
+\indexentry{Variables@{Variables}!lastTableError@{lastTableError}|hyperpage}{55}
+\indexentry{lastTableError@{lastTableError}!Variables@{Variables}|hyperpage}{55}
+\indexentry{Variables@{Variables}!objectHandler@{objectHandler}|hyperpage}{55}
+\indexentry{objectHandler@{objectHandler}!Variables@{Variables}|hyperpage}{55}
+\indexentry{Variables@{Variables}!ptrActiveDatabase@{ptrActiveDatabase}|hyperpage}{55}
+\indexentry{ptrActiveDatabase@{ptrActiveDatabase}!Variables@{Variables}|hyperpage}{55}
+\indexentry{Variables@{Variables}!ptrApplication@{ptrApplication}|hyperpage}{55}
+\indexentry{ptrApplication@{ptrApplication}!Variables@{Variables}|hyperpage}{55}
+\indexentry{Variables@{Variables}!ptrApplication@{ptrApplication}|hyperpage}{56}
+\indexentry{ptrApplication@{ptrApplication}!Variables@{Variables}|hyperpage}{56}
+\indexentry{Variables@{Variables}!ptrDbHandler@{ptrDbHandler}|hyperpage}{56}
+\indexentry{ptrDbHandler@{ptrDbHandler}!Variables@{Variables}|hyperpage}{56}
+\indexentry{Variables@{Variables}!ptrDbHandler@{ptrDbHandler}|hyperpage}{56}
+\indexentry{ptrDbHandler@{ptrDbHandler}!Variables@{Variables}|hyperpage}{56}
+\indexentry{Variables@{Variables}!ptrDevWindow@{ptrDevWindow}|hyperpage}{56}
+\indexentry{ptrDevWindow@{ptrDevWindow}!Variables@{Variables}|hyperpage}{56}
+\indexentry{Variables@{Variables}!ptrLauncherWindow@{ptrLauncherWindow}|hyperpage}{56}
+\indexentry{ptrLauncherWindow@{ptrLauncherWindow}!Variables@{Variables}|hyperpage}{56}
+\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{57}
+\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{57}
+\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{57}
+\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{57}
+\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{57}
+\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{57}
+\indexentry{Variables@{Variables}!ptrObjectHandler@{ptrObjectHandler}|hyperpage}{57}
+\indexentry{ptrObjectHandler@{ptrObjectHandler}!Variables@{Variables}|hyperpage}{57}
+\indexentry{Variables@{Variables}!ptrSettingsWindow@{ptrSettingsWindow}|hyperpage}{57}
+\indexentry{ptrSettingsWindow@{ptrSettingsWindow}!Variables@{Variables}|hyperpage}{57}
+\indexentry{Variables@{Variables}!ptrTableHandler@{ptrTableHandler}|hyperpage}{58}
+\indexentry{ptrTableHandler@{ptrTableHandler}!Variables@{Variables}|hyperpage}{58}
+\indexentry{Variables@{Variables}!ptrTableModel@{ptrTableModel}|hyperpage}{58}
+\indexentry{ptrTableModel@{ptrTableModel}!Variables@{Variables}|hyperpage}{58}
+\indexentry{Variables@{Variables}!ptrTranslator@{ptrTranslator}|hyperpage}{58}
+\indexentry{ptrTranslator@{ptrTranslator}!Variables@{Variables}|hyperpage}{58}
+\indexentry{Variables@{Variables}!tempLanguageIndex@{tempLanguageIndex}|hyperpage}{58}
+\indexentry{tempLanguageIndex@{tempLanguageIndex}!Variables@{Variables}|hyperpage}{58}
+\indexentry{Variables@{Variables}!ui@{ui}|hyperpage}{58}
+\indexentry{ui@{ui}!Variables@{Variables}|hyperpage}{58}
+\indexentry{Variables@{Variables}!ui@{ui}|hyperpage}{59}
+\indexentry{ui@{ui}!Variables@{Variables}|hyperpage}{59}
+\indexentry{Variables@{Variables}!ui@{ui}|hyperpage}{59}
+\indexentry{ui@{ui}!Variables@{Variables}|hyperpage}{59}
+\indexentry{AposBackend@{AposBackend}|hyperpage}{61}
+\indexentry{AposDatabase@{AposDatabase}|hyperpage}{61}
+\indexentry{AposFrontend@{AposFrontend}|hyperpage}{61}
+\indexentry{AppInitialization@{AppInitialization}|hyperpage}{62}
+\indexentry{AppInitialization@{AppInitialization}!initializeObjectHandler@{initializeObjectHandler}|hyperpage}{62}
+\indexentry{initializeObjectHandler@{initializeObjectHandler}!AppInitialization@{AppInitialization}|hyperpage}{62}
+\indexentry{AppInitialization@{AppInitialization}!initializeStartupHandler@{initializeStartupHandler}|hyperpage}{63}
+\indexentry{initializeStartupHandler@{initializeStartupHandler}!AppInitialization@{AppInitialization}|hyperpage}{63}
+\indexentry{AppInitialization@{AppInitialization}!initializeWindowHandler@{initializeWindowHandler}|hyperpage}{63}
+\indexentry{initializeWindowHandler@{initializeWindowHandler}!AppInitialization@{AppInitialization}|hyperpage}{63}
+\indexentry{Ui@{Ui}|hyperpage}{64}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{65}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getActiveDatabase@{getActiveDatabase}|hyperpage}{66}
+\indexentry{getActiveDatabase@{getActiveDatabase}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{66}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getActiveTableName@{getActiveTableName}|hyperpage}{66}
+\indexentry{getActiveTableName@{getActiveTableName}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{66}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrApplication@{getPtrApplication}|hyperpage}{67}
+\indexentry{getPtrApplication@{getPtrApplication}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{67}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrDbHandler@{getPtrDbHandler}|hyperpage}{67}
+\indexentry{getPtrDbHandler@{getPtrDbHandler}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{67}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getPtrTableHandler@{getPtrTableHandler}|hyperpage}{67}
+\indexentry{getPtrTableHandler@{getPtrTableHandler}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{67}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!getTableSqlError@{getTableSqlError}|hyperpage}{67}
+\indexentry{getTableSqlError@{getTableSqlError}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{67}
+\indexentry{AposBackend::ObjectHandler@{AposBackend::ObjectHandler}!setActiveTableName@{setActiveTableName}|hyperpage}{68}
+\indexentry{setActiveTableName@{setActiveTableName}!AposBackend::ObjectHandler@{AposBackend::ObjectHandler}|hyperpage}{68}
+\indexentry{AposBackend::StartupHandler@{AposBackend::StartupHandler}|hyperpage}{68}
+\indexentry{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}|hyperpage}{69}
+\indexentry{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}!getActiveDatabase@{getActiveDatabase}|hyperpage}{71}
+\indexentry{getActiveDatabase@{getActiveDatabase}!AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}|hyperpage}{71}
+\indexentry{AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}!getSqlError@{getSqlError}|hyperpage}{71}
+\indexentry{getSqlError@{getSqlError}!AposDatabase::DatabaseHandler@{AposDatabase::DatabaseHandler}|hyperpage}{71}
+\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{71}
+\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getActiveTableName@{getActiveTableName}|hyperpage}{73}
+\indexentry{getActiveTableName@{getActiveTableName}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{73}
+\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getLastTableError@{getLastTableError}|hyperpage}{73}
+\indexentry{getLastTableError@{getLastTableError}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{73}
+\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!getTableModel@{getTableModel}|hyperpage}{73}
+\indexentry{getTableModel@{getTableModel}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{73}
+\indexentry{AposDatabase::TableHandler@{AposDatabase::TableHandler}!setActiveTableName@{setActiveTableName}|hyperpage}{73}
+\indexentry{setActiveTableName@{setActiveTableName}!AposDatabase::TableHandler@{AposDatabase::TableHandler}|hyperpage}{73}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{74}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!devConnectUi@{devConnectUi}|hyperpage}{77}
+\indexentry{devConnectUi@{devConnectUi}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{77}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!logEvent@{logEvent}|hyperpage}{77}
+\indexentry{logEvent@{logEvent}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{77}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!clearInput@{clearInput}|hyperpage}{78}
+\indexentry{clearInput@{clearInput}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{78}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input2@{input2}|hyperpage}{78}
+\indexentry{input2@{input2}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{78}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input3@{input3}|hyperpage}{78}
+\indexentry{input3@{input3}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{78}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input4@{input4}|hyperpage}{79}
+\indexentry{input4@{input4}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{79}
+\indexentry{AposFrontend::DevWindow@{AposFrontend::DevWindow}!input5@{input5}|hyperpage}{79}
+\indexentry{input5@{input5}!AposFrontend::DevWindow@{AposFrontend::DevWindow}|hyperpage}{79}
+\indexentry{AposFrontend::LauncherWindow@{AposFrontend::LauncherWindow}|hyperpage}{79}
+\indexentry{AposFrontend::LauncherWindow@{AposFrontend::LauncherWindow}!launcherConnectUi@{launcherConnectUi}|hyperpage}{81}
+\indexentry{launcherConnectUi@{launcherConnectUi}!AposFrontend::LauncherWindow@{AposFrontend::LauncherWindow}|hyperpage}{81}
+\indexentry{AposFrontend::SettingsWindow@{AposFrontend::SettingsWindow}|hyperpage}{82}
+\indexentry{AposFrontend::SettingsWindow@{AposFrontend::SettingsWindow}!applyAndCloseClicked@{applyAndCloseClicked}|hyperpage}{84}
+\indexentry{applyAndCloseClicked@{applyAndCloseClicked}!AposFrontend::SettingsWindow@{AposFrontend::SettingsWindow}|hyperpage}{84}
+\indexentry{AposFrontend::SettingsWindow@{AposFrontend::SettingsWindow}!settingsConnectUi@{settingsConnectUi}|hyperpage}{84}
+\indexentry{settingsConnectUi@{settingsConnectUi}!AposFrontend::SettingsWindow@{AposFrontend::SettingsWindow}|hyperpage}{84}
+\indexentry{AposFrontend::TranslatableWindow@{AposFrontend::TranslatableWindow}|hyperpage}{85}
+\indexentry{AposFrontend::WindowHandler@{AposFrontend::WindowHandler}|hyperpage}{86}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp}|hyperpage}{89}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.cpp}|hyperpage}{90}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp}|hyperpage}{91}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/objecthandler.hpp}|hyperpage}{93}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp}|hyperpage}{94}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.cpp}|hyperpage}{95}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp}|hyperpage}{96}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/backendClasses/startuphandler.hpp}|hyperpage}{98}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp}|hyperpage}{99}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.cpp}|hyperpage}{100}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp}|hyperpage}{101}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/databasehandler.hpp}|hyperpage}{103}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp}|hyperpage}{103}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.cpp}|hyperpage}{105}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp}|hyperpage}{106}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/databaseClasses/tablehandler.hpp}|hyperpage}{108}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp}|hyperpage}{109}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.cpp}|hyperpage}{110}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp}|hyperpage}{114}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/devwindow.hpp}|hyperpage}{116}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp}|hyperpage}{117}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.cpp}|hyperpage}{118}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp}|hyperpage}{119}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/launcherwindow.hpp}|hyperpage}{121}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp}|hyperpage}{121}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.cpp}|hyperpage}{123}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp}|hyperpage}{124}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/settingswindow.hpp}|hyperpage}{126}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp}|hyperpage}{127}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.cpp}|hyperpage}{128}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp}|hyperpage}{128}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/translatablewindow.hpp}|hyperpage}{129}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp}|hyperpage}{130}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.cpp}|hyperpage}{131}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp}|hyperpage}{132}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/classes/frontendClasses/windowhandler.hpp}|hyperpage}{134}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/CONTRIBUTING.md@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/CONTRIBUTING.md}|hyperpage}{134}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/README.md@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/README.md}|hyperpage}{134}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp}|hyperpage}{134}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{136}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{136}
+\indexentry{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp@{C:/Users/Clean/Documents/Projekte/Apos-\/DatabaseManager/Project/source/main.cpp}|hyperpage}{137}

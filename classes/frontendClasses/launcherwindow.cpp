@@ -38,9 +38,9 @@ namespace AposFrontend {
     //----------------------------------------------------------------------------------------------------------------//
     bool LauncherWindow::launcherConnectUi(){
         //TODO: implement Logger
-        connect(ui->inShowDev, SIGNAL(clicked()), this, SLOT(showDevClicked()));
+        connect(ui->btnShowDev, SIGNAL(clicked()), this, SLOT(showDevClicked()));
         //TODO: implement Logger
-        connect(ui->pushButton, SIGNAL(clicked()), this, SLOT(pushButtonClicked()));
+        connect(ui->btnSettings, SIGNAL(clicked()), this, SLOT(pushButtonClicked()));
         return true;
     }
     //----------------------------------------------------------------------------------------------------------------//

@@ -1,0 +1,7 @@
+<map id="AposFrontend::DevWindow::updateTableClicked" name="AposFrontend::DevWindow::updateTableClicked">
+<area shape="rect" id="Node000001" title="Slot for the &#39;Update&#39; button click event." alt="" coords="5,39,183,81"/>
+<area shape="rect" id="Node000002" href="$dc/dc2/class_apos_frontend_1_1_dev_window.html#a6e2ecb7e3fd65aefc8ed62fc9f1519e9" title="Logs an event with a type and a message." alt="" coords="231,5,408,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,44,215,39,215,45,183,50"/>
+<area shape="rect" id="Node000003" href="$dd/d44/group___database-_functions.html#ga9f30984f5b6e7ee6061ea5107c79eb33" title="Sets the model views." alt="" coords="231,72,408,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,70,215,75,215,81,182,76"/>
+</map>

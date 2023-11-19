@@ -11,7 +11,7 @@
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00027}00027\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_apos_frontend}{AposFrontend}}\ \{}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00028}\mbox{\hyperlink{group___constructructors-_destructors_ga8230aa2c25b5bb8db86c34b4b50bcd56}{00028}}\ \ \ \ \ \mbox{\hyperlink{group___constructructors-_destructors_ga8230aa2c25b5bb8db86c34b4b50bcd56}{WindowHandler::WindowHandler}}(QSharedPointer<AposBackend::ObjectHandler>\ newObjectHandler)\ \{}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00029}00029\ }
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00030}00030\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptrObjectHandler}}\ =\ std::move(newObjectHandler);}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00030}00030\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptrObjectHandler}}\ =\ qMove(newObjectHandler);}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00031}00031\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_ga8fcbe1532f6be71c11b4a9b3b4fd00ed}{ptrLauncherWindow}}\ =\ QSharedPointer<LauncherWindow>(\textcolor{keyword}{new}\ \mbox{\hyperlink{class_apos_frontend_1_1_launcher_window}{LauncherWindow}}(\textcolor{keyword}{nullptr},\ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptrObjectHandler}}));}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00032}00032\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gafa8d02d5ff5c347de84d90f356f69bb7}{ptrSettingsWindow}}\ =\ QSharedPointer<SettingsWindow>(\textcolor{keyword}{new}\ \mbox{\hyperlink{class_apos_frontend_1_1_settings_window}{SettingsWindow}}(\textcolor{keyword}{nullptr},\ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptrObjectHandler}}));}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00033}00033\ \ \ \ \ \ \ \ \ (void)QObject::connect(\mbox{\hyperlink{group___variables_ga8fcbe1532f6be71c11b4a9b3b4fd00ed}{ptrLauncherWindow}}.data(),\ \&\mbox{\hyperlink{group___signal-_funtions_ga0d06592356794582b3ad43292227af7a}{LauncherWindow::openDevWindow}},\ \textcolor{keyword}{this},\ \&\mbox{\hyperlink{group___ui-_functions_gad71663083f50868c2efb568336b50b56}{WindowHandler::showDevWindow}},}
@@ -34,34 +34,36 @@
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00050}00050\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_ga8fcbe1532f6be71c11b4a9b3b4fd00ed}{ptrLauncherWindow}}-\/>hide();}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00051}00051\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}\ ==\ \textcolor{keyword}{nullptr})\ \{}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}\ =\ QSharedPointer<DevWindow>(\textcolor{keyword}{new}\ \mbox{\hyperlink{class_apos_frontend_1_1_dev_window}{DevWindow}}(\textcolor{keyword}{nullptr},\ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptrObjectHandler}}));}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ (void)QObject::connect(\mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}.data(),\ \&\mbox{\hyperlink{group___signal-_funtions_gaa16d604f0aa073808b1466132a301c5b}{DevWindow::returnToLauncher}},\ \textcolor{keyword}{this},\ \&\mbox{\hyperlink{group___ui-_functions_ga0ccce4c871b37eb96d2d3df478855277}{WindowHandler::showLaunchWindow}},}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ QObject::connect(\mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}.data(),\ \&\mbox{\hyperlink{group___signal-_funtions_gaa16d604f0aa073808b1466132a301c5b}{DevWindow::returnToLauncher}},\ \textcolor{keyword}{this},\ \&\mbox{\hyperlink{group___ui-_functions_ga0ccce4c871b37eb96d2d3df478855277}{WindowHandler::showLaunchWindow}},}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Qt::DirectConnection);}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ (void)QObject::connect(\mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}.data(),\ \&\mbox{\hyperlink{group___signal-_funtions_gab1ca9c597770ec6d63a8245b94fb10a9}{DevWindow::openSettings}},\ \textcolor{keyword}{this},\ \&\mbox{\hyperlink{group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28}{WindowHandler::showSettingsWindow}},}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ QObject::connect(\mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}.data(),\ \&\mbox{\hyperlink{group___signal-_funtions_gab1ca9c597770ec6d63a8245b94fb10a9}{DevWindow::openSettings}},\ \textcolor{keyword}{this},\ \&\mbox{\hyperlink{group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28}{WindowHandler::showSettingsWindow}},}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Qt::DirectConnection);}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00057}00057\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00058}00058\ }
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00059}00059\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}-\/>show();}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00060}00060\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00058}00058\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(\mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}\ !=\ \textcolor{keyword}{nullptr})\{}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00059}00059\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gaa8874cadf2dc386b189dcbaa2ea1000f}{ptrDevWindow}}-\/>show();}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00060}00060\ \ \ \ \ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00061}00061\ }
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00062}\mbox{\hyperlink{group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28}{00062}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28}{WindowHandler::showSettingsWindow}}()\ \{}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00063}00063\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gafa8d02d5ff5c347de84d90f356f69bb7}{ptrSettingsWindow}}-\/>show();}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00064}00064\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00065}00065\ }
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00066}\mbox{\hyperlink{group___ui-_functions_gab39e73556bb529119402e7e3cde6588e}{00066}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___ui-_functions_gab39e73556bb529119402e7e3cde6588e}{WindowHandler::applySettings}}()\ \{}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00067}00067\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___ui-_functions_gad12be8738b363edf8803ec140c14989c}{changeLanguages}}();}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00068}00068\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00069}00069\ }
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00070}\mbox{\hyperlink{group___ui-_functions_gad12be8738b363edf8803ec140c14989c}{00070}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___ui-_functions_gad12be8738b363edf8803ec140c14989c}{WindowHandler::changeLanguages}}()\ \{}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00071}00071\ \ \ \ \ \ \ \ \ QWidgetList\ openWindows\ =\ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptrObjectHandler}}-\/>getPtrApplication()-\/>topLevelWidgets();}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00072}00072\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (QWidget*\ widget:\ std::as\_const(openWindows))\ \{}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00073}00073\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ *tw\ =\ \textcolor{keyword}{dynamic\_cast<}\mbox{\hyperlink{class_apos_frontend_1_1_translatable_window}{TranslatableWindow}}\ *\textcolor{keyword}{>}(widget);}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00074}00074\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (tw\ !=\ \textcolor{keyword}{nullptr})\ \{}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ qDebug()\ <<\ \textcolor{stringliteral}{"{}Dynamic\ cast\ pointer\ adress\ "{}}\ <<\ tw;}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ tw-\/>\mbox{\hyperlink{group___ui-_functions_ga2190bba57416d43cf8ca3bb812e4aaf7}{retranslateUi}}();}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00078}00078\ \ \ \ \ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00079}00079\ \ \ \ \ \ \ \ \ qDebug()\ <<\ openWindows;}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00080}00080\ \ \ \ \ \}}
-\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00081}00081\ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00062}00062\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00063}00063\ }
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00064}\mbox{\hyperlink{group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28}{00064}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___ui-_functions_ga6ab1754f0158c37aabeac6fa84d31f28}{WindowHandler::showSettingsWindow}}()\ \{}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00065}00065\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___variables_gafa8d02d5ff5c347de84d90f356f69bb7}{ptrSettingsWindow}}-\/>show();}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00066}00066\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00067}00067\ }
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00068}\mbox{\hyperlink{group___ui-_functions_gab39e73556bb529119402e7e3cde6588e}{00068}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___ui-_functions_gab39e73556bb529119402e7e3cde6588e}{WindowHandler::applySettings}}()\ \{}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00069}00069\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___ui-_functions_gad12be8738b363edf8803ec140c14989c}{changeLanguages}}();}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00070}00070\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00071}00071\ }
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00072}\mbox{\hyperlink{group___ui-_functions_gad12be8738b363edf8803ec140c14989c}{00072}}\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___ui-_functions_gad12be8738b363edf8803ec140c14989c}{WindowHandler::changeLanguages}}()\ \{}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00073}00073\ \ \ \ \ \ \ \ \ QWidgetList\ openWindows\ =\ \mbox{\hyperlink{group___variables_ga01229398a5e7d614b9702c66d420103f}{ptrObjectHandler}}-\/>getPtrApplication()-\/>topLevelWidgets();}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00074}00074\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (QWidget*\ widget:\ std::as\_const(openWindows))\ \{}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ *tw\ =\ \textcolor{keyword}{dynamic\_cast<}\mbox{\hyperlink{class_apos_frontend_1_1_translatable_window}{TranslatableWindow}}\ *\textcolor{keyword}{>}(widget);}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (tw\ !=\ \textcolor{keyword}{nullptr})\ \{}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ qDebug()\ <<\ \textcolor{stringliteral}{"{}Dynamic\ cast\ pointer\ adress\ "{}}\ <<\ tw;}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ tw-\/>\mbox{\hyperlink{group___ui-_functions_ga2190bba57416d43cf8ca3bb812e4aaf7}{retranslateUi}}();}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00079}00079\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00080}00080\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00081}00081\ \ \ \ \ \ \ \ \ qDebug()\ <<\ openWindows;}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00082}00082\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{windowhandler_8cpp_source_l00083}00083\ \}}
 
 \end{DoxyCode}

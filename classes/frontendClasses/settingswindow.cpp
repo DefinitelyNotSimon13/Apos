@@ -39,8 +39,9 @@ namespace AposFrontend {
 
     void SettingsWindow::settingsConnectUi() {
         //TODO: implement Logger
-        connect(ui->inClose, SIGNAL(clicked()), this, SLOT(closeClicked()));
-        connect(ui->inApply, SIGNAL(clicked()), this, SLOT(applyClicked()));
+        connect(ui->btnClose, SIGNAL(clicked()), this, SLOT(closeClicked()));
+        connect(ui->btnApply, SIGNAL(clicked()), this, SLOT(applyClicked()));
+        connect(ui->btnApplyAndClose, SIGNAL(clicked()), this, SLOT(applyAndCloseClicked()));
         connect(ui->inLanguage, SIGNAL(currentIndexChanged(int)), this, SLOT(languageCurrentIndexChanged(int)));
     }
 
@@ -61,6 +62,11 @@ namespace AposFrontend {
             installTranslator();
         }
         emit appliedSettings();
+    }
+
+    void SettingsWindow::applyAndCloseClicked() {
+        applyClicked();
+        closeClicked();
     }
 
 
