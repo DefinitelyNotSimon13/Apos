@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.5)
 # Set the project name, version, and languages
 project(Apos-Databasemanager VERSION 0.1 LANGUAGES CXX)
 
+set(CMAKE_PREFIX_PATH "C:/Qt/6.6.0/mingw_64/lib/cmake")
+
 # Enable automatic processing of Qt's meta-object compiler (moc)
 set(CMAKE_AUTOMOC ON)
 
